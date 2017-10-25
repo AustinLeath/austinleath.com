@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto|Russo+One');
 
 body {
-    background: url("02.jpg") no-repeat fixed top left;
+    background: url("images/02.jpg")
+    no-repeat
+    fixed top left;
 }
 
 a{

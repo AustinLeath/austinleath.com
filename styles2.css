@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto|Russo+One');
 
 body {
-    background: url("02.jpg") no-repeat fixed top left;
+    background: url("images/02.jpg")
+    no-repeat
+    fixed top left;
 }
 
 a {
     color: white;
     text-decoration: none;
-text-rendering:optimizeLegibility;
+    text-rendering:optimizeLegibility;
 }
 
 h1 {
@@ -15,9 +17,9 @@ h1 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: auto;
-vertical-align:center;
+    vertical-align:center;
     text-shadow: 3px 3px 3px rgb(43,43,43);
-text-rendering:optimizeLegibility;
+    text-rendering:optimizeLegibility;
 }
 
 h2 {
@@ -32,7 +34,7 @@ h2 {
     margin-right: auto;
     padding-top: 20px;
     padding-left: 60px;
-text-rendering:optimizeLegibility;
+    text-rendering:optimizeLegibility;
 }
 
 h3 {
@@ -45,7 +47,7 @@ h3 {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-text-rendering:optimizeLegibility;
+    text-rendering:optimizeLegibility;
 }
 
 DIV.backboard {
