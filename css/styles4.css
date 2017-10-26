@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto|Russo+One');
 
 body {
-    background: url("images/background.jpg")
+    background: url("../images/main/background.jpg")
     no-repeat
     fixed top left;
 }
@@ -9,7 +9,6 @@ body {
 a {
     color: white;
     text-decoration: none;
-    text-rendering:optimizeLegibility;
 }
 
 h1{
@@ -29,34 +28,14 @@ h1{
 h2 {
     color: white;
     font-family: 'Raleway', sans-serif;
-    text-align: left;
-    font-size: 20px;
-    text-shadow: 3px 3px 3px rgb(43,43,43);
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-left: 60px;
-    text-rendering:optimizeLegibility;
-}
-
-h3 {
-    color: white;
-    font-family: 'Raleway', sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: auto;
     text-shadow: 3px 3px 3px rgb(43,43,43);
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-rendering:optimizeLegibility;
 }
 
 DIV.backboard {
     width: 100%;
-    height: 2500px;
+    height: 3000px;
     border-radius: 15px;
     background: rgba(45,45,45,0.50);
     position: center;
@@ -95,50 +74,18 @@ DIV.container {
     border-width: 2px;
 }
 
-DIV.R6Siege-DIV {
+DIV.Google-Form {
     width: 100%;
-    height: 250px;
-    position: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-DIV.DayZ-DIV {
-    width: 100%;
-    height: 250px;
-    position: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-DIV.PUBG-DIV {
-    width: 100%;
-    height: 250px;
-    position: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-iframe.R6Siege {
-    width: 90%;
     height: 100%;
-    display: block;
-    margin: auto;
-    padding-top: 50px;
+    position: center;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-iframe.DayZ {
-    width: 90%;
-    height: 100%;
-    display: block;
-    margin: auto;
-    padding-top: 50px;
-}
-
-iframe.PubG {
-   width: 90%;
-   height: 100%;
-   display: block;
-   margin: auto;
-   padding-top: 50px;
+iframe.Form-Google {
+    width: 95%;
+    height: 95%;
+    display: center;
+    padding-top:70px;
 }

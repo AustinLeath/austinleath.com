@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto|Russo+One');
 
 body {
-    background: url("images/background.jpg")
+    background: url("../images/main/background.jpg")
     no-repeat
     fixed top left;
 }
 
-a {
+a{
     color: white;
     text-decoration: none;
+    text-rendering:optimizeLegibility;
 }
 
 h1{
@@ -25,17 +26,23 @@ h1{
     text-rendering:optimizeLegibility;
 }
 
-h2 {
+h2{
     color: white;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: auto;
     text-shadow: 3px 3px 3px rgb(43,43,43);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    text-rendering:optimizeLegibility;
 }
 
 DIV.backboard {
     width: 100%;
-    height: 3000px;
+    height: 3500px;
     border-radius: 15px;
     background: rgba(45,45,45,0.50);
     position: center;
@@ -61,7 +68,7 @@ DIV.content {
 
 DIV.container {
     width: 95%;
-    height: 95%;
+    height: 3360px;
     border-radius: 15px;
     background: rgba(26,78,193,1);
     position: center;
@@ -74,18 +81,70 @@ DIV.container {
     border-width: 2px;
 }
 
-DIV.Google-Form {
+DIV.Twitch-DeadlySlob {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: 100%;
-    height: 100%;
-    position: center;
-    text-align:center;
-    margin-left: auto;
-    margin-right: auto;
+    height: 480px;
+
 }
 
-iframe.Form-Google {
-    width: 95%;
-    height: 95%;
-    display: center;
-    padding-top:70px;
+DIV.Twitch-Kixstar {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 480px;
+}
+
+DIV.Twitch-M1ndr {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 480px;
+}
+
+iframe.DeadlySlob-iframe{
+    display: block;
+    margin: auto;
+    border:none;
+    width:75%;
+    height:100%;
+}
+
+iframe.Kixstar-iframe{
+    display: block;
+    margin: auto;
+    border:none;
+    width:75%;
+    height:100%;
+}
+
+iframe.M1ndr-iframe{
+    display: block;
+    margin: auto;
+    border:none;
+    width:75%;
+    height:100%;
+}
+
+iframe.Chat-DeadlySlob{
+    padding-left: 72px;
+    padding-right: 0px;
+    width:50%;
+}
+
+iframe.Chat-Kixstar{
+    padding-left: 72px;
+    padding-right: 0px;
+    width:50%;
+
+}
+
+iframe.Chat-M1ndr{
+    padding-left: 72px;
+    padding-right: 0px;
+    width:50%;
+
 }

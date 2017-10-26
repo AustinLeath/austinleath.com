@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto|Russo+One');
 
 body {
-    background: url("images/background.jpg")
-    no-repeat
+    background: url("../images/main/background.jpg") 
+    no-repeat 
     fixed top left;
 }
 
@@ -29,33 +29,34 @@ h1 {
 h2 {
     color: white;
     font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-size: auto;
+    text-align: left;
+    font-size: 20px;
     text-shadow: 3px 3px 3px rgb(43,43,43);
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-top:20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    text-rendering:optimizeLegibility;
 }
 
-img {
-    width:auto;
-    height:auto;
-    object-fit:contain;
+h3 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px rgb(43,43,43);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-rendering:optimizeLegibility;
 }
-
-DIV.IMG-gameking27 {
-    width:auto;
-    height:120px;
-    text-align:center;
-
-}
-
 
 DIV.backboard {
     width: 100%;
-    height: 4580px;
+    height: 2500px;
     border-radius: 15px;
     background: rgba(45,45,45,0.50);
     position: center;
@@ -64,19 +65,6 @@ DIV.backboard {
     border-color: black;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-DIV.Discord {
-    width: 75%;
-    height: 700px;
-    border-radius: 15px;
-    background: rgba(26,78,193,1);
-    position: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-style:solid;
-    border-color:black;
-    border-width: 2px;
 }
 
 DIV.content {
@@ -94,7 +82,7 @@ DIV.content {
 
 DIV.container {
     width: 95%;
-    height: 3650px;
+    height: 95%;
     border-radius: 15px;
     background: rgba(26,78,193,1);
     position: center;
@@ -107,81 +95,50 @@ DIV.container {
     border-width: 2px;
 }
 
-DIV.Twitch-Gameking27 {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
+DIV.R6Siege-DIV {
     width: 100%;
-    height: 480px;
-
+    height: 250px;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-DIV.Twitch-Jifinga {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
+DIV.DayZ-DIV {
     width: 100%;
-    height: 480px;
+    height: 250px;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-DIV.Twitch-ThunderPumpkin {
-    padding-top: 50px;
-    padding-bottom: 20px;
+DIV.PUBG-DIV {
     width: 100%;
-    height: 480px;
+    height: 250px;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-iframe.Gameking27-iframe{
+iframe.R6Siege {
+    width: 90%;
+    height: 100%;
     display: block;
     margin: auto;
-    border:none;
-    width:75%;
-    height:100%;
+    padding-top: 50px;
 }
 
-iframe.Jifinga-iframe{
+iframe.DayZ {
+    width: 90%;
+    height: 100%;
     display: block;
     margin: auto;
-    border:none;
-    width:75%;
-    height:100%;
+    padding-top: 50px;
 }
 
-iframe.ThunderPumpkin-iframe{
-    display: block;
-    margin: auto;
-    border:none;
-    width:75%;
-    height:100%;
-}
-
-iframe.Chat-Gameking27{
-    padding-left: 72px;
-    padding-right: 0px;
-padding-top:20px;
-    width:50%;
-}
-
-iframe.Chat-Jifinga{
-    padding-left: 72px;
-    padding-right: 0px;
-padding-top:20px;
-    width:50%;
-
-}
-
-iframe.Chat-ThunderPumpkin{
-    padding-left: 72px;
-    padding-right: 0px;
-padding-top:20px;
-    width:50%;
-
-}
-
-iframe.Discord-iframe{
-    display: block;
-    margin: auto;
-    width:95%;
-    height:90%;
-    padding-top:35px;
+iframe.PubG {
+   width: 90%;
+   height: 100%;
+   display: block;
+   margin: auto;
+   padding-top: 50px;
 }
