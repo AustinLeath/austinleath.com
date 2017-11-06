@@ -1,5 +1,4 @@
-# Contributor Covenant Code of Conduct
-### Lethal Game Studios
+# The Lethal Games Studios Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
