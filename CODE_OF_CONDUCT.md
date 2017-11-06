@@ -1,4 +1,4 @@
-** The Lethal Game Studios
+## The Lethal Game Studios
 
 # Contributor Covenant Code of Conduct
 
