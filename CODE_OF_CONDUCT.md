@@ -1,3 +1,5 @@
+* The Lethal Game Studios
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
