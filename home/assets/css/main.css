@@ -2482,6 +2482,12 @@
 			top: 0.25em;
 		}
 
+		.image.center {
+			float: center;
+			margin: 0 0 1em 1.5em;
+			width: 80%;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
