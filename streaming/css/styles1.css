@@ -76,7 +76,7 @@ DIV.Discord {
     border-style:solid;
     border-color:black;
     border-width: 2px;
-    background-image: url("../images/main/background.jpg");
+    background: rgba(26,78,193,1);
 }
 
 DIV.content {
