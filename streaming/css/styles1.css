@@ -70,13 +70,13 @@ DIV.Discord {
     width: 75%;
     height: 700px;
     border-radius: 15px;
-    background: rgba(26,78,193,1);
     position: center;
     margin-left: auto;
     margin-right: auto;
     border-style:solid;
     border-color:black;
     border-width: 2px;
+    background: url("../images/main/background.jpg")
 }
 
 DIV.content {
