@@ -3419,8 +3419,8 @@
 /* Footer */
 
 	#footer {
-		  background: url("background.jpg")
-		<!--background: #272833-->
+		  background: url("background.jpg");
+		
 		padding: 6em 0;
 		text-align: center;
 	}
