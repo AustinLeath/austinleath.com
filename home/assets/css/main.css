@@ -2511,6 +2511,9 @@
 				margin: 0 0 2em 0;
 				width: 80%;
 			}
+			.vplayer.fit img {
+				width: 80%;
+			}
 
 
 /* List */
