@@ -1,5 +1,5 @@
-# LethalGameStudios.ddns.net
-This repository contains all of the code for LethalGameStudios.ddns.net
+# AustinLeath.com
+This repository contains all of the code for http://www.AustinLeath.com
 
 Current version for December of 2017
 
