@@ -90,6 +90,13 @@
 											<li>HTML / HTML5 - 4 years</li>
 											<li>CSS / CSS3 - 4 years</li>
 											<li>Java - 2 years</li>
+											<div id="content-1">Meep</div>
+<div id="content-2">Moop</div>
+<div id="content-3">Beep</div>
+<div id="content-4">Peep</div>
+<div id="content-5">Poop</div>
+<div id="content-6">Loop</div>
+<div id="content-7">Neep</div>
 										</ul>
 									<!--Divider-->
 									<ul>
@@ -129,6 +136,18 @@
 			<script src="../home/assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="../home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="../home/assets/js/main.js"></script>
+			<script>var divs = $('div[id^="content-"]').hide(),
+			    i = 0;
 
+			(function cycle() {
+
+			    divs.eq(i).fadeIn(600)
+			              .delay(2000)
+			              .fadeOut(600, cycle);
+
+			    i = ++i % divs.length;
+
+			})();
+		</script>
 	</body>
 </html>
