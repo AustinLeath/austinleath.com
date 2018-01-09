@@ -2502,13 +2502,13 @@
 			width: 100%;
 		}
 
-		.image.fit-4 {
+		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
 
-			.image.fit-4 img {
+			.image.fit img {
 				width: 100%;
 			}
 
