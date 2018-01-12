@@ -1,4 +1,4 @@
-var img = $('img[id^="image fit-"]').hide(),
+var img = $('img[id^="image-"]').hide(),
 		i = 0;
 
 (function cycle() {
