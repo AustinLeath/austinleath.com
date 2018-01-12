@@ -4,7 +4,7 @@ var h4 = $('h4[id^="cycletxt-"]').hide(),
 (function cycle() {
 
 		h4.eq(i).fadeIn(600)
-							.delay(3000)
+							.delay(4000)
 							.fadeOut(600, cycle);
 
 		i = ++i % h4.length;
