@@ -1,4 +1,4 @@
-var h4 = $('h4[id^="cycletxt-"]').hide(),
+var h4 = $('h4[id^="cycle-"]').hide(),
 		i = 0;
 
 (function cycle() {
