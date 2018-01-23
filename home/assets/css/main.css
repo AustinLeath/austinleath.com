@@ -2520,6 +2520,11 @@
 	height: 720px;
 }
 
+.amznfooterads {
+	display: block;
+	margin: 0 auto 1em;
+}
+
 /* List */
 
 	ol {
