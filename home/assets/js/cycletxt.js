@@ -1,12 +1,12 @@
 var h5 = $('h5[id^="cycletxt-"]').hide(),
-  i = 0;
+   i = 0;
 
-(function cycle() {
+(function cycletxt() {
 
 			 h5.eq(i).fadeIn(900)
-							  .delay(6500)
-			  				.fadeOut(900, cycle);
+							  .delay(500)
+			  				.fadeOut(900, cycletxt);
 
-		i = ++i % h5.length;
+		 i = ++i % h5.length;
 
 })();

@@ -4,7 +4,7 @@ var img = $('img[id^="image-"]').hide(),
 (function cycle() {
 
 			 img.eq(i).fadeIn(800)
-							  .delay(5000)
+							  .delay(200)
 			  				.fadeOut(800, cycle);
 
 		i = ++i % img.length;
