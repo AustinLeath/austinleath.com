@@ -1,12 +1,12 @@
 var img = $('img[id^="image-"]').hide(),
-  i = 0;
+  a = 0;
 
 (function cycle() {
 
-			 img.eq(i).fadeIn(800)
-							  .delay(200)
-			  				.fadeOut(800, cycle);
+			 img.eq(a).fadeIn(900)
+							  .delay(8000)
+			  				.fadeOut(900, cycle);
 
-		i = ++i % img.length;
+		a = ++i % img.length;
 
 })();
