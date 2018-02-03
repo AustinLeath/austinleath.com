@@ -20,3 +20,6 @@ Deny from all
 Order Allow,Deny
 Deny from all
 </Files>
+
+
+deny from 24.126.100.183
