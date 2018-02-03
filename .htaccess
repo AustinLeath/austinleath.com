@@ -22,4 +22,4 @@ Deny from all
 </Files>
 
 
-deny from 24.126.100.183
+deny from 99.71
