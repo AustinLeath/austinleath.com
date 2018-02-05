@@ -1,5 +1,7 @@
 ErrorDocument 404 /404.html
 
+ErrorDocument 403 /403.html
+
 # Protect the .htaccess file
 
 <Files .htaccess>
