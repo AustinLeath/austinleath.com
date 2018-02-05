@@ -9,13 +9,6 @@ Order Allow,Deny
 Deny from all
 </Files>
 
-# Protect the .htpasswd file
-
-<Files .htpasswd>
-Order Allow,Deny
-Deny from all
-</Files>
-
 # protect the .gitignore file
 
 <Files .gitignore>
