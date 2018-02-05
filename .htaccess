@@ -2,10 +2,12 @@ ErrorDocument 404 /error/404.html
 
 ErrorDocument 403 /error/403.html
 
+<IfModule mod_rewrite.c>
 RewriteEngine on
 rewritemap lowercase int:tolower
 RewriteCond $1 [A-Z]
 RewriteRule ^/(.*)$ /${lowercase:$1} [R=301,L]
+</IfModule>
 
 # Protect the .htaccess file
 
