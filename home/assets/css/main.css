@@ -2526,7 +2526,7 @@
 .blinking-cursor {
   font-weight: inherit;
   font-size: inherit;
-  color: #2E3D48;
+  color: inherit;
   -webkit-animation: 1.0s blink step-end infinite;
   -moz-animation: 1.0s blink step-end infinite;
   -ms-animation: 1.0s blink step-end infinite;
