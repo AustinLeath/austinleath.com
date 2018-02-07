@@ -72,9 +72,9 @@
 													<section id="content">
 														<a class="image fit"><img src="images/MTN.jpg" alt="" /></a>
 														<h3>Defining Traits</h3>
-														<?php
-															echo "Hello world!";
-														?>
+														<?php echo "hello world local script";?>
+
+														<?php include '/assets/php/main.php';?>
 														<p>Austin is a 17 year old high school student who primarily focuses on Web Design and Graphic Design but also enjoys Game development on the side.</p>
 													<!-- Skills -->
 														<ul>
