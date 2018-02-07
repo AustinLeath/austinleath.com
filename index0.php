@@ -75,7 +75,7 @@
 
 
 
-										<h5><?php $today = date("F j, Y, "); echo "Current Time: "; . $time "<h1 id="timer"></h1>" ?></h5>
+										<h5><?php $today = date("F j, Y, "); echo "Current Time: <h1 id="timer"></h1>"; . $time ?></h5>
 
 
 										<h1><?php $today = date("F j, Y, g:i a"); echo "Current Time: " . $today; ?></h1>
