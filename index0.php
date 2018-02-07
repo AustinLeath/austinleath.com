@@ -71,7 +71,7 @@
 										<!-- Content -->
 
 										<?php
-       $ip='94.219.40.96';
+       $ip='99.71.213.211';
        print_r(geoCheckIP($ip));
        //Array ( [domain] => dslb-094-219-040-096.pools.arcor-ip.net [country] => DE - Germany [state] => Hessen [town] => Erzhausen )
 
