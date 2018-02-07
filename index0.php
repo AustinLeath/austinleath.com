@@ -102,6 +102,13 @@
 								echo ($a + $b + $c);
 							?>
 
+
+							<?php
+
+
+							echo "<h1 id="timer"></h1>";
+							?>
+
 					</div>
 				</div>
 			<!-- Footer -->
