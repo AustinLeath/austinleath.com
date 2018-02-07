@@ -96,7 +96,7 @@
 								$s = date("S");
 
 
-								echo ($h $m $s)
+								echo $h $m $s;
 							?>
 
 					</div>
