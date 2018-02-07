@@ -99,6 +99,13 @@
 								echo "CURRENT TIME" . $h . $m . $s;
 							?>
 
+							<?php
+								$today = date("F j, Y, g:i a");
+								echo . $today;
+							?>
+
+
+
 					</div>
 				</div>
 			<!-- Footer -->
