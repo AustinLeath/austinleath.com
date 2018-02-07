@@ -90,14 +90,7 @@
 							?>
 
 
-							<?php
-								$h = date("H");
-								$m = date("M");
-								$s = date("S");
 
-
-								echo "CURRENT TIME" . $h . $m . $s;
-							?>
 
 							<?php
 								$today = date("F j, Y, g:i a");
@@ -113,7 +106,7 @@
 								$b = 2;
 								$c = 2;
 
-								echo (a + b + c);
+								echo ($a + $b + $c);
 							?>
 
 
