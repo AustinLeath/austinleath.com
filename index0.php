@@ -64,13 +64,19 @@
 					<div class="container">
 						<header class="major">
 							<h2>Austin Leath | Resume</h2>
-							<h1><?php $today = date("F j, Y, g:i a"); echo "Current Time: " . $today; ?></h1>
+							<h1 id="timer"></h1>
 							<h5 id="cycletxt-1">The following page contains a compiled list of my skills and experiences</h5>
 							<h5 id="cycletxt-2">Welcome to my site</h5>
 							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>
 							<h5 id="cycletxt-4"><?php $today = date("F j, Y, g:i a"); echo "Current Time: " . $today; ?></h5>
 						</header>
 										<!-- Content -->
+
+
+
+
+
+										<h1><?php $today = date("F j, Y, g:i a"); echo "Current Time: " . $today; ?></h1>
 
 							 <?php
 								 echo '<h1>This is a PHP script</h1>';
@@ -127,6 +133,7 @@
 			<script src="home/assets/js/jquery.scrollex.min.js"></script>
 			<script src="home/assets/js/skel.min.js"></script>
 			<script src="home/assets/js/util.js"></script>
+			<script src="home/assets/js/time.js"></script>
 			<script src="home/assets/js/cycletxt.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="home/assets/js/main.js"></script>
