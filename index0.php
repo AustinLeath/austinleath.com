@@ -67,6 +67,7 @@
 							<h5 id="cycletxt-1">The following page contains a compiled list of my skills and experiences</h5>
 							<h5 id="cycletxt-2">Welcome to my site</h5>
 							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>
+							<h5 id="cycletxt-4"></h5>
 						</header>
 										<!-- Content -->
 							<?php
@@ -76,20 +77,29 @@
 							 <?php
 							 echo '<p>This is a PHP script</p>';
 							 ?>
-
-
+							 <?php
+							 echo '.H ';
+							 ?>
 							 <?php
 							$t = date("H");
 							echo "<p>The hour (of the server) is " . $t;
 							echo ", and will give the following message:</p>";
 
-							if ($t < "10") {
+							if ($t < "15") {
 							    echo "Have a good morning!";
 							} elseif ($t < "20") {
 							    echo "Have a good day!";
 							} else {
 							    echo "Have a good night!";
 							}
+							?>
+
+
+							<?php
+							$a = 2;
+							$b = 2;
+
+							echo ($a + $b);
 							?>
 					</div>
 				</div>
