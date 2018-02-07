@@ -64,7 +64,6 @@
 					<div class="container">
 						<header class="major">
 							<h2>Austin Leath | Resume</h2>
-							<h1 id="timer"></h1>
 							<h5 id="cycletxt-1">The following page contains a compiled list of my skills and experiences</h5>
 							<h5 id="cycletxt-2">Welcome to my site</h5>
 							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>						</header>
@@ -73,7 +72,7 @@
 
 
 
-										<h5><?php $today = date("F j, Y, "); echo "<h1 id="timer"></h1>"  . $today; ?></h5>
+										<h5><?php $today = date("F j, Y, "); echo "Current Time": . $today; ?></h5>
 
 
 										<h1><?php $today = date("F j, Y, g:i a"); echo "Current Time: " . $today; ?></h1>
