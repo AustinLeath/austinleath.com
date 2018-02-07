@@ -70,36 +70,25 @@
 							<h5 id="cycletxt-4"><?php $a = 2; $b = 2; echo ($a + $b); ?></h5>
 						</header>
 										<!-- Content -->
-							<?php
-							 echo "This is php that is not html";
-							 ?>
 
 							 <?php
-							 echo '<p>This is a PHP script</p>';
+								 echo '<h1>This is a PHP script</h1>';
 							 ?>
-							 <?php
-							 echo '.H ';
-							 ?>
-							 <?php
+
+							<?php
 							$t = date("H");
-							echo "<p>The hour (of the server) is " . $t;
-							echo ", and will give the following message:</p>";
+								echo "<p>The hour (of the server) is " . $t;
+								echo ", and will give the following message:</p>";
 
-							if ($t < "15") {
-							    echo "Have a good morning!";
-							} elseif ($t < "20") {
-							    echo "Have a good day!";
-							} else {
-							    echo "Have a good night!";
-							}
+								if ($t < "10") {
+								    echo "Have a good morning!";
+								} elseif ($t < "20") {
+								    echo "Have a good day!";
+								} else {
+								    echo "Have a good night!";
+								}
 							?>
 
-
-							<?php
-							$a = 2;
-							$b = 2;
-							echo ($a + $b);
-							?>
 					</div>
 				</div>
 			<!-- Footer -->
