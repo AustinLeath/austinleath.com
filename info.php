@@ -13,8 +13,8 @@
 	</head>
 	<body>
 		<?php
-			phpInfo();
 			echo '<a href="index.html">Return Home</a>';
+			phpInfo();
 		?>
 	</body>
 	<!--Scripts-->
