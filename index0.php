@@ -77,7 +77,7 @@
 							<?php
 							 echo "This is php that is not html";
 							 ?>
-							 
+
 							 <?php
 							 echo '<p>This is a PHP script</p>';
 							 ?>
