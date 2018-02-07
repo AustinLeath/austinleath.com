@@ -89,6 +89,16 @@
 								}
 							?>
 
+
+							<?php
+								$h = date("H");
+								$m = date("M");
+								$s = date("S");
+
+
+								echo ($h $m $s)
+							?>
+
 					</div>
 				</div>
 			<!-- Footer -->
