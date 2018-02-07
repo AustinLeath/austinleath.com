@@ -4,11 +4,28 @@ ErrorDocument 404 /error/404.html
 
 ErrorDocument 403 /error/403.html
 
+
+
+
+AuthType Basic
+AuthName "Restricted Content"
+AuthUserFile /etc/apache2/.htpasswd
+Require valid-user
+
+
+
 Options -Indexes
 
 # Protect the .htaccess file
 
 <Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Protect the info.php file
+
+<Files info.php>
 Order Allow,Deny
 Deny from all
 </Files>
