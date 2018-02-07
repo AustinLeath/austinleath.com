@@ -67,7 +67,7 @@
 							<h5 id="cycletxt-1">The following page contains a compiled list of my skills and experiences</h5>
 							<h5 id="cycletxt-2">Welcome to my site</h5>
 							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>
-							<h5 id="cycletxt-4"><?php $today = date("F j, Y, g:i a"); echo "Current Time" . $today; ?></h5>
+							<h5 id="cycletxt-4"><?php $today = date("F j, Y, g:i:s a"); echo "Current Time: " . $today; ?></h5>
 						</header>
 										<!-- Content -->
 
