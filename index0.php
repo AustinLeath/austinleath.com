@@ -69,11 +69,6 @@
 							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>
 						</header>
 										<!-- Content -->
-
-						<?php
-							phpInfo();
-						?>
-
 							<?php
 							 echo "This is php that is not html";
 							 ?>
