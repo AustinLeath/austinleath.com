@@ -98,10 +98,7 @@
 							<?php
 							$a = 2;
 							$b = 2;
-
-							$str = "FUCK NIGGERS";
-
-							echo ($a + $b $str);
+							echo ($a + $b);
 							?>
 					</div>
 				</div>
