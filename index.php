@@ -25,7 +25,7 @@
 						<ul>
 							<li>
 								<?php $today = date("F j, Y"); echo $today;?>
-									<a id="timer"></a>
+									<object id="timer"></object>
 								<a href="">Other Information</a>
 								  <ul>
 									 <li><a href="git/github.html">GitHub Code</a></li>
@@ -66,8 +66,8 @@
 					<div class="container">
 						<header class="major">
 							<h2>Austin Leath | Resume</h2>
-								<?php $today = date("F j, Y"); echo $today;?>
-								<a id="timer"></a>
+								<h1><?php $today = date("F j, Y"); echo $today;?></h1>
+								<h1 id="timer"></h1>
 							<h5 id="cycletxt-1">The following page contains a compiled list of my skills and experiences</h5>
 							<h5 id="cycletxt-2">Welcome to my site</h5>
 							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>
