@@ -3,9 +3,9 @@ var h5 = $('h5[id^="cycletxt-"]').hide(),
 
 (function cycletxt() {
 
-			 h5.eq(i).fadeIn(900)
-							  .delay(2500)
-			  				.fadeOut(900, cycletxt);
+			 h5.eq(i).fadeIn(1000)
+							  .delay(3500)
+			  				.fadeOut(1000, cycletxt);
 
 		 i = ++i % h5.length;
 

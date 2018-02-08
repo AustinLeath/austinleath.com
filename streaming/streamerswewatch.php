@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Austin Leath | Games We Play</title>
+		<title>Austin Leath | Streamers We Watch</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="keywords" content="HTML,CSS,XML,JavaScript,Web,Engineer,Resume,CSS3,HTML5,Austin,Leath,Lethal,Game,Studios,LethalGameStudios">
@@ -17,13 +17,15 @@
 	</head>
 	<body>
 		<div id="page-wrapper">
-
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="">Austin Leath | Games We Play</a></h1>
+					<h1 id="logo"><a href="">Austin Leath | Streamers We Watch</a></h1>
 					<nav id="nav">
 						<ul>
 							<li>
+								<?php $today = date("F j, Y"); echo $today;?>
+									<object id="timer"></object>
+									<li>
 								<a href="">Other Information</a>
 								  <ul>
 									 <li><a href="../git/github.html">GitHub Code</a></li>
@@ -45,9 +47,9 @@
 									 <li>
 										 <a href="">Streaming</a>
 											 <ul>
-												<li><a href="#">Games We Play</a></li>
-												<li><a href="streamerswewatch.html">Streamers We Watch</a></li>
-												<li><a href="streaming.html">Streaming</a></li>
+                         <li><a href="gamesweplay.html">Games We Play</a></li>
+ 												<li><a href="#">Streamers We Watch</a></li>
+ 												<li><a href="streaming.html">Streaming</a></li>
 												<li><a href="form.html">Form</a></li>
 											 </ul>
 										  </li>
@@ -59,34 +61,23 @@
 						 </ul>
 					 </nav>
 	  		 </header>
-
 			<!-- Main -->
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>Austin Leath | Games We Play</h2>
-							<p>Here is a short list of games that we play</p>
+							<h2>Austin Leath | Streamers We Watch</h2>
+							<p>You can watch all of my favorite streamers play games here</p>
 						</header>
 
 						<!-- Content -->
 							<section id="content">
-                <iframe class="image fit" src="http://store.steampowered.com/widget/359550/88521/" scrolling="no" width="646" height="190" frameborder="0"></iframe>
-                  <p>Gameking27 - Bronze I</p>
-                  <p>Jifinga - Silver I</p>
-                  <p>Thunder Pumpkin - Gold IV</p>
-                  <p>Slurgus - Gold IV</p>
-
-                <iframe class="image fit" src="http://store.steampowered.com/widget/221100/35220/" scrolling="no" width="646" height="190" frameborder="0"></iframe>
-                  <p>Gameking27 - Hours: TBD</p>
-                  <p>Jifinga - Hours: TBD</p>
-                  <p>Thunder Pumpkin - Hours: TBD</p>
-                  <p>Slurgus - Hours: TBD</p>
-
-                <iframe class="image fit" src="http://store.steampowered.com/widget/578080/" scrolling="no"  width="646" height="190" frameborder="0"></iframe>
-                  <p>Gameking27 - Chicken Dinners: TBD</p>
-                  <p>Jifinga - Chicken Dinners: TBD</p>
-                  <p>Thunder Pumpkin - Chicken Dinners: TBD</p>
-                  <p>Slurgus - Chicken Dinners: TBD</p>
+					     <iframe class="image fit" src="http://player.twitch.tv/?channel=DeadlySlob" width="1280" height="720" allowfullscreen></iframe>
+								<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/DeadlySlob/chat?darkpopout" height="500" width="500"></iframe>
+							  <iframe class="image fit" src="http://player.twitch.tv/?channel=Kixstar" width="1280" height="720" allowfullscreen></iframe>
+							 	<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/Kixstar/chat?darkpopout" height="500" width="500"></iframe>
+							 <iframe class="image fit" src="http://player.twitch.tv/?channel=Kotton" width="1280" height="720" allowfullscreen></iframe>
+							<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/Kotton/chat?darkpopout" height="500" width="500"></iframe>
+						 </section>
 					 </div>
 				</div>
 			<iframe class="amznfooterads" src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=48&l=ur1&category=game_downloads&banner=07YBAJRZ4ZYJNPDJS3G2&f=ifr&linkID=60211df544d0d3c088ad3be20b5aca82&t=lethalgamestu-20&tracking_id=lethalgamestu-20" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
@@ -117,6 +108,8 @@
 			<script src="../home/assets/js/jquery.scrollex.min.js"></script>
 			<script src="../home/assets/js/skel.min.js"></script>
 			<script src="../home/assets/js/util.js"></script>
+			<script src="../home/assets/js/time.js"></script>
+
 			<!--[if lte IE 8]><script src="../home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="../home/assets/js/main.js"></script>
 

@@ -22,6 +22,9 @@
 					<nav id="nav">
 								 <ul>
 		 							<li>
+										<?php $today = date("F j, Y"); echo $today;?>
+											<object id="timer"></object>
+											<li>
 		 								<a href="">Other Information</a>
 										<ul>
 											 <li>
@@ -123,6 +126,8 @@
 			 <script src="../home/assets/js/jquery.scrollex.min.js"></script>
 			 <script src="../home/assets/js/skel.min.js"></script>
 			 <script src="../home/assets/js/util.js"></script>
+			 <script src="../home/assets/js/time.js"></script>
+
 			 <!--[if lte IE 8]><script src="../home/assets/js/ie/respond.min.js"></script><![endif]-->
 			 <script src="../home/assets/js/main.js"></script>
 

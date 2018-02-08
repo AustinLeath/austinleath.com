@@ -24,6 +24,9 @@
 					<nav id="nav">
 						<ul>
 							<li>
+								<?php $today = date("F j, Y"); echo $today;?>
+									<object id="timer"></object>
+									<li>
 								<a href="">Other Information</a>
 								  <ul>
 									 <li><a href="../git/github.html">GitHub Code</a></li>
@@ -157,6 +160,8 @@
 			<script src="../home/assets/js/cycletxt.js"></script>
 			<script src="../home/assets/js/cyclestyle.js"></script>
 			<script src="../home/assets/js/normalizestyle.js"></script>
+			<script src="../home/assets/js/time.js"></script>
+
 			<!--[if lte IE 8]><script src="../home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="../home/assets/js/main.js"></script>
 	</body>
