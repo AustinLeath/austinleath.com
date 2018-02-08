@@ -26,6 +26,7 @@
 							<li>
 								<?php $today = date("F j, Y"); echo $today;?>
 									<object id="timer"></object>
+									<li>
 								<a href="">Other Information</a>
 								  <ul>
 									 <li><a href="git/github.html">GitHub Code</a></li>
