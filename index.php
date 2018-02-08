@@ -24,8 +24,8 @@
 					<nav id="nav">
 						<ul>
 							<li>
-								<p><?php $today = date("F j, Y"); echo $today;?></p>
-									<p id="timer"></p>
+								<?php $today = date("F j, Y"); echo $today;?>
+									<a id="timer"></a>
 								<a href="">Other Information</a>
 								  <ul>
 									 <li><a href="git/github.html">GitHub Code</a></li>
