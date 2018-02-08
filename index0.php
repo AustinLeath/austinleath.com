@@ -66,49 +66,10 @@
 							<h2>Austin Leath | Resume</h2>
 							<h5 id="cycletxt-1">The following page contains a compiled list of my skills and experiences</h5>
 							<h5 id="cycletxt-2">Welcome to my site</h5>
-							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>						</header>
+							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>
+						</header>
 										<!-- Content -->
-
-
-
-
-
-
-										<h1><?php $today = date("F j, Y, g:i a"); echo "Current Time: " . $today; ?></h1>
-
-							 <?php
-								 echo '<h1>This is a PHP script</h1>';
-							 ?>
-
-							<?php
-							$t = date("H");
-								echo "<p>The hour (of the server) is " . $t;
-								echo ", and will give the following message:</p>";
-
-								if ($t < "10") {
-								    echo "Have a good morning!";
-								} elseif ($t < "20") {
-								    echo "Have a good day!";
-								} else {
-								    echo "Have a good night!";
-								}
-							?>
-
-
-							<?php
-								$a = 1;
-								$b = 2;
-								$c = 3;
-								echo ($a + $b + $c);
-							?>
-
-
-							<?php
-
-
-							echo "<h1 id="timer"></h1>";
-							?>
-
+								<?php $today = date("F j, Y, g:i a"); echo "Current Time: " . $today; ?>
 					</div>
 				</div>
 			<!-- Footer -->
