@@ -66,7 +66,7 @@
 							<h2>Austin Leath | Resume</h2>
 								<h1><?php $today = date("F j, Y"); echo $today;
 
-								<h1 id="timer"></h1>
+								<h1 id="timer"></h1>;
 								?></h1>
 								<h1 id="timer"></h1>
 							<h5 id="cycletxt-1">The following page contains a compiled list of my skills and experiences</h5>
