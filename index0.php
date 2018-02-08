@@ -69,7 +69,7 @@
 							<h5 id="cycletxt-2">Welcome to my site</h5>
 							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>						</header>
 										<!-- Content -->
-						<h1><?php $today = date("F j, Y,"); echo "Current Time: " . $today; echo "<p>hkjbkjb</p>"; ?>
+						<h1><?php $today = date("F j, Y,"); echo "Todays date: " . $today; echo "<p id="timer"></p>"; ?>
 					</div>
 				</div>
 			<!-- Footer -->
