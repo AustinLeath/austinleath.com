@@ -66,8 +66,8 @@
 					<div class="container">
 						<header class="major">
 							<h2>Austin Leath | Resume</h2>
-								<h1><?php $today = date("F j, Y"); echo $today;?></h1>
-								<h1 id="timer"></h1>
+								<?php $today = date("F j, Y"); echo $today;?>
+								<a id="timer"></a>
 							<h5 id="cycletxt-1">The following page contains a compiled list of my skills and experiences</h5>
 							<h5 id="cycletxt-2">Welcome to my site</h5>
 							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>
