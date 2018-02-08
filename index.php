@@ -68,8 +68,42 @@
 								<h1 id="timer"></h1>
 							<h5 id="cycletxt-1">The following page contains a compiled list of my skills and experiences</h5>
 							<h5 id="cycletxt-2">Welcome to my site</h5>
-							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>						</header>
+							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>
+						</header>
 										<!-- Content -->
+													<section id="content">
+														<a class="image fit"><img src="images/MTN.jpg" alt="" /></a>
+														<h3>Defining Traits</h3>
+														<p>Austin is a 17 year old high school student who primarily focuses on Web Design and Graphic Design but also enjoys Game development on the side.</p>
+													<!-- Skills -->
+														<ul>
+														 <strong>General Knowledge</strong>
+														 <li>Computer System Building - 5 years</li>
+														 <li>GIT / Version Control - 4 years</li>
+														 <li>SSH - 2 years</li>
+														</ul>
+															 <!--Divider-->
+																	<ul>
+																		<strong>Adobe Products</strong>
+																		<li>Adobe Illustrator - 1 year</li>
+																		<li>Adobe Photoshop - 2 years</li>
+																		<li>Adobe Premiere Pro - 1 year</li>
+																	</ul>
+																<!--Divider-->
+																<ul>
+																 <strong>Web Languages</strong>
+																	<li>HTML / HTML5 - 4 years</li>
+																	<li>CSS / CSS3 - 4 years</li>
+																	<li>Javascript - 2 years</li>
+																	<li>PHP - Less than 6 Months</li>
+																</ul>
+															<!--Divider-->
+															<ul>
+															 <strong>Programming Languages</strong>
+																<li>C# - 1 year</li>
+												       </ul>
+										      </ul>
+								</section>
 					</div>
 				</div>
 			<!-- Footer -->
@@ -99,8 +133,8 @@
 			<script src="home/assets/js/jquery.scrollex.min.js"></script>
 			<script src="home/assets/js/skel.min.js"></script>
 			<script src="home/assets/js/util.js"></script>
-			<script src="home/assets/js/time.js"></script>
 			<script src="home/assets/js/cycletxt.js"></script>
+			<script src="home/assets/js/time.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="home/assets/js/main.js"></script>
 
