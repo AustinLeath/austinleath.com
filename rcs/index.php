@@ -35,7 +35,7 @@
 										 <li><a href="#">Rileigh Sayen</a></li>
 										 <li><a href="../info/aboutdeveloper.html">About Me</a></li>
 										 <li><a href="../vrsenal/index.php">VRsenal</a></li>
-										 <li><a href="../index.php">Return Home</a></li>
+										 <li><a href="../index.html">Return Home</a></li>
 									 </li>
 								 </ul>
 							<!--DIVIDER-->
