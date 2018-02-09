@@ -68,6 +68,12 @@
 					<div class="container">
 						<header class="major">
 							<h2>Austin Leath | VRsenal</h2>
+							<?php
+								$today = date("F j, Y");
+								$str = "<a id="timer"></a>";
+							 	echo $today $str;
+							?>
+
 							<section>
 								<h5 id="cycletxt-1">A hub for all things VRsenal</h5>
 								<h5 id="cycletxt-2">From links to patch notes</h5>
