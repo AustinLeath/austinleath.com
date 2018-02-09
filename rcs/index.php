@@ -31,10 +31,10 @@
 								<ul>
 									 <li>
 										 <a href="../git/github.html">GitHub Code</a>
-										 <li><a href="../tools.html">Development Tools</a></li>
+										 <li><a href="../tools.php">Development Tools</a></li>
 										 <li><a href="#">Rileigh Sayen</a></li>
 										 <li><a href="../info/aboutdeveloper.html">About Me</a></li>
-										 <li><a href="../vrsenal/index.html">VRsenal</a></li>
+										 <li><a href="../vrsenal/index.php">VRsenal</a></li>
 										 <li><a href="../index.php">Return Home</a></li>
 									 </li>
 								 </ul>
@@ -42,18 +42,18 @@
 										 <li>
 											<a href="">Legal</a>
 											 <ul>
-												 <li><a href="../legal/apachelicense.html">Apache License</a></li>
-												 <li><a href="../legal/mitlicense.html">MIT License</a></li>
+												 <li><a href="../legal/apachelicense.php">Apache License</a></li>
+												 <li><a href="../legal/mitlicense.php">MIT License</a></li>
 											 </ul>
 											</li>
 							 <!--DIVIDER-->
 									 <li>
 										 <a href="">Streaming</a>
 											 <ul>
-													<li><a href="../streaming/gamesweplay.html">Games We Play</a></li>
-	 												<li><a href="../streaming/streamerswewatch.html">Streamers We Watch</a></li>
-	 												<li><a href="../streaming/streaming.html">Streaming</a></li>
-													<li><a href="../streaming/form.html">Form</a></li>
+													<li><a href="../streaming/gamesweplay.php">Games We Play</a></li>
+	 												<li><a href="../streaming/streamerswewatch.php">Streamers We Watch</a></li>
+	 												<li><a href="../streaming/streaming.php">Streaming</a></li>
+													<li><a href="../streaming/form.php">Form</a></li>
 											 </ul>
 										  </li>
 							 <!--DIVIDER-->
@@ -118,8 +118,8 @@
 					</ul>
 					<ul class="copyright">
 						<li>&copy; austinleath.com / lethalgamestudios.ddns.net - All rights reserved. Lethal Game Studios&trade;</li>
-						<li><a href="../legal/apachelicense.html" /a>Apache License</li>
-						<li><a href="../legal/mitlicense.html" /a>MIT License</li>
+						<li><a href="../legal/apachelicense.php" /a>Apache License</li>
+						<li><a href="../legal/mitlicense.php" /a>MIT License</li>
 						<li><a href="javascript:history.go(-1)">Go Back</a></li>
 					</ul>
 				</footer>
