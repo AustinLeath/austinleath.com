@@ -70,7 +70,7 @@
 							<h2>Austin Leath | VRsenal</h2>
 							<?php
 								$today = date("F j, Y");
-								$str = "<a id="timer"></a>";
+								$str = "HELLO TEST TEST";
 							 	echo $today $str;
 							?>
 
