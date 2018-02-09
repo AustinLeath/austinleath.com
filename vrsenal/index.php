@@ -71,7 +71,7 @@
 							<?php
 								$today = date("F j, Y");
 								$str = "HELLO TEST TEST";
-							 	echo $today $str;
+							 	echo $today . $str;
 							?>
 
 							<section>
