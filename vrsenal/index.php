@@ -70,7 +70,8 @@
 							<h2>Austin Leath | VRsenal</h2>
 							<?php
 								$today = date("F j, Y");
-							 	echo $today,'<a id="timer"></a>';
+								$time = '<a id="timer"></a>';
+							 	echo $today,$time;
 							?>
 
 							<section>
