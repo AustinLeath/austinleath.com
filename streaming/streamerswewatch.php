@@ -24,7 +24,7 @@
 						<ul>
 							<li>
 								<?php $today = date("F j, Y"); echo $today;?>
-									<object id="timer"></object>
+									<a id="timer"></a>
 									<li>
 								<a href="">Other Information</a>
 								  <ul>
