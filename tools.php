@@ -78,6 +78,40 @@
 									<button class="button small btnalign" type="button" onclick="myFunction1()">Dark Mode</button>
  									<iframe class="jsfiddle" src="https://jsfiddle.net/"></iframe>
 								</section>
+								<h1>TESTING</h1>
+								<section id="formdata">
+																<h3>Form</h3>
+																<form method="post" action="">
+																	<div class="row uniform 50%">
+																		<div class="6u 12u$(xsmall)">
+																			<input type="text" name="name" id="name" value="" placeholder="Name">
+																		</div>
+																		<div class="6u$ 12u$(xsmall)">
+																			<input type="email" name="email" id="email" value="" placeholder="Email">
+																		</div>
+																		<div class="12u$">
+																			<div class="select-wrapper">
+																				<select name="category" id="category">
+																					<option value="">- Category -</option>
+																					<option value="1">Javascript Engineer</option>
+																					<option value="1">CSS Engineer</option>
+																					<option value="1">HTML Engineer</option>
+																					<option value="1">PHP Engineer</option>
+																				</select>
+																			</div>
+																		</div>
+																		<div class="12u$">
+																			<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+																		</div>
+																		<div class="12u$">
+																			<ul class="actions">
+																				<li><input type="submit" value="Send Message" class="special"></li>
+																				<li><input type="reset" value="Reset"></li>
+																			</ul>
+																		</div>
+																	</div>
+															</form>
+										</section>
 							</div>
 						</div>
     			</div>

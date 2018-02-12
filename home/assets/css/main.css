@@ -2521,6 +2521,13 @@
 .amznfooterads {
 	display: block;
 	margin: 0 auto 1em;
+	margin: 0 0 2em 0;
+}
+
+
+#formdata {
+	width: 80%;
+	margin: 0 auto 1em;
 }
 
 .blinking-cursor {
