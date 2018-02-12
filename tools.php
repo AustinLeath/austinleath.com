@@ -81,7 +81,7 @@
 								<h1>TESTING</h1>
 								<section id="formdata">
 																<h3>Form</h3>
-																<form method="post" action="">
+																<form method="post" action="/home/assets/php/action.php">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
 																			<input type="text" name="name" id="name" value="" placeholder="Name">
