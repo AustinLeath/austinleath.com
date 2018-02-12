@@ -24,7 +24,6 @@
 					<nav id="nav">
 						<ul>
 							<li>
-								<?php $today = date("F j, Y"); echo $today;?>
 									<p id="timer"></p>
 									<li>
 								<a href="">Other Information</a>

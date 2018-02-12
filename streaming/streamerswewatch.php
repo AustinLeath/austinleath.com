@@ -23,8 +23,7 @@
 					<nav id="nav">
 						<ul>
 							<li>
-								<?php $today = date("F j, Y"); echo $today;?>
-									<a id="timer"></a>
+								<p id="timer"></p>
 									<li>
 								<a href="">Other Information</a>
 								  <ul>
@@ -67,6 +66,7 @@
 						<header class="major">
 							<h2>Austin Leath | Streamers We Watch</h2>
 							<p>You can watch all of my favorite streamers play games here</p>
+							<?php $today = date("F j, Y"); echo $today;?>
 						</header>
 
 						<!-- Content -->
