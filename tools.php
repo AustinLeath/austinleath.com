@@ -38,8 +38,6 @@
 									 <li><a href="info/aboutdeveloper.html">About Me</a></li>
 									 <li><a href="vrsenal/index.php">VRsenal</a></li>
 									 <li><a href="index.html">Return Home</a></li>
-									 <li><button class="button small" type="button" onclick="myFunction()">Change the style</button></li>
-									 <li><button class="button small" type="button" onclick="myFunction1()">Change the style back</button></li>
 								  </ul>
 							<!--DIVIDER-->
 										 <li>
