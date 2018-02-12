@@ -26,6 +26,10 @@
 							<li>
 									<p id="timer"></p>
 									<li>
+										<button class="button small btnalign" type="button" onclick="myFunction()">Light Mode</button>
+							 			<li>
+							 		<button class="button small btnalign" type="button" onclick="myFunction1()">Dark Mode</button>
+							 <li>
 								<a href="">Other Information</a>
 								  <ul>
 									 <li><a href="git/github.html">GitHub Code</a></li>
@@ -74,8 +78,6 @@
 						</header>
 							<!-- Content -->
 							  <section id="content">
-									<button class="button small btnalign" type="button" onclick="myFunction()">Light Mode</button>
-									<button class="button small btnalign" type="button" onclick="myFunction1()">Dark Mode</button>
  									<iframe class="jsfiddle" src="https://jsfiddle.net/"></iframe>
 								</section>
 								<h1>TESTING</h1>
