@@ -92,11 +92,11 @@
 																		<div class="12u$">
 																			<div class="select-wrapper">
 																				<select name="category" id="category">
-																					<option value="">- Category -</option>
-																					<option value="1">Javascript Engineer</option>
-																					<option value="1">CSS Engineer</option>
-																					<option value="1">HTML Engineer</option>
-																					<option value="1">PHP Engineer</option>
+																					<option value="No Category Selected">- Category -</option>
+																					<option value="Javascript Engineer">Javascript Engineer</option>
+																					<option value="CSS Engineer">CSS Engineer</option>
+																					<option value="HTML Engineer">HTML Engineer</option>
+																					<option value="PHP Engineer">PHP Engineer</option>
 																				</select>
 																			</div>
 																		</div>
