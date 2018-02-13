@@ -101,7 +101,7 @@
 																			</div>
 																		</div>
 																		<div class="12u$">
-																			<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+																			<textarea name="description" id="message" placeholder="Enter your profile description" rows="6"></textarea>
 																		</div>
 																		<div class="12u$">
 																			<ul class="actions">
