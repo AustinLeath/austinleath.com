@@ -48,7 +48,7 @@
 										 <a href="">Streaming</a>
 											 <ul>
 												<li><a href="streaming/gamesweplay.php">Games We Play</a></li>
- 												<li><a href="streaming/streamerswewatch.php">Streamers We Watch</a></li>
+ 												<li><a href="../../../streaming/streamerswewatch.php">Streamers We Watch</a></li>
  												<li><a href="../../streaming/streaming.php">Streaming</a></li>
 												<li><a href="../streaming/form.php">Form</a></li>
 											 </ul>
