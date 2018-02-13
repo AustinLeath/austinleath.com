@@ -49,8 +49,8 @@
 											 <ul>
 												<li><a href="streaming/gamesweplay.php">Games We Play</a></li>
  												<li><a href="streaming/streamerswewatch.php">Streamers We Watch</a></li>
- 												<li><a href="streaming/streaming.php">Streaming</a></li>
-												<li><a href="streaming/form.php">Form</a></li>
+ 												<li><a href="../../streaming/streaming.php">Streaming</a></li>
+												<li><a href="../streaming/form.php">Form</a></li>
 											 </ul>
 										  </li>
 							 <!--DIVIDER-->
@@ -99,15 +99,15 @@
 		</div>
 		<!-- Scripts -->
 		  <script src="../../assets/js/time.js"></script>
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/jquery.scrolly.min.js"></script>
-			<script src="../assets/js/jquery.dropotron.min.js"></script>
-			<script src="../assets/js/jquery.scrollex.min.js"></script>
-			<script src="../assets/js/skel.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<script src="./assets/js/cycletxt.js"></script>
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../../assets/js/skel.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/cycletxt.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="../assets/js/main.js"></script>
+			<script src="../../assets/js/main.js"></script>
 
 	</body>
 </html>
