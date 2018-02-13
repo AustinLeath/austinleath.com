@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="../home/assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="../home/assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="../home/assets/css/ie8.css" /><![endif]-->
-	<body>
+	<body id="background">
 		<div id="page-wrapper">
 
 			<!-- Header -->
