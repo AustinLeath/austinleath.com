@@ -69,7 +69,7 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>Austin Leath | Resume</h2>
+							<h2>Austin Leath | Welcome</h2>
 							<h5 id="cycletxt-1">Hey thanks for joining us!</h5>
 							<h5 id="cycletxt-2">This information was sent via secure HTTP request<br>So dont worry about your data being lost in the void</h5>
 							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>
