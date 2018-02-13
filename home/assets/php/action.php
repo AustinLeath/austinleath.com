@@ -9,7 +9,7 @@
 		<meta name="author" content="Austin Leath">
 		<meta name='copyright' content='Lethal Game Studios'>
 		<meta name='owner' content='Austin Leath'>
-		<link rel="shortcut icon" href="images/main/favicon.ico" />
+		<link rel="shortcut icon" href="../images/main/favicon.ico" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="../css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -28,7 +28,7 @@
 									<li>
 								<a href="">Other Information</a>
 								  <ul>
-									 <li><a href="git/github.html">GitHub Code</a></li>
+									 <li><a href="../git/github.html">GitHub Code</a></li>
 									 <li><a href="tools.php">Development Tools</a></li>
 									 <li><a href="rcs/index.php">Rileigh Sayen</a></li>
 									 <li><a href="info/aboutdeveloper.html">About Me</a></li>
@@ -98,16 +98,16 @@
 				</footer>
 		</div>
 		<!-- Scripts -->
-		  <script src="home/assets/js/time.js"></script>
-			<script src="home/assets/js/jquery.min.js"></script>
-			<script src="home/assets/js/jquery.scrolly.min.js"></script>
-			<script src="home/assets/js/jquery.dropotron.min.js"></script>
-			<script src="home/assets/js/jquery.scrollex.min.js"></script>
-			<script src="home/assets/js/skel.min.js"></script>
-			<script src="home/assets/js/util.js"></script>
-			<script src="home/assets/js/cycletxt.js"></script>
+		  <script src="../assets/js/time.js"></script>
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/cycletxt.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="home/assets/js/main.js"></script>
+			<script src="../assets/js/main.js"></script>
 
 	</body>
 </html>
