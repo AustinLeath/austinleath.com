@@ -25,7 +25,11 @@
 						<ul>
 							<li>
 									<p id="timer"></p>
-									<li>
+                  <li>
+                  <button class="button small btnalign" type="button" onclick="myFunction()">Light Mode</button>
+                  <li>
+                  <button class="button small btnalign" type="button" onclick="myFunction1()">Dark Mode</button>
+							<li>
 								<a href="">Other Information</a>
 								  <ul>
 									 <li><a href="../../../git/github.html">GitHub Code</a></li>
@@ -67,7 +71,7 @@
 						<header class="major">
 							<h2>Austin Leath | Resume</h2>
 							<h5 id="cycletxt-1">Hey thanks for joining us!</h5>
-							<h5 id="cycletxt-2">This information was sent via a secure http request<br>So dont worry about your data being lost in the void</h5>
+							<h5 id="cycletxt-2">This information was sent via secure HTTP request<br>So dont worry about your data being lost in the void</h5>
 							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>
 						</header>
 							<!-- Content -->
