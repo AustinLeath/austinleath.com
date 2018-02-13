@@ -98,7 +98,7 @@
 				</footer>
 		</div>
 		<!-- Scripts -->
-		  <script src="../assets/js/time.js"></script>
+		  <script src="../../assets/js/time.js"></script>
 			<script src="../assets/js/jquery.min.js"></script>
 			<script src="../assets/js/jquery.scrolly.min.js"></script>
 			<script src="../assets/js/jquery.dropotron.min.js"></script>
