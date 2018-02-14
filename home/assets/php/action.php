@@ -15,7 +15,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
-	<bodyid="background">
+	<body id="background">
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -110,8 +110,8 @@
 			<script src="../../assets/js/skel.min.js"></script>
 			<script src="../../assets/js/util.js"></script>
 			<script src="../../assets/js/cycletxt.js"></script>
-			<script src="../home/assets/js/normalizestyle.js"></script>
-			<script src="../home/assets/js/cyclestyle.js"></script>
+			<script src="../../home/assets/js/normalizestyle.js"></script>
+			<script src="../../home/assets/js/cyclestyle.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="../../assets/js/main.js"></script>
 
