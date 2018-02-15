@@ -78,9 +78,6 @@
 							  <section id="content">
  									<iframe class="jsfiddle" src="https://jsfiddle.net/"></iframe>
 								</section>
-								<section id="content">
-									<iframe class="jsfiddle" src="https://www.cloudflare.com/"></iframe>
-								</section>
 								<section id="formdata">
 																<h3>Form</h3>
 																<form method="post" action="/home/assets/php/action.php">
