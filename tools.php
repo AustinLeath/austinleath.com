@@ -77,6 +77,8 @@
 							<!-- Content -->
 							  <section id="content">
  									<iframe class="jsfiddle" src="https://jsfiddle.net/"></iframe>
+								</section>
+								<section id="content">
 									<iframe class="cloudflare" src="https://www.cloudflare.com/"></iframe>
 								</section>
 								<h1>TESTING</h1>
