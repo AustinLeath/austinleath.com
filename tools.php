@@ -76,7 +76,7 @@
 						</header>
 							<!-- Content -->
 							  <section id="content">
- 									<iframe class="jsfiddle" src="https://www.jsfiddle.net"></iframe>
+ 									<iframe class="jsfiddle" src="https://jsfiddle.net/"></iframe>
 								</section>
 								<section id="formdata">
 																<h3>Form</h3>
