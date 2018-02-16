@@ -83,8 +83,6 @@
 								<img class="image fit" id="image-2" src="../images/img2.png" alt="" />
 								<img class="image fit" id="image-3" src="../images/img3.png" alt="" />
 								<img class="image fit" id="image-4" src="../images/img4.png" alt="" />
-								<button class="button small btnalign" type="button" onclick="myFunction()">Light Mode</button>
-								<button class="button small btnalign" type="button" onclick="myFunction1()">Dark Mode</button>
 								<h3>VRsenal / HTC Vive supported / Independently developed</h3>
 								<p>VRsenal is a single player HTC Vive supported virtual reality game which is both an exploration game and a physics simulation. Explore the vast lands of VRsenal while interacting with random objects that are scattered throughout the many environments in which you will be playing in. VRsenal provides an assortment of weapons for you to interact with including both melee weapons, 3 hand guns and 4 Assault Rifles.</p>
 								<p>VRsenal is a single player VR game that is both an open world exploration game and physics simulation. Master the landscape as well as a variety of weapons that are laid before you!</p>
