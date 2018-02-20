@@ -111,7 +111,7 @@
 																	</div>
 															</form>
 
-															<a class="downloadbtn" href="austinleath-win32-x64" download><button class="button icon fa-download" type="button">Download Project</button></a>
+															<a class="downloadbtn" href="/austinleath-win32-x64" download><button class="button icon fa-download" type="button">Download Project</button></a>
 										</section>
 
 
