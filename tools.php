@@ -111,6 +111,8 @@
 																	</div>
 															</form>
 													<a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a>
+
+													<a class="button icon fa-download" href="https://www.github.com/AustinLeath/WINx32x64BUILD/archive/master.zip" download>Download Project</a>
 										</section>
 							</div>
 						</div>
