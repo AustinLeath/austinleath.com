@@ -77,7 +77,6 @@
 							<!-- Content -->
 							  <section id="content">
  									<iframe class="jsfiddle" src="https://jsfiddle.net/"></iframe>
-									<iframe class="jsfiddle" src="https://cloudflare.com/"></iframe>
 								</section>
 								<section id="formdata">
 																<h3>Form</h3>
@@ -111,6 +110,8 @@
 																		</div>
 																	</div>
 															</form>
+
+															<button class="button icon fa-download" type="button"><a href="/images/img1.png" download> Download Project </a></button>
 										</section>
 							</div>
 						</div>
