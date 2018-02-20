@@ -113,6 +113,9 @@
 
 															<button class="button icon fa-download" type="button"><a href="/images/img1.png" download> Download Project </a></button>
 										</section>
+
+
+										<a href="/images/img1.png" download> Download Project </a>
 							</div>
 						</div>
     			</div>
