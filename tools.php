@@ -111,9 +111,9 @@
 																	</div>
 															</form>
 																<h1>This Sites Current Build</h1>
-																	<li><a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a></li>
+																	<a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a>
 																<h1>Windows x32/x64 Build</h1>
-																	<li><a class="button icon fa-download" href="https://www.github.com/AustinLeath/WINx32x64BUILD/archive/master.zip" download>Download Project</a></li>
+																	<a class="button icon fa-download" href="https://www.github.com/AustinLeath/WINx32x64BUILD/archive/master.zip" download>Download Project</a>
 										</section>
 							</div>
 						</div>
