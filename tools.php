@@ -115,7 +115,7 @@
 										</section>
 
 
-										<a href="/images/img1.png" download> Download Project </a>
+										<a class="downloadbtn" href="/images/img1.png" download> Download Project </a>
 							</div>
 						</div>
     			</div>
