@@ -6,13 +6,13 @@ Current version for February of 2018
 
 # THINGS TO DO
 
-1. Implement primary website structure [DONE]
+- [x] Implement primary website structure
 
-2. Finish first draft of website content [DONE]
+- [x] Finish first draft of website content
 
-3. Create smooth transitions between web pages [DONE]
+- [x] Create smooth transitions between web pages
 
-4. Keep creating!
+- [ ] EVERYTHING ELSE (working on it)
 
 
 # Fact About This Project
