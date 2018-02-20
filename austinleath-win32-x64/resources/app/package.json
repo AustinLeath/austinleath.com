@@ -1,0 +1,31 @@
+{
+  "name": "AustinLeath",
+  "version": "1.0.0",
+  "description": "A minimal application designed for multiple things",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "",
+    "build": "electron-packager . AustinLeath"
+  },
+  "repository": "Austin Leath <austinleath18@gmail.com> https://github.com/AustinLeath/WINx32x64BUILD",
+  "keywords": [
+    "Electron",
+    "Austin",
+    "Leath",
+    "Node.js",
+    "Css",
+    "Html",
+    "Javascript"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "asar": "^0.14.2",
+    "electron": "~1.7.8"
+  },
+  "dependencies": {
+    "electron-packager": "^11.0.1",
+    "jquery": "^3.3.1"
+  }
+}
