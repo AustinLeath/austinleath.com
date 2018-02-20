@@ -111,7 +111,7 @@
 																	</div>
 															</form>
 
-															<button class="button icon fa-download" type="button"><a href="/images/img1.png" download> Download Project </a></button>
+															<a href="/images/img1.png" download><button class="button icon fa-download" type="button">Download Project</button></a>
 										</section>
 
 
