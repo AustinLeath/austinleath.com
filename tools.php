@@ -110,7 +110,7 @@
 																		</div>
 																	</div>
 															</form>
-													<a class="button icon fa-download" href="/images/img1.png" download>Download Project</a>
+													<a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a>
 										</section>
 							</div>
 						</div>
