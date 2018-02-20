@@ -111,11 +111,13 @@
 																	</div>
 															</form>
 
-															<button class="button icon fa-download" type="button" href="/images/img1.png" download>Download Project</button>
+															<a href="/images/img1.png" download><button class="button icon fa-download">Download Project</button></a>
 										</section>
 
-
-										<a style="text-decoration:none;" href="/images/img1.png" download> Download Project </a>
+											<a href="/images/img1.png" download> Download Project </a>
+										<form method="get" action="/images/img1.png">
+   										<button class="button icon fa-download" type="submit">Download Project</button>
+										</form>
 							</div>
 						</div>
     			</div>
