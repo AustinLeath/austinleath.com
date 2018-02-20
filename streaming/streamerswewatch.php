@@ -70,7 +70,6 @@
 						<header class="major">
 							<h2>Austin Leath | Streamers We Watch</h2>
 							<p>You can watch all of my favorite streamers play games here</p>
-							<?php $today = date("F j, Y"); echo $today;?>
 						</header>
 
 						<!-- Content -->
