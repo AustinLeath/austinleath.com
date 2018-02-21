@@ -116,12 +116,12 @@
 																<h1>Windows x32/x64 Build</h1>
 																	<a class="button icon fa-download" href="https://www.github.com/AustinLeath/WINx32x64BUILD/archive/master.zip" download>Download Project</a>
 
-																	<ul class="copyright">
-																		<li><h1>This Sites Current Build</h1></li>
-																    <li><a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a></li>
-																		<li><h1>Windows x32/x64 Build</h1></li>
-																		<li><a class="button icon fa-download" href="https://www.github.com/AustinLeath/WINx32x64BUILD/archive/master.zip" download>Download Project</a></li>
-																</ul>
+
+																		<h1>This Sites Current Build</h1>
+																    <a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a>
+																		<h1>Windows x32/x64 Build<a class="button icon fa-download" href="https://www.github.com/AustinLeath/WINx32x64BUILD/archive/master.zip" download>Download Project</a></h1>
+																		<a class="button icon fa-download" href="https://www.github.com/AustinLeath/WINx32x64BUILD/archive/master.zip" download>Download Project</a>
+																
 										</section>
 							</div>
 						</div>
