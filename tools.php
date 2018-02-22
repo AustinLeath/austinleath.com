@@ -110,10 +110,38 @@
 																		</div>
 																	</div>
 															</form>
-														  <h1>This Sites Current Build: <a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a></h1>
-															<h1>Windows Release: <a class="button icon fa-download" href="https://www.github.com/AustinLeath/WindowsRelease/archive/master.zip" download>Download Project</a></h1>
-															<h1>Mac Release: <a class="button icon fa-download" href="https://www.github.com/AustinLeath/MacRelease/archive/master.zip" download>Download Project</a></h1>
-
+															<table>
+																<thead>
+																	<tr>
+																		<th>Releases</th>
+																		<th>Downloads</th>
+																		<th>Versions</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Windows Release</td>
+																		<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/WindowsRelease/archive/master.zip" download>Download Project</a></td>
+																		<td>Version 1.0.0</td>
+																	</tr>
+																	<tr>
+																		<td>Mac Release</td>
+																		<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/MacRelease/archive/master.zip" download>Download Project</a></td>
+																		<td>Version 1.0.0</td>
+																	</tr>
+																	<tr>
+																		<td>Site Source Code</td>
+																		<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a></td>
+																		<td>Version 1.0.0</td>
+																	</tr>
+																</tbody>
+																<tfoot>
+																	<tr>
+																		<td colspan="2"></td>
+																		<td>Current as of February of 2018</td>
+																	</tr>
+																</tfoot>
+															</table>
 										</section>
 							</div>
 						</div>
