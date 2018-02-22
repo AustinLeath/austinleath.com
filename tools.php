@@ -111,7 +111,9 @@
 																	</div>
 															</form>
 														  <h1>This Sites Current Build: <a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a></h1>
-															<h1>Windows x32/x64 Build: <a class="button icon fa-download" href="https://www.github.com/AustinLeath/WINx32x64BUILD/archive/master.zip" download>Download Project</a></h1>
+															<h1>Windows Release: <a class="button icon fa-download" href="https://www.github.com/AustinLeath/WindowsRelease/archive/master.zip" download>Download Project</a></h1>
+															<h1>Mac Release: <a class="button icon fa-download" href="https://www.github.com/AustinLeath/MacRelease/archive/master.zip" download>Download Project</a></h1>
+
 										</section>
 							</div>
 						</div>
