@@ -71,7 +71,6 @@
 					<div class="container">
 						<header class="major">
 							<h2>Austin Leath | Tools</h2>
-							<?php echo date("F");?>
 							<h5 id="cycletxt-1">This page is for further developement</h5>
 							<h5 id="cycletxt-2">Use the menu at the top of the page to see my entire site</h5>
 						</header>
@@ -106,7 +105,7 @@
 										<tfoot>
 											<tr>
 												<td colspan="2"></td>
-												<td>Current as of February of 2018</td>
+												<td>Current as of <?php echo date("F");?> of <?php echo date("Y");?></td>
 											</tr>
 										</tfoot>
 									</table>
