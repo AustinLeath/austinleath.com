@@ -1,1 +1,0 @@
-https://electronjs.org/docs/api/browser-window
