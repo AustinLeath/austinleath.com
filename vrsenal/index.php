@@ -129,7 +129,7 @@
 					 <iframe class="image fit" width="1280" height="720" src="https://www.youtube.com/embed/mcwT7GV4144" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					</div>
 				</div>
-				<iframe class="amznfooterads" src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=48&l=ur1&category=game_downloads&banner=07YBAJRZ4ZYJNPDJS3G2&f=ifr&linkID=60211df544d0d3c088ad3be20b5aca82&t=lethalgamestu-20&tracking_id=lethalgamestu-20" width="728" height="90" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
