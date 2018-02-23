@@ -24,9 +24,9 @@
 		 							<li>
 										<p id="timer"></p>
 										<li>
-										<button class="button small btnalign" type="button" onclick="myFunction()">Light Mode</button>
+										<button class="button small btnalign" id="btn1" type="button" onclick="myFunction()">Light Mode</button>
 										<li>
-										<button class="button small btnalign" type="button" onclick="myFunction1()">Dark Mode</button>
+										<button class="button small btnalign" id="btn2" type="button" onclick="myFunction1()">Dark Mode</button>
 									<li>
 		 								<a href="">Other Information</a>
 										<ul>
