@@ -77,6 +77,38 @@
 							<!-- Content -->
 							  <section id="content">
  									<iframe class="jsfiddle" src="https://jsfiddle.net/"></iframe>
+									<table>
+										<thead>
+											<tr>
+												<th>Releases</th>
+												<th>Downloads</th>
+												<th>Versions</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Windows Release</td>
+												<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/WindowsRelease/archive/master.zip" download>Download Project</a></td>
+												<td>Version 1.0.0</td>
+											</tr>
+											<tr>
+												<td>Mac Release</td>
+												<td><a class="button icon fa-download disabled" download>Download Unavailable</a></td>
+												<td>Version 1.0.0</td>
+											</tr>
+											<tr>
+												<td>Site Source Code</td>
+												<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a></td>
+												<td>Version 1.0.0</td>
+											</tr>
+										</tbody>
+										<tfoot>
+											<tr>
+												<td colspan="2"></td>
+												<td>Current as of February of 2018</td>
+											</tr>
+										</tfoot>
+									</table>
 								</section>
 								<section id="formdata">
 																<h3>Form</h3>
@@ -110,38 +142,6 @@
 																		</div>
 																	</div>
 															</form>
-															<table>
-																<thead>
-																	<tr>
-																		<th>Releases</th>
-																		<th>Downloads</th>
-																		<th>Versions</th>
-																	</tr>
-																</thead>
-																<tbody>
-																	<tr>
-																		<td>Windows Release</td>
-																		<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/WindowsRelease/archive/master.zip" download>Download Project</a></td>
-																		<td>Version 1.0.0</td>
-																	</tr>
-																	<tr>
-																		<td>Mac Release</td>
-																		<td><a class="button icon fa-download disabled" download>Download Unavailable</a></td>
-																		<td>Version 1.0.0</td>
-																	</tr>
-																	<tr>
-																		<td>Site Source Code</td>
-																		<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a></td>
-																		<td>Version 1.0.0</td>
-																	</tr>
-																</tbody>
-																<tfoot>
-																	<tr>
-																		<td colspan="2"></td>
-																		<td>Current as of February of 2018</td>
-																	</tr>
-																</tfoot>
-															</table>
 										</section>
 							</div>
 						</div>
