@@ -2863,9 +2863,9 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #ffffff;
+			background-color: #e76278;
 			box-shadow: none;
-			color: #ffffff !important;
+			color:  !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -2891,7 +2891,7 @@
 		.button:disabled {
 			background-color: rgba(255, 255, 255, 0.3) !important;
 			box-shadow: none !important;
-			color: #ffffff !important;
+			color: #e76278 !important;
 			cursor: default;
 			opacity: 0.25;
 		}
