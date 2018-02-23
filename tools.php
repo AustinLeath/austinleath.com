@@ -126,7 +126,7 @@
 																	</tr>
 																	<tr>
 																		<td>Mac Release</td>
-																		<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/MacRelease/archive/master.zip" download>Download Project</a></td>
+																		<td><a class="button icon fa-download disabled" download>Download Unavailable</a></td>
 																		<td>Version 1.0.0</td>
 																	</tr>
 																	<tr>
