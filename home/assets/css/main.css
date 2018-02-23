@@ -2863,7 +2863,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #ffffff;
+			background-color: #e76278;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
