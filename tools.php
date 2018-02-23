@@ -139,7 +139,7 @@
 																	<tr>
 																		<td colspan="2"></td>
 																		<td>Current as of February of 2018</td>
-																		<td><?php "Today is " . date("m/Y")?></td>
+																		<?php "Today is " . date("m/Y");?>
 																	</tr>
 																</tfoot>
 															</table>
