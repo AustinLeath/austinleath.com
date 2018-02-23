@@ -2863,9 +2863,9 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e76278;
+			background-color: #ffffff;
 			box-shadow: none;
-			color: #e76278 !important;
+			color: #ffffff !important;
 		}
 
 			input[type="submit"].special:hover,
