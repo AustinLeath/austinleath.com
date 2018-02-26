@@ -1571,14 +1571,12 @@
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: #ffffff;
 		text-decoration: none;
 	}
 
 		a:hover {
 			color: #ffffff !important;
-			border-bottom-color: transparent;
 		}
 
 	strong, b {
@@ -2508,7 +2506,7 @@
 /* Custom Elements*/
 
 ::-webkit-scrollbar {
-		width: 14px;
+		width: 10px;
 }
 
 ::-webkit-scrollbar-track {
