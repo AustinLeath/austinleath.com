@@ -2510,7 +2510,7 @@
 }
 
 ::-webkit-scrollbar-track {
-		-webkit-box-shadow: inset 0 0 50px rgba(0,0,0,0.1);
+		-webkit-box-shadow: inset 0 0 50px rgba(0,0,0,0.0);
 		border-radius: 10px;
 }
 
@@ -2877,23 +2877,22 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e76278;
-			box-shadow: none;
-			color:  !important;
+			border-color: rgba(255,255,255,1);
+			font-
 		}
 
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #e76278;
+				
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #e13652;
+				background-color: red;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
