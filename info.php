@@ -59,10 +59,12 @@
 				 </ul>
 			 </nav>
 		 </header>
+		 <div>
 		<?php
 			echo '<a href="index.html">Return Home</a>';
 			phpInfo();
 		?>
+	</div>
 	</body>
 		<script src="home/assets/js/time.js"></script>
 		<script src="home/assets/js/jquery.min.js"></script>
