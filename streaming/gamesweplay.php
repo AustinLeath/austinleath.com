@@ -76,26 +76,11 @@
 
 						<!-- Content -->
 							<section id="content">
-                <iframe class="image fit" src="http://store.steampowered.com/widget/359550/88521/" scrolling="no" width="646" height="190" frameborder="0"></iframe>
-                  <p>Gameking27 - Bronze I</p>
-                  <p>Jifinga - Silver I</p>
-                  <p>Thunder Pumpkin - Gold IV</p>
-                  <p>Slurgus - Gold IV</p>
-
+                <iframe class="image fit" src="http://store.steampowered.com/widget/359550/88521/" scrolling="no" width="646" height="190" frameborder="0"></iframe>s
                 <iframe class="image fit" src="http://store.steampowered.com/widget/221100/35220/" scrolling="no" width="646" height="190" frameborder="0"></iframe>
-                  <p>Gameking27 - Hours: TBD</p>
-                  <p>Jifinga - Hours: TBD</p>
-                  <p>Thunder Pumpkin - Hours: TBD</p>
-                  <p>Slurgus - Hours: TBD</p>
-
                 <iframe class="image fit" src="http://store.steampowered.com/widget/578080/" scrolling="no"  width="646" height="190" frameborder="0"></iframe>
-                  <p>Gameking27 - Chicken Dinners: TBD</p>
-                  <p>Jifinga - Chicken Dinners: TBD</p>
-                  <p>Thunder Pumpkin - Chicken Dinners: TBD</p>
-                  <p>Slurgus - Chicken Dinners: TBD</p>
 					 </div>
 				</div>
-
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
@@ -113,9 +98,7 @@
 						<li><a href="javascript:history.go(-1)">Go Back</a></li>
 					</ul>
 				</footer>
-
 		</div>
-
 		<!-- Scripts -->
 			<script src="../home/assets/js/jquery.min.js"></script>
 			<script src="../home/assets/js/jquery.scrolly.min.js"></script>
