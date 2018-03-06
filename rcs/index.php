@@ -75,11 +75,9 @@
 							<h2>Rileigh Sayen</h2>
 							<h1>Welcome to my homepage</h1>
 						</header>
-
-						<!-- Content -->
-						<img class="image fit" id="image-1" src="../images/img1.png" alt="" />
-						<img class="image fit" id="image-2" src="../images/img2.png" alt="" />
 							<section id="content">
+								<img class="image fit" id="image-1" src="../images/img1.png" alt="" />
+								<img class="image fit" id="image-2" src="../images/img2.png" alt="" />
 								<h3>Defining Traits</h3>
 								<p>"I don't say things when I cheese" - Austin Leath 2018</p>
 							<!-- Skills -->
