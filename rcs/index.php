@@ -108,7 +108,6 @@
 									</ul>
 								</ul>
 							</section>
-							<a class="image fit"><img src="../images/MTN.jpg" alt="" /></a>
 					</div>
 				</div>
 
