@@ -93,7 +93,11 @@
 											</tr>
 											<tr>
 												<td>Mac Release</td>
-												<td><a class="button icon fa-download disabled" download>Download Unavailable</a></td>
+												<td><a class="button icon fa-download disabled" download>Unavailable</a></td>
+												<td>Version 1.0.0</td>
+											</tr>
+												<td>Linux Release</td>
+												<td><a class="button icon fa-download disabled" download>Unavailable</a></td>
 												<td>Version 1.0.0</td>
 											</tr>
 											<tr>
