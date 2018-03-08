@@ -2527,6 +2527,12 @@
 	height: 790px;
 }
 
+.misdvspaisd{
+	margin: auto;
+	width: 1280px;
+	height: 720px;
+}
+
 .btnalign {
 	display: block;
 	margin: 0 auto 1em;
@@ -2885,7 +2891,7 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				
+
 			}
 
 			input[type="submit"].special:active,
