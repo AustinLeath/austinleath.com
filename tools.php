@@ -96,10 +96,6 @@
 												<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/MacRelease/archive/master.zip" download>Download Project</a></td>
 												<td>Version 1.0.0</td>
 											</tr>
-												<td>Linux Release (Armv7l)</td>
-												<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/LinuxReleaseArmv7l/archive/master.zip" download>Unavailable</a></td>
-												<td>Version 1.0.0</td>
-											</tr>
 											<tr>
 												<td>Linux Release (x64)</td>
 												<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/LinuxRelease/archive/master.zip" download>Download Project</a></td>
