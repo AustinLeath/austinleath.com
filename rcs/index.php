@@ -76,8 +76,7 @@
 							<h1>Welcome to my homepage</h1>
 						</header>
 							<section id="content">
-								<img class="image fit" id="image-1" src="../images/rcs1.jpg" alt="" />
-								<img class="image fit" id="image-2" src="../images/rcs2.jpg" alt="" />
+								<img class="image fit" src="../images/rcs1.jpg" alt="" />
 								<h3>Defining Traits</h3>
 								<p>"I don't say things when I cheese" - Austin Leath 2018</p>
 							<!-- Skills -->
