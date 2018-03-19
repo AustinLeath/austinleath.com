@@ -70,9 +70,6 @@
 					<div class="container">
 						<header class="major">
 							<h2>Rainbow Six Siege | Ten Sins Gaming</h2>
-							<h5 id="cycletxt-1">The following page contains a compiled list of my skills and experiences</h5>
-							<h5 id="cycletxt-2">Welcome to my site</h5>
-							<h5 id="cycletxt-3">Use the menu at the top of the page to see my entire site</h5>
 						</header>
 										<!-- Content -->
 													<section id="content">
