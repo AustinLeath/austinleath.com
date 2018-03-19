@@ -124,7 +124,7 @@
 															</tfoot>
 														</table>
 													<!--Divider-->
-													<?php curl -X GET "https://r6db.com/api/v2/players?name=tsg.slurgus&platform=pc&exact=true" -H "accept: application/json" -H "x-app-id: 8aa3fe5f-5c23-42c7-bdd5-19498cf251a6";>
+													<?php curl -X GET "https://r6db.com/api/v2/players?name=tsg.slurgus&platform=pc&exact=true" -H "accept: application/json" -H "x-app-id: 8aa3fe5f-5c23-42c7-bdd5-19498cf251a6";?>
 								</section>
 					</div>
 					<iframe class="r6db" src="https://r6db.com/"></iframe>
