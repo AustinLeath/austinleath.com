@@ -583,11 +583,7 @@
 																													</g>
 																												</g>
 																												</svg>
--->
-
-
-
-
+																									-->
 														<h1>Management</h1>
 														<table>
 															<thead>
@@ -694,7 +690,6 @@
 					</div>
 			</div>
 			<iframe class="r6db" src="https://r6db.com/"></iframe>
-			<!--<iframe class="r6stats" src="https://game-rainbow6.ubi.com/en-us/home"></iframe>-->
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
