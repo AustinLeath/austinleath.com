@@ -684,7 +684,7 @@
 																</tr>
 															</tfoot>
 														</table>
-														<p><b>Start by typing a team members name starting with "TSG" or by typing a team members first name</b></p>
+														<p><b>Start by typing a Ten Sins members name starting with "TSG"<br>or by typing a team members First name.</b></p>
 														<form>
 															Team member name: <input type="text" onkeyup="showHint(this.value)">
 														</form>
