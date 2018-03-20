@@ -39,6 +39,7 @@ $a[] = "TSG.Struck";
 $a[] = "TSG.Phishz";
 $a[] = "TSG.Prince";
 $a[] = "TSG.Kazuhira";
+$a[] = "<a href="legal/mitlicense.php">TSG.Slurgus</a>";
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
