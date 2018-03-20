@@ -30,6 +30,16 @@
 //$a[] = "Ellen";
 //$a[] = "Wenche";
 //$a[] = "Vicky";
+$a[] = "Ben = TSG.Slurgus";
+$a[] = "Ben = TSG.Slurgus2.0";
+$a[] = "Austin = TSG.Lethal";
+$a[] = "Jake = TSG.Temp-0";
+$a[] = "Henry = TSG.Jiffy";
+$a[] = "Matthew = TSG.Struck";
+$a[] = "undefined = TSG.Phishz";
+$a[] = "Dalton = TSG.Prince";
+$a[] = "Brandon = TSG.Kazuhira";
+$a[] = "Ben = TSG.Slurgus;
 $a[] = "TSG.Slurgus";
 $a[] = "TSG.Slurgus2.0";
 $a[] = "TSG.Lethal";
@@ -39,7 +49,6 @@ $a[] = "TSG.Struck";
 $a[] = "TSG.Phishz";
 $a[] = "TSG.Prince";
 $a[] = "TSG.Kazuhira";
-$a[] = "<a href="legal/mitlicense.php">TSG.Slurgus</a>";
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
