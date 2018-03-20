@@ -612,10 +612,11 @@
 															</tfoot>
 														</table>
 													<!--DIVIDER-->
+													<h1>Seated Members</h1>
 														<table>
 															<thead>
 																<tr>
-																	<th>Ten Sins Gaming <b>Seated</b> Team Members</th>
+																	<th>Team Members</th>
 																	<th>Ingame Role</th>
 																	<th>R6DB Player Statistics</th>
 																</tr>
@@ -628,12 +629,12 @@
 																</tr>
 																<tr>
 																	<td>TSG.Temp-0</td>
-																	<td>Ingame Leader / Refragger</td>
+																	<td>IGL, Refragger</td>
 																	<td><a href="https://r6db.com/player/ca54e49a-76f2-4290-8e11-e36827caccb0" target="_blank">R6DB Statistics</a></td>
 																</tr>
 																<tr>
 																	<td>TSG.Jiffy</td>
-																	<td>Fragger / Support</td>
+																	<td>Fragger Support</td>
 																	<td><a href="https://r6db.com/player/f561393f-63bb-4332-b71b-cbb1665b46ed" target="_blank">R6DB Statistics</a></td>
 																</tr>
 																<tr>
@@ -655,10 +656,11 @@
 															</tfoot>
 														</table>
 													<!-- DIVIDER -->
+													<h1>Benched Members</h1>
 														<table>
 															<thead>
 																<tr>
-																	<th>Ten Sins Gaming <b>Benched</b> Team Members</th>
+																	<th>Team Members</th>
 																	<th>Ingame Role</th>
 																	<th>R6DB Player Statistics</th>
 																</tr>
@@ -666,8 +668,13 @@
 															<tbody>
 																<tr>
 																	<td>TSG.Kazuhira</td>
-																	<td>Fragger / Support</td>
+																	<td>Fragger, Support</td>
 																	<td><a href="https://r6db.com/player/840a9beb-4092-40ce-b22a-0284383e8dd5" target="_blank">R6DB Statistics</a></td>
+																</tr>
+																<tr>
+																	<td>TSG.Struck</td>
+																	<td>Fragger, Support</td>
+																	<td><a href="https://r6db.com/player/fa845839-343e-4c45-abed-979c3716a258" target="_blank">R6DB Statistics</a></td>
 																</tr>
 															</tbody>
 															<tfoot>
@@ -681,9 +688,9 @@
 								</section>
 					</div>
 					<iframe class="r6db" src="https://r6db.com/"></iframe>
-					<iframe class="r6stats" src="https://game-rainbow6.ubi.com/en-us/home"></iframe>
+					<!--<iframe class="r6stats" src="https://game-rainbow6.ubi.com/en-us/home"></iframe>-->
 
-				</div>
+			</div>
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
