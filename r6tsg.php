@@ -677,6 +677,8 @@
 																</tr>
 															</tfoot>
 														</table>
+														<p id="demo"></p>
+
 													<!--Divider-->
 								</section>
 					</div>
@@ -719,6 +721,20 @@
 			<script src="home/assets/js/cyclestyle.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="home/assets/js/main.js"></script>
+			<script>
+
+			var xmlhttp = new XMLHttpRequest();
+
+			xmlhttp.onreadystatechange = function() {
+					if (this.readyState == 4 && this.status == 200) {
+							var myObj = JSON.parse(this.responseText);
+							document.getElementById("demo").innerHTML = myObj[2];
+					}
+			};
+			xmlhttp.open("GET", "playerinfo.json", true);
+			xmlhttp.send();
+
+			</script>
 
 	</body>
 </html>
