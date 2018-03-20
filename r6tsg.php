@@ -69,7 +69,7 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>Rainbow Six Siege | Ten Sins Gaming</h2>
+							<h2>Rainbow Six Siege<br>Ten Sins Gaming</h2>
 						</header>
 						<a class="image fit"><img src="images/r6.jpg" alt="" /></a>
 										<!-- Content -->
