@@ -31,6 +31,14 @@
 //$a[] = "Wenche";
 //$a[] = "Vicky";
 $a[] = "TSG.Slurgus";
+$a[] = "TSG.Slurgus2.0";
+$a[] = "TSG.Lethal";
+$a[] = "TSG.Temp-0";
+$a[] = "TSG.Jiffy";
+$a[] = "TSG.Struck";
+$a[] = "TSG.Phishz";
+$a[] = "TSG.Prince";
+$a[] = "TSG.Kazuhira";
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
