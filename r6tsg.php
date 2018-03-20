@@ -689,14 +689,12 @@
 															Team member name: <input type="text" onkeyup="showHint(this.value)">
 														</form>
 														<p>History: <span id="txtHint"></span></p>
-
 													<!--Divider-->
 								</section>
 					</div>
-					<iframe class="r6db" src="https://r6db.com/"></iframe>
-					<!--<iframe class="r6stats" src="https://game-rainbow6.ubi.com/en-us/home"></iframe>-->
-
 			</div>
+			<iframe class="r6db" src="https://r6db.com/"></iframe>
+			<!--<iframe class="r6stats" src="https://game-rainbow6.ubi.com/en-us/home"></iframe>-->
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
