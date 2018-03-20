@@ -60,6 +60,6 @@ if ($q !== "") {
     }
 }
 
-// Output "no suggestion" if no hint was found or output correct values
-echo $hint === "" ? "no suggestion" : $hint;
+// Output "There is no history of this team member on record" if no hint was found or output correct values
+echo $hint === "" ? "There is no history of this team member on record" : $hint;
 ?>
