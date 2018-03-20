@@ -684,7 +684,11 @@
 																</tr>
 															</tfoot>
 														</table>
-														<p id="demo"></p>
+														<p><b>Start typing a name in the input field below:</b></p>
+														<form>
+															First name: <input type="text" onkeyup="showHint(this.value)">
+														</form>
+														<p>Suggestions: <span id="txtHint"></span></p>
 
 													<!--Divider-->
 								</section>
@@ -729,19 +733,21 @@
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="home/assets/js/main.js"></script>
 			<script>
-
-			var xmlhttp = new XMLHttpRequest();
-
-			xmlhttp.onreadystatechange = function() {
-					if (this.readyState == 4 && this.status == 200) {
-							var myObj = JSON.parse(this.responseText);
-							document.getElementById("demo").innerHTML = myObj[2];
-					}
-			};
-			xmlhttp.open("GET", "playerinfo.json", true);
-			xmlhttp.send();
-
+			function showHint(str) {
+			    if (str.length == 0) {
+			        document.getElementById("txtHint").innerHTML = "";
+			        return;
+			    } else {
+			        var xmlhttp = new XMLHttpRequest();
+			        xmlhttp.onreadystatechange = function() {
+			            if (this.readyState == 4 && this.status == 200) {
+			                document.getElementById("txtHint").innerHTML = this.responseText;
+			            }
+			        };
+			        xmlhttp.open("GET", "gethint.php?q=" + str, true);
+			        xmlhttp.send();
+			    }
+			}
 			</script>
-
 	</body>
 </html>
