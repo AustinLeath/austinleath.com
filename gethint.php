@@ -30,6 +30,7 @@ $a[] = "Elizabeth";
 $a[] = "Ellen";
 $a[] = "Wenche";
 $a[] = "Vicky";
+$a[] = "TSG.Slurgus <br><a href="https://r6db.com/player/8894b513-7067-473e-a001-e316104e32ea" target="_blank">R6DB Statistics</a>";
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
