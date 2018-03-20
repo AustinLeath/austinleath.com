@@ -48,7 +48,6 @@ $a[] = "TSG.Struck";
 $a[] = "TSG.Phishz";
 $a[] = "TSG.Prince";
 $a[] = "TSG.Kazuhira";
-$a[] = "<ahref="legal/mitlicense.php">MITLicense</a>";
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
