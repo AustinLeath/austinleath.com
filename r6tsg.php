@@ -603,8 +603,7 @@
 															</tbody>
 															<tfoot>
 																<tr>
-																	<td colspan="2"></td>
-																	<td>This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																	<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 																</tr>
 															</tfoot>
 														</table>
@@ -647,8 +646,7 @@
 															</tbody>
 															<tfoot>
 																<tr>
-																	<td colspan="2"></td>
-																	<td>This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																	<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 																</tr>
 															</tfoot>
 														</table>
@@ -676,16 +674,15 @@
 															</tbody>
 															<tfoot>
 																<tr>
-																	<td colspan="2"></td>
-																	<td>This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																	<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 																</tr>
 															</tfoot>
 														</table>
-														<p><b>Start by typing a Ten Sins members name starting with "TSG"<br>or by typing a team members First name.</b></p>
+														<p><b>Start by typing a Ten Sins members name starting with "TSG"<br>Or you can get started by typing a Ten Sins members First name.</b></p>
 														<form>
-															Team member name: <input type="text" onkeyup="showHint(this.value)">
+															Enter a Ten Sins member name or first name: <input type="text" onkeyup="showHint(this.value)">
 														</form>
-														<p>History: <span id="txtHint"></span></p>
+														<p>Stored member history: <span id="txtHint"></span></p>
 													<!--Divider-->
 								</section>
 					</div>
