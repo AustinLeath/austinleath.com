@@ -36,7 +36,7 @@ $a[] = "Austin=TSG.Lethal";
 $a[] = "Jake=TSG.Temp-0";
 $a[] = "Henry=TSG.Jiffy";
 $a[] = "Matthew=TSG.Struck";
-$a[] = "undefined=TSG.Phishz";
+$a[] = "Logan=TSG.Phishz";
 $a[] = "Dalton=TSG.Prince";
 $a[] = "Brandon=TSG.Kazuhira";
 $a[] = "TSG.Slurgus";
