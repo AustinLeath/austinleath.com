@@ -737,7 +737,7 @@
 																					<option value="$PlatinumIII">Platinum III</option>
 																					<option value="$PlatinumII">Platinum II</option>
 																					<option value="$PlatinumI">Platinum I</option>
-																					<option value="$Diamond">Diamond</option>
+																					<option value="$diamond">Diamond</option>
 																				</select>
 																			</div>
 																		</div>
@@ -780,7 +780,7 @@
 										$PlatinumIII = 3299;
 										$PlatinumII = 3699;
 										$PlatinumI = 4099;
-										$Diamond = 4499;
+										$diamond = 4499;
 										print_r $_POST["rankfinal"];
 										?>
 					</div>
