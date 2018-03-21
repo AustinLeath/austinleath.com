@@ -687,7 +687,7 @@
 								</section>
 								<section id="formdata">
 																<h3>MMR Calculator</h3>
-																<form method="post" action="/home/assets/php/mmrcalculator.php">
+																<form method="post" action="">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
 																			<input type="text" name="name" id="name" value="" placeholder="MMR">
