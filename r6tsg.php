@@ -690,10 +690,10 @@
 																<form method="post" action="">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
-																			<input type="text" name="MMR" id="name" value="" placeholder="Enter your current MMR">
+																			<input type="text" name="MMR" id="MMR" value="" placeholder="Enter your current MMR">
 																		</div>
 																		<div class="6u$ 12u$(xsmall)">
-																			<input type="text" name="ELO" id="MMR" value="" placeholder="Enter your current ELO per match">
+																			<input type="text" name="ELO" id="ELO" value="" placeholder="Enter your current ELO per match">
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
@@ -749,10 +749,11 @@
 																		</div>
 																	</div>
 															</form>
-															Your current rank is: <?php echo $_POST["rank"]; ?>!<br>
-															Your current ELO per match is: <?php echo $_POST["email"]; ?><br>
+															Your current MMR per match is: <?php echo $_POST["MMR"]; ?><br>
+															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
 
-															The number of matches you need to win to get to <?php echo $_POST["rankfinal"]; ?> is: <?php echo $_POST["description"]; ?><br>
+															Your current rank is: <?php echo $_POST["rank"]; ?><br>
+															The number of matches you need to win to get to <?php echo $_POST["rankfinal"]; ?> is: <?php echo $_POST["rankfinal"]; ?><br>
 								</section>
 					</div>
 			</div>
