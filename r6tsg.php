@@ -781,7 +781,7 @@
 															$PlatinumI = 4099;
 															$Diamond = 4499;
 
-															echo $_POST["rankfinal"];
+															echo $_POST;
 
 															?>
 
