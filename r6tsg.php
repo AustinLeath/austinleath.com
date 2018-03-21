@@ -753,7 +753,7 @@
 															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
 
 															Your current rank is: <?php echo $_POST["rank"]; ?><br>
-															The number of matches you need to win to get to <?php echo $_POST["rankfinal"]; ?> is: <?php echo $_POST["rankfinal"]; ?><br>
+															The number of matches you need to win to get to  is:<br>
 
 
 
@@ -781,7 +781,7 @@
 															$PlatinumI = 4099;
 															$Diamond = 4499;
 
-															print_r($_POST['rankfinal']);
+															echo $_POST["rankfinal"];
 
 															?>
 
