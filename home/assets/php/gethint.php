@@ -1,14 +1,14 @@
 <?php
 // Array with names
 $a[] = "Ben ---> TSG.Slurgus";
-$a[] = "Ben=TSG.Slurgus2.0";
-$a[] = "Austin=TSG.Lethal";
-$a[] = "Jake=TSG.Temp-0";
-$a[] = "Henry=TSG.Jiffy";
-$a[] = "Matthew=TSG.Struck";
-$a[] = "Logan=TSG.Phishz";
-$a[] = "Dalton=TSG.Prince";
-$a[] = "Brandon=TSG.Kazuhira";
+$a[] = "Ben ---> TSG.Slurgus2.0";
+$a[] = "Austin ---> TSG.Lethal";
+$a[] = "Jake ---> TSG.Temp-0";
+$a[] = "Henry ---> TSG.Jiffy";
+$a[] = "Matthew ---> TSG.Struck";
+$a[] = "Logan ---> TSG.Phishz";
+$a[] = "Dalton ---> TSG.Prince";
+$a[] = "Brandon ---> TSG.Kazuhira";
 $a[] = "TSG.Slurgus";
 $a[] = "TSG.Slurgus2.0";
 $a[] = "TSG.Lethal";
