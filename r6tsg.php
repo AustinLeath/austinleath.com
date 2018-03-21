@@ -690,14 +690,14 @@
 																<form method="post" action="">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
-																			<input type="text" name="name" id="name" value="" placeholder="Enter your current ELO per match">
+																			<input type="text" name="MMR" id="name" value="" placeholder="Enter your current MMR">
 																		</div>
 																		<div class="6u$ 12u$(xsmall)">
-																			<input type="text" name="ELO" id="ELO" value="" placeholder="Enter your current ELO per match">
+																			<input type="text" name="ELO" id="MMR" value="" placeholder="Enter your current ELO per match">
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
-																				<select name="category" id="category">
+																				<select name="rank" id="rank">
 																					<option value="No Rank Selected">- Rank -</option>
 																					<option value="$BronzeIV">Bronze IV</option>
 																					<option value="$BronzeIII">Bronze III</option>
@@ -719,7 +719,27 @@
 																			</div>
 																		</div>
 																		<div class="12u$">
-																			<textarea name="description" id="message" placeholder="Enter your profile description" rows="6"></textarea>
+																			<div class="select-wrapper">
+																				<select name="rankfinal" id="rankfinal">
+																					<option value="$NoRankSelected">- Rank You Want -</option>
+																					<option value="$BronzeIV">Bronze IV</option>
+																					<option value="$BronzeIII">Bronze III</option>
+																					<option value="$BronzeII">Bronze II</option>
+																					<option value="$BronzeI">Bronze I</option>
+																					<option value="$SilverIV">Silver IV</option>
+																					<option value="$SilverIII">Silver III</option>
+																					<option value="$SilverII">Silver II</option>
+																					<option value="$SilverI">Silver I</option>
+																					<option value="$GoldIV">Gold IV</option>
+																					<option value="$GoldIII">Gold III</option>
+																					<option value="$GoldII">Gold II</option>
+																					<option value="$GoldI">Gold I</option>
+																					<option value="$PlatinumIII">Platinum III</option>
+																					<option value="$PlatinumII">Platinum II</option>
+																					<option value="$PlatinumI">Platinum I</option>
+																					<option value="$Diamond">Diamond</option>
+																				</select>
+																			</div>
 																		</div>
 																		<div class="12u$">
 																			<ul class="actions">
@@ -729,12 +749,10 @@
 																		</div>
 																	</div>
 															</form>
+															Your current rank is: <?php echo $_POST["rank"]; ?>!<br>
+															Your current ELO per match is: <?php echo $_POST["email"]; ?><br>
 
-
-															Your Current MMR is <?php echo $_POST["category"]; ?>!<br>
-															Your email address is: <?php echo $_POST["email"]; ?><br>
-															Your category of study is: <?php echo $_POST["category"]; ?><br>
-															Your profile description is: <?php echo $_POST["description"]; ?><br>
+															The number of matches you need to win to get to <?php echo $_POST["rankfinal"]; ?> is: <?php echo $_POST["description"]; ?><br>
 								</section>
 					</div>
 			</div>
