@@ -1,11 +1,17 @@
 <?php
 // Array with names
-$a[] = "Ben Pearson ---> TSG.Slurgus";
+$a[] = "Ben ---> TSG.Slurgus";
+$a[] = "Pearson ---> TSG.Slurgus";
 $a[] = "Ben ---> TSG.Slurgus2.0";
+$a[] = "Pearson ---> TSG.Slurgus2.0";
 $a[] = "Austin ---> TSG.Lethal";
+$a[] = "Leath ---> TSG.Lethal";
 $a[] = "Jake ---> TSG.Temp-0";
+$a[] = "Martin ---> TSG.Temp-0";
 $a[] = "Henry ---> TSG.Jiffy";
+$a[] = "Jardine ---> TSG.Jiffy";
 $a[] = "Matthew ---> TSG.Struck";
+$a[] = "Osten ---> TSG.Struck";
 $a[] = "Logan ---> TSG.Phishz";
 $a[] = "Dalton ---> TSG.Prince";
 $a[] = "Brandon ---> TSG.Kazuhira";
