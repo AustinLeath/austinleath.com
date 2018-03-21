@@ -697,7 +697,7 @@
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
-																				<select name="rank" id="rank">
+																				<select name="rank" id="disabled">
 																					<option value="No rank was selected">- Rank -</option>
 																					<option value="Bronze IV">Bronze IV</option>
 																					<option value="Bronze III">Bronze III</option>
