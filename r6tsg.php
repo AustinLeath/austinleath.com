@@ -695,7 +695,7 @@
 																		<div class="6u$ 12u$(xsmall)">
 																			<input type="number" name="ELO" class="disabled" id="ELO" value="" placeholder="Enter your current ELO per match (whole numbers only)">
 																		</div>
-																		<div class="12u$">
+																		<div class="12u$ disabled">
 																			<div class="select-wrapper">
 																				<select name="rank" class="disabled" id="disabled">
 																					<option value="No rank was selected">- Rank -</option>
