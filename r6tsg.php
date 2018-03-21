@@ -685,6 +685,51 @@
 														<p>Stored member history: <span id="txtHint"></span></p>
 													<!--Divider-->
 								</section>
+								<section id="formdata">
+																<h3>Form</h3>
+																<form method="get" action="/home/assets/php/mmrcalculator.php">
+																	<div class="row uniform 50%">
+																		<div class="6u 12u$(xsmall)">
+																			<input type="text" name="name" id="name" value="" placeholder="Name">
+																		</div>
+																		<div class="6u$ 12u$(xsmall)">
+																			<input type="email" name="email" id="email" value="" placeholder="Email">
+																		</div>
+																		<div class="12u$">
+																			<div class="select-wrapper">
+																				<select name="category" id="category">
+																					<option value="No Category Selected">- Category -</option>
+																					<option value="$BronzeIV">BronzeIV</option>
+																					<option value="$BronzeIII">BronzeIII</option>
+																					<option value="$BronzeII">BronzeII</option>
+																					<option value="$BronzeI">BronzeI</option>
+																					<option value="$SilverIV">SilverIV</option>
+																					<option value="$SilverIII">SilverIII</option>
+																					<option value="$SilverII">SilverII</option>
+																					<option value="$SilverI">SilverI</option>
+																					<option value="$GoldIV">GoldIV</option>
+																					<option value="$GoldIII">GoldIII</option>
+																					<option value="$GoldII">GoldII</option>
+																					<option value="$GoldI">GoldI</option>
+																					<option value="$PlatinumIII">PlatinumIII</option>
+																					<option value="$PlatinumII">PlatinumII</option>
+																					<option value="$PlatinumI">PlatinumI</option>
+																					<option value="$Diamond">Diamond</option>
+																				</select>
+																			</div>
+																		</div>
+																		<div class="12u$">
+																			<textarea name="description" id="message" placeholder="Enter your profile description" rows="6"></textarea>
+																		</div>
+																		<div class="12u$">
+																			<ul class="actions">
+																				<li><input type="submit" value="Submit" class="special"></li>
+																				<li><input type="reset" value="Reset"></li>
+																			</ul>
+																		</div>
+																	</div>
+															</form>
+								</section>
 					</div>
 			</div>
 			<iframe class="r6db" src="https://r6db.com/"></iframe>
