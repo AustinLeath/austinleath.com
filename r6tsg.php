@@ -744,7 +744,7 @@
 																		<div class="12u$">
 																			<ul class="actions">
 																				<li><input type="submit" value="Submit" class="special"></li>
-																				<li><input type="reset" value="Reset"></li>
+																				<li><input type="reset" class="disabled" value="Reset"></li>
 																			</ul>
 																		</div>
 																	</div>
