@@ -686,18 +686,18 @@
 													<!--Divider-->
 								</section>
 								<section id="formdata">
-																<h3>MMR Calculator</h3>
+																<h3>MMR Calculator (coming soon)</h3>
 																<form method="post" action="">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
-																			<input type="number" name="MMR" id="MMR" value="" placeholder="Enter your current MMR (whole numbers only)">
+																			<input type="number" name="MMR" class="disabled" id="MMR" value="" placeholder="Enter your current MMR (whole numbers only)">
 																		</div>
 																		<div class="6u$ 12u$(xsmall)">
-																			<input type="number" name="ELO" id="ELO" value="" placeholder="Enter your current ELO per match (whole numbers only)">
+																			<input type="number" name="ELO" class="disabled" id="ELO" value="" placeholder="Enter your current ELO per match (whole numbers only)">
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
-																				<select name="rank" id="disabled">
+																				<select name="rank" class="disabled" id="disabled">
 																					<option value="No rank was selected">- Rank -</option>
 																					<option value="Bronze IV">Bronze IV</option>
 																					<option value="Bronze III">Bronze III</option>
@@ -720,7 +720,7 @@
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
-																				<select name="rankfinal" id="rankfinal">
+																				<select name="rankfinal" class="disabled" id="rankfinal">
 																					<option value="$NoRankSelected">- Rank You Want -</option>
 																					<option value="$BronzeIV">Bronze IV</option>
 																					<option value="$BronzeIII">Bronze III</option>
@@ -743,7 +743,7 @@
 																		</div>
 																		<div class="12u$">
 																			<ul class="actions">
-																				<li><input type="submit" value="Submit" class="special"></li>
+																				<li><input type="submit" class="disabled" value="Submit" class="special"></li>
 																				<li><input type="reset" class="disabled" value="Reset"></li>
 																			</ul>
 																		</div>
