@@ -1,26 +1,23 @@
 <?php
 // Array with names
-$set = 18;
-
-
-$a[] = "zeit $set";
-
-
-$a[] = "Ben ---> TSG.Slurgus";
+$a[] = "Ben Pearson ---> TSG.Slurgus";
 $a[] = "Pearson ---> TSG.Slurgus";
-$a[] = "Ben ---> TSG.Slurgus2.0";
+$a[] = "Ben Pearson ---> TSG.Slurgus2.0";
 $a[] = "Pearson ---> TSG.Slurgus2.0";
-$a[] = "Austin ---> TSG.Lethal";
+$a[] = "Austin Leath ---> TSG.Lethal";
 $a[] = "Leath ---> TSG.Lethal";
-$a[] = "Jake ---> TSG.Temp-0";
+$a[] = "Jake Martin ---> TSG.Temp-0";
 $a[] = "Martin ---> TSG.Temp-0";
-$a[] = "Henry ---> TSG.Jiffy";
+$a[] = "Henry Jardine ---> TSG.Jiffy";
 $a[] = "Jardine ---> TSG.Jiffy";
-$a[] = "Matthew ---> TSG.Struck";
+$a[] = "Matthew Osten ---> TSG.Struck";
 $a[] = "Osten ---> TSG.Struck";
 $a[] = "Logan ---> TSG.Phishz";
-$a[] = "Dalton ---> TSG.Prince";
-$a[] = "Brandon ---> TSG.Kazuhira";
+
+$a[] = "Dalton Cady ---> TSG.Prince";
+$a[] = "Cady ---> TSG.Prince";
+$a[] = "Brandon Gonzalez ---> TSG.Kazuhira";
+$a[] = "Gonzalez ---> TSG.Kazuhira";
 $a[] = "TSG.Slurgus";
 $a[] = "TSG.Slurgus2.0";
 $a[] = "TSG.Lethal";
