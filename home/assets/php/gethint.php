@@ -1,5 +1,11 @@
 <?php
 // Array with names
+$set = 18;
+
+
+$a[] = $set;
+
+
 $a[] = "Ben ---> TSG.Slurgus";
 $a[] = "Pearson ---> TSG.Slurgus";
 $a[] = "Ben ---> TSG.Slurgus2.0";
