@@ -3,7 +3,7 @@
 $set = 18;
 
 
-$a[] = $set;
+$a[] = "$set";
 
 
 $a[] = "Ben ---> TSG.Slurgus";
