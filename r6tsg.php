@@ -753,7 +753,7 @@
 															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
 
 															Your current rank is: <?php echo $_POST["rank"]; ?><br>
-															The number of matches you need to win to get to <?php echo $_POST["rankfinal"]; ?> is: <?php echo $_POST["ELO" / 5]; ?><br>
+															The number of matches you need to win to get to <?php echo $_POST["rankfinal"]; ?> is: <?php echo $_POST["ELO /5"]; ?><br>
 
 
 								</section>
