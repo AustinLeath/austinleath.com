@@ -690,31 +690,31 @@
 																<form method="post" action="">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
-																			<input type="number" name="MMR" id="MMR" value="" placeholder="Enter your current MMR">
+																			<input type="number" name="MMR" id="MMR" value="" placeholder="Enter your current MMR (whole numbers only)">
 																		</div>
 																		<div class="6u$ 12u$(xsmall)">
-																			<input type="number" name="ELO" id="ELO" value="" placeholder="Enter your current ELO per match">
+																			<input type="number" name="ELO" id="ELO" value="" placeholder="Enter your current ELO per match (whole numbers only)">
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
 																				<select name="rank" id="rank">
-																					<option value="No Rank Selected">- Rank -</option>
-																					<option value="$BronzeIV">Bronze IV</option>
-																					<option value="$BronzeIII">Bronze III</option>
-																					<option value="$BronzeII">Bronze II</option>
-																					<option value="$BronzeI">Bronze I</option>
-																					<option value="$SilverIV">Silver IV</option>
-																					<option value="$SilverIII">Silver III</option>
-																					<option value="$SilverII">Silver II</option>
-																					<option value="$SilverI">Silver I</option>
-																					<option value="$GoldIV">Gold IV</option>
-																					<option value="$GoldIII">Gold III</option>
-																					<option value="$GoldII">Gold II</option>
-																					<option value="$GoldI">Gold I</option>
-																					<option value="$PlatinumIII">Platinum III</option>
-																					<option value="$PlatinumII">Platinum II</option>
-																					<option value="$PlatinumI">Platinum I</option>
-																					<option value="$Diamond">Diamond</option>
+																					<option value="No rank was selected">- Rank -</option>
+																					<option value="Bronze IV">Bronze IV</option>
+																					<option value="Bronze III">Bronze III</option>
+																					<option value="Bronze II">Bronze II</option>
+																					<option value="Bronze I">Bronze I</option>
+																					<option value="Silver IV">Silver IV</option>
+																					<option value="Silver III">Silver III</option>
+																					<option value="Silver II">Silver II</option>
+																					<option value="Silver I">Silver I</option>
+																					<option value="Gold IV">Gold IV</option>
+																					<option value="Gold III">Gold III</option>
+																					<option value="Gold II">Gold II</option>
+																					<option value="Gold I">Gold I</option>
+																					<option value="Platinum III">Platinum III</option>
+																					<option value="Platinum II">Platinum II</option>
+																					<option value="Platinum I">Platinum I</option>
+																					<option value="Diamond">Diamond</option>
 																				</select>
 																			</div>
 																		</div>
