@@ -690,15 +690,15 @@
 																<form method="post" action="">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
-																			<input type="text" name="name" id="name" value="" placeholder="MMR">
+																			<input type="text" name="name" id="name" value="" placeholder="Enter your current ELO per match">
 																		</div>
 																		<div class="6u$ 12u$(xsmall)">
-																			<input type="email" name="email" id="email" value="" placeholder="Email">
+																			<input type="text" name="ELO" id="ELO" value="" placeholder="Enter your current ELO per match">
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
 																				<select name="category" id="category">
-																					<option value="No Category Selected">- Category -</option>
+																					<option value="No Rank Selected">- Rank -</option>
 																					<option value="$BronzeIV">Bronze IV</option>
 																					<option value="$BronzeIII">Bronze III</option>
 																					<option value="$BronzeII">Bronze II</option>
