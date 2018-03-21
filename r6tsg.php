@@ -781,7 +781,7 @@
 															$PlatinumI = 4099;
 															$Diamond = 4499;
 
-															Your current MMR per match is: echo $_POST["MMR"];
+															echo $_POST["MMR"];
 
 
 															?>
