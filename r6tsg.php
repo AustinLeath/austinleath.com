@@ -699,21 +699,21 @@
 																			<div class="select-wrapper">
 																				<select name="category" id="category">
 																					<option value="No Category Selected">- Category -</option>
-																					<option value="$BronzeIV">BronzeIV</option>
-																					<option value="$BronzeIII">BronzeIII</option>
-																					<option value="$BronzeII">BronzeII</option>
-																					<option value="$BronzeI">BronzeI</option>
-																					<option value="$SilverIV">SilverIV</option>
-																					<option value="$SilverIII">SilverIII</option>
-																					<option value="$SilverII">SilverII</option>
-																					<option value="$SilverI">SilverI</option>
-																					<option value="$GoldIV">GoldIV</option>
-																					<option value="$GoldIII">GoldIII</option>
-																					<option value="$GoldII">GoldII</option>
-																					<option value="$GoldI">GoldI</option>
-																					<option value="$PlatinumIII">PlatinumIII</option>
-																					<option value="$PlatinumII">PlatinumII</option>
-																					<option value="$PlatinumI">PlatinumI</option>
+																					<option value="$BronzeIV">Bronze IV</option>
+																					<option value="$BronzeIII">Bronze III</option>
+																					<option value="$BronzeII">Bronze II</option>
+																					<option value="$BronzeI">Bronze I</option>
+																					<option value="$SilverIV">Silver IV</option>
+																					<option value="$SilverIII">Silver III</option>
+																					<option value="$SilverII">Silver II</option>
+																					<option value="$SilverI">Silver I</option>
+																					<option value="$GoldIV">Gold IV</option>
+																					<option value="$GoldIII">Gold III</option>
+																					<option value="$GoldII">Gold II</option>
+																					<option value="$GoldI">Gold I</option>
+																					<option value="$PlatinumIII">Platinum III</option>
+																					<option value="$PlatinumII">Platinum II</option>
+																					<option value="$PlatinumI">Platinum I</option>
 																					<option value="$Diamond">Diamond</option>
 																				</select>
 																			</div>
