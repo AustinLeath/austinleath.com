@@ -1,6 +1,6 @@
 <?php
 // Array with names
-$a[] = "Ben Pearson ---> TSG.Slurgus" (<a href="https://r6db.com/player/8894b513-7067-473e-a001-e316104e32ea" target="_blank">R6DB Statistics</a>);
+$a[] = "Ben Pearson ---> TSG.Slurgus ('<a href="https://r6db.com/player/8894b513-7067-473e-a001-e316104e32ea" target="_blank">R6DB Statistics</a>)'";
 $a[] = "Pearson ---> TSG.Slurgus";
 $a[] = "Ben Pearson ---> TSG.Slurgus2.0";
 $a[] = "Pearson ---> TSG.Slurgus2.0";
