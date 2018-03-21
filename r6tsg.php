@@ -686,11 +686,11 @@
 													<!--Divider-->
 								</section>
 								<section id="formdata">
-																<h3>Form</h3>
-																<form method="get" action="/home/assets/php/mmrcalculator.php">
+																<h3>MMR Calculator</h3>
+																<form method="post" action="/home/assets/php/mmrcalculator.php">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
-																			<input type="text" name="name" id="name" value="" placeholder="Name">
+																			<input type="text" name="name" id="name" value="" placeholder="MMR">
 																		</div>
 																		<div class="6u$ 12u$(xsmall)">
 																			<input type="email" name="email" id="email" value="" placeholder="Email">
@@ -729,6 +729,12 @@
 																		</div>
 																	</div>
 															</form>
+
+
+															Your Current MMR is <?php echo $_POST["category"]; ?>!<br>
+															Your email address is: <?php echo $_POST["email"]; ?><br>
+															Your category of study is: <?php echo $_POST["category"]; ?><br>
+															Your profile description is: <?php echo $_POST["description"]; ?><br>
 								</section>
 					</div>
 			</div>
