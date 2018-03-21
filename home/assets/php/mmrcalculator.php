@@ -1,4 +1,6 @@
 <?php
+$elo = $a;
+
 $CopperIV = 1299;
 $CopperIII = 1399;
 $CopperII = 1499;
