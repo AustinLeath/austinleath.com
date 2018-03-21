@@ -1,6 +1,5 @@
 <?php
 $NoRankSelected = 0;
-
 $CopperIV = 1299;
 $CopperIII = 1399;
 $CopperII = 1499;
@@ -10,7 +9,7 @@ $BronzeIII = 1799;
 $BronzeII = 1899;
 $BronzeI = 1999;
 $SilverIV = 2099;
-$SliverIII = 2199;
+$SilverIII = 2199;
 $SilverII = 2299
 $SilverI = 2399;
 $GoldIV = 2499;
