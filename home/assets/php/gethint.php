@@ -1,6 +1,6 @@
 <?php
 // Array with names
-$a[] = "Ben--->TSG.Slurgus";
+$a[] = "Ben ---> TSG.Slurgus";
 $a[] = "Ben=TSG.Slurgus2.0";
 $a[] = "Austin=TSG.Lethal";
 $a[] = "Jake=TSG.Temp-0";
