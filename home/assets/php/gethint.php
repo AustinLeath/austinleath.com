@@ -13,12 +13,12 @@ $a[] = "Jardine ---> TSG.Jiffy";
 $a[] = "Matthew Osten ---> TSG.Struck";
 $a[] = "Osten ---> TSG.Struck";
 $a[] = "Logan ---> TSG.Phishz";
-$a[] = "---> TSG.Plux";
-
+$a[] = "Carr ---> TSG.Plux";
 $a[] = "Dalton Cady ---> TSG.Prince";
 $a[] = "Cady ---> TSG.Prince";
 $a[] = "Brandon Gonzalez ---> TSG.Kazuhira";
 $a[] = "Gonzalez ---> TSG.Kazuhira";
+
 $a[] = "TSG.Slurgus";
 $a[] = "TSG.Slurgus2.0";
 $a[] = "TSG.Lethal";
