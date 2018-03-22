@@ -20,7 +20,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="">R6 | TSG</a></h1>
+					<h1 id="logo"><a href="">R6S | TSG</a></h1>
 					<nav id="nav">
 						<ul>
 							<li>
@@ -698,7 +698,7 @@
 																		<div class="12u$">
 																			<div class="select-wrapper">
 																				<select name="rankfinal" id="rankfinal">
-																					<option value="0">- Rank You Want -</option>
+																					<option value="0">- Select a Rank -</option>
 																					<option value="1299">Copper IV</option>
 																					<option value="1399">Copper III</option>
 																					<option value="1499">Copper II</option>
@@ -733,8 +733,6 @@
 															Your current MMR is: <?php echo $_POST["MMR"]; ?><br>
 															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
 															You need to win <?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"]; echo ($a - $b) / $c;?> games to reach your rank goal<br>
-
-
 								</section>
 					</div>
 			</div>
