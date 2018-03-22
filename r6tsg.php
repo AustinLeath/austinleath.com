@@ -248,9 +248,9 @@
 															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"];
 																$d = $a - $b / $c;
 																if ($d > "0") {
-																    echo "win";
-																} else {
 																    echo "lose";
+																} else {
+																    echo "win";
 																}
 															?>
 															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"];  $c = $_POST["ELO"]; $d = ($a - $b) / $c; echo $d ;?> (&plusmn; 0.5) games to reach your rank goal<br>
