@@ -246,11 +246,11 @@
 															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
 															You need to
 															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"];
-																$d = $a - $b / $c;
+																$d = ($a - $b) / $c;
 																if ($d > "0") {
-																    echo "lose";
-																} else {
 																    echo "win";
+																} else {
+																    echo "lose";
 																}
 															?>
 															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"];  $c = $_POST["ELO"]; $d = ($a - $b) / $c; echo $d ;?> (&plusmn; 0.5) games to reach your rank goal<br>
