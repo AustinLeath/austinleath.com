@@ -722,26 +722,26 @@
 																			<div class="select-wrapper">
 																				<select name="rankfinal" id="rankfinal">
 																					<option value="0">- Rank You Want -</option>
-																					<option value="1299">Bronze IV</option>
-																					<option value="1399">Bronze III</option>
-																					<option value="1499">Bronze II</option>
-																					<option value="1599">Bronze I</option>
-																					<option value="1699">Silver IV</option>
-																					<option value="1799">Silver III</option>
-																					<option value="1899">Silver II</option>
-																					<option value="1999">Silver I</option>
-																					<option value="2099">Gold IV</option>
-																					<option value="2199">Gold III</option>
-																					<option value="2299">Gold II</option>
-																					<option value="2399">Gold I</option>
-																					<option value="2499">Platinum III</option>
-																					<option value="2699">Platinum II</option>
-																					<option value="2899">Platinum I</option>
-																					<option value="3099">Diamond</option>
-																					<option value="3299">Silver IV</option>
-																					<option value="3699">Silver III</option>
-																					<option value="4099">Silver II</option>
-																					<option value="4499">Silver I</option>
+																					<option value="1299">Copper IV</option>
+																					<option value="1399">Copper III</option>
+																					<option value="1499">Copper II</option>
+																					<option value="1599">Copper I</option>
+																					<option value="1699">Bronze IV</option>
+																					<option value="1799">Bronze III</option>
+																					<option value="1899">Bronze II</option>
+																					<option value="1999">Bronze I</option>
+																					<option value="2099">Silver IV</option>
+																					<option value="2199">Silver III</option>
+																					<option value="2299">Silver II</option>
+																					<option value="2399">Silver I</option>
+																					<option value="2499">Gold IV</option>
+																					<option value="2699">Gold III</option>
+																					<option value="2899">Gold II</option>
+																					<option value="3099">Gold I</option>
+																					<option value="3299">Platinum III</option>
+																					<option value="3699">Platinum II</option>
+																					<option value="4099">Platinum I</option>
+																					<option value="4499">Diamond</option>
 																				</select>
 																			</div>
 																		</div>
