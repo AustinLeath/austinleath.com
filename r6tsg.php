@@ -732,7 +732,7 @@
 															</form>
 															Your current MMR is: <?php echo $_POST["MMR"]; ?><br>
 															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
-															The number of matches you need to win to get to <?php echo $_POST["rankfinal"]; ?> is: <?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"]; echo ($a - $b) / $c;?><br>
+															You need to win <?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"]; echo ($a - $b) / $c;?> games to reach your rank goal<br>
 
 
 								</section>
