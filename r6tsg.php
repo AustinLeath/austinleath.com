@@ -697,29 +697,6 @@
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
-																				<select name="rank" id="rank">
-																					<option value="No rank was selected">- Rank -</option>
-																					<option value="Bronze IV">Bronze IV</option>
-																					<option value="Bronze III">Bronze III</option>
-																					<option value="Bronze II">Bronze II</option>
-																					<option value="Bronze I">Bronze I</option>
-																					<option value="Silver IV">Silver IV</option>
-																					<option value="Silver III">Silver III</option>
-																					<option value="Silver II">Silver II</option>
-																					<option value="Silver I">Silver I</option>
-																					<option value="Gold IV">Gold IV</option>
-																					<option value="Gold III">Gold III</option>
-																					<option value="Gold II">Gold II</option>
-																					<option value="Gold I">Gold I</option>
-																					<option value="Platinum III">Platinum III</option>
-																					<option value="Platinum II">Platinum II</option>
-																					<option value="Platinum I">Platinum I</option>
-																					<option value="Diamond">Diamond</option>
-																				</select>
-																			</div>
-																		</div>
-																		<div class="12u$">
-																			<div class="select-wrapper">
 																				<select name="rankfinal" id="rankfinal">
 																					<option value="0">- Rank You Want -</option>
 																					<option value="1299">Copper IV</option>
@@ -755,8 +732,6 @@
 															</form>
 															Your current MMR is: <?php echo $_POST["MMR"]; ?><br>
 															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
-
-															Your current rank is: <?php echo $_POST["rank"]; ?><br>
 															The number of matches you need to win to get to <?php echo $_POST["rankfinal"]; ?> is: <?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"]; echo ($a - $b) / $c;?><br>
 
 
