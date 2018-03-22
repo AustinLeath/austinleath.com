@@ -261,27 +261,25 @@
 															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"];  $c = $_POST["ELO"]; $d = ($a - $b) / $c; echo ceil($d) ;?> (&plusmn; 1) games to reach your rank goal<br>
 								</section>
 						 </div>
-					<iframe class="r6db" src="https://r6db.com/"></iframe>
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://twitter.com/austinzleath" target="_blank" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/AustinZacharyLeath" target="_blank" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://www.linkedin.com/in/austin-leath-30a39a106/" target="_blank" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://www.instagram.com/austin_leath/" target="_blank" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://github.com/AustinLeath/main" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="mailto:austinleath18@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; austinleath.com - All rights reserved. Lethal Game Studios&trade;</li>
-						<li><a href="legal/apachelicense.php" /a>Apache License</li>
-						<li><a href="legal/mitlicense.php" /a>MIT License</li>
-						<li><a href="javascript:history.go(-1)">Go Back</a></li>
-					</ul>
-				</footer>
-		</div>
+				</div>
+				<iframe class="r6db" src="https://r6db.com/"></iframe>
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://twitter.com/austinzleath" target="_blank" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/AustinZacharyLeath" target="_blank" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.linkedin.com/in/austin-leath-30a39a106/" target="_blank" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://www.instagram.com/austin_leath/" target="_blank" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/AustinLeath/main" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="mailto:austinleath18@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; austinleath.com - All rights reserved. Lethal Game Studios&trade;</li>
+					<li><a href="legal/apachelicense.php" /a>Apache License</li>
+					<li><a href="legal/mitlicense.php" /a>MIT License</li>
+					<li><a href="javascript:history.go(-1)">Go Back</a></li>
+				</ul>
+			</footer>
 	</div>
-
 		<!-- Scripts -->
 		  <script src="home/assets/js/time.js"></script>
 			<script src="home/assets/js/jquery.min.js"></script>
