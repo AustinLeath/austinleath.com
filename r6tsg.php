@@ -180,7 +180,7 @@
 																<tbody>
 																	<tr>
 																		<td>TSG.Plux</td>
-																		<td>undefined</td>
+																		<td>Roamer</td>
 																		<td><a href="https://r6db.com/player/b5c7a154-8bf7-4791-9080-c8d75478ff7a" target="_blank">R6DB Statistics</a></td>
 																	</tr>
 																</tbody>

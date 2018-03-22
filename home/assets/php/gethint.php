@@ -1,5 +1,6 @@
 <?php
 // Array with names
+// First and last names as well as just last names
 $a[] = "Ben Pearson ---> TSG.Slurgus";
 $a[] = "Pearson ---> TSG.Slurgus";
 $a[] = "Ben Pearson ---> TSG.Slurgus2.0";
@@ -12,13 +13,15 @@ $a[] = "Henry Jardine ---> TSG.Jiffy";
 $a[] = "Jardine ---> TSG.Jiffy";
 $a[] = "Matthew Osten ---> TSG.Struck";
 $a[] = "Osten ---> TSG.Struck";
-$a[] = "Logan ---> TSG.Phishz";
-$a[] = "Carr ---> TSG.Plux";
+$a[] = "Logan Romich ---> TSG.Phishz";
+$a[] = "Romich ---> TSG.Phishz";
+$a[] = "Carr Brennan---> TSG.Plux";
+$a[] = "Brennan---> TSG.Plux";
 $a[] = "Dalton Cady ---> TSG.Prince";
 $a[] = "Cady ---> TSG.Prince";
 $a[] = "Brandon Gonzalez ---> TSG.Kazuhira";
 $a[] = "Gonzalez ---> TSG.Kazuhira";
-
+//usernames
 $a[] = "TSG.Slurgus";
 $a[] = "TSG.Slurgus2.0";
 $a[] = "TSG.Lethal";
