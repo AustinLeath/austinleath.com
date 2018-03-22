@@ -244,7 +244,7 @@
 															</form>
 															Your current MMR is: <?php echo $_POST["MMR"]; ?><br>
 															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
-															You need to <?php if (($a - $b) / $c) < 0) { echo "win" ;} if (($a - $b) / $c) > 0){ echo "lose" ;};?> <?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"]; echo ($a - $b) / $c;?> (&plusmn; 0.5) games to reach your rank goal<br>
+															You need to <?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"];   if (($a - $b / $c < 0) { echo "win" ;} if (($a - $b / $c > 0) { echo "lose" ;} echo ($a - $b) / $c; ?> (&plusmn; 0.5) games to reach your rank goal<br>
 								</section>
 					</div>
 			</div>
