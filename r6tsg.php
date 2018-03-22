@@ -690,14 +690,14 @@
 																<form method="post" action="">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
-																			<input type="number" name="MMR" class="disabled" id="MMR" value="" placeholder="Enter your current MMR (whole numbers only)">
+																			<input type="number" name="MMR" id="MMR" value="" placeholder="Enter your current MMR (whole numbers only)">
 																		</div>
 																		<div class="6u$ 12u$(xsmall)">
-																			<input type="number" name="ELO" class="disabled" id="ELO" value="" placeholder="Enter your current ELO per match (whole numbers only)">
+																			<input type="number" name="ELO" id="ELO" value="" placeholder="Enter your current ELO per match (whole numbers only)">
 																		</div>
-																		<div class="12u$ disabled">
+																		<div class="12u$">
 																			<div class="select-wrapper">
-																				<select name="rank" class="disabled" id="disabled">
+																				<select name="rank" id="rank">
 																					<option value="No rank was selected">- Rank -</option>
 																					<option value="Bronze IV">Bronze IV</option>
 																					<option value="Bronze III">Bronze III</option>
@@ -720,31 +720,35 @@
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
-																				<select name="rankfinal" class="disabled" id="rankfinal">
-																					<option value="$NoRankSelected">- Rank You Want -</option>
-																					<option value="$BronzeIV">Bronze IV</option>
-																					<option value="$BronzeIII">Bronze III</option>
-																					<option value="$BronzeII">Bronze II</option>
-																					<option value="$BronzeI">Bronze I</option>
-																					<option value="$SilverIV">Silver IV</option>
-																					<option value="$SilverIII">Silver III</option>
-																					<option value="$SilverII">Silver II</option>
-																					<option value="$SilverI">Silver I</option>
-																					<option value="$GoldIV">Gold IV</option>
-																					<option value="$GoldIII">Gold III</option>
-																					<option value="$GoldII">Gold II</option>
-																					<option value="$GoldI">Gold I</option>
-																					<option value="$PlatinumIII">Platinum III</option>
-																					<option value="$PlatinumII">Platinum II</option>
-																					<option value="$PlatinumI">Platinum I</option>
-																					<option value="$diamond">Diamond</option>
+																				<select name="rankfinal" id="rankfinal">
+																					<option value="0">- Rank You Want -</option>
+																					<option value="1299">Bronze IV</option>
+																					<option value="1399">Bronze III</option>
+																					<option value="1499">Bronze II</option>
+																					<option value="1599">Bronze I</option>
+																					<option value="1699">Silver IV</option>
+																					<option value="1799">Silver III</option>
+																					<option value="1899">Silver II</option>
+																					<option value="1999">Silver I</option>
+																					<option value="2099">Gold IV</option>
+																					<option value="2199">Gold III</option>
+																					<option value="2299">Gold II</option>
+																					<option value="2399">Gold I</option>
+																					<option value="2499">Platinum III</option>
+																					<option value="2699">Platinum II</option>
+																					<option value="2899">Platinum I</option>
+																					<option value="3099">Diamond</option>
+																					<option value="3299">Silver IV</option>
+																					<option value="3699">Silver III</option>
+																					<option value="4099">Silver II</option>
+																					<option value="4499">Silver I</option>
 																				</select>
 																			</div>
 																		</div>
 																		<div class="12u$">
 																			<ul class="actions">
-																				<li><input type="submit" class="disabled" value="Submit" class="special"></li>
-																				<li><input type="reset" class="disabled" value="Reset"></li>
+																				<li><input type="submit" value="Submit" class="special"></li>
+																				<li><input type="reset" value="Reset"></li>
 																			</ul>
 																		</div>
 																	</div>
@@ -753,7 +757,7 @@
 															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
 
 															Your current rank is: <?php echo $_POST["rank"]; ?><br>
-															The number of matches you need to win to get to <?php $Diamond = 4499; echo $_POST["rankfinal"]; ?> is: <?php $b = 3; echo $_POST["ELO"] / $b; ?><br>
+															The number of matches you need to win to get to <?php echo $_POST["rankfinal"]; ?> is: <?php echo $_POST["ELO"]; ?><br>
 
 
 								</section>
