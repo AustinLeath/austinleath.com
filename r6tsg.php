@@ -168,7 +168,7 @@
 															</tfoot>
 														</table>
 														<!--DIVIDER-->
-														<h1>Benched Members</h1>
+														<h1>Rotation Members</h1>
 															<table>
 																<thead>
 																	<tr>
@@ -196,8 +196,8 @@
 														</form>
 														<p>Stored member history: <span id="txtHint"></span></p>
 													<!--Divider-->
-								</section>
-								<section id="formdata">
+														</section>
+															<section id="formdata">
 																<h3>MMR Calculator</h3>
 																<form method="post" action="">
 																	<div class="row uniform 50%">
