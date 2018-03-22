@@ -13,6 +13,7 @@ $a[] = "Jardine ---> TSG.Jiffy";
 $a[] = "Matthew Osten ---> TSG.Struck";
 $a[] = "Osten ---> TSG.Struck";
 $a[] = "Logan ---> TSG.Phishz";
+$a[] = "---> TSG.Plux";
 
 $a[] = "Dalton Cady ---> TSG.Prince";
 $a[] = "Cady ---> TSG.Prince";
@@ -27,6 +28,7 @@ $a[] = "TSG.Struck";
 $a[] = "TSG.Phishz";
 $a[] = "TSG.Prince";
 $a[] = "TSG.Kazuhira";
+$a[] = "TSG.Plux";
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
