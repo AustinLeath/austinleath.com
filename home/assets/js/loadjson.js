@@ -1,8 +1,8 @@
 $(function() {
-  var platform = [];
+  var id = [];
   $.getJSON('tsg_lethal.json', function(data) {
-    $.each(data.platform, function(i, f) {
-      var para = f.platform
+    $.each(data.id, function(i, f) {
+      var para = f.id
       $(para).appendTo("#userdata p");
     });
   });
