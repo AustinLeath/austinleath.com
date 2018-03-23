@@ -1,8 +1,8 @@
 $(function() {
-  var placements = [];
+  var aliases = [];
   $.getJSON('tsg_tempo.json', function(data) {
-    $.each(data.placements, function(i, f) {
-      var tblRow = "<tr>" + "<td>" + f.global + "</td>" + "<td>" + f.casual + "</td>" + "</tr>"
+    $.each(data.aliases, function(i, f) {
+      var tblRow = "<tr>" + "<td>" + f.name + "</td>" + "<td>" + f.created_at + "</td>" + "</tr>"
       $(tblRow).appendTo("#userdata tbody");
     });
   });

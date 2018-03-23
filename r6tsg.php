@@ -259,11 +259,11 @@
 																}
 															?>
 															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"];  $c = $_POST["ELO"]; $d = ($a - $b) / $c; echo ceil($d) ;?> (&plusmn; 1) games to reach your rank goal<br>
-															<h1>Benched Members</h1>
+															<h1>Team Member Statistics (updated every 10 mins)</h1>
 																<table id="userdata">
 																	<thead>
 																		<tr>
-																			<th>Rank in America for TSG.Temp-o</th>
+																			<th>Rank in America for TSG.Lethal</th>
 																		</tr>
 																	</thead>
 																	<tbody>
