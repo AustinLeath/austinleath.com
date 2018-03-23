@@ -1,9 +1,9 @@
 $(function() {
-  var lastPlayed = [];
-  $.getJSON('tsg_lethal.json', function(data) {
-    $.each(data.lastPlayed, function(i, f) {
-      var divider = "<p>" + f.casual + "</p>"
-      $(divider).appendTo("#userdata div");
+  var placements = [];
+  $.getJSON('tsg_tempo.json', function(data) {
+    $.each(data.placements, function(i, f) {
+      var tblRow = "<p>" + f.ncsa + "</p>"
+      $(tblRow).appendTo("#userdata p");
     });
   });
 });
