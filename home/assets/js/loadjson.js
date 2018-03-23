@@ -1,13 +1,12 @@
 $(function() {
-  var placement = [];
+  var placements = [];
   $.getJSON('tsg_tempo.json', function(data) {
-    $.each(data.placement, function(i, f) {
-      var tblRow = "<tr>" + "<td>" + f.global + "</td>" + "</tr>"
+    $.each(data.placements, function(i, f) {
+      var tblRow = "<tr>" + "<td>" + f.global + "</td>" + "<td>" + f.global + "</td>" + "</tr>"
       $(tblRow).appendTo("#userdata tbody");
     });
   });
 });
-
 
 //sort of works
 
@@ -20,8 +19,6 @@ $(function() {
 //    });
 //  });
 //});
-
-
 
 //just incase
 //$(function() {
