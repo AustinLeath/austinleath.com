@@ -1,7 +1,7 @@
 $(function() {
-  var placements = [];
+  var placement = [];
   $.getJSON('tsg_tempo.json', function(data) {
-    $.each(data.placements, function(i, f) {
+    $.each(data.placement, function(i, f) {
       var tblRow = "<tr>" + "<td>" + f.global + "</td>" + "</tr>"
       $(tblRow).appendTo("#userdata tbody");
     });
