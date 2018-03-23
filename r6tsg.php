@@ -261,15 +261,7 @@
 															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"];  $c = $_POST["ELO"]; $d = ($a - $b) / $c; echo ceil($d) ;?> (&plusmn; 1) games to reach your rank goal<br>
 								</section>
 						 </div>
-					  <div id="userdata">
-					 <p></p>
-					 <p></p>
-					 <p></p>
-					 <p></p>
-					 <p></p>
-					 <p></p>
-					 <p></p>
-					 
+					  <div id="userdata"> 
 					</div>
 				</div>
 				<iframe class="r6db" src="https://r6db.com/"></iframe>
