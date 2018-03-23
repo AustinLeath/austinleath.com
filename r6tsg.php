@@ -259,10 +259,23 @@
 																}
 															?>
 															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"];  $c = $_POST["ELO"]; $d = ($a - $b) / $c; echo ceil($d) ;?> (&plusmn; 1) games to reach your rank goal<br>
+															<h1>Benched Members</h1>
+																<table id="userdata">
+																	<thead>
+																		<tr>
+																			<th>Rank in America for TSG.Temp-o</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																	</tbody>
+																	<tfoot>
+																		<tr>
+																			<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																		</tr>
+																	</tfoot>
+																</table>
 								</section>
 						 </div>
-					  <div id="userdata"> 
-					</div>
 				</div>
 				<iframe class="r6db" src="https://r6db.com/"></iframe>
 			<footer id="footer">
