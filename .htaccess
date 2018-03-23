@@ -20,7 +20,7 @@ Deny from all
 
 # protect the loadjson.js file
 
-<Files /home/assets/js/loadjson.js>
+<Files home/assets/js/loadjson.js>
 Order Allow,Deny
 Deny from all
 </Files>
