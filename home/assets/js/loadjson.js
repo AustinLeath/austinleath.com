@@ -2,7 +2,7 @@ $(function() {
   var placements = [];
   $.getJSON('tsg_tempo.json', function(data) {
     $.each(data.placements, function(i, f) {
-      var tblRow = "<tr>" + "<td>" + f.casual + "</td>" + "</tr>"
+      var tblRow = "<tr>" + "<td>" + f.global + "</td>" + "</tr>"
       $(tblRow).appendTo("#userdata tbody");
     });
   });
