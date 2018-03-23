@@ -263,7 +263,7 @@
 																<table id="userdata">
 																	<thead>
 																		<tr>
-																			<th>Rank in America for TSG.Lethal</th>
+																			<th>Past Usernames</th>
 																		</tr>
 																	</thead>
 																	<tbody>
