@@ -173,7 +173,7 @@
 															</tfoot>
 														</table>
 													<h1>Benched Members</h1>
-														<table id="userdata">
+														<table>
 															<thead>
 																<tr>
 																	<th>Team Members</th>
