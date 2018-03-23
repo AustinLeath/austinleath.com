@@ -109,7 +109,7 @@
 															<tbody>
 																<tr>
 																	<td>TSG.Slurgus</td>
-																	<td>Entry Fragger</td>
+																	<td>Entry Fragger, Support</td>
 																	<td><a href="https://r6db.com/player/8894b513-7067-473e-a001-e316104e32ea" target="_blank">R6DB Statistics</a></td>
 																</tr>
 																<tr>
@@ -200,6 +200,7 @@
 															Enter a Ten Sins member name or first name: <input type="text" onkeyup="showHint(this.value)">
 														</form>
 														<p>Stored member history: <span id="txtHint"></span></p>
+														<p id="userdata"></p>
 													<!--Divider-->
 														</section>
 															<section id="formdata">
@@ -225,7 +226,7 @@
 																					<option value="1899">Bronze II</option>
 																					<option value="1999">Bronze I</option>
 																					<option value="2099">Silver IV</option>
-																					<option value="2199">Silver III</option>
+																			 		<option value="2199">Silver III</option>
 																					<option value="2299">Silver II</option>
 																					<option value="2399">Silver I</option>
 																					<option value="2499">Gold IV</option>
@@ -310,5 +311,6 @@
 			    }
 			}
 		</script>
+		<script src="home/assets/js/loadjson.js"></script>
 	</body>
 </html>
