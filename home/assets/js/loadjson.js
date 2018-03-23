@@ -1,8 +1,8 @@
 $(function() {
-  var id = [];
+  var lastPlayed = [];
   $.getJSON('tsg_lethal.json', function(data) {
-    $.each(data.id, function(i, f) {
-      var paragraph = f.id
+    $.each(data.lastPlayed, function(i, f) {
+      var paragraph = f.casual
       $(paragraph).appendTo("#userdata p");
     });
   });
