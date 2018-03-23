@@ -18,6 +18,13 @@ Order Allow,Deny
 Deny from all
 </Files>
 
+# protect the loadjson.js file
+
+<Files /home/assets/loadjson.js>
+Order Allow,Deny
+Deny from all
+</Files>
+
 # protect the README.md file
 
 <Files README.md>
