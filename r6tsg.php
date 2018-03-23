@@ -173,7 +173,7 @@
 															</tfoot>
 														</table>
 													<h1>Benched Members</h1>
-														<table>
+														<table id="userdata">
 															<thead>
 																<tr>
 																	<th>Team Members</th>
@@ -200,7 +200,6 @@
 															Enter a Ten Sins member name or first name: <input type="text" onkeyup="showHint(this.value)">
 														</form>
 														<p>Stored member history: <span id="txtHint"></span></p>
-														<p id="userdata"></p>
 													<!--Divider-->
 														</section>
 															<section id="formdata">
@@ -262,6 +261,9 @@
 															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"];  $c = $_POST["ELO"]; $d = ($a - $b) / $c; echo ceil($d) ;?> (&plusmn; 1) games to reach your rank goal<br>
 								</section>
 						 </div>
+					  <div id="userdata">
+					 <p></p>
+					</div>
 				</div>
 				<iframe class="r6db" src="https://r6db.com/"></iframe>
 			<footer id="footer">
