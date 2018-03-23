@@ -2,7 +2,7 @@ $(function() {
   var id = [];
   $.getJSON('tsg_lethal.json', function(data) {
     $.each(data.id, function(i, f) {
-      var para = f.id
+      var para = "<p>" + f.id + "</p>"
       $(para).appendTo("#userdata p");
     });
   });
