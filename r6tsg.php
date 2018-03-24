@@ -278,7 +278,9 @@
 															$b = $_POST["MMR"];
 															$c = $_POST["ELO"];
 															$d = ($a - $b) / $c;
-															if ($d > "1") {
+															$e = ceil($d);
+															$f = abs($e);
+															if ($f > "1") {
 																 echo "matches";
 															} else {
 																 echo "match";
