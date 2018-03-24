@@ -254,8 +254,7 @@
 																$d = ($a - $b) / $c;
 																if ($d > "0") {
 																		echo "win";
-																}
-																else ($d < "0") {
+																} else {
 																		echo "lose";
 																}
 															?>
