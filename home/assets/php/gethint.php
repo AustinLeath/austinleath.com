@@ -31,7 +31,7 @@ $a[] = "TSG.Struck";
 $a[] = "TSG.Phishz";
 $a[] = "TSG.Prince";
 $a[] = "TSG.Kazuhira";
-$a[] = "TSG.Plux";
+$a[] = "TSG.Pluxt";
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
