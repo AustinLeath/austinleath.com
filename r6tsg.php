@@ -256,11 +256,11 @@
 															$d = ($a - $b) / $c;
 
 															if ($d > "0") {
-																 echo "You need to win";
+																 echo "You need to <b>win</b>";
 															} elseif ($d < "0") {
-																 echo "You need to lose";
+																 echo "You need to <b>lose</b>";
 															} else {
-																 echo "you dont need to win or lose";
+																 echo "You <b>dont</b> need to win or lose";
 															}
 															?>
 
@@ -285,24 +285,7 @@
 															} else {
 																 echo "match";
 															}
-
 															?> to reach your rank goal<br>
-
-															<h1>Team Member Statistics (updated every 10 mins)</h1>
-																<table id="userdata">
-																	<thead>
-																		<tr>
-																			<th>Past Usernames for TSG.Lethal</th>
-																		</tr>
-																	</thead>
-																	<tbody>
-																	</tbody>
-																	<tfoot>
-																		<tr>
-																			<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
-																		</tr>
-																	</tfoot>
-																</table>
 								</section>
 						 </div>
 				</div>
