@@ -264,16 +264,26 @@
 															}
 															?>
 
-															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"];  $c = $_POST["ELO"]; $d = ($a - $b) / $c; echo ceil($d) ;?> (&plusmn; 1) games to reach your rank goal<br>
+															<?php
+															$a = $_POST["rankfinal"];
+															$b = $_POST["MMR"];
+															$c = $_POST["ELO"];
+															$d = ($a - $b) / $c;
+															echo ceil($d);
+															?> (&plusmn; 1)
 
-														<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"];
-																$d = ($a - $b) / $c;
-																if ($d > "0") {
-																		echo "win";
-																} else {
-																		echo "lose";
-																}
-															?>
+															<?php
+															$a = $_POST["rankfinal"];
+															$b = $_POST["MMR"];
+															$c = $_POST["ELO"];
+															$d = ($a - $b) / $c;
+															if ($d > "1") {
+																 echo "matches";
+															} else {
+																 echo "match";
+															}
+
+															?> to reach your rank goal<br>
 
 															<h1>Team Member Statistics (updated every 10 mins)</h1>
 																<table id="userdata">
