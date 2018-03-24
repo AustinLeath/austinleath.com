@@ -109,7 +109,7 @@
 															<tbody>
 																<tr>
 																	<td>TSG.Slurgus</td>
-																	<td>Entry Fragger, Support</td>
+																	<td>Entry Fragger</td>
 																	<td><a href="https://r6db.com/player/8894b513-7067-473e-a001-e316104e32ea" target="_blank">R6DB Statistics</a></td>
 																</tr>
 																<tr>
@@ -128,9 +128,9 @@
 																	<td><a href="https://r6db.com/player/17541266-d840-4044-aa46-8f1e3edc7c5e" target="_blank">R6DB Statistics</a></td>
 																</tr>
 																<tr>
-																	<td>TSG.Plux</td>
+																	<td>TSG.Pluxt</td>
 																	<td>Roamer</td>
-																	<td><a href="https://r6db.com/player/b5c7a154-8bf7-4791-9080-c8d75478ff7a" target="_blank">R6DB Statistics</a></td>
+																	<td><a href="https://r6db.com/player/ef1ed143-4db1-44b0-b0cd-796cf52dddbe" target="_blank">R6DB Statistics</a></td>
 																</tr>
 															</tbody>
 															<tfoot>
@@ -263,7 +263,7 @@
 																<table id="userdata">
 																	<thead>
 																		<tr>
-																			<th>Past Usernames</th>
+																			<th>Past Usernames for TSG.Lethal</th>
 																		</tr>
 																	</thead>
 																	<tbody>
