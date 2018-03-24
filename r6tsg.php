@@ -249,23 +249,29 @@
 															</form>
 															Your current MMR is: <?php echo $_POST["MMR"]; ?><br>
 															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
-															You need to
-															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"];
+															<?php
+															$a = $_POST["rankfinal"];
+															$b = $_POST["MMR"];
+															$c = $_POST["ELO"];
+															$d = ($a - $b) / $c;
+
+															if ($d > "0") {
+																 echo "You need to win";
+															} elseif ($d < "0") {
+																 echo "You need to lose";
+															} else {
+																 echo "you dont need to win or lose";
+															}
+															?>
+
+															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"];  $c = $_POST["ELO"]; $d = ($a - $b) / $c; echo ceil($d) ;?> (&plusmn; 1) games to reach your rank goal<br>
+
+														<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"];
 																$d = ($a - $b) / $c;
 																if ($d > "0") {
 																		echo "win";
 																} else {
 																		echo "lose";
-																}
-															?>
-															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"];  $c = $_POST["ELO"]; $d = ($a - $b) / $c; echo ceil($d) ;?> (&plusmn; 1) games to reach your rank goal<br>
-
-
-
-
-															<?php $a = $_POST["rankfinal"];
-																if ($a = "0") {
-																		echo "you dont need to win or lose a game to acheieve that goal";
 																}
 															?>
 
