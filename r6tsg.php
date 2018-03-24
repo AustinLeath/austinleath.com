@@ -250,8 +250,8 @@
 															Your current MMR is: <?php echo $_POST["MMR"]; ?><br>
 															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
 															You need to
-															<?php $a = $_POST["rankfinal"];
-																if ($a = "0") {
+															<?php $a = $_POST["rankfinal"]; $b = 0;
+																if ($a == $b) {
 																    echo "you dont need to win or lose a game to acheieve that goal";
 																}
 															?>
