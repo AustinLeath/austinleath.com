@@ -269,7 +269,8 @@
 															$b = $_POST["MMR"];
 															$c = $_POST["ELO"];
 															$d = ($a - $b) / $c;
-															echo abs($d);
+															$e = ceil($d);
+															echo abs($e);
 															?> (&plusmn; 1)
 
 															<?php
