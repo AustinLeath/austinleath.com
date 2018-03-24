@@ -203,7 +203,7 @@
 													<!--Divider-->
 														</section>
 															<section id="formdata">
-																<h3>Rainbow Six Siege / MMR Calculator</h3>
+																<h3>Rainbow Six Siege | MMR Calculator</h3>
 																<form method="post" action="">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
