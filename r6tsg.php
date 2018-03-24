@@ -127,11 +127,6 @@
 																	<td>Entry Fragger</td>
 																	<td><a href="https://r6db.com/player/17541266-d840-4044-aa46-8f1e3edc7c5e" target="_blank">R6DB Statistics</a></td>
 																</tr>
-																<tr>
-																	<td>TSG.Pluxt</td>
-																	<td>Roamer</td>
-																	<td><a href="https://r6db.com/player/ef1ed143-4db1-44b0-b0cd-796cf52dddbe" target="_blank">R6DB Statistics</a></td>
-																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
@@ -164,6 +159,11 @@
 																	<td>TSG.Lethal</td>
 																	<td>Manager, Lurker</td>
 																	<td><a href="https://r6db.com/player/767374e1-b218-42ff-98c6-3f78553db5e9" target="_blank">R6DB Statistics</a></td>
+																</tr>
+																<tr>
+																	<td>TSG.Pluxt</td>
+																	<td>Roamer</td>
+																	<td><a href="https://r6db.com/player/ef1ed143-4db1-44b0-b0cd-796cf52dddbe" target="_blank">R6DB Statistics</a></td>
 																</tr>
 															</tbody>
 															<tfoot>
@@ -216,26 +216,26 @@
 																			<div class="select-wrapper">
 																				<select name="rankfinal" id="rankfinal">
 																					<option value="0">- Select a Rank -</option>
-																					<option value="1299">Copper IV</option>
-																					<option value="1399">Copper III</option>
-																					<option value="1499">Copper II</option>
-																					<option value="1599">Copper I</option>
-																					<option value="1699">Bronze IV</option>
-																					<option value="1799">Bronze III</option>
-																					<option value="1899">Bronze II</option>
-																					<option value="1999">Bronze I</option>
-																					<option value="2099">Silver IV</option>
-																			 		<option value="2199">Silver III</option>
-																					<option value="2299">Silver II</option>
-																					<option value="2399">Silver I</option>
-																					<option value="2499">Gold IV</option>
-																					<option value="2699">Gold III</option>
-																					<option value="2899">Gold II</option>
-																					<option value="3099">Gold I</option>
-																					<option value="3299">Platinum III</option>
-																					<option value="3699">Platinum II</option>
-																					<option value="4099">Platinum I</option>
-																					<option value="4499">Diamond</option>
+																					<option value="1300">Copper IV</option>
+																					<option value="1400">Copper III</option>
+																					<option value="1500">Copper II</option>
+																					<option value="1600">Copper I</option>
+																					<option value="1700">Bronze IV</option>
+																					<option value="1800">Bronze III</option>
+																					<option value="1900">Bronze II</option>
+																					<option value="2000">Bronze I</option>
+																					<option value="2100">Silver IV</option>
+																			 		<option value="2200">Silver III</option>
+																					<option value="2300">Silver II</option>
+																					<option value="2400">Silver I</option>
+																					<option value="2500">Gold IV</option>
+																					<option value="2700">Gold III</option>
+																					<option value="2900">Gold II</option>
+																					<option value="3100">Gold I</option>
+																					<option value="3300">Platinum III</option>
+																					<option value="3700">Platinum II</option>
+																					<option value="4100">Platinum I</option>
+																					<option value="4500">Diamond</option>
 																				</select>
 																			</div>
 																		</div>
@@ -250,12 +250,9 @@
 															Your current MMR is: <?php echo $_POST["MMR"]; ?><br>
 															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
 															You need to
-															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"]; $c = $_POST["ELO"];
-																$d = ($a - $b) / $c;
-																if ($d > "0") {
-																    echo "win";
-																} else {
-																    echo "lose";
+															<?php $a = $_POST["rankfinal"];
+																if ($a = "0") {
+																    echo "you dont need to win or lose a game to acheieve that goal";
 																}
 															?>
 															<?php $a = $_POST["rankfinal"]; $b = $_POST["MMR"];  $c = $_POST["ELO"]; $d = ($a - $b) / $c; echo ceil($d) ;?> (&plusmn; 1) games to reach your rank goal<br>
