@@ -157,6 +157,7 @@
 																 echo "match";
 															}
 															?> to reach your rank goal<br>
+														</div>
 								</section>
 						 </div>
 				</div>
@@ -188,6 +189,7 @@
 			<script src="home/assets/js/cycletxt.js"></script>
 			<script src="home/assets/js/normalizestyle.js"></script>
 			<script src="home/assets/js/cyclestyle.js"></script>
+			<script src="home/assets/js/showanswer.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="home/assets/js/main.js"></script>
 			<script>
