@@ -207,10 +207,10 @@
 																<form method="post" action="">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
-																			<input type="number" name="MMR" id="MMR" value="" placeholder="Enter your current MMR (whole numbers only)">
+																			<input type="number" name="MMR" id="MMR" value="" placeholder="Enter your current MMR">
 																		</div>
 																		<div class="6u$ 12u$(xsmall)">
-																			<input type="number" name="ELO" id="ELO" value="" placeholder="Enter your current ELO per match (whole numbers only)">
+																			<input type="number" name="ELO" id="ELO" value="" placeholder="Enter your current ELO per match">
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
