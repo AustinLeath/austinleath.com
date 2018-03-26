@@ -247,8 +247,7 @@
 																		</div>
 																	</div>
 															</form>
-															Your current MMR is: <?php echo $_POST["MMR"]; ?><br>
-															Your current ELO per match is: <?php echo $_POST["ELO"]; ?><br>
+															Since your MMR is: <?php echo $_POST["MMR"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO"]; ?><br>
 															<?php
 															$a = $_POST["rankfinal"];
 															$b = $_POST["MMR"];
