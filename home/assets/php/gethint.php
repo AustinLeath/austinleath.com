@@ -22,8 +22,8 @@ $a[] = 'Cady ---> TSG.Prince <a href="https://www.google.com"></a>';
 $a[] = 'Brandon Gonzalez ---> TSG.Kazuhira <a href="https://www.google.com"></a>';
 $a[] = 'Gonzalez ---> TSG.Kazuhira <a href="https://www.google.com"></a>';
 //usernames
-$a[] = 'TSG.Slurgus <a href="https://www.google.com"></a>';
-$a[] = 'TSG.Slurgus2.0 <a href="https://www.google.com"></a>';
+$a[] = 'TSG.Slurgus <a href="www.google.com"></a>';
+$a[] = 'TSG.Slurgus2.0 <a href="www.google.com"></a>';
 $a[] = 'TSG.Lethal <a href="https://www.google.com"></a>';
 $a[] = 'TSG.Temp-0 <a href="https://www.google.com"></a>';
 $a[] = 'TSG.Jiffy <a href="https://www.google.com"></a>';
