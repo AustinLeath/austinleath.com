@@ -22,7 +22,7 @@ $a[] = "Cady ---> TSG.Prince";
 $a[] = "Brandon Gonzalez ---> TSG.Kazuhira";
 $a[] = "Gonzalez ---> TSG.Kazuhira";
 //usernames
-$a[] = "TSG.Slurgus" + "<a href=www.google.com>" + "TEST" + "</a>";
+$a[] = '<p>test</p>';
 $a[] = "TSG.Slurgus2.0";
 $a[] = "TSG.Lethal";
 $a[] = "TSG.Temp-0";
