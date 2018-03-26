@@ -1,37 +1,37 @@
 <?php
 // Array with names
 // First and last names as well as just last names
-$a[] = 'Ben Pearson ---> TSG.Slurgus <a href="www.google.com"></a>';
-$a[] = 'Pearson ---> TSG.Slurgus <a href="www.google.com"></a>';
-$a[] = 'Ben Pearson ---> TSG.Slurgus2.0 <a href="www.google.com"></a>';
-$a[] = 'Pearson ---> TSG.Slurgus2.0 <a href="www.google.com"></a>';
-$a[] = 'Austin Leath ---> TSG.Lethal <a href="www.google.com"></a>';
-$a[] = 'Leath ---> TSG.Lethal <a href="www.google.com"></a>';
-$a[] = 'Jake Martin ---> TSG.Temp-0 <a href="www.google.com"></a>';
-$a[] = 'Martin ---> TSG.Temp-0 <a href="www.google.com"></a>';
-$a[] = 'Henry Jardine ---> TSG.Jiffy <a href="www.google.com"></a>';
-$a[] = 'Jardine ---> TSG.Jiffy <a href="www.google.com"></a>';
-$a[] = 'Matthew Osten ---> TSG.Struck <a href="www.google.com"></a>';
-$a[] = 'Osten ---> TSG.Struck <a href="www.google.com"></a>';
-$a[] = 'Logan Romich ---> TSG.Phishz <a href="www.google.com"></a>';
-$a[] = 'Romich ---> TSG.Phishz <a href="www.google.com"></a>';
-$a[] = 'Brennan Carr ---> TSG.Pluxt <a href="www.google.com"></a>';
-$a[] = 'Carr ---> TSG.Pluxt <a href="www.google.com"></a>';
-$a[] = 'Dalton Cady ---> TSG.Prince <a href="www.google.com"></a>';
-$a[] = 'Cady ---> TSG.Prince <a href="www.google.com"></a>';
-$a[] = 'Brandon Gonzalez ---> TSG.Kazuhira <a href="www.google.com"></a>';
-$a[] = 'Gonzalez ---> TSG.Kazuhira <a href="www.google.com"></a>';
+$a[] = "Ben Pearson ---> TSG.Slurgus";
+$a[] = "Pearson ---> TSG.Slurgus";
+$a[] = "Ben Pearson ---> TSG.Slurgus2.0";
+$a[] = "Pearson ---> TSG.Slurgus2.0";
+$a[] = "Austin Leath ---> TSG.Lethal";
+$a[] = "Leath ---> TSG.Lethal";
+$a[] = "Jake Martin ---> TSG.Temp-0";
+$a[] = "Martin ---> TSG.Temp-0";
+$a[] = "Henry Jardine ---> TSG.Jiffy";
+$a[] = "Jardine ---> TSG.Jiffy";
+$a[] = "Matthew Osten ---> TSG.Struck";
+$a[] = "Osten ---> TSG.Struck";
+$a[] = "Logan Romich ---> TSG.Phishz";
+$a[] = "Romich ---> TSG.Phishz";
+$a[] = "Brennan Carr ---> TSG.Pluxt";
+$a[] = "Carr ---> TSG.Pluxt";
+$a[] = "Dalton Cady ---> TSG.Prince";
+$a[] = "Cady ---> TSG.Prince";
+$a[] = "Brandon Gonzalez ---> TSG.Kazuhira";
+$a[] = "Gonzalez ---> TSG.Kazuhira";
 //usernames
-$a[] = 'TSG.Slurgus <a href="www.google.com"></a>';
-$a[] = 'TSG.Slurgus2.0 <a href="www.google.com"></a>';
-$a[] = 'TSG.Lethal <a href="www.google.com"></a>';
-$a[] = 'TSG.Temp-0 <a href="www.google.com"></a>';
-$a[] = 'TSG.Jiffy <a href="www.google.com"></a>';
-$a[] = 'TSG.Struck <a href="www.google.com"></a>';
-$a[] = 'TSG.Phishz <a href="www.google.com"></a>';
-$a[] = 'TSG.Prince <a href="www.google.com"></a>';
-$a[] = 'TSG.Kazuhira <a href="www.google.com"></a>';
-$a[] = 'TSG.Pluxt <a href="www.google.com"></a>';
+$a[] = 'TSG.Test <a href="www.google.com"></a>';
+$a[] = "TSG.Slurgus2.0";
+$a[] = "TSG.Lethal";
+$a[] = "TSG.Temp-0";
+$a[] = "TSG.Jiffy";
+$a[] = "TSG.Struck";
+$a[] = "TSG.Phishz";
+$a[] = "TSG.Prince";
+$a[] = "TSG.Kazuhira";
+$a[] = "TSG.Pluxt";
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
