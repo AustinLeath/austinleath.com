@@ -15,14 +15,14 @@ $a[] = "Matthew Osten ---> TSG.Struck";
 $a[] = "Osten ---> TSG.Struck";
 $a[] = "Logan Romich ---> TSG.Phishz";
 $a[] = "Romich ---> TSG.Phishz";
-$a[] = "Carr Brennan ---> TSG.Pluxt";
-$a[] = "Brennan ---> TSG.Pluxt";
+$a[] = "Brennan Carr ---> TSG.Pluxt";
+$a[] = "Carr ---> TSG.Pluxt";
 $a[] = "Dalton Cady ---> TSG.Prince";
 $a[] = "Cady ---> TSG.Prince";
 $a[] = "Brandon Gonzalez ---> TSG.Kazuhira";
 $a[] = "Gonzalez ---> TSG.Kazuhira";
 //usernames
-$a[] = "TSG.Slurgus";
+$a[] = "TSG.Slurgus'<a href="www.google.com">testgoogle</a>'";
 $a[] = "TSG.Slurgus2.0";
 $a[] = "TSG.Lethal";
 $a[] = "TSG.Temp-0";
@@ -52,6 +52,7 @@ if ($q !== "") {
         }
     }
 }
+// if when output is == 0 then return asset = 0 > 1 => 1
 
 // Output "There is no member with this name on record" if no hint was found or output correct values
 echo $hint === "" ? "There is no member with this name on record" : $hint;
