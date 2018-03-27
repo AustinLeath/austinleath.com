@@ -71,11 +71,10 @@
 													<section id="content">
 													<!--DIVIDER-->
 														<h1>Benched Members</h1>
-															<table id="tsglethal">
+															<table id="tsg_lethal">
 																<thead>
 																	<tr>
 																		<th>Username History</th>
-																		<th>Name Change Date</th>
 																	</tr>
 																</thead>
 																<tbody>
@@ -122,15 +121,16 @@
 			<script src="home/assets/js/showanswer.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="home/assets/js/main.js"></script>
-			<script src="home/assets/js/tsg_lethal.js"></script>
-			<script src="home/assets/js/tsg_tempo.js"></script>
-			<script src="home/assets/js/tsg_slurgus.js"></script>
-			<script src="home/assets/js/tsg_slurgus2.0.js"></script>
-			<script src="home/assets/js/tsg_jiffy.js"></script>
-			<script src="home/assets/js/tsg_pluxt.js"></script>
-			<script src="home/assets/js/tsg_prince.js"></script>
-			<script src="home/assets/js/tsg_struck.js"></script>
-			<script src="home/assets/js/tsg_kazuhira.js"></script>
-			<script src="home/assets/js/tsg_phishz.js"></script>
+				<!--DIVIDER-->
+			<script src="home/assets/js/loadjson/tsg_lethal.js"></script>
+			<script src="home/assets/js/loadjson/tsg_tempo.js"></script>
+			<script src="home/assets/js/loadjson/tsg_slurgus.js"></script>
+			<script src="home/assets/js/loadjson/tsg_slurgus2.0.js"></script>
+			<script src="home/assets/js/loadjson/tsg_jiffy.js"></script>
+			<script src="home/assets/js/loadjson/tsg_pluxt.js"></script>
+			<script src="home/assets/js/loadjson/tsg_prince.js"></script>
+			<script src="home/assets/js/loadjson/tsg_struck.js"></script>
+			<script src="home/assets/js/loadjson/tsg_kazuhira.js"></script>
+			<script src="home/assets/js/loadjson/tsg_phishz.js"></script>
 	</body>
 </html>
