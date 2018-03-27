@@ -71,7 +71,7 @@
 													<section id="content">
 													<!--DIVIDER-->
 														<h1>Benched Members</h1>
-															<table id="tsg_lethal">
+															<table id="tsglethal">
 																<thead>
 																	<tr>
 																		<th>Username History</th>
