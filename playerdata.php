@@ -102,7 +102,6 @@
 																	</tfoot>
 																</table>
 
-
 																<h1>USERNAME HISTORY FOR TSG.Slurgus2.0</h1>
 																	<table id="tsg_slurgus2">
 																		<thead>
@@ -118,7 +117,6 @@
 																			</tr>
 																		</tfoot>
 																	</table>
-
 
 																	<h1>USERNAME HISTORY FOR TSG.Temp-o</h1>
 																		<table id="tsg_tempo">
@@ -136,7 +134,6 @@
 																			</tfoot>
 																		</table>
 
-
 																		<h1>USERNAME HISTORY FOR TSG.Jiffy</h1>
 																			<table id="tsg_jiffy">
 																				<thead>
@@ -152,7 +149,6 @@
 																					</tr>
 																				</tfoot>
 																			</table>
-
 
 																			<h1>USERNAME HISTORY FOR TSG.Pluxt</h1>
 																				<table id="tsg_pluxt">
