@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>R6S | MMR Calculator</title>
+		<title>R6S | Player Data</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="keywords" content="HTML,CSS,XML,JavaScript,Web,Engineer,Resume,CSS3,HTML5,Austin,Leath,Lethal,Game,Studios,LethalGameStudios">
-		<meta name="description" content="The Rainbow Six Siege | MMR Calculator uses a users current MMR and ELO to display how many matches the user has to win or lose to reach their goal">
+		<meta name="description" content="The Rainbow Six Siege | Player Data uses a users current MMR and ELO to display how many matches the user has to win or lose to reach their goal">
 		<meta name="author" content="Austin Leath">
 		<meta name='copyright' content='Lethal Game Studios'>
 		<meta name='owner' content='Austin Leath'>
@@ -20,7 +20,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="">R6S | MMR Calculator</a></h1>
+					<h1 id="logo"><a href="">R6S | Player Data</a></h1>
 					<nav id="nav">
 						<ul>
 							<li>
@@ -201,6 +201,7 @@
 																								</tr>
 																							</tfoot>
 																						</table>
+
 																						<h1>USERNAME HISTORY FOR TSG.Prince</h1>
 																							<table id="tsg_prince">
 																								<thead>
@@ -272,7 +273,7 @@
 			<script src="home/assets/js/loadjson/tsg_lethal.js"></script>
 			<script src="home/assets/js/loadjson/tsg_tempo.js"></script>
 			<script src="home/assets/js/loadjson/tsg_slurgus.js"></script>
-			<script src="home/assets/js/loadjson/tsg_slurgus2.0.js"></script>
+			<script src="home/assets/js/loadjson/tsg_slurgus2.js"></script>
 			<script src="home/assets/js/loadjson/tsg_jiffy.js"></script>
 			<script src="home/assets/js/loadjson/tsg_pluxt.js"></script>
 			<script src="home/assets/js/loadjson/tsg_prince.js"></script>
