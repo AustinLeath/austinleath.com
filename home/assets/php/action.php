@@ -36,8 +36,8 @@
 									 <li><a href="../../../tools.php">Development Tools</a></li>
 									 <li><a href="">Legal</a>
 										 <ul>
-											 <li><a href="../../../legal/mitlicense.html">MIT License</a></li>
-											 <li><a href="../../../legal/apachelicense.html">MIT License</a></li>
+											 <li><a href="../../../legal/mitlicense.php">MIT License</a></li>
+											 <li><a href="../../../legal/apachelicense.php">Apache License</a></li>
 										 </ul>
 									 </li>
 									 <li><a href="../../../rcs/index.php">Rileigh Sayen</a></li>

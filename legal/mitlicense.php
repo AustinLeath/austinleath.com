@@ -43,8 +43,8 @@
 		 										 <li>
 		 											 <a href="">Legal</a>
 		 											 <ul>
+														 <li><a href="#">MIT License</a></li>
 														 <li><a href="../legal/apachelicense.php">Apache License</a></li>
-		 												 <li><a href="#">MIT License</a></li>
 		 											 </ul>
 		 											</li>
 		 							 <!--DIVIDER-->
