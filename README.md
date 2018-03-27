@@ -1,9 +1,6 @@
 # AustinLeath.com
 This repository contains all of the code for https://www.AustinLeath.com
 
-Current version for February of 2018
-
-
 # THINGS TO DO
 
 - [x] Implement primary website structure

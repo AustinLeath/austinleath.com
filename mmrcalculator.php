@@ -207,6 +207,6 @@
 			    }
 			}
 		</script>
-		<script src="home/assets/js/loadjson.js"></script>
+		<script src="home/assets/js/tsg_lethal.js"></script>
 	</body>
 </html>
