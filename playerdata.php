@@ -87,7 +87,7 @@
 															</table>
 
 															<h1>USERNAME HISTORY FOR TSG.LETHAL</h1>
-																<table id="tsg_Slurgus">
+																<table id="tsg_slurgus">
 																	<thead>
 																		<tr>
 																			<th>Username History</th>
