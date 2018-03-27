@@ -183,7 +183,7 @@
 																<tr>
 																	<td>TSG.Kazuhira</td>
 																	<td>Support</td>
-																	<td><a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB Statistics</a></td>
+																	<td><a href="https://r6db.com/player/840a9beb-4092-40ce-b22a-0284383e8dd5" target="_blank">R6DB Statistics</a></td>
 																</tr>
 															</tbody>
 															<tfoot>
