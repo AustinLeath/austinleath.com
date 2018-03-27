@@ -70,7 +70,7 @@
 										<!-- Content -->
 													<section id="content">
 													<!--DIVIDER-->
-														<h1>Benched Members</h1>
+														<h1>USERNAME HISTORY FOR TSG.Lethal</h1>
 															<table id="tsg_lethal">
 																<thead>
 																	<tr>
@@ -85,6 +85,153 @@
 																	</tr>
 																</tfoot>
 															</table>
+
+															<h1>USERNAME HISTORY FOR TSG.LETHAL</h1>
+																<table id="tsg_Slurgus">
+																	<thead>
+																		<tr>
+																			<th>Username History</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																	</tbody>
+																	<tfoot>
+																		<tr>
+																			<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																		</tr>
+																	</tfoot>
+																</table>
+
+
+																<h1>USERNAME HISTORY FOR TSG.Slurgus2.0</h1>
+																	<table id="tsg_slurgus2.0">
+																		<thead>
+																			<tr>
+																				<th>Username History</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																		</tbody>
+																		<tfoot>
+																			<tr>
+																				<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																			</tr>
+																		</tfoot>
+																	</table>
+
+
+																	<h1>USERNAME HISTORY FOR TSG.Temp-o</h1>
+																		<table id="tsg_tempo">
+																			<thead>
+																				<tr>
+																					<th>Username History</th>
+																				</tr>
+																			</thead>
+																			<tbody>
+																			</tbody>
+																			<tfoot>
+																				<tr>
+																					<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																				</tr>
+																			</tfoot>
+																		</table>
+
+
+																		<h1>USERNAME HISTORY FOR TSG.Jiffy</h1>
+																			<table id="tsg_jiffy">
+																				<thead>
+																					<tr>
+																						<th>Username History</th>
+																					</tr>
+																				</thead>
+																				<tbody>
+																				</tbody>
+																				<tfoot>
+																					<tr>
+																						<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																					</tr>
+																				</tfoot>
+																			</table>
+
+
+																			<h1>USERNAME HISTORY FOR TSG.Pluxt</h1>
+																				<table id="tsg_pluxt">
+																					<thead>
+																						<tr>
+																							<th>Username History</th>
+																						</tr>
+																					</thead>
+																					<tbody>
+																					</tbody>
+																					<tfoot>
+																						<tr>
+																							<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																						</tr>
+																					</tfoot>
+																				</table>
+
+																				<h1>USERNAME HISTORY FOR TSG.Phishz</h1>
+																					<table id="tsg_phishz">
+																						<thead>
+																							<tr>
+																								<th>Username History</th>
+																							</tr>
+																						</thead>
+																						<tbody>
+																						</tbody>
+																						<tfoot>
+																							<tr>
+																								<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																							</tr>
+																						</tfoot>
+																					</table>
+
+																					<h1>USERNAME HISTORY FOR TSG.Struck</h1>
+																						<table id="tsg_struck">
+																							<thead>
+																								<tr>
+																									<th>Username History</th>
+																								</tr>
+																							</thead>
+																							<tbody>
+																							</tbody>
+																							<tfoot>
+																								<tr>
+																									<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																								</tr>
+																							</tfoot>
+																						</table>
+																						<h1>USERNAME HISTORY FOR TSG.Prince</h1>
+																							<table id="tsg_prince">
+																								<thead>
+																									<tr>
+																										<th>Username History</th>
+																									</tr>
+																								</thead>
+																								<tbody>
+																								</tbody>
+																								<tfoot>
+																									<tr>
+																										<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																									</tr>
+																								</tfoot>
+																							</table>
+
+																							<h1>USERNAME HISTORY FOR TSG.Kazuhira</h1>
+																								<table id="tsg_kazuhira">
+																									<thead>
+																										<tr>
+																											<th>Username History</th>
+																										</tr>
+																									</thead>
+																									<tbody>
+																									</tbody>
+																									<tfoot>
+																										<tr>
+																											<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																										</tr>
+																									</tfoot>
+																								</table>
 														<!--Divider-->
 													</section>
 								</section>
