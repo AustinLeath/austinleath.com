@@ -75,7 +75,7 @@
 																<thead>
 																	<tr>
 																		<th>Username History</th>
-																		<th>Date of Change<th>
+																		<th>Date of Change</th>
 																	</tr>
 																</thead>
 																<tbody>
