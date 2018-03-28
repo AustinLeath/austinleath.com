@@ -157,11 +157,6 @@
 															?> to reach your rank goal<br>
 														</div>
 													</section>
-													<header class="major">
-													</header>
-													<header class="major">
-														<h1>Or you can..</h1>
-													</header>
 
 													<section id="formdata">
 														<h3>Rainbow Six Siege | MMR Calculator (Custom Rank Goal)</h3>
