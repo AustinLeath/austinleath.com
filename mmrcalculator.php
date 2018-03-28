@@ -75,10 +75,10 @@
 																<form method="post" action="">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
-																			<input type="number" name="MMR" id="MMR" value="" placeholder="Enter your current MMR">
+																			<input type="number" name="MMR" id="MMR" min="1300" max="10000" value="" placeholder="Enter your current MMR">
 																		</div>
 																		<div class="6u$ 12u$(xsmall)">
-																			<input type="number" name="ELO" id="ELO" value="" placeholder="Enter your current ELO per match">
+																			<input type="number" name="ELO" id="ELO" min="0" max="1000" value="" placeholder="Enter your current ELO per match">
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
@@ -163,10 +163,10 @@
 														<form method="post" action="">
 															<div class="row uniform 50%">
 																<div class="6u 12u$(xsmall)">
-																	<input type="number" name="MMR2" id="MMR2" value="" placeholder="Enter your current MMR">
+																	<input type="number" name="MMR2" id="MMR2" min="1300" max="10000" value="" placeholder="Enter your current MMR">
 																</div>
 																<div class="6u$ 12u$(xsmall)">
-																	<input type="number" name="ELO2" id="ELO2" value="" placeholder="Enter your current ELO per match">
+																	<input type="number" name="ELO2" id="ELO2" min="0" max="1000" value="" placeholder="Enter your current ELO per match">
 																</div>
 																<div class="12u$">
 																	<div class="12u$">
@@ -183,7 +183,7 @@
 													</form>
 
 														<div id="phpsubmit2">
-														Since your MMR is: <?php echo $_POST["MMR"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO"]; ?><br>
+														Since your MMR is: <?php echo $_POST["MMR2"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO2"]; ?><br>
 														<?php
 														$a = $_POST["CUSTOMRANK"];
 														$b = $_POST["MMR2"];
