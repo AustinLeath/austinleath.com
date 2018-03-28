@@ -173,7 +173,7 @@
 																		<input type="number" name="CUSTOMRANK" id="CUSTOMRANK" min="1300" max="10000" value="" placeholder="Enter a custom MMR Goal (between 1,300 MMR and 10,000 MMR)">
 																	</div>
 																</div>
-																<div class="12u$">
+																<div class="row uniform 100%">
 																	<ul class="actions">
 																		<li><input type="submit" value="Submit" class="special"></li>
 																		<li><input type="reset" value="Reset"></li>
