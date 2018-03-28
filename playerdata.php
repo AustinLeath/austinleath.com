@@ -76,22 +76,24 @@
 																	<tr>
 																		<th>Username History</th>
 																		<th>Date of Change</th>
+																		<th id="rank">Current Rank</th>
 																	</tr>
 																</thead>
 																<tbody>
 																</tbody>
 																<tfoot>
 																	<tr>
-																		<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																		<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 																	</tr>
 																</tfoot>
 															</table>
 
-															<h1>USERNAME HISTORY FOR TSG.Slurgus</h1>
+															<h1>Username History for: TSG.Slurgus</h1>
 																<table id="tsg_slurgus">
 																	<thead>
 																		<tr>
 																			<th>Username History</th>
+																			<th>Date of Change</th>
 																		</tr>
 																	</thead>
 																	<tbody>
@@ -103,11 +105,12 @@
 																	</tfoot>
 																</table>
 
-																<h1>USERNAME HISTORY FOR TSG.Slurgus2.0</h1>
+																<h1>Username History for: TSG.Slurgus2.0</h1>
 																	<table id="tsg_slurgus2">
 																		<thead>
 																			<tr>
 																				<th>Username History</th>
+																				<th>Date of Change</th>
 																			</tr>
 																		</thead>
 																		<tbody>
@@ -119,11 +122,12 @@
 																		</tfoot>
 																	</table>
 
-																	<h1>USERNAME HISTORY FOR TSG.Temp-o</h1>
+																	<h1>Username History for: TSG.Temp-o</h1>
 																		<table id="tsg_tempo">
 																			<thead>
 																				<tr>
 																					<th>Username History</th>
+																					<th>Date of Change</th>
 																				</tr>
 																			</thead>
 																			<tbody>
@@ -135,11 +139,12 @@
 																			</tfoot>
 																		</table>
 
-																		<h1>USERNAME HISTORY FOR TSG.Jiffy</h1>
+																		<h1>Username History for: TSG.Jiffy</h1>
 																			<table id="tsg_jiffy">
 																				<thead>
 																					<tr>
 																						<th>Username History</th>
+																						<th>Date of Change</th>
 																					</tr>
 																				</thead>
 																				<tbody>
@@ -151,11 +156,12 @@
 																				</tfoot>
 																			</table>
 
-																			<h1>USERNAME HISTORY FOR TSG.Pluxt</h1>
+																			<h1>Username History for: TSG.Pluxt</h1>
 																				<table id="tsg_pluxt">
 																					<thead>
 																						<tr>
 																							<th>Username History</th>
+																							<th>Date of Change</th>
 																						</tr>
 																					</thead>
 																					<tbody>
@@ -167,11 +173,12 @@
 																					</tfoot>
 																				</table>
 
-																				<h1>USERNAME HISTORY FOR TSG.Phishz</h1>
+																				<h1>Username History for: TSG.Phishz</h1>
 																					<table id="tsg_phishz">
 																						<thead>
 																							<tr>
 																								<th>Username History</th>
+																								<th>Date of Change</th>
 																							</tr>
 																						</thead>
 																						<tbody>
@@ -183,11 +190,12 @@
 																						</tfoot>
 																					</table>
 
-																					<h1>USERNAME HISTORY FOR TSG.Struck</h1>
+																					<h1>Username History for: TSG.Struck</h1>
 																						<table id="tsg_struck">
 																							<thead>
 																								<tr>
 																									<th>Username History</th>
+																									<th>Date of Change</th>
 																								</tr>
 																							</thead>
 																							<tbody>
@@ -199,11 +207,12 @@
 																							</tfoot>
 																						</table>
 
-																						<h1>USERNAME HISTORY FOR TSG.Prince</h1>
+																						<h1>Username History for: TSG.Prince</h1>
 																							<table id="tsg_prince">
 																								<thead>
 																									<tr>
 																										<th>Username History</th>
+																										<th>Date of Change</th>
 																									</tr>
 																								</thead>
 																								<tbody>
@@ -215,11 +224,12 @@
 																								</tfoot>
 																							</table>
 
-																							<h1>USERNAME HISTORY FOR TSG.Kazuhira</h1>
+																							<h1>Username History for: TSG.Kazuhira</h1>
 																								<table id="tsg_kazuhira">
 																									<thead>
 																										<tr>
 																											<th>Username History</th>
+																											<th>Date of Change</th>
 																										</tr>
 																									</thead>
 																									<tbody>
