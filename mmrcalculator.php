@@ -157,11 +157,7 @@
 															?> to reach your rank goal<br>
 														</div>
 													</section>
-
-														<header id="header">
-															<p>Or you can define a custom goal in the form of MMR (from 1399 to 10000)</p>
-														</header>
-
+													<h1>Or you can..</h1>
 													<section id="formdata">
 														<h3>Rainbow Six Siege | MMR Calculator (Custom Rank Goal)</h3>
 														<form method="post" action="">
