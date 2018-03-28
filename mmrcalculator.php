@@ -169,11 +169,11 @@
 																	<input type="number" name="ELO2" id="ELO2" value="" placeholder="Enter your current ELO per match">
 																</div>
 																<div class="12u$">
-																	<div class="6u$ 12u$(xsmall)">
+																	<div class="12u$">
 																		<input type="number" name="CUSTOMRANK" id="CUSTOMRANK" min="1300" max="10000" value="" placeholder="Enter a custom MMR Goal (between 1,300 MMR and 10,000 MMR)">
 																	</div>
 																</div>
-																<div class="row uniform 100%">
+																<div class="12u$">
 																	<ul class="actions">
 																		<li><input type="submit" value="Submit" class="special"></li>
 																		<li><input type="reset" value="Reset"></li>
