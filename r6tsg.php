@@ -158,11 +158,6 @@
 																	<td>Manager, Lurker</td>
 																	<td><a href="https://r6db.com/player/767374e1-b218-42ff-98c6-3f78553db5e9" target="_blank">R6DB Statistics</a></td>
 																</tr>
-																<tr>
-																	<td>TSG.Pluxt</td>
-																	<td>Roamer</td>
-																	<td><a href="https://r6db.com/player/ef1ed143-4db1-44b0-b0cd-796cf52dddbe" target="_blank">R6DB Statistics</a></td>
-																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
