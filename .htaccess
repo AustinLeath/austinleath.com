@@ -96,9 +96,7 @@ RewriteRule ^/(.*)$ /${lowercase:$1} [R=301,L]
   </filesmatch>
 </IfModule>
 
-
-
-
-RewriteEngine On
+<IfModule>
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</IfModule>
