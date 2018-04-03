@@ -70,6 +70,7 @@
 										<!-- Content -->
 													<section id="content">
 													<!--Divider-->
+													<div id="holder">
 															<section id="formdata">
 																<h3>Rainbow Six Siege | MMR Calculator</h3>
 																<form method="post" action="">
@@ -157,6 +158,7 @@
 															?> to reach your rank goal<br>
 														</div>
 													</section>
+												</div>
 
 													<section id="formdata">
 														<h3>Rainbow Six Siege | MMR Calculator (Custom Rank Goal)</h3>
@@ -275,5 +277,74 @@
 			}
 		</script>
 		<script src="home/assets/js/tsg_lethal.js"></script>
+		<script>
+				document.getElementById('changemmrform').onclick = function() {
+						document.getElementById('holding').innerHTML = "<section id="formdata">
+																				<h3>Rainbow Six Siege | MMR Calculator (Custom Rank Goal)</h3>
+																				<form method="post" action="">
+																					<div class="row uniform 50%">
+																						<div class="6u 12u$(xsmall)">
+																							<input type="number" name="MMR2" id="MMR2" min="1300" max="10000" value="" placeholder="Enter your current MMR">
+																						</div>
+																						<div class="6u$ 12u$(xsmall)">
+																							<input type="number" name="ELO2" id="ELO2" min="0" max="1000" value="" placeholder="Enter your current ELO per match">
+																						</div>
+																						<div class="12u$">
+																							<div class="12u$">
+																								<input type="number" name="CUSTOMRANK" id="CUSTOMRANK" min="1300" max="10000" value="" placeholder="Enter a custom MMR Goal (between 1,300 MMR and 10,000 MMR)">
+																							</div>
+																						</div>
+																						<div class="12u$">
+																							<ul class="actions">
+																								<li><input type="submit" value="Submit" class="special"></li>
+																								<li><input type="reset" value="Reset"></li>
+																							</ul>
+																						</div>
+																					</div>
+																			</form>
+
+																				<div id="phpsubmit2">
+																				Since your MMR is: <?php echo $_POST["MMR2"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO2"]; ?><br>
+																				<?php
+																				$a = $_POST["CUSTOMRANK"];
+																				$b = $_POST["MMR2"];
+																				$c = $_POST["ELO2"];
+																				$d = ($a - $b) / $c;
+
+																				if ($d > "0") {
+																					 echo "You need to <b>win</b>";
+																				} elseif ($d < "0") {
+																					 echo "You need to <b>lose</b>";
+																				} else {
+																					 echo "You <b>dont</b> need to win or lose";
+																				}
+																				?>
+
+																				<?php
+																				$a = $_POST["CUSTOMRANK"];
+																				$b = $_POST["MMR2"];
+																				$c = $_POST["ELO2"];
+																				$d = ($a - $b) / $c;
+																				$e = ceil($d);
+																				echo abs($e);
+																				?> (&plusmn; 1)
+
+																				<?php
+																				$a = $_POST["CUSTOMRANK"];
+																				$b = $_POST["MMR2"];
+																				$c = $_POST["ELO2"];
+																				$d = ($a - $b) / $c;
+																				$e = ceil($d);
+																				$f = abs($e);
+																				if ($f > "1") {
+																					 echo "matches";
+																				} else {
+																					 echo "match";
+																				}
+																				?> to reach your rank goal<br>
+																			</div>
+																			</section>";
+				}
+		</script>
 	</body>
 </html>

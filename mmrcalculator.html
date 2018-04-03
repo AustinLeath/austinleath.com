@@ -163,13 +163,16 @@
 														<form method="post" action="">
 															<div class="row uniform 50%">
 																<div class="6u 12u$(xsmall)">
+																	<label for="goal">MMR</label>
 																	<input type="number" name="MMR2" id="MMR2" min="1300" max="10000" value="" placeholder="Enter your current MMR">
 																</div>
 																<div class="6u$ 12u$(xsmall)">
+																	<label for="goal">ELO</label>
 																	<input type="number" name="ELO2" id="ELO2" min="0" max="1000" value="" placeholder="Enter your current ELO per match">
 																</div>
 																<div class="12u$">
 																	<div class="12u$">
+																		<label for="goal">GOAL (in MMR)</label>
 																		<input type="number" name="CUSTOMRANK" id="CUSTOMRANK" min="1300" max="10000" value="" placeholder="Enter a custom MMR Goal (between 1,300 MMR and 10,000 MMR)">
 																	</div>
 																</div>
@@ -230,44 +233,65 @@
 <fieldset>
 	<legend>Rainbow Six Siege | MMR Calculator</legend>
 	<p>
-		<label for="mmr">MMR (whole number)</label>
-		<input id="mmr" name="mmr" type="number" />
+		<input id="mmr" name="mmr" type="number" min="1300" max="10000" placeholder="Enter your current MMR per match" />
 	</p>
 	<p>
-		<label for="elo">ELO (whole number)</label>
-		<input id="elo" name="elo" type="number" />
+		<input id="elo" name="elo" type="number" min="0" max="1000" placeholder="Enter your current ELO per match" />
 	</p>
 	<p>
-		<label for="goal">GOAL (in MMR)</label>
-		<input id="goal" name="goal" type="number" />
+		<input id="goal" name="goal" type="number" min="1300" max="10000" placeholder="Enter a custom MMR Goal (between 1,300 MMR and 10,000 MMR)" />
 	</p>
 	<p>
-		<input type="submit" value="Calculate result" />
-		or
+		<input type="submit" value="Calculate" />
 		<input type="reset" value="Reset" />
-	</p>
-	<p>
-		<label for="result">Games you need to win to get to rank goal</label>
-		<input id="result" name="result" type="number" />
 	</p>
 </fieldset>
 </form>
 
+
+<p id="wl"></p>   <p id="result"></p>(&plusmn 1)<p id="matches"></p> to reach your rank goal
+
+
+
+					<script>
+					(function () {
+					  function calculateRankGoal(mmr, elo, goal) {
+					    mmr = parseFloat(mmr);
+					    elo = parseFloat(elo);
+					    goal = parseFloat(goal);
+					    return ((goal - mmr) / elo);
+					  }
+
+					  var rankGoal = document.getElementById("rankGoal");
+					  if (rankGoal) {
+					    rankGoal.onsubmit = function () {
+					    document.getElementById("result").innerHTML = calculateRankGoal(this.mmr.value, this.elo.value, this.goal.value);
+					    return false;
+					    };
+					  }
+					}());
+					</script>
 					<script>
 					(function () {
 						function calculateRankGoal(mmr, elo, goal) {
 							mmr = parseFloat(mmr);
 							elo = parseFloat(elo);
 							goal = parseFloat(goal);
-							return (goal - mmr / elo);
+							return ((goal - mmr) / elo);
 						}
-
-						var rankGoal = document.getElementById("rankGoal");
-						if (rankGoal) {
+						var a = this.result.value;
+						var rankBre = document.getElementById("rankGoal");
+						var a = this.result.value;
+						if (rankBre) {
 							rankGoal.onsubmit = function () {
-								this.result.value = calculateRankGoal(this.mmr.value, this.elo.value, this.goal.value);
-								return false;
-							};
+								if ( a > 0) {
+										 document.getElementById("wl").innerHTML = "you need to win";
+								} else if ( a < 0) {
+										 document.getElementById("wl").innerHTML = "you need to lose";
+								} else {
+										 document.getElementById("wl").innerHTML = "you don't need to win or lose";
+								}
+							return false;
 						}
 					}());
 					</script>
@@ -305,6 +329,9 @@
 			<script src="home/assets/js/showanswer.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="home/assets/js/main.js"></script>
+
+
+<!--
 			<script>
 			(function () {
 				function calculateRankGoal(mmr, elo) {
@@ -322,6 +349,7 @@
 				}
 			}());
 			</script>
+		-->
 		<script src="home/assets/js/tsg_lethal.js"></script>
 	</body>
 </html>
