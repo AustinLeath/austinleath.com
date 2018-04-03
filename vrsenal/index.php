@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="keywords" content="HTML,CSS,XML,JavaScript,Web,Engineer,Resume,CSS3,HTML5,Austin,Leath,Lethal,Game,Studios,LethalGameStudios">
-		<meta name="description" content="Austin is a young web engineer looking for work. If you would like to contact him send him an email at austinleath18@gmail.com">
+		<meta name="description" content="VRsenal is a single player VR game that is both an open world exploration game and physics simulation. Master the landscape as well as a variety of weapons that are laid before you!">
 		<meta name="author" content="Austin Leath">
 		<meta name='copyright' content='Lethal Game Studios'>
 		<meta name='owner' content='Austin Leath'>

@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="keywords" content="HTML,CSS,XML,JavaScript,Web,Engineer,tools page,CSS3,HTML5,Austin,Leath,Lethal,Game,Studios,LethalGameStudios">
-		<meta name="description" content="This page is for all things development. Users may use the ">
+		<meta name="description" content="This page is for all things development, this page is always in a WIP stage and is not stable over 60% of the time.">
 		<meta name="author" content="Austin Leath">
 		<meta name='copyright' content='Lethal Game Studios'>
 		<meta name='owner' content='Austin Leath'>
