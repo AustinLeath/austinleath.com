@@ -122,7 +122,7 @@
 																	</table>
 
 																	<h1>Username History for: TSG.Temp-o</h1>
-																		<table id="tsg_tempo">
+																		<table id="tsg_temp-o">
 																			<thead>
 																				<tr>
 																					<th>Username History</th>
@@ -262,7 +262,7 @@
 			<script src="../home/assets/js/loadjson/tsg_lethal.js"></script>
 			<script src="../home/assets/js/loadjson/tsg_temp-o.js"></script>
 			<script src="../home/assets/js/loadjson/tsg_slurgus.js"></script>
-			<script src="../home/assets/js/loadjson/tsg_slurgus2.js"></script>
+			<script src="../home/assets/js/loadjson/tsg_slurgus2.0.js"></script>
 			<script src="../home/assets/js/loadjson/tsg_jiffy.js"></script>
 			<script src="../home/assets/js/loadjson/tsg_prince.js"></script>
 			<script src="../home/assets/js/loadjson/tsg_struck.js"></script>
