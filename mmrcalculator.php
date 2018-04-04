@@ -116,7 +116,6 @@
 																	</div>
 															</form>
 
-															<div id="phpsubmit"  display:block;>
 													    Since your MMR is: <?php echo $_POST["MMR"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO"]; ?><br>
 															<?php
 															$a = $_POST["rankfinal"];
@@ -155,7 +154,6 @@
 																 echo "match";
 															}
 															?> to reach your rank goal<br>
-														</div>
 													</section>
 
 													<section id="formdata">
@@ -182,7 +180,6 @@
 															</div>
 													</form>
 
-														<div id="phpsubmit2">
 														Since your MMR is: <?php echo $_POST["MMR2"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO2"]; ?><br>
 														<?php
 														$a = $_POST["CUSTOMRANK"];
@@ -221,7 +218,6 @@
 															 echo "match";
 														}
 														?> to reach your rank goal<br>
-													</div>
 													</section>
 							</section>
 						 </div>
@@ -257,6 +253,5 @@
 			<script src="home/assets/js/showanswer.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="home/assets/js/main.js"></script>
-		<script src="home/assets/js/tsg_lethal.js"></script>
 	</body>
 </html>

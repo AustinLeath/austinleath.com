@@ -72,17 +72,17 @@
 													<!--Divider-->
 															<section id="formdata">
 																<h3>Rainbow Six Siege | MMR Calculator</h3>
-																<form method="post" action="">
+																<form id="rankGoal1" action="">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
-																			<input type="number" name="MMR" id="MMR" min="1300" max="10000" value="" placeholder="Enter your current MMR">
+																			<input type="number" name="mmr1" id="mmr1" min="1300" max="10000" value="" placeholder="Enter your current MMR" />
 																		</div>
 																		<div class="6u$ 12u$(xsmall)">
-																			<input type="number" name="ELO" id="ELO" min="0" max="1000" value="" placeholder="Enter your current ELO per match">
+																			<input type="number" name="elo1" id="elo1" min="0" max="1000" value="" placeholder="Enter your current ELO per match" />
 																		</div>
 																		<div class="12u$">
 																			<div class="select-wrapper">
-																				<select name="rankfinal" id="rankfinal">
+																				<select name="goal1" id="goal1">
 																					<option value="0">- Select a Rank -</option>
 																					<option value="1300">Copper IV</option>
 																					<option value="1400">Copper III</option>
@@ -115,188 +115,41 @@
 																		</div>
 																	</div>
 															</form>
-
-															<div id="phpsubmit"  display:block;>
-													    Since your MMR is: <?php echo $_POST["MMR"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO"]; ?><br>
-															<?php
-															$a = $_POST["rankfinal"];
-															$b = $_POST["MMR"];
-															$c = $_POST["ELO"];
-															$d = ($a - $b) / $c;
-
-															if ($d > "0") {
-																 echo "You need to <b>win</b>";
-															} elseif ($d < "0") {
-																 echo "You need to <b>lose</b>";
-															} else {
-																 echo "You <b>dont</b> need to win or lose";
-															}
-															?>
-
-															<?php
-															$a = $_POST["rankfinal"];
-															$b = $_POST["MMR"];
-															$c = $_POST["ELO"];
-															$d = ($a - $b) / $c;
-															$e = ceil($d);
-															echo abs($e);
-															?> (&plusmn; 1)
-
-															<?php
-															$a = $_POST["rankfinal"];
-															$b = $_POST["MMR"];
-															$c = $_POST["ELO"];
-															$d = ($a - $b) / $c;
-															$e = ceil($d);
-															$f = abs($e);
-															if ($f > "1") {
-																 echo "matches";
-															} else {
-																 echo "match";
-															}
-															?> to reach your rank goal<br>
 														</div>
-													</section>
+													<a id="wl"></a><a id="result1"></a> (&plusmn 1)<a id="matches"></a> to reach your rank goal
+												</section>
 
 													<section id="formdata">
-														<h3>Rainbow Six Siege | MMR Calculator (Custom Rank Goal)</h3>
-														<form method="post" action="">
+														<h3>Rainbow Six Siege | MMR Calculator</h3>
+														<form id="rankGoal" action="">
 															<div class="row uniform 50%">
 																<div class="6u 12u$(xsmall)">
 																	<label for="goal">MMR</label>
-																	<input type="number" name="MMR2" id="MMR2" min="1300" max="10000" value="" placeholder="Enter your current MMR">
+																	<input id="mmr" name="mmr" type="number" min="1300" max="10000" placeholder="Enter your current MMR per match" value="" />
 																</div>
 																<div class="6u$ 12u$(xsmall)">
 																	<label for="goal">ELO</label>
-																	<input type="number" name="ELO2" id="ELO2" min="0" max="1000" value="" placeholder="Enter your current ELO per match">
+																	<input id="elo" name="elo" type="number" min="0" max="500" placeholder="Enter your current ELO per match" value="" />
 																</div>
 																<div class="12u$">
 																	<div class="12u$">
-																		<label for="goal">GOAL (in MMR)</label>
-																		<input type="number" name="CUSTOMRANK" id="CUSTOMRANK" min="1300" max="10000" value="" placeholder="Enter a custom MMR Goal (between 1,300 MMR and 10,000 MMR)">
+																		<label for="goal">GOAL</label>
+																		<input id="goal" name="goal" type="number" min="1300" max="10000" placeholder="Enter a custom MMR Goal (between 1,300 MMR and 10,000 MMR)" value="" />
 																	</div>
 																</div>
 																<div class="12u$">
 																	<ul class="actions">
-																		<li><input type="submit" value="Submit" class="special"></li>
+																		<li><input type="submit" value="Calculate" /></li>
 																		<li><input type="reset" value="Reset"></li>
 																	</ul>
 																</div>
 															</div>
-													</form>
-
-														<div id="phpsubmit2">
-														Since your MMR is: <?php echo $_POST["MMR2"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO2"]; ?><br>
-														<?php
-														$a = $_POST["CUSTOMRANK"];
-														$b = $_POST["MMR2"];
-														$c = $_POST["ELO2"];
-														$d = ($a - $b) / $c;
-
-														if ($d > "0") {
-															 echo "You need to <b>win</b>";
-														} elseif ($d < "0") {
-															 echo "You need to <b>lose</b>";
-														} else {
-															 echo "You <b>dont</b> need to win or lose";
-														}
-														?>
-
-														<?php
-														$a = $_POST["CUSTOMRANK"];
-														$b = $_POST["MMR2"];
-														$c = $_POST["ELO2"];
-														$d = ($a - $b) / $c;
-														$e = ceil($d);
-														echo abs($e);
-														?> (&plusmn; 1)
-
-														<?php
-														$a = $_POST["CUSTOMRANK"];
-														$b = $_POST["MMR2"];
-														$c = $_POST["ELO2"];
-														$d = ($a - $b) / $c;
-														$e = ceil($d);
-														$f = abs($e);
-														if ($f > "1") {
-															 echo "matches";
-														} else {
-															 echo "match";
-														}
-														?> to reach your rank goal<br>
-													</div>
-													</section>
-
-
-
-	<form id="rankGoal" action="">
-<fieldset>
-	<legend>Rainbow Six Siege | MMR Calculator</legend>
-	<p>
-		<input id="mmr" name="mmr" type="number" min="1300" max="10000" placeholder="Enter your current MMR per match" />
-	</p>
-	<p>
-		<input id="elo" name="elo" type="number" min="0" max="1000" placeholder="Enter your current ELO per match" />
-	</p>
-	<p>
-		<input id="goal" name="goal" type="number" min="1300" max="10000" placeholder="Enter a custom MMR Goal (between 1,300 MMR and 10,000 MMR)" />
-	</p>
-	<p>
-		<input type="submit" value="Calculate" />
-		<input type="reset" value="Reset" />
-	</p>
-</fieldset>
-</form>
-
-
-<p id="wl"></p>   <p id="result"></p>(&plusmn 1)<p id="matches"></p> to reach your rank goal
-
-
-
-					<script>
-					(function () {
-					  function calculateRankGoal(mmr, elo, goal) {
-					    mmr = parseFloat(mmr);
-					    elo = parseFloat(elo);
-					    goal = parseFloat(goal);
-					    return ((goal - mmr) / elo);
-					  }
-
-					  var rankGoal = document.getElementById("rankGoal");
-					  if (rankGoal) {
-					    rankGoal.onsubmit = function () {
-					    document.getElementById("result").innerHTML = calculateRankGoal(this.mmr.value, this.elo.value, this.goal.value);
-					    return false;
-					    };
-					  }
-					}());
-					</script>
-					<script>
-					(function () {
-						function calculateRankGoal(mmr, elo, goal) {
-							mmr = parseFloat(mmr);
-							elo = parseFloat(elo);
-							goal = parseFloat(goal);
-							return ((goal - mmr) / elo);
-						}
-						var a = this.result.value;
-						var rankBre = document.getElementById("rankGoal");
-						var a = this.result.value;
-						if (rankBre) {
-							rankGoal.onsubmit = function () {
-								if ( a > 0) {
-										 document.getElementById("wl").innerHTML = "you need to win";
-								} else if ( a < 0) {
-										 document.getElementById("wl").innerHTML = "you need to lose";
-								} else {
-										 document.getElementById("wl").innerHTML = "you don't need to win or lose";
-								}
-							return false;
-						}
-					}());
-					</script>
-							</section>
-						 </div>
+													   </form>
+													  </div>
+												<a id="wl"></a><a id="result"></a> (&plusmn 1)<a id="matches"></a> to reach your rank goal
+										</section>
+									</section>
+					</div>
 				</div>
 			<footer id="footer">
 				<ul class="icons">
@@ -329,27 +182,41 @@
 			<script src="home/assets/js/showanswer.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="home/assets/js/main.js"></script>
-
-
-<!--
 			<script>
 			(function () {
-				function calculateRankGoal(mmr, elo) {
+				function calculateRankGoal(mmr, elo, goal) {
 					mmr = parseFloat(mmr);
 					elo = parseFloat(elo);
-					return (mmr * elo * elo / 800);
+					goal = parseFloat(goal);
+					return ((goal - mmr) / elo);
 				}
 
 				var rankGoal = document.getElementById("rankGoal");
 				if (rankGoal) {
 					rankGoal.onsubmit = function () {
-						this.result.value = calculateRankGoal(this.mmr.value, this.elo.value);
-						return false;
+					document.getElementById("result").innerHTML = calculateRankGoal(this.mmr.value, this.elo.value, this.goal.value);
+					return false;
 					};
 				}
 			}());
-			</script>
-		-->
-		<script src="home/assets/js/tsg_lethal.js"></script>
+		</script>
+		<script>
+		(function () {
+			function calculateRankGoal1(mmr1, elo1, goal1) {
+				mmr1 = parseFloat(mmr1);
+				elo1 = parseFloat(elo1);
+				goal1 = parseFloat(goal1);
+				return ((goal1 - mmr1) / elo1);
+			}
+
+			var rankGoal1 = document.getElementById("rankGoal1");
+			if (rankGoal1) {
+				rankGoal1.onsubmit = function () {
+				document.getElementById("result1").innerHTML = calculateRankGoal1(this.mmr1.value, this.elo1.value, this.goal1.value);
+				return false;
+				};
+			}
+		}());
+	</script>
 	</body>
 </html>
