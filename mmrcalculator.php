@@ -111,49 +111,49 @@
 																			<ul class="actions">
 																				<li><input type="submit" value="Submit" class="special"></li>
 																				<li><input type="reset" value="Reset"></li>
+																				<li>Since your MMR is: <?php echo $_POST["MMR"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO"]; ?><br>
+																				<?php
+																				$a = $_POST["rankfinal"];
+																				$b = $_POST["MMR"];
+																				$c = $_POST["ELO"];
+																				$d = ($a - $b) / $c;
+
+																				if ($d > "0") {
+																					 echo "You need to <b>win</b>";
+																				} elseif ($d < "0") {
+																					 echo "You need to <b>lose</b>";
+																				} else {
+																					 echo "You <b>dont</b> need to win or lose";
+																				}
+																				?>
+
+																				<?php
+																				$a = $_POST["rankfinal"];
+																				$b = $_POST["MMR"];
+																				$c = $_POST["ELO"];
+																				$d = ($a - $b) / $c;
+																				$e = ceil($d);
+																				echo abs($e);
+																				?> (&plusmn; 1)
+
+																				<?php
+																				$a = $_POST["rankfinal"];
+																				$b = $_POST["MMR"];
+																				$c = $_POST["ELO"];
+																				$d = ($a - $b) / $c;
+																				$e = ceil($d);
+																				$f = abs($e);
+																				if ($f > "1") {
+																					 echo "matches";
+																				} else {
+																					 echo "match";
+																				}
+																				?> to reach your rank goal<br></li>
 																			</ul>
 																		</div>
 																	</div>
 															</form>
-
-													    Since your MMR is: <?php echo $_POST["MMR"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO"]; ?><br>
-															<?php
-															$a = $_POST["rankfinal"];
-															$b = $_POST["MMR"];
-															$c = $_POST["ELO"];
-															$d = ($a - $b) / $c;
-
-															if ($d > "0") {
-																 echo "You need to <b>win</b>";
-															} elseif ($d < "0") {
-																 echo "You need to <b>lose</b>";
-															} else {
-																 echo "You <b>dont</b> need to win or lose";
-															}
-															?>
-
-															<?php
-															$a = $_POST["rankfinal"];
-															$b = $_POST["MMR"];
-															$c = $_POST["ELO"];
-															$d = ($a - $b) / $c;
-															$e = ceil($d);
-															echo abs($e);
-															?> (&plusmn; 1)
-
-															<?php
-															$a = $_POST["rankfinal"];
-															$b = $_POST["MMR"];
-															$c = $_POST["ELO"];
-															$d = ($a - $b) / $c;
-															$e = ceil($d);
-															$f = abs($e);
-															if ($f > "1") {
-																 echo "matches";
-															} else {
-																 echo "match";
-															}
-															?> to reach your rank goal<br>
+															
 													</section>
 
 													<section id="formdata">
