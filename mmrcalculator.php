@@ -149,6 +149,7 @@
 																					 echo "match";
 																				}
 																				?> to reach your rank goal<br></li>
+																				<li><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="I just used a website to calculate how many ranked matches I have to play to get to my desired rank in Tom Clancy&#39;s: Rainbow Six Siege" data-url="https://www.austinleath.com/mmrcalculator.php" data-via="AustinZLeath" data-hashtags="RainbowSixSiege" data-related="Rainbow6Game,Ubisoft" data-lang="en" data-show-count="false">Tweet</a></li>
 																			</ul>
 																		</div>
 																	</div>
@@ -212,6 +213,7 @@
 																			 echo "match";
 																		}
 																		?> to reach your rank goal<br></li>
+																		<li><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="I just used a website to calculate how many ranked matches I have to play to get to my desired rank in Tom Clancy&#39;s: Rainbow Six Siege" data-url="https://www.austinleath.com/mmrcalculator.php" data-via="AustinZLeath" data-hashtags="RainbowSixSiege" data-related="Rainbow6Game,Ubisoft" data-lang="en" data-show-count="false">Tweet</a></li>
 																	</ul>
 																</div>
 															</div>
@@ -238,6 +240,7 @@
 			</footer>
 	</div>
 		<!-- Scripts -->
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		  <script src="home/assets/js/time.js"></script>
 			<script src="home/assets/js/jquery.min.js"></script>
 			<script src="home/assets/js/jquery.scrolly.min.js"></script>
