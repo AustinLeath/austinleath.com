@@ -175,7 +175,7 @@
 																	<ul class="actions">
 																		<li><input type="submit" value="Submit" class="special"></li>
 																		<li><input type="reset" value="Reset"></li>
-																		<li>Since your MMR is: <?php echo $_POST["MMR2"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO2"]; ?><br>
+																		<li>Since your MMR is: <b><?php echo $_POST["MMR2"]; ?></b> and the ELO you get per match is: <b><?php echo $_POST["ELO2"]; ?></b><br>
 																		<?php
 																		$a = $_POST["CUSTOMRANK"];
 																		$b = $_POST["MMR2"];
