@@ -260,13 +260,6 @@
 			<script src="../home/assets/js/main.js"></script>
 				<!--DIVIDER-->
 			<script src="../home/assets/js/loadjson/tsg_lethal.js"></script>
-			<script src="../home/assets/js/loadjson/tsg_temp-o.js"></script>
-			<script src="../home/assets/js/loadjson/tsg_slurgus.js"></script>
-			<script src="../home/assets/js/loadjson/tsg_slurgus2.0.js"></script>
-			<script src="../home/assets/js/loadjson/tsg_jiffy.js"></script>
-			<script src="../home/assets/js/loadjson/tsg_prince.js"></script>
-			<script src="../home/assets/js/loadjson/tsg_struck.js"></script>
-			<script src="../home/assets/js/loadjson/tsg_kazuhira.js"></script>
-			<script src="../home/assets/js/loadjson/tsg_phishz.js"></script>
+
 	</body>
 </html>
