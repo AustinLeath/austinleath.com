@@ -188,21 +188,21 @@
 				function winorlose() {
 					var winorlose;
 
-					mmr = parseFloat(mmr);
-					elo = parseFloat(elo);
-					goal = parseFloat(goal);
+					var a = document.getElementById("mmr").value;
+					var b = document.getElementById("elo").value;
+					var c = document.getElementById("goal").value;
+					var d = ((c - a) / b);
+					var e = Math.ceil(d);
 
-					var result = ((goal - mmr) / elo);
-
-					if (result > 0) {
+					if ( e > 0) {
 			        winorlose = "You need to <b>win</b> ";
-			    } else if (result < 0) {
+			    } else if ( e < 0) {
 			        winorlose = "You need to <b>lose</b> ";
 			    } else {
-			        winorlose = "You <b>don't</b> need to win or lose ";
+			        winorlose = "You <b>do not</b> need to win or lose ";
 			    }
 			document.getElementById("winorlose").innerHTML = winorlose;
-			}
+		}
 			</script>
 			<script>
 			(function () {
@@ -230,87 +230,101 @@
 			function matchcount() {
 				var matchcount;
 
-				mmr = parseFloat(mmr);
-				elo = parseFloat(elo);
-				goal = parseFloat(goal);
+				var a = document.getElementById("mmr").value;
+				var b = document.getElementById("elo").value;
+				var c = document.getElementById("goal").value;
+				var d = ((c - a) / b);
+				var e = Math.ceil(d);
+				var f = Math.abs(e);
 
-				var a = ((goal - mmr) / elo);
-				var b = Math.ceil(a);
-				var result = Math.abs(b);
-				if (result > 1) {
+				if ( f == 1) {
+						matchcount = " (&plusmn 1) match to reach your rank goal";
+				} else if (f > 1) {
 						matchcount = " (&plusmn 1) matches to reach your rank goal";
 				} else {
-						matchcount = " (&plusmn 1) match to reach your rank goal";
+						matchcount = " (&plusmn 1) matches to reach your rank goal";
 				}
+
+
+
 			document.getElementById("matchcount").innerHTML = matchcount;
 			}
 			</script>
 
+
+
+
+
+
 	 <!--DIVIDER-->
 
-<script>
-	function winorlose1() {
-		var winorlose1;
-
-		mmr1 = parseFloat(mmr1);
-		elo1 = parseFloat(elo1);
-		goal1 = parseFloat(goal1);
-
-		var result = ((goal1 - mmr1) / elo1);
-
-		if (result > 0) {
-        winorlose1 = "You need to <b>win</b> ";
-    } else if (result < 0) {
-        winorlose1 = "You need to <b>lose</b> ";
-    } else {
-        winorlose1 = "You <b>don't</b> need to win or lose ";
-    }
-document.getElementById("winorlose1").innerHTML = winorlose1;
-}
-</script>
-<script>
-(function () {
-	function calculateRankGoal1(mmr1, elo1, goal1) {
-		mmr1 = parseFloat(mmr1);
-		elo1 = parseFloat(elo1);
-		goal1 = parseFloat(goal1);
-
-		var a = ((goal1 - mmr1) / elo1);
-		var b = Math.ceil(a);
-		var c = Math.abs(b);
-		return c;
-	}
-
-	var rankGoal1 = document.getElementById("rankGoal1");
-	if (rankGoal1) {
-		rankGoal1.onsubmit = function () {
-		document.getElementById("result1").innerHTML = calculateRankGoal1(this.mmr1.value, this.elo1.value, this.goal1.value);
-		return false;
-		};
-	}
-}());
-</script>
-<script>
-function matchcount1() {
-	var matchcount1;
-
-	mmr1 = parseFloat(mmr1);
-	elo1 = parseFloat(elo1);
-	goal1 = parseFloat(goal1);
-
-	var a = ((goal1 - mmr1) / elo1);
-	var b = Math.ceil(a);
-	var result = Math.abs(b);
-	if (result > 1) {
-			matchcount1 = " (&plusmn 1) matches to reach your rank goal";
-	} else {
-			matchcount1 = " (&plusmn 1) match to reach your rank goal";
-	}
-document.getElementById("matchcount1").innerHTML = matchcount1;
-}
-</script>
 
 
+
+
+	 <script>
+		 function winorlose1() {
+			 var winorlose;
+
+			 var a = document.getElementById("mmr1").value;
+			 var b = document.getElementById("elo1").value;
+			 var c = document.getElementById("goal1").value;
+			 var d = ((c - a) / b);
+			 var e = Math.ceil(d);
+
+			 if ( e > 0) {
+					 winorlose = "You need to <b>win</b> ";
+			 } else if ( e < 0) {
+					 winorlose = "You need to <b>lose</b> ";
+			 } else {
+					 winorlose = "You <b>do not</b> need to win or lose ";
+			 }
+	 document.getElementById("winorlose1").innerHTML = winorlose;
+ }
+	 </script>
+	 <script>
+	 (function () {
+		 function calculateRankGoal1(mmr1, elo1, goal1) {
+			 mmr1 = parseFloat(mmr1);
+			 elo1 = parseFloat(elo1);
+			 goal1 = parseFloat(goal1);
+
+			 var a = ((goal1 - mmr1) / elo1);
+			 var b = Math.ceil(a);
+			 var c = Math.abs(b);
+			 return c;
+		 }
+
+		 var rankGoal1 = document.getElementById("rankGoal1");
+		 if (rankGoal1) {
+			 rankGoal1.onsubmit = function () {
+			 document.getElementById("result1").innerHTML = calculateRankGoal1(this.mmr1.value, this.elo1.value, this.goal1.value);
+			 return false;
+			 };
+		 }
+	 }());
+	 </script>
+	 <script>
+	 function matchcount1() {
+		 var matchcount;
+
+		 var a = document.getElementById("mmr1").value;
+		 var b = document.getElementById("elo1").value;
+		 var c = document.getElementById("goal1").value;
+		 var d = ((c - a) / b);
+		 var e = Math.ceil(d);
+		 var f = Math.abs(e);
+
+		 if ( f == 1) {
+				 matchcount = " (&plusmn 1) match to reach your rank goal";
+		 } else if (f > 1) {
+				 matchcount = " (&plusmn 1) matches to reach your rank goal";
+		 } else {
+				 matchcount = " (&plusmn 1) matches to reach your rank goal";
+		 }
+	 document.getElementById("matchcount1").innerHTML = matchcount;
+	 }
+	 </script>
 <script>
 function enable() {
  document.getElementById("display").style.display="";
