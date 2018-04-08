@@ -208,11 +208,12 @@
 																		$e = ceil($d);
 																		$f = abs($e);
 																		if ($f > "1") {
-																			 echo "matches";
-																		} else {
-																			 echo "match";
-																		}
-																		?> to reach your rank goal<br></li>
+																			 echo "matches to reach your rank goal<br>";
+																		} elseif ($f === 1) {
+																			 echo "match to reach your rank goal<br>";
+																		} else
+																			 echo "matches to reach your rank goal<br>";
+																		?></li>
 																		<li><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="I just used a website to calculate how many ranked matches I have to play to get to my desired rank in Tom Clancy&#39;s: Rainbow Six Siege" data-url="https://www.austinleath.com/mmrcalculator.php" data-via="AustinZLeath" data-hashtags="RainbowSixSiege" data-related="Rainbow6Game,Ubisoft" data-lang="en" data-show-count="false">Tweet</a></li>
 																	</ul>
 																</div>
