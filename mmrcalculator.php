@@ -187,18 +187,18 @@
 																		} elseif ($d < "0") {
 																			 echo "You need to <b>lose</b>";
 																		} else {
-																			 echo "You <b>dont</b> need to win or lose";
+																			 echo "You <b>do not</b> need to win or lose";
 																		}
 																		?>
 
-																		<?php
+																		<b><?php
 																		$a = $_POST["CUSTOMRANK"];
 																		$b = $_POST["MMR2"];
 																		$c = $_POST["ELO2"];
 																		$d = ($a - $b) / $c;
 																		$e = ceil($d);
 																		echo abs($e);
-																		?> (&plusmn; 1)
+																		?></b> (&plusmn; 1)
 
 																		<?php
 																		$a = $_POST["CUSTOMRANK"];
@@ -208,11 +208,11 @@
 																		$e = ceil($d);
 																		$f = abs($e);
 																		if ($f > "1") {
-																			 echo "matches to reach your rank goal<br>";
+																			 echo "matches to reach your rank goal.<br>";
 																		} elseif ($f === 1) {
-																			 echo "match to reach your rank goal<br>";
+																			 echo "match to reach your rank goal.<br>";
 																		} else
-																			 echo "matches to reach your rank goal<br>";
+																			 echo "matches to reach your rank goal.<br>";
 																		?></li>
 																		<li><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="I just used a website to calculate how many ranked matches I have to play to get to my desired rank in Tom Clancy&#39;s: Rainbow Six Siege" data-url="https://www.austinleath.com/mmrcalculator.php" data-via="AustinZLeath" data-hashtags="RainbowSixSiege" data-related="Rainbow6Game,Ubisoft" data-lang="en" data-show-count="false">Tweet</a></li>
 																	</ul>
