@@ -205,23 +205,6 @@
 																									</tr>
 																								</tfoot>
 																							</table>
-
-																							<h1>Username History for: TSG.Kazuhira</h1>
-																								<table id="tsg_kazuhira">
-																									<thead>
-																										<tr>
-																											<th>Username History</th>
-																											<th>Date of Change</th>
-																										</tr>
-																									</thead>
-																									<tbody>
-																									</tbody>
-																									<tfoot>
-																										<tr>
-																											<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
-																										</tr>
-																									</tfoot>
-																								</table>
 														<!--Divider-->
 													</section>
 								</section>
@@ -261,15 +244,21 @@
 			<script src=" home/assets/js/main.js"></script>
 				<!--DIVIDER-->
 			<script src=" home/assets/js/loadjson/tsg_lethal.js"></script>
+			<script src=" home/assets/js/loadjson/tsg_jiffy.js"></script>
+			<script src=" home/assets/js/loadjson/tsg_phishz.js"></script>
+			<script src=" home/assets/js/loadjson/tsg_prince.js"></script>
+			<script src=" home/assets/js/loadjson/tsg_slurgus.js"></script>
+			<script src=" home/assets/js/loadjson/tsg_slurgus2.0.js"></script>
+			<script src=" home/assets/js/loadjson/tsg_struck.js"></script>
+			<script src=" home/assets/js/loadjson/tsg_temp-o.js"></script>
+
 			<script>
 			$(function(){
 			    $.getJSON('tsg_lethal.json', function (data) {
 			        // log some data to the console
-			        var a = console.log('name', data.name);
-			        console.log('total kills', data.stats.general.kills);
+			        window.alert('name', data.name);
+			        window.alert('total kills', data.stats.general.kills);
 			        window.alert('number of aliases', data.aliases.length);
-							document.getElementById("result2").innerText = a;
-
 			    });
 			});
 			</script>
