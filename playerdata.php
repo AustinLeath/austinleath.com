@@ -257,7 +257,7 @@
 			$(function(){
 			    $.getJSON('tsg_lethal.json', function (data) {
 			        // log some data to the console
-			        var a = console.log('name', data.name);
+			        var a = console.log(data.name);
 			        var b = console.log('total kills', data.stats.general.kills);
 			        var c = console.log('number of aliases', data.aliases.length);
 							document.getElementById("name").innerText = a;
