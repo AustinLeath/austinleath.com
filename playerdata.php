@@ -209,7 +209,9 @@
 													</section>
 								</section>
 						 </div>
-						 <a id="result2"></a>
+						 <a id="name"></a>
+						 <a id="kills"></a>
+						 <a id="aliases"></a>
 				</div>
 			<footer id="footer">
 				<ul class="icons">
@@ -251,27 +253,18 @@
 			<script src=" home/assets/js/loadjson/tsg_slurgus2.js"></script>
 			<script src=" home/assets/js/loadjson/tsg_struck.js"></script>
 			<script src=" home/assets/js/loadjson/tsg_temp-o.js"></script>
-
 			<script>
 			$(function(){
 			    $.getJSON('tsg_lethal.json', function (data) {
 			        // log some data to the console
-			        window.alert('name', data.name);
-			        window.alert('total kills', data.stats.general.kills);
-			        window.alert('number of aliases', data.aliases.length);
+			        var a = console.log('name', data.name);
+			        var b = console.log('total kills', data.stats.general.kills);
+			        var c = console.log('number of aliases', data.aliases.length);
+							document.getElementById("name").innerText = a;
+							document.getElementById("kills").innerText = b;
+							document.getElementById("aliases").innerText = c;
 			    });
 			});
-		</script>
-		<script>
-		$(function(){
-		    $.getJSON('tsg_lethal.json', function (data) {
-		        // log some data to the console
-		        var a = console.log('name', data.name);
-		        window.alert('total kills', data.stats.general.kills);
-		        window.alert('number of aliases', data.aliases.length);
-						document.getElementById("result2") .innerHTML = a;
-		    });
-		});
 		</script>
 	</body>
 </html>
