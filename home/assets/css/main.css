@@ -2534,7 +2534,7 @@
 	height: 790px;
 }
 
-.discord {
+#discord {
 	display: block;
 	margin: 0 0 2em 0;
 	width: 85%;
@@ -2557,6 +2557,13 @@
 .amznfooterads {
 	display: block;
 	margin: 0 0 2em 0;
+}
+
+#discord {
+	display: block;
+	margin: 0 0 2em 0;
+	width: 85%;
+	height: 210px;
 }
 
 #formdata {
