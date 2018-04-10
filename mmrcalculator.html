@@ -118,8 +118,7 @@
 																	</div>
 															</form>
 												</section>
-
-
+											<iframe id="discord" src="https://discordapp.com/widget?id=433280921035341834&theme=dark" allowtransparency="true" frameborder="0"></iframe>
 													<section id="formdata">
 														<h3>Rainbow Six Siege | MMR Calculator (Custom Rank Goal)</h3>
 														<form id="rankGoal1" action="">
@@ -140,13 +139,12 @@
 																		<li><input type="submit" value="Calculate" class="special" onclick="enable1();winorlose1();matchcount1();"></li>
 																		<li><input type="reset" value="Reset" onclick="disable1();"></li>
 																		<li><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="I just used a website to calculate how many ranked matches I have to play to get to my desired rank in Tom Clancy&#39;s: Rainbow Six Siege" data-url="https://www.austinleath.com/mmrcalculator.php" data-via="AustinZLeath" data-hashtags="RainbowSixSiege" data-related="Rainbow6Game,Ubisoft" data-lang="en" data-show-count="false">Tweet</a></li>
-																		<li id="display1"><a id="winorlose1"></a><a id="result1"></a><a id="matchcount1"></a><a id="result2"></a></li>
+																		<li id="display1"><a id="winorlose1"></a><a id="result1"></a><a id="matchcount1"></a></li>
 																	</ul>
 																</div>
 															</div>
 													   </form>
 													  </div>
-												<iframe id="discord" src="https://discordapp.com/widget?id=433280921035341834&theme=dark" allowtransparency="true" frameborder="0"></iframe>
 										</section>
 									</section>
 									</div>
@@ -346,17 +344,5 @@ function disable1() {
  document.getElementById("display1").style.display="none";
 }
 </script>
-<script>
-$(function(){
-    $.getJSON('tsg_lethal.json', function (data) {
-        // log some data to the console
-        var a = console.log('name', data.name);
-        window.alert('total kills', data.stats.general.kills);
-        window.alert('number of aliases', data.aliases.length);
-    });
-		document.getElementById("result2") .innerHTML = a;
-});
-</script>
-
 	</body>
 </html>
