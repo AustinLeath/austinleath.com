@@ -262,5 +262,16 @@
 			    });
 			});
 		</script>
+		<script>
+		$(function(){
+		    $.getJSON('tsg_lethal.json', function (data) {
+		        // log some data to the console
+		        var a = console.log('name', data.name);
+		        window.alert('total kills', data.stats.general.kills);
+		        window.alert('number of aliases', data.aliases.length);
+						document.getElementById("result2") .innerHTML = a;
+		    });
+		});
+		</script>
 	</body>
 </html>
