@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="keywords" content="HTML,CSS,XML,JavaScript,Web,Engineer,Resume,CSS3,HTML5,Austin,Leath,Lethal,Game,Studios,LethalGameStudios">
-		<meta name="description" content="The Rainbow Six Siege | Player Data uses a users current MMR and ELO to display how many matches the user has to win or lose to reach their goal">
+		<meta name="description" content="This page displays stored player data.">
 		<meta name="author" content="Austin Leath">
 		<meta name='copyright' content='Lethal Game Studios'>
 		<meta name='owner' content='Austin Leath'>
@@ -255,7 +255,7 @@
 			<script src=" home/assets/js/loadjson/tsg_temp-o.js"></script>
 			<script>
 			$(function(){
-			    $.getJSON('tsg_lethal.json', function (data) {
+			    $.getJSON('tsg_slurgus2.json', function (data) {
 			        // log some data to the console
 			        var a = console.log('name', data.name);
 			        var b = console.log('total kills', data.stats.general.kills);
