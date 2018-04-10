@@ -2534,6 +2534,13 @@
 	height: 790px;
 }
 
+.discord {
+	display: block;
+	margin: 0 0 2em 0;
+	width: 85%;
+	height: 210px;
+}
+
 .r6stats {
 	display: block;
 	margin: 0 0 2em 0;
