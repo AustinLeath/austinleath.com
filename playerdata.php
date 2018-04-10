@@ -266,10 +266,11 @@
 			    $.getJSON('tsg_lethal.json', function (data) {
 			        // log some data to the console
 			        var a = console.log('name', data.name);
-			        window.alert('total kills', data.stats.general.kills);
+			        console.log('total kills', data.stats.general.kills);
 			        window.alert('number of aliases', data.aliases.length);
+							document.getElementById("result2").innerText = a;
+
 			    });
-					document.getElementById("result2").innerText = a;
 			});
 			</script>
 
