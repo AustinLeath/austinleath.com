@@ -261,7 +261,6 @@
 			        window.alert('number of aliases', data.aliases.length);
 			    });
 			});
-			</script>
-
+		</script>
 	</body>
 </html>
