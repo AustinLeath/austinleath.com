@@ -105,7 +105,7 @@
 																</table>
 
 																<h1>Username History for: TSG.Slurgus2.0</h1>
-																	<table id="tsg_slurgus2.0">
+																	<table id="tsg_slurgus2">
 																		<thead>
 																			<tr>
 																				<th>Username History</th>
