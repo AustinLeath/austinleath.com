@@ -209,9 +209,9 @@
 													</section>
 								</section>
 						 </div>
-						 <a id="name"></a>
-						 <a id="kills"></a>
-						 <a id="aliases"></a>
+						 <pre id="name"></pre>
+						 <pre id="kills"></pre>
+						 <pre id="aliases"></pre>
 				</div>
 			<footer id="footer">
 				<ul class="icons">
