@@ -248,7 +248,7 @@
 			<script src=" home/assets/js/loadjson/tsg_phishz.js"></script>
 			<script src=" home/assets/js/loadjson/tsg_prince.js"></script>
 			<script src=" home/assets/js/loadjson/tsg_slurgus.js"></script>
-			<script src=" home/assets/js/loadjson/tsg_slurgus2.0.js"></script>
+			<script src=" home/assets/js/loadjson/tsg_slurgus2.js"></script>
 			<script src=" home/assets/js/loadjson/tsg_struck.js"></script>
 			<script src=" home/assets/js/loadjson/tsg_temp-o.js"></script>
 
