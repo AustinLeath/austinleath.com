@@ -201,7 +201,7 @@
 			    } else {
 			        winorlose = "You <b>do not</b> need to win or lose ";
 			    }
-			document.getElementById("winorlose").innerHTML = winorlose;
+			document.getElementById("winorlose").textContent = winorlose;
 		}
 			</script>
 			<script>
@@ -220,7 +220,7 @@
 				var rankGoal = document.getElementById("rankGoal");
 				if (rankGoal) {
 					rankGoal.onsubmit = function () {
-					document.getElementById("result").innerHTML = calculateRankGoal(this.mmr.value, this.elo.value, this.goal.value);
+					document.getElementById("result").textContent = calculateRankGoal(this.mmr.value, this.elo.value, this.goal.value);
 					return false;
 					};
 				}
@@ -247,7 +247,7 @@
 
 
 
-			document.getElementById("matchcount").innerHTML = matchcount;
+			document.getElementById("matchcount").textContent = matchcount;
 			}
 			</script>
 
@@ -279,7 +279,7 @@
 			 } else {
 					 winorlose = "You <b>do not</b> need to win or lose ";
 			 }
-	 document.getElementById("winorlose1").innerHTML = winorlose;
+	 document.getElementById("winorlose1").textContent = winorlose;
  }
 	 </script>
 	 <script>
@@ -298,7 +298,7 @@
 		 var rankGoal1 = document.getElementById("rankGoal1");
 		 if (rankGoal1) {
 			 rankGoal1.onsubmit = function () {
-			 document.getElementById("result1").innerHTML = calculateRankGoal1(this.mmr1.value, this.elo1.value, this.goal1.value);
+			 document.getElementById("result1").textContent = calculateRankGoal1(this.mmr1.value, this.elo1.value, this.goal1.value);
 			 return false;
 			 };
 		 }
@@ -322,7 +322,7 @@
 		 } else {
 				 matchcount = " (&plusmn 1) matches to reach your rank goal";
 		 }
-	 document.getElementById("matchcount1").innerHTML = matchcount;
+	 document.getElementById("matchcount1").textContent = matchcount;
 	 }
 	 </script>
 <script>
