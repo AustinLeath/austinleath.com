@@ -109,6 +109,11 @@
 												<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/main/archive/master.zip" download>Download Project</a></td>
 												<td>Version 1.0.0</td>
 											</tr>
+											<tr>
+												<td>Rainbow Six Siege | MMR Calculator</td>
+												<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/MMRcalculator/archive/master.zip" download>Download Project</a></td>
+												<td>Version 1.0.0</td>
+											</tr>
 										</tbody>
 										<tfoot>
 											<tr>
@@ -150,7 +155,6 @@
 																		</div>
 																	</div>
 															</form>
-
 								</section>
 							</div>
 						</div>
