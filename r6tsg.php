@@ -125,6 +125,11 @@
 																	<td>Entry Fragger</td>
 																	<td><a href="https://r6db.com/player/17541266-d840-4044-aa46-8f1e3edc7c5e" target="_blank">R6DB Statistics</a></td>
 																</tr>
+																<tr>
+																	<td>TSG.DEF3KT</td>
+																	<td>Fragger</td>
+																	<td><a href="https://r6db.com/player/5af9fdc8-db46-4ca5-b57d-6b10a962f07c" target="_blank">R6DB Statistics</a></td>
+																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
@@ -158,6 +163,11 @@
 																	<td>Manager, Lurker</td>
 																	<td><a href="https://r6db.com/player/767374e1-b218-42ff-98c6-3f78553db5e9" target="_blank">R6DB Statistics</a></td>
 																</tr>
+																<tr>
+																	<td>TSG.Legion</td>
+																	<td>Utility</td>
+																	<td><a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB Statistics</a></td>
+																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
@@ -175,11 +185,6 @@
 																</tr>
 															</thead>
 															<tbody>
-																<tr>
-																	<td>TSG.Kazuhira</td>
-																	<td>Support</td>
-																	<td><a href="https://r6db.com/player/840a9beb-4092-40ce-b22a-0284383e8dd5" target="_blank">R6DB Statistics</a></td>
-																</tr>
 															</tbody>
 															<tfoot>
 																<tr>

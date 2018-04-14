@@ -21,6 +21,11 @@ $a[] = 'Dalton Cady ---> TSG.Prince <a href="https://r6db.com/player/80543135-bd
 $a[] = 'Cady ---> TSG.Prince <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB</a>';
 $a[] = 'Brandon Gonzalez ---> TSG.Kazuhira <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB</a>';
 $a[] = 'Gonzalez ---> TSG.Kazuhira <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB</a>';
+$a[] = 'Chris Goins ---> TSG.DEF3KT <a href="https://r6db.com/player/5af9fdc8-db46-4ca5-b57d-6b10a962f07c" target="_blank">R6DB</a>';
+$a[] = 'Goins ---> TSG.DEF3KT <a href="https://r6db.com/player/5af9fdc8-db46-4ca5-b57d-6b10a962f07c" target="_blank">R6DB</a>';
+$a[] = 'Jacob LaCroix ---> TSG.Legion <a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB</a>';
+$a[] = 'LaCroix ---> TSG.Legion <a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB</a>';
+
 //usernames
 $a[] = 'TSG.Slurgus <a href="https://r6db.com/player/8894b513-7067-473e-a001-e316104e32ea" target="_blank">R6DB</a>';
 $a[] = 'TSG.Slurgus2.0 <a href="https://r6db.com/player/79a248d4-4ba8-4be0-ba42-e0e836307099" target="_blank">R6DB</a>';
@@ -32,6 +37,8 @@ $a[] = 'TSG.Phishz <a href="https://r6db.com/player/17541266-d840-4044-aa46-8f1e
 $a[] = 'TSG.Prince <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB</a>';
 $a[] = 'TSG.Kazuhira <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB</a>';
 $a[] = 'TSG.Pluxt <a href="https://r6db.com/player/ef1ed143-4db1-44b0-b0cd-796cf52dddbe" target="_blank">R6DB</a>';
+$a[] = 'TSG.DEF3KT <a href="https://r6db.com/player/5af9fdc8-db46-4ca5-b57d-6b10a962f07c" target="_blank">R6DB</a>';
+$a[] = 'TSG.Legion <a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB</a>';
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
