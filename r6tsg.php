@@ -368,6 +368,16 @@
 		}
 		</script>
 
+		<script>
+		function enable() {
+		 document.getElementById("display").style.display="";
+		}
+		</script>
+		<script>
+		function disable() {
+		 document.getElementById("display").style.display="none";
+		}
+		</script>
 
 
 
