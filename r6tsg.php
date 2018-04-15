@@ -154,11 +154,6 @@
 																	<td><a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB Statistics</a></td>
 																</tr>
 																<tr>
-																	<td>TSG.Struck</td>
-																	<td>Fragger, Support</td>
-																	<td><a href="https://r6db.com/player/fa845839-343e-4c45-abed-979c3716a258" target="_blank">R6DB Statistics</a></td>
-																</tr>
-																<tr>
 																	<td>TSG.Lethal</td>
 																	<td>Manager, Lurker</td>
 																	<td><a href="https://r6db.com/player/767374e1-b218-42ff-98c6-3f78553db5e9" target="_blank">R6DB Statistics</a></td>
