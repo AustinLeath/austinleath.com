@@ -164,9 +164,14 @@
 																	<td><a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB Statistics</a></td>
 																</tr>
 																<tr>
-																	<td>TSG.Frontside</td>
-																	<td>Utility</td>
+																	<td>TSG.FrontSide</td>
+																	<td>Fragger</td>
 																	<td><a href="https://r6db.com/player/ce8303ce-6081-43a2-9ebd-e18953c7156a" target="_blank">R6DB Statistics</a></td>
+																</tr>
+																<tr>
+																	<td>TSG.Struck</td>
+																	<td>Support</td>
+																	<td><a href="https://r6db.com/player/fa845839-343e-4c45-abed-979c3716a258" target="_blank">R6DB Statistics</a></td>
 																</tr>
 															</tbody>
 															<tfoot>
