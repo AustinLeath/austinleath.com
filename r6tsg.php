@@ -163,6 +163,11 @@
 																	<td>Utility</td>
 																	<td><a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB Statistics</a></td>
 																</tr>
+																<tr>
+																	<td>TSG.Frontside</td>
+																	<td>Utility</td>
+																	<td><a href="https://r6db.com/player/ce8303ce-6081-43a2-9ebd-e18953c7156a" target="_blank">R6DB Statistics</a></td>
+																</tr>
 															</tbody>
 															<tfoot>
 																<tr>

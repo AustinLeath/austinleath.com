@@ -25,6 +25,8 @@ $a[] = 'Chris Goins ---> TSG.DEF3KT <a href="https://r6db.com/player/5af9fdc8-db
 $a[] = 'Goins ---> TSG.DEF3KT <a href="https://r6db.com/player/5af9fdc8-db46-4ca5-b57d-6b10a962f07c" target="_blank">R6DB</a>';
 $a[] = 'Jacob LaCroix ---> TSG.Legion <a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB</a>';
 $a[] = 'LaCroix ---> TSG.Legion <a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB</a>';
+$a[] = 'Ryan Hughes ---> TSG.Frontside <a href="https://r6db.com/player/ce8303ce-6081-43a2-9ebd-e18953c7156a" target="_blank">R6DB</a>';
+$a[] = 'Hughes ---> TSG.Frontside <a href="https://r6db.com/player/ce8303ce-6081-43a2-9ebd-e18953c7156a" target="_blank">R6DB</a>';
 
 //usernames
 $a[] = 'TSG.Slurgus <a href="https://r6db.com/player/8894b513-7067-473e-a001-e316104e32ea" target="_blank">R6DB</a>';
@@ -39,6 +41,7 @@ $a[] = 'TSG.Kazuhira <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c3
 $a[] = 'TSG.Pluxt <a href="https://r6db.com/player/ef1ed143-4db1-44b0-b0cd-796cf52dddbe" target="_blank">R6DB</a>';
 $a[] = 'TSG.DEF3KT <a href="https://r6db.com/player/5af9fdc8-db46-4ca5-b57d-6b10a962f07c" target="_blank">R6DB</a>';
 $a[] = 'TSG.Legion <a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB</a>';
+$a[] = 'TSG.Frontside <a href="https://r6db.com/player/ce8303ce-6081-43a2-9ebd-e18953c7156a" target="_blank">R6DB</a>';
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
