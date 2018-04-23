@@ -70,9 +70,7 @@
 						<header class="major">
 							<h2>Austin Leath | VRsenal</h2>
 							<section>
-								<h5 id="cycletxt-1">A hub for all things VRsenal</h5>
-								<h5 id="cycletxt-2">From links to patch notes</h5>
-								<h5 id="cycletxt-3">Everything is all here in one place</h5>
+								<h5>A hub for all things VRsenal</h5>
 							</section>
 						</header>
 						<!-- Content -->
@@ -156,7 +154,6 @@
 			<script src="../home/assets/js/skel.min.js"></script>
 			<script src="../home/assets/js/util.js"></script>
 			<script src="../home/assets/js/cycleimg.js"></script>
-			<script src="../home/assets/js/cycletxt.js"></script>
 			<script src="../home/assets/js/cyclestyle.js"></script>
 			<script src="../home/assets/js/normalizestyle.js"></script>
 			<script src="../home/assets/js/time.js"></script>
