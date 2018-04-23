@@ -239,9 +239,9 @@
 			$(function(){
 			    $.getJSON('tsg_lethal.json', function (data) {
 			        // output data from json files
-							document.getElementById("name").innerText = 'Current name', data.name;
+							document.getElementById("name").innerText = data.name;
 							document.getElementById("kills").innerText = data.stats.general.kills;
-							document.getElementById("number of names").innerText = data.aliases.length;
+							document.getElementById("aliases").innerText = data.aliases.length;
 			    });
 			});
 		</script>
