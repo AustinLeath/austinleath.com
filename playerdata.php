@@ -172,23 +172,6 @@
 																						</tfoot>
 																					</table>
 
-																					<h1>Username History for: TSG.Struck</h1>
-																						<table id="tsg_struck">
-																							<thead>
-																								<tr>
-																									<th>Username History</th>
-																									<th>Date of Change</th>
-																								</tr>
-																							</thead>
-																							<tbody>
-																							</tbody>
-																							<tfoot>
-																								<tr>
-																									<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
-																								</tr>
-																							</tfoot>
-																						</table>
-
 																						<h1>Username History for: TSG.Prince</h1>
 																							<table id="tsg_prince">
 																								<thead>
@@ -251,11 +234,10 @@
 			<script src=" home/assets/js/loadjson/tsg_prince.js"></script>
 			<script src=" home/assets/js/loadjson/tsg_slurgus.js"></script>
 			<script src=" home/assets/js/loadjson/tsg_slurgus2.js"></script>
-			<script src=" home/assets/js/loadjson/tsg_struck.js"></script>
 			<script src=" home/assets/js/loadjson/tsg_temp-o.js"></script>
 			<script>
 			$(function(){
-			    $.getJSON('tsg_lethal.json', function (data) {
+			    $.getJSON('/home/assets/js/loadjson/tsg_lethal.json', function (data) {
 			        // log some data to the console
 			        var a = console.log(data.aliases);
 			        var b = console.log('total kills', data.stats.general.kills);

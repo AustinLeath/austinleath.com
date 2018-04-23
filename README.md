@@ -1,9 +1,6 @@
-
-[![HitCount](http://hits.dwyl.io/austinleath/mmrcalculator.svg)](http://hits.dwyl.io/austinleath/mmrcalculator)
-[![HitCount](https://david-dm.org/austinleath/mmrcalculator.svg)](https://david-dm.org/austinleath/mmrcalculator.svg)
-https://david-dm.org/austinleath/mmrcalculator.svg
 # AustinLeath.com
-This repository contains all of the code for https://www.AustinLeath.com
+This repository contains all of the code for https://www.AustinLeath.com / https://www.R6RC.com/
+[![HitCount](http://hits.dwyl.io/austinleath/main.svg)](http://hits.dwyl.io/austinleath/main)
 
 # THINGS TO DO
 
