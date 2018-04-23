@@ -238,9 +238,8 @@
 			<script>
 			$(function(){
 			    $.getJSON('tsg_lethal.json', function (data) {
-			        // log some data to the console
-			        var b = console.log(data.name);
-							document.getElementById("aliases").innerText = b;
+			        // log some data to the consoles
+							document.getElementById("aliases").innerText = data.name;
 			    });
 			});
 		</script>
