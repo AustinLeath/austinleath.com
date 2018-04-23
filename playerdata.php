@@ -237,9 +237,9 @@
 			<script src=" home/assets/js/loadjson/tsg_temp-o.js"></script>
 			<script>
 			$(function(){
-			    $.getJSON('/home/assets/js/loadjson/tsg_lethal.json', function (data) {
+			    $.getJSON('home/assets/js/loadjson/tsg_lethal.json', function (data) {
 			        // log some data to the console
-			        var a = console.log(data.aliases);
+			        var a = console.log('names', data.aliases);
 			        var b = console.log('total kills', data.stats.general.kills);
 			        var c = console.log('number of aliases', data.aliases.length);
 							document.getElementById("name").innerText = a;
