@@ -238,8 +238,10 @@
 			<script>
 			$(function(){
 			    $.getJSON('tsg_lethal.json', function (data) {
-			        // log some data to the consoles
+			        // output data from json files
+							document.getElementById("name").innerText = 'Current name', data.name;
 							document.getElementById("kills").innerText = data.stats.general.kills;
+							document.getElementById("number of names").innerText = data.aliases.length;
 			    });
 			});
 		</script>
