@@ -239,7 +239,7 @@
 			$(function(){
 			    $.getJSON('tsg_lethal.json', function (data) {
 			        // log some data to the console
-			        var a = console.log(data.stats);
+			        var a = console.log(data);
 			        var b = console.log(data.stats.general.kills);
 			        var c = console.log(data.aliases.length);
 							document.getElementById("name").innerText = a;
