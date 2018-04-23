@@ -125,6 +125,11 @@
 																	<td>Entry Fragger</td>
 																	<td><a href="https://r6db.com/player/17541266-d840-4044-aa46-8f1e3edc7c5e" target="_blank">R6DB Statistics</a></td>
 																</tr>
+																<tr>
+																	<td>TSG.DEF3KT</td>
+																	<td>Fragger</td>
+																	<td><a href="https://r6db.com/player/5af9fdc8-db46-4ca5-b57d-6b10a962f07c" target="_blank">R6DB Statistics</a></td>
+																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
@@ -149,14 +154,24 @@
 																	<td><a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB Statistics</a></td>
 																</tr>
 																<tr>
-																	<td>TSG.Struck</td>
-																	<td>Fragger, Support</td>
-																	<td><a href="https://r6db.com/player/fa845839-343e-4c45-abed-979c3716a258" target="_blank">R6DB Statistics</a></td>
-																</tr>
-																<tr>
 																	<td>TSG.Lethal</td>
 																	<td>Manager, Lurker</td>
 																	<td><a href="https://r6db.com/player/767374e1-b218-42ff-98c6-3f78553db5e9" target="_blank">R6DB Statistics</a></td>
+																</tr>
+																<tr>
+																	<td>TSG.Legion</td>
+																	<td>Utility</td>
+																	<td><a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB Statistics</a></td>
+																</tr>
+																<tr>
+																	<td>TSG.FrontSide</td>
+																	<td>Fragger</td>
+																	<td><a href="https://r6db.com/player/ce8303ce-6081-43a2-9ebd-e18953c7156a" target="_blank">R6DB Statistics</a></td>
+																</tr>
+																<tr>
+																	<td>TSG.Struck</td>
+																	<td>Support</td>
+																	<td><a href="https://r6db.com/player/fa845839-343e-4c45-abed-979c3716a258" target="_blank">R6DB Statistics</a></td>
 																</tr>
 															</tbody>
 															<tfoot>
@@ -175,11 +190,6 @@
 																</tr>
 															</thead>
 															<tbody>
-																<tr>
-																	<td>TSG.Kazuhira</td>
-																	<td>Support</td>
-																	<td><a href="https://r6db.com/player/840a9beb-4092-40ce-b22a-0284383e8dd5" target="_blank">R6DB Statistics</a></td>
-																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
@@ -195,90 +205,54 @@
 														<p>Stored member history: <span id="txtHint"></span></p>
 													<!--Divider-->
 														</section>
-															<section id="formdata">
-																<h3>Rainbow Six Siege | MMR Calculator</h3>
-																<form method="post" action="">
-																	<div class="row uniform 50%">
-																		<div class="6u 12u$(xsmall)">
-																			<input type="number" name="MMR" id="MMR" value="" placeholder="Enter your current MMR">
-																		</div>
-																		<div class="6u$ 12u$(xsmall)">
-																			<input type="number" name="ELO" id="ELO" value="" placeholder="Enter your current ELO per match">
-																		</div>
-																		<div class="12u$">
-																			<div class="select-wrapper">
-																				<select name="rankfinal" id="rankfinal">
-																					<option value="0">- Select a Rank -</option>
-																					<option value="1300">Copper IV</option>
-																					<option value="1400">Copper III</option>
-																					<option value="1500">Copper II</option>
-																					<option value="1600">Copper I</option>
-																					<option value="1700">Bronze IV</option>
-																					<option value="1800">Bronze III</option>
-																					<option value="1900">Bronze II</option>
-																					<option value="2000">Bronze I</option>
-																					<option value="2100">Silver IV</option>
-																			 		<option value="2200">Silver III</option>
-																					<option value="2300">Silver II</option>
-																					<option value="2400">Silver I</option>
-																					<option value="2500">Gold IV</option>
-																					<option value="2700">Gold III</option>
-																					<option value="2900">Gold II</option>
-																					<option value="3100">Gold I</option>
-																					<option value="3300">Platinum III</option>
-																					<option value="3700">Platinum II</option>
-																					<option value="4100">Platinum I</option>
-																					<option value="4500">Diamond</option>
-																				</select>
-																			</div>
-																		</div>
-																		<div class="12u$">
-																			<ul class="actions">
-																				<li><input type="submit" value="Submit" class="special"></li>
-																				<li><input type="reset" value="Reset"></li>
-																			</ul>
+														<section id="formdata">
+															<h3>Rainbow Six Siege | MMR Calculator</h3>
+															<form id="rankGoal" action="">
+																<div class="row uniform 50%">
+																	<div class="6u 12u$(xsmall)">
+																		<input type="number" name="mmr" id="mmr" min="1300" max="10000" value="" placeholder="Enter your current MMR" />
+																	</div>
+																	<div class="6u$ 12u$(xsmall)">
+																		<input type="number" name="elo" id="elo" min="0" max="1000" value="" placeholder="Enter your current ELO per match" />
+																	</div>
+																	<div class="12u$">
+																		<div class="select-wrapper">
+																			<select name="goal" id="goal">
+																				<option value="0">- Select a Rank -</option>
+																				<option value="1300">Copper IV</option>
+																				<option value="1400">Copper III</option>
+																				<option value="1500">Copper II</option>
+																				<option value="1600">Copper I</option>
+																				<option value="1700">Bronze IV</option>
+																				<option value="1800">Bronze III</option>
+																				<option value="1900">Bronze II</option>
+																				<option value="2000">Bronze I</option>
+																				<option value="2100">Silver IV</option>
+																				<option value="2200">Silver III</option>
+																				<option value="2300">Silver II</option>
+																				<option value="2400">Silver I</option>
+																				<option value="2500">Gold IV</option>
+																				<option value="2700">Gold III</option>
+																				<option value="2900">Gold II</option>
+																				<option value="3100">Gold I</option>
+																				<option value="3300">Platinum III</option>
+																				<option value="3700">Platinum II</option>
+																				<option value="4100">Platinum I</option>
+																				<option value="4500">Diamond</option>
+																			</select>
 																		</div>
 																	</div>
-															</form>
-															Since your MMR is: <?php echo $_POST["MMR"]; ?> and the ELO you get per match is: <?php echo $_POST["ELO"]; ?><br>
-															<?php
-															$a = $_POST["rankfinal"];
-															$b = $_POST["MMR"];
-															$c = $_POST["ELO"];
-															$d = ($a - $b) / $c;
-
-															if ($d > "0") {
-																 echo "You need to <b>win</b>";
-															} elseif ($d < "0") {
-																 echo "You need to <b>lose</b>";
-															} else {
-																 echo "You <b>dont</b> need to win or lose";
-															}
-															?>
-
-															<?php
-															$a = $_POST["rankfinal"];
-															$b = $_POST["MMR"];
-															$c = $_POST["ELO"];
-															$d = ($a - $b) / $c;
-															$e = ceil($d);
-															echo abs($e);
-															?> (&plusmn; 1)
-
-															<?php
-															$a = $_POST["rankfinal"];
-															$b = $_POST["MMR"];
-															$c = $_POST["ELO"];
-															$d = ($a - $b) / $c;
-															$e = ceil($d);
-															$f = abs($e);
-															if ($f > "1") {
-																 echo "matches";
-															} else {
-																 echo "match";
-															}
-															?> to reach your rank goal<br>
-								</section>
+																	<div class="12u$">
+																		<ul class="actions">
+																			<li><input type="submit" value="Calculate" class="special" onclick="enable();winorlose();matchcount();"></li>
+																			<li><input type="reset" value="Reset" onclick="disable();"></li>
+																			<li><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="I just used a website to calculate how many ranked matches I have to play to get to my desired rank in Tom Clancy&#39;s: Rainbow Six Siege" data-url="https://www.austinleath.com/mmrcalculator.php" data-via="AustinZLeath" data-hashtags="RainbowSixSiege" data-related="Rainbow6Game,Ubisoft" data-lang="en" data-show-count="false">Tweet</a></li>
+																			<li id="display"><a id="winorlose"></a><a id="result"></a><a id="matchcount"></a></li>
+																		</ul>
+																	</div>
+																</div>
+														</form>
+										</section>
 						 </div>
 				</div>
 				<iframe class="r6db" src="https://r6db.com/"></iframe>
@@ -330,5 +304,89 @@
 			}
 		</script>
 		<script src="home/assets/js/loadjson.js"></script>
+
+
+		<script>
+			function winorlose() {
+				var winorlose;
+
+				var a = document.getElementById("mmr").value;
+				var b = document.getElementById("elo").value;
+				var c = document.getElementById("goal").value;
+				var d = ((c - a) / b);
+				var e = Math.ceil(d);
+
+				if ( e > 0) {
+						winorlose = "You need to <b>win</b> ";
+				} else if ( e < 0) {
+						winorlose = "You need to <b>lose</b> ";
+				} else {
+						winorlose = "You <b>do not</b> need to win or lose ";
+				}
+		document.getElementById("winorlose").innerHTML = winorlose;
+	}
+		</script>
+		<script>
+		(function () {
+			function calculateRankGoal(mmr, elo, goal) {
+				mmr = parseFloat(mmr);
+				elo = parseFloat(elo);
+				goal = parseFloat(goal);
+
+				var a = ((goal - mmr) / elo);
+				var b = Math.ceil(a);
+				var c = Math.abs(b);
+				return c;
+			}
+
+			var rankGoal = document.getElementById("rankGoal");
+			if (rankGoal) {
+				rankGoal.onsubmit = function () {
+				document.getElementById("result").innerHTML = calculateRankGoal(this.mmr.value, this.elo.value, this.goal.value);
+				return false;
+				};
+			}
+		}());
+		</script>
+		<script>
+		function matchcount() {
+			var matchcount;
+
+			var a = document.getElementById("mmr").value;
+			var b = document.getElementById("elo").value;
+			var c = document.getElementById("goal").value;
+			var d = ((c - a) / b);
+			var e = Math.ceil(d);
+			var f = Math.abs(e);
+
+			if ( f == 1) {
+					matchcount = " (&plusmn 1) match to reach your rank goal";
+			} else if (f > 1) {
+					matchcount = " (&plusmn 1) matches to reach your rank goal";
+			} else {
+					matchcount = " (&plusmn 1) matches to reach your rank goal";
+			}
+
+
+
+		document.getElementById("matchcount").innerHTML = matchcount;
+		}
+		</script>
+
+		<script>
+		function enable() {
+		 document.getElementById("display").style.display="";
+		}
+		</script>
+		<script>
+		function disable() {
+		 document.getElementById("display").style.display="none";
+		}
+		</script>
+
+
+
+
+
 	</body>
 </html>
