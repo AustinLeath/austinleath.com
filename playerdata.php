@@ -239,8 +239,8 @@
 			$(function(){
 			    $.getJSON('tsg_lethal.json', function (data) {
 			        // log some data to the console
-			        var b = console.log(data.stats.general.kills);
-							document.getElementById("kills").innerText = b;
+			        var b = console.log(data.aliases);
+							document.getElementById("aliases").innerText = b;
 			    });
 			});
 		</script>
