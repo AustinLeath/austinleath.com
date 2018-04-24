@@ -96,7 +96,8 @@
 						 <pre id="kills1"></pre>
 						 <pre id="name2"></pre>
 						 <pre id="kills2"></pre>
-						 <li><input type="button" value="button" class="special" onclick="enable1();"></li>
+						 <pre id=result></pre>
+						 <input type="button" value="button" class="special" onclick="enable();">
 				</div>
 			<footer id="footer">
 				<ul class="icons">
@@ -178,11 +179,11 @@
 </script>
 <script>
 function enable() {
-	var a = document.getElementById("kills");
-	var b = document.getElementById("kills1");
-	var c = document.getElementById("kills2");
+	var a = document.getElementById("kills").value;
+	var b = document.getElementById("kills1").value;
+	var c = document.getElementById("kills2").value;
 	var d = a + b + c;
- document.getElementById("display1").innerText = d;
+ document.getElementById("result").innerText = d;
 }
 </script>
 	</body>
