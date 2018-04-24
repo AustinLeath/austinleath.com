@@ -106,7 +106,7 @@
 															</thead>
 															<tbody>
 																<tr>
-																	<td>TSG.Slurgus</td>
+																	<td id="8894b513-7067-473e-a001-e316104e32ea"></td>
 																	<td>Entry Fragger</td>
 																	<td><a href="https://r6db.com/player/8894b513-7067-473e-a001-e316104e32ea" target="_blank">R6DB Statistics</a></td>
 																</tr>
@@ -366,9 +366,6 @@
 			} else {
 					matchcount = " (&plusmn 1) matches to reach your rank goal";
 			}
-
-
-
 		document.getElementById("matchcount").innerHTML = matchcount;
 		}
 		</script>
@@ -385,8 +382,18 @@
 		</script>
 
 
-
-
-
+		<!--READ JSON-->
+		<script>
+		$(function(){
+				$.getJSON('tsg_slurgus.json', function (data) {
+						// output data from json files
+						name = data.name
+						rankedkills = data.stats.ranked.kills
+						rankeddeaths = data.stats.ranked.deaths
+						d = data.id
+						document.getElementById("8894b513-7067-473e-a001-e316104e32ea").innerText = name;
+				});
+		});
+		</script>
 	</body>
 </html>
