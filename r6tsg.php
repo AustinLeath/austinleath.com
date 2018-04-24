@@ -493,7 +493,7 @@
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
 						id = data.id
-						document.getElementById("TSG.Lethal").innerText = name, rankedkills;
+						document.getElementById("TSG.Lethal").innerText = name + '' + rankedkills;
 				});
 		});
 		</script>
