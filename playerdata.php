@@ -96,6 +96,7 @@
 						 <pre id="kills1"></pre>
 						 <pre id="name2"></pre>
 						 <pre id="kills2"></pre>
+						 <li><input type="button" value="button" class="special" onclick="enable1();"></li>
 				</div>
 			<footer id="footer">
 				<ul class="icons">
@@ -174,6 +175,15 @@
 					document.getElementById("kills2").innerText = data.stats.ranked.kills;
 			});
 	});
+</script>
+<script>
+function enable() {
+	var a = document.getElementById("kills");
+	var b = document.getElementById("kills1");
+	var c = document.getElementById("kills2");
+	var d = a + b + c;
+ document.getElementById("display1").innerText = d;
+}
 </script>
 	</body>
 </html>
