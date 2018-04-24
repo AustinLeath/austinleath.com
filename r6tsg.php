@@ -154,7 +154,7 @@
 																	<td><a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB Statistics</a></td>
 																</tr>
 																<tr>
-																	<td id="TSG.Lethal">TSG.Lethal</td>
+																	<td id="TSG.Lethal"></td>
 																	<td>Manager, Lurker</td>
 																	<td><a href="https://r6db.com/player/767374e1-b218-42ff-98c6-3f78553db5e9" target="_blank">R6DB Statistics</a></td>
 																</tr>
@@ -445,7 +445,7 @@
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
 						d = data.id
-						document.getElementById("").innerText = name;
+						document.getElementById("5af9fdc8-db46-4ca5-b57d-6b10a962f07c").innerText = name;
 				});
 		});
 		</script>
