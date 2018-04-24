@@ -86,115 +86,16 @@
 																	</tr>
 																</tfoot>
 															</table>
-
-															<h1>Username History for: TSG.Slurgus</h1>
-																<table id="tsg_slurgus">
-																	<thead>
-																		<tr>
-																			<th>Username History</th>
-																			<th>Date of Change</th>
-																		</tr>
-																	</thead>
-																	<tbody>
-																	</tbody>
-																	<tfoot>
-																		<tr>
-																			<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
-																		</tr>
-																	</tfoot>
-																</table>
-
-																<h1>Username History for: TSG.Slurgus2.0</h1>
-																	<table id="tsg_slurgus2">
-																		<thead>
-																			<tr>
-																				<th>Username History</th>
-																				<th>Date of Change</th>
-																			</tr>
-																		</thead>
-																		<tbody>
-																		</tbody>
-																		<tfoot>
-																			<tr>
-																				<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
-																			</tr>
-																		</tfoot>
-																	</table>
-
-																	<h1>Username History for: TSG.Temp-o</h1>
-																		<table id="tsg_temp-o">
-																			<thead>
-																				<tr>
-																					<th>Username History</th>
-																					<th>Date of Change</th>
-																				</tr>
-																			</thead>
-																			<tbody>
-																			</tbody>
-																			<tfoot>
-																				<tr>
-																					<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
-																				</tr>
-																			</tfoot>
-																		</table>
-
-																		<h1>Username History for: TSG.Jiffy</h1>
-																			<table id="tsg_jiffy">
-																				<thead>
-																					<tr>
-																						<th>Username History</th>
-																						<th>Date of Change</th>
-																					</tr>
-																				</thead>
-																				<tbody>
-																				</tbody>
-																				<tfoot>
-																					<tr>
-																						<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
-																					</tr>
-																				</tfoot>
-																			</table>
-
-																				<h1>Username History for: TSG.Phishz</h1>
-																					<table id="tsg_phishz">
-																						<thead>
-																							<tr>
-																								<th>Username History</th>
-																								<th>Date of Change</th>
-																							</tr>
-																						</thead>
-																						<tbody>
-																						</tbody>
-																						<tfoot>
-																							<tr>
-																								<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
-																							</tr>
-																						</tfoot>
-																					</table>
-
-																						<h1>Username History for: TSG.Prince</h1>
-																							<table id="tsg_prince">
-																								<thead>
-																									<tr>
-																										<th>Username History</th>
-																										<th>Date of Change</th>
-																									</tr>
-																								</thead>
-																								<tbody>
-																								</tbody>
-																								<tfoot>
-																									<tr>
-																										<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
-																									</tr>
-																								</tfoot>
-																							</table>
 														<!--Divider-->
 													</section>
 								</section>
 						 </div>
 						 <pre id="name"></pre>
 						 <pre id="kills"></pre>
-						 <pre id="aliases"></pre>
+						 <pre id="name1"></pre>
+						 <pre id="kills1"></pre>
+						 <pre id="name2"></pre>
+						 <pre id="kills2"></pre>
 				</div>
 			<footer id="footer">
 				<ul class="icons">
@@ -227,7 +128,7 @@
 			<script src=" home/assets/js/showanswer.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src=" home/assets/js/main.js"></script>
-				<!--DIVIDER-->
+			<!--DIVIDER-->
 			<script src=" home/assets/js/loadjson/tsg_lethal.js"></script>
 			<script src=" home/assets/js/loadjson/tsg_jiffy.js"></script>
 			<script src=" home/assets/js/loadjson/tsg_phishz.js"></script>
@@ -239,11 +140,40 @@
 			$(function(){
 			    $.getJSON('tsg_lethal.json', function (data) {
 			        // output data from json files
+							name = data.name
+							rankedkills = data.stats.ranked.kills
+							rankeddeaths = data.stats.ranked.deaths
+							d = data.id
 							document.getElementById("name").innerText = data.name;
-							document.getElementById("kills").innerText = data.stats.general.kills;
-							document.getElementById("aliases").innerText = data.aliases.length;
+							document.getElementById("kills").innerText = data.stats.ranked.kills;
 			    });
 			});
 		</script>
+		<script>
+		$(function(){
+				$.getJSON('tsg_temp-o.json', function (data) {
+						// output data from json files
+						name = data.name
+						rankedkills = data.stats.ranked.kills
+						rankeddeaths = data.stats.ranked.deaths
+						d = data.id
+						document.getElementById("name1").innerText = data.name;
+						document.getElementById("kills1").innerText = data.stats.ranked.kills;
+				});
+		});
+	</script>
+	<script>
+	$(function(){
+			$.getJSON('tsg_slurgus.json', function (data) {
+					// output data from json files
+					name = data.name
+					rankedkills = data.stats.ranked.kills
+					rankeddeaths = data.stats.ranked.deaths
+					d = data.id
+					document.getElementById("name2").innerText = data.name;
+					document.getElementById("kills2").innerText = data.stats.ranked.kills;
+			});
+	});
+</script>
 	</body>
 </html>

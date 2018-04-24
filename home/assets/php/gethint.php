@@ -19,8 +19,8 @@ $a[] = 'Brennan Carr ---> TSG.Pluxt <a href="https://r6db.com/player/ef1ed143-4d
 $a[] = 'Carr ---> TSG.Pluxt <a href="https://r6db.com/player/ef1ed143-4db1-44b0-b0cd-796cf52dddbe" target="_blank">R6DB</a>';
 $a[] = 'Dalton Cady ---> TSG.Prince <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB</a>';
 $a[] = 'Cady ---> TSG.Prince <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB</a>';
-$a[] = 'Brandon Gonzalez ---> TSG.Kazuhira <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB</a>';
-$a[] = 'Gonzalez ---> TSG.Kazuhira <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB</a>';
+$a[] = 'Brandon Gonzalez ---> TSG.Kazuhira <a href="https://r6db.com/player/840a9beb-4092-40ce-b22a-0284383e8dd5" target="_blank">R6DB</a>';
+$a[] = 'Gonzalez ---> TSG.Kazuhira <a href="https://r6db.com/player/840a9beb-4092-40ce-b22a-0284383e8dd5" target="_blank">R6DB</a>';
 $a[] = 'Chris Goins ---> TSG.DEF3KT <a href="https://r6db.com/player/5af9fdc8-db46-4ca5-b57d-6b10a962f07c" target="_blank">R6DB</a>';
 $a[] = 'Goins ---> TSG.DEF3KT <a href="https://r6db.com/player/5af9fdc8-db46-4ca5-b57d-6b10a962f07c" target="_blank">R6DB</a>';
 $a[] = 'Jacob LaCroix ---> TSG.Legion <a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB</a>';
@@ -37,7 +37,7 @@ $a[] = 'TSG.Jiffy <a href="https://r6db.com/player/f561393f-63bb-4332-b71b-cbb16
 $a[] = 'TSG.Struck <a href="https://r6db.com/player/fa845839-343e-4c45-abed-979c3716a258" target="_blank">R6DB</a>';
 $a[] = 'TSG.Phishz <a href="https://r6db.com/player/17541266-d840-4044-aa46-8f1e3edc7c5e" target="_blank">R6DB</a>';
 $a[] = 'TSG.Prince <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB</a>';
-$a[] = 'TSG.Kazuhira <a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB</a>';
+$a[] = 'TSG.Kazuhira <a href="https://r6db.com/player/840a9beb-4092-40ce-b22a-0284383e8dd5" target="_blank">R6DB</a>';
 $a[] = 'TSG.Pluxt <a href="https://r6db.com/player/ef1ed143-4db1-44b0-b0cd-796cf52dddbe" target="_blank">R6DB</a>';
 $a[] = 'TSG.DEF3KT <a href="https://r6db.com/player/5af9fdc8-db46-4ca5-b57d-6b10a962f07c" target="_blank">R6DB</a>';
 $a[] = 'TSG.Legion <a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB</a>';
