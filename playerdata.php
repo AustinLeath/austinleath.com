@@ -90,13 +90,13 @@
 													</section>
 								</section>
 						 </div>
-						 <pre id="name" value=""></pre>
-						 <pre id="kills" value=""></pre>
-						 <pre id="name1" value=""></pre>
-						 <pre id="kills1" value=""></pre>
-						 <pre id="name2" value=""></pre>
-						 <pre id="kills2" value=""></pre>
-						 <pre id=result></pre>
+						 <a id="name"></a>
+						 <a id="kills"></a>
+						 <a id="name1"></a>
+						 <a id="kills1"></a>
+						 <a id="name2"></a>
+						 <a id="kills2"></a>
+						 <a id=result></a>
 						 <input type="button" value="button" class="special" onclick="enable();">
 				</div>
 			<footer id="footer">
@@ -183,7 +183,7 @@ function enable() {
 	var b = document.getElementById("kills1").value;
 	var c = document.getElementById("kills2").value;
 	var d = a + b + c;
- document.getElementById("result").innerText = d;
+ document.getElementById("result").innerText = a;
 }
 </script>
 	</body>
