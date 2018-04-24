@@ -384,7 +384,7 @@
 						name = data.name
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
-						d = data.id
+						id = data.id
 						document.getElementById("767374e1-b218-42ff-98c6-3f78553db5e9").innerText = name;
 				});
 		});
@@ -396,7 +396,7 @@
 						name = data.name
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
-						d = data.id
+						id = data.id
 						document.getElementById("8894b513-7067-473e-a001-e316104e32ea").innerText = name;
 				});
 		});
@@ -408,7 +408,7 @@
 						name = data.name
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
-						d = data.id
+						id = data.id
 						document.getElementById("ca54e49a-76f2-4290-8e11-e36827caccb0").innerText = name;
 				});
 		});
@@ -420,7 +420,7 @@
 						name = data.name
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
-						d = data.id
+						id = data.id
 						document.getElementById("f561393f-63bb-4332-b71b-cbb1665b46ed").innerText = name;
 				});
 		});
@@ -432,7 +432,7 @@
 						name = data.name
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
-						d = data.id
+						id = data.id
 						document.getElementById("17541266-d840-4044-aa46-8f1e3edc7c5e").innerText = name;
 				});
 		});
@@ -444,7 +444,7 @@
 						name = data.name
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
-						d = data.id
+						id = data.id
 						document.getElementById("5af9fdc8-db46-4ca5-b57d-6b10a962f07c").innerText = name;
 				});
 		});
@@ -456,7 +456,7 @@
 						name = data.name
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
-						d = data.id
+						id = data.id
 						document.getElementById("80543135-bd7d-4c52-8c4d-c398cc35982a").innerText = name;
 				});
 		});
@@ -468,7 +468,7 @@
 						name = data.name
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
-						d = data.id
+						id = data.id
 						document.getElementById("7c3185c0-74c9-440f-8f67-29cb3eaa4112").innerText = name;
 				});
 		});
@@ -480,7 +480,7 @@
 						name = data.name
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
-						d = data.id
+						id = data.id
 						document.getElementById("ce8303ce-6081-43a2-9ebd-e18953c7156a").innerText = name;
 				});
 		});
@@ -492,8 +492,8 @@
 						name = data.name
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
-						d = data.id
-						document.getElementById("TSG.Lethal").innerText = name;
+						id = data.id
+						document.getElementById("TSG.Lethal").innerText = name, rankedkills;
 				});
 		});
 		</script>
