@@ -91,13 +91,23 @@
 								</section>
 						 </div>
 						 <a id="name"></a>
-						 <a id="kills"></a>
+
 						 <a id="name1"></a>
-						 <a id="kills1"></a>
+
 						 <a id="name2"></a>
-						 <a id="kills2"></a>
+
 						 <a id=result></a>
+
+
+
+
+						 <input id="kills" type="number" value="" readonly>
+						 <input id="kills1" type="number" value="" readonly>
+						 <input id="kills2" type="number" value="" readonly>
+
 						 <input type="button" value="button" class="special" onclick="enable();">
+						 <a id=result></a>
+
 				</div>
 			<footer id="footer">
 				<ul class="icons">
@@ -183,7 +193,7 @@ function enable() {
 	var b = document.getElementById("kills1").value;
 	var c = document.getElementById("kills2").value;
 	var d = a + b + c;
- document.getElementById("result").innerText = a;
+ document.getElementById("result").innerText = d;
 }
 </script>
 	</body>
