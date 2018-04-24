@@ -90,12 +90,12 @@
 													</section>
 								</section>
 						 </div>
-						 <pre id="name"></pre>
-						 <pre id="kills"></pre>
-						 <pre id="name1"></pre>
-						 <pre id="kills1"></pre>
-						 <pre id="name2"></pre>
-						 <pre id="kills2"></pre>
+						 <pre id="name" value=""></pre>
+						 <pre id="kills" value=""></pre>
+						 <pre id="name1" value=""></pre>
+						 <pre id="kills1" value=""></pre>
+						 <pre id="name2" value=""></pre>
+						 <pre id="kills2" value=""></pre>
 						 <pre id=result></pre>
 						 <input type="button" value="button" class="special" onclick="enable();">
 				</div>
