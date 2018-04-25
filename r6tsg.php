@@ -493,7 +493,8 @@
 						rankedkills = data.stats.ranked.kills
 						rankeddeaths = data.stats.ranked.deaths
 						id = data.id
-						document.getElementById("TSG.Lethal").innerText = name + ' Kills ' + rankedkills;
+						mmr = data.rank.ncsa.mmr
+						document.getElementById("TSG.Lethal").innerText = name + ' Kills: ' + rankedkills + ' MMR: ' + mmr;
 				});
 		});
 		</script>
