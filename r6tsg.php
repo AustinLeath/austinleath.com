@@ -195,6 +195,7 @@
 														-->
 														<!--DIVIDER-->
 														<form>
+														<p><b>Ten Sins Player Database</b></p>
 														<input type="text" onkeyup="showHint(this.value)" placeholder="Enter a username or first name">
 														<p>Stored member history: <span id="txtHint"></span></p>
 														</form>
