@@ -489,12 +489,13 @@
 		$(function(){
 				$.getJSON('tsg_lethal.json', function (data) {
 						// output data from json files
-						name = data.name
-						rankedkills = data.stats.ranked.kills
-						rankeddeaths = data.stats.ranked.deaths
-						id = data.id
-						mmr = data.rank.ncsa.mmr
-						document.getElementById("TSG.Lethal").innerText = name + ' Kills: ' + rankedkills + ' MMR: ' + mmr;
+						name = data.name;
+						rankedkills = data.stats.ranked.kills;
+						rankeddeaths = data.stats.ranked.deaths;
+						id = data.id;
+						mmr = data.rank.ncsa.mmr;
+						round = Math.floor(mmr);
+						document.getElementById("TSG.Lethal").innerText = name + ' Kills: ' + rankedkills + ' MMR: ' + round;
 				});
 		});
 		</script>
