@@ -194,11 +194,10 @@
 														</table>
 														-->
 														<!--DIVIDER-->
-														<p><b>Start by typing a Ten Sins members name starting with "TSG"<br>Or you can get started by typing a Ten Sins members First name.</b></p>
 														<form>
-															Enter a Ten Sins member name or first name: <input type="text" onkeyup="showHint(this.value)">
-														</form>
+														<input type="text" onkeyup="showHint(this.value)" placeholder="Enter a username or first name">
 														<p>Stored member history: <span id="txtHint"></span></p>
+														</form>
 													<!--Divider-->
 														</section>
 														<section id="formdata">
