@@ -42,6 +42,9 @@
 									 <li><a href="../rcs/index.php">Rileigh Sayen</a></li>
 									 <li><a href="../info/aboutdeveloper.html">About Me</a></li>
 									 <li><a href="../vrsenal/index.php">VRsenal</a></li>
+									 <li><a href="../r6tsg.php">R6S | TSG</a></li>
+									 <li><a href="../mmrcalculator.php">R6S | MMR Calculator (Legacy)</a></li>
+									 <li><a href="../mmrcalculator.html">R6S | MMR Calculator (New)</a></li>
 									 <li><a href="../index.html">Return Home</a></li>
 								  </ul>
 							 <!--DIVIDER-->
@@ -68,16 +71,16 @@
 					<div class="container">
 						<header class="major">
 							<h2>Austin Leath | Form</h2>
-							<p>Fill out and submit the form below if you would like to be part of our group!</p>
+							<h5 id="cycletxt-1">Fill out the form below to be evaluated</h5>
+							<h5 id="cycletxt-2">We will contact you when your application<br>has been processed</h5>
+							<h5 id="cycletxt-3">Visit the <a href="../r6tsg.php">Ten Sins Gaming</a> page for<br>current member info and stats</h5>
 						</header>
-
 						<!-- Content -->
 							<section id="content">
                 <iframe class="image fit" src="https://docs.google.com/forms/d/e/1FAIpQLSeIbEU_roRTrwYyaZQCdEyHg9gODs_AwjRoM9eJI-I8IxhsdA/viewform?embedded=true" width="1280" height="1600" frameborder="0" scrolling="no" marginheight="0"></iframe>
 						 </section>
 					 </div>
 				</div>
-
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
@@ -108,6 +111,7 @@
 			<script src="../home/assets/js/time.js"></script>
 			<script src="../home/assets/js/normalizestyle.js"></script>
 			<script src="../home/assets/js/cyclestyle.js"></script>
+			<script src="home/assets/js/cycletxt.js"></script>
 
 			<!--[if lte IE 8]><script src="../home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="../home/assets/js/main.js"></script>
