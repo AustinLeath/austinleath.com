@@ -73,7 +73,7 @@
 							<h2>Austin Leath | Form</h2>
 							<h5 id="cycletxt-1">Fill out the form below to be evaluated</h5>
 							<h5 id="cycletxt-2">We will contact you when your application<br>has been processed</h5>
-							<h5 id="cycletxt-3">Visit the <a href="../r6tsg.php">Ten Sins Gaming</a> page for<br>current member info and stats</h5>
+							<h5 id="cycletxt-3">Visit the <b><a href="../r6tsg.php">Ten Sins Gaming</a></b> page for<br>current member info and stats</h5>
 						</header>
 						<!-- Content -->
 							<section id="content">
@@ -111,7 +111,7 @@
 			<script src="../home/assets/js/time.js"></script>
 			<script src="../home/assets/js/normalizestyle.js"></script>
 			<script src="../home/assets/js/cyclestyle.js"></script>
-			<script src="home/assets/js/cycletxt.js"></script>
+			<script src="../home/assets/js/cycletxt.js"></script>
 
 			<!--[if lte IE 8]><script src="../home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="../home/assets/js/main.js"></script>
