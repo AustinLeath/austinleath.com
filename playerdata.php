@@ -86,28 +86,28 @@
 																	</tr>
 																</tfoot>
 															</table>
+
+															<h1>Rainbow Six: Siege Global Leaderboard</h1>
+																<table id="leaderboard">
+																	<thead>
+																		<tr>
+																			<th>Username</th>
+																			<th>Place</th>
+																			<th>Value</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																	</tbody>
+																	<tfoot>
+																		<tr>
+																			<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																		</tr>
+																	</tfoot>
+																</table>
 														<!--Divider-->
 													</section>
 								</section>
 						 </div>
-						 <a id="name"></a>
-
-						 <a id="name1"></a>
-
-						 <a id="name2"></a>
-
-						 <a id=result></a>
-
-
-
-
-						 <input id="kills" type="number" value="" readonly>
-						 <input id="kills1" type="number" value="" readonly>
-						 <input id="kills2" type="number" value="" readonly>
-
-						 <input type="button" value="button" class="special" onclick="enable();">
-						 <a id=result></a>
-
 				</div>
 			<footer id="footer">
 				<ul class="icons">
@@ -138,63 +138,19 @@
 			<script src=" home/assets/js/normalizestyle.js"></script>
 			<script src=" home/assets/js/cyclestyle.js"></script>
 			<script src=" home/assets/js/showanswer.js"></script>
+			<script src=" home/assets/js/loadleaderboard.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src=" home/assets/js/main.js"></script>
 			<!--DIVIDER-->
 			<script src=" home/assets/js/loadjson/tsg_lethal.js"></script>
-			<script src=" home/assets/js/loadjson/tsg_jiffy.js"></script>
-			<script src=" home/assets/js/loadjson/tsg_phishz.js"></script>
-			<script src=" home/assets/js/loadjson/tsg_prince.js"></script>
-			<script src=" home/assets/js/loadjson/tsg_slurgus.js"></script>
-			<script src=" home/assets/js/loadjson/tsg_slurgus2.js"></script>
-			<script src=" home/assets/js/loadjson/tsg_temp-o.js"></script>
 			<script>
-			$(function(){
-			    $.getJSON('tsg_lethal.json', function (data) {
-			        // output data from json files
-							name = data.name
-							rankedkills = data.stats.ranked.kills
-							rankeddeaths = data.stats.ranked.deaths
-							d = data.id
-							document.getElementById("name").innerText = data.name;
-							document.getElementById("kills").innerText = data.stats.ranked.kills;
-			    });
-			});
+			function enable() {
+				var a = document.getElementById("kills").value;
+				var b = document.getElementById("kills1").value;
+				var c = document.getElementById("kills2").value;
+				var d = a + b + c;
+			 document.getElementById("result").innerText = d;
+			}
 		</script>
-		<script>
-		$(function(){
-				$.getJSON('tsg_temp-o.json', function (data) {
-						// output data from json files
-						name = data.name
-						rankedkills = data.stats.ranked.kills
-						rankeddeaths = data.stats.ranked.deaths
-						d = data.id
-						document.getElementById("name1").innerText = data.name;
-						document.getElementById("kills1").innerText = data.stats.ranked.kills;
-				});
-		});
-	</script>
-	<script>
-	$(function(){
-			$.getJSON('tsg_slurgus.json', function (data) {
-					// output data from json files
-					name = data.name
-					rankedkills = data.stats.ranked.kills
-					rankeddeaths = data.stats.ranked.deaths
-					d = data.id
-					document.getElementById("name2").innerText = data.name;
-					document.getElementById("kills2").innerText = data.stats.ranked.kills;
-			});
-	});
-</script>
-<script>
-function enable() {
-	var a = document.getElementById("kills").value;
-	var b = document.getElementById("kills1").value;
-	var c = document.getElementById("kills2").value;
-	var d = a + b + c;
- document.getElementById("result").innerText = d;
-}
-</script>
 	</body>
 </html>
