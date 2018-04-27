@@ -1,9 +1,7 @@
-$(function() {
-  var aliases = [];
-  $.getJSON('leaderboard.json', function(data) {
-    $.each(data.aliases, function(i, f) {
-      var tblRow = "<tr>" + "<td>" + f.name + "</td>" + "<td>" + f.placement + "</td>" + "</tr>"
-      $(tblRow).appendTo("#leaderboard tbody");
-    });
-  });
+$.getJSON('leaderboard.json', (data) => {
+    const tableData = data.reduce((pre, curr) => {
+      return pre + `<tr><td>${curr.placement}</td><td>${curr.name}</td><td>${curr.value}</td></tr>`;
+    }, '');
+
+    $(tableData).appendTo('#leaderboard tbody');
 });
