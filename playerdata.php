@@ -137,7 +137,7 @@
 			<script src=" home/assets/js/normalizestyle.js"></script>
 			<script src=" home/assets/js/cyclestyle.js"></script>
 			<script src=" home/assets/js/showanswer.js"></script>
-			<script src=" home/assets/js/loadjson/loadleaderboard.js"></script>
+			<script src=" home/assets/js/loadjson/leaderboardload.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src=" home/assets/js/main.js"></script>
 			<!--DIVIDER-->
