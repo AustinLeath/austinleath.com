@@ -390,7 +390,7 @@
 						id = data.id;
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
-						document.getElementById("testlink").innerText = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>' + ' MMR: ' + mmr + ' KILLS: ' + rankedkills;
+						document.getElementById("testlink").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>' + ' MMR: ' + round + ' KILLS: ' + rankedkills;
 				});
 		});
 		</script>
