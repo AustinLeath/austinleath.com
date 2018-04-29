@@ -80,21 +80,19 @@
 																<tr>
 																	<th>Team Members</th>
 																	<th>Ingame Role</th>
-																	<th>Ranked Kills</th>
-																	<th>Ranked MMR<th>
+																	<th>Ranked Statistics</th>
 																</tr>
 															</thead>
 															<tbody>
 																<tr>
 																	<td id="767374e1-b218-42ff-98c6-3f78553db5e9"></td>
 																	<td>Manager, Lurker</td>
-																	<td id="767374e1-b218-42ff-98c6-3f78553db5e9kills"></td>
-																	<td id="767374e1-b218-42ff-98c6-3f78553db5e9mmr"></td>
+																	<td id="767374e1-b218-42ff-98c6-3f78553db5e9stats"></td>
 																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
-																	<td colspan="4">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																	<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 																</tr>
 															</tfoot>
 														</table>
@@ -105,45 +103,39 @@
 																<tr>
 																	<th>Team Members</th>
 																	<th>Ingame Role</th>
-																	<th>Ranked Kills</th>
-																	<th>Ranked MMR<th>
+																	<th>Ranked Statistics</th>
 																</tr>
 															</thead>
 															<tbody>
 																<tr>
 																	<td id="8894b513-7067-473e-a001-e316104e32ea"></td>
 																	<td>Entry Fragger</td>
-																	<td id="8894b513-7067-473e-a001-e316104e32eakills"></td>
-																	<td id="8894b513-7067-473e-a001-e316104e32eammr"></td>
+																	<td id="8894b513-7067-473e-a001-e316104e32eastats"></td>
 																</tr>
 																<tr>
 																	<td id="ca54e49a-76f2-4290-8e11-e36827caccb0"></td>
 																	<td>IGL, Refragger</td>
-																	<td id="ca54e49a-76f2-4290-8e11-e36827caccb0kills"></td>
-																	<td id="ca54e49a-76f2-4290-8e11-e36827caccb0mmr"></td>
+																	<td id="ca54e49a-76f2-4290-8e11-e36827caccb0stats"></td>
 																</tr>
 																<tr>
 																	<td id="f561393f-63bb-4332-b71b-cbb1665b46ed"></td>
 																	<td>Fragger Support</td>
-																	<td id="f561393f-63bb-4332-b71b-cbb1665b46edkills"></td>
-																	<td id="f561393f-63bb-4332-b71b-cbb1665b46edmmr"></td>
+																	<td id="f561393f-63bb-4332-b71b-cbb1665b46edstats"></td>
 																</tr>
 																<tr>
 																	<td id="17541266-d840-4044-aa46-8f1e3edc7c5e"></td>
 																	<td>Entry Fragger</td>
-																	<td id="17541266-d840-4044-aa46-8f1e3edc7c5ekills"></td>
-																	<td id="17541266-d840-4044-aa46-8f1e3edc7c5emmr"></td>
+																	<td id="17541266-d840-4044-aa46-8f1e3edc7c5estats"></td>
 																</tr>
 																<tr>
 																	<td id="5af9fdc8-db46-4ca5-b57d-6b10a962f07c"></td>
 																	<td>Fragger</td>
-																	<td id="5af9fdc8-db46-4ca5-b57d-6b10a962f07ckills"></td>
-																	<td id="5af9fdc8-db46-4ca5-b57d-6b10a962f07cmmr"></td>
+																	<td id="5af9fdc8-db46-4ca5-b57d-6b10a962f07cstats"></td>
 																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
-																	<td colspan="4">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																	<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 																</tr>
 															</tfoot>
 														</table>
@@ -161,31 +153,27 @@
 																<tr>
 																	<td id="80543135-bd7d-4c52-8c4d-c398cc35982a"></td>
 																	<td>Support</td>
-																	<td id="80543135-bd7d-4c52-8c4d-c398cc35982akills"></td>
-																	<td id="80543135-bd7d-4c52-8c4d-c398cc35982ammr"></td>
+																	<td id="80543135-bd7d-4c52-8c4d-c398cc35982astats"></td>
 																</tr>
 																<tr>
 																	<td id="TSG.Lethal"></td>
 																	<td>Manager, Lurker</td>
-																	<td id="TSG.Lethalkills"></td>
-																	<td id="TSG.Lethalmmr"></td>
+																	<td id="TSG.Lethalstats"></td>
 																</tr>
 																<tr>
 																	<td id="7c3185c0-74c9-440f-8f67-29cb3eaa4112"></td>
 																	<td>Utility</td>
-																	<td id="7c3185c0-74c9-440f-8f67-29cb3eaa4112kills"></td>
-																	<td id="7c3185c0-74c9-440f-8f67-29cb3eaa4112mmr"></td>
+																	<td id="7c3185c0-74c9-440f-8f67-29cb3eaa4112stats"></td>
 																</tr>
 																<tr>
 																	<td id="ce8303ce-6081-43a2-9ebd-e18953c7156a"></td>
 																	<td>Fragger</td>
-																	<td id="ce8303ce-6081-43a2-9ebd-e18953c7156akills"></td>
-																	<td id="ce8303ce-6081-43a2-9ebd-e18953c7156ammr"></td>
+																	<td id="ce8303ce-6081-43a2-9ebd-e18953c7156astats"></td>
 																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
-																	<td colspan="4">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																	<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 																</tr>
 															</tfoot>
 														</table>
@@ -266,7 +254,7 @@
 										</section>
 						 </div>
 				</div>
-				<iframe class="r6db" src="https://r6db.com/"></iframe>
+			 <iframe class="r6db" src="https://r6db.com/"></iframe>
 			<footer id="footer">
 				<ul class="icons">
 					<li><a href="https://twitter.com/austinzleath" target="_blank" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
@@ -403,8 +391,7 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("767374e1-b218-42ff-98c6-3f78553db5e9").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
-						document.getElementById("767374e1-b218-42ff-98c6-3f78553db5e9kills").innerHTML = 'Kills: ' + rankedkills;
-						document.getElementById("767374e1-b218-42ff-98c6-3f78553db5e9mmr").innerHTML = 'MMR: ' + round;
+						document.getElementById("767374e1-b218-42ff-98c6-3f78553db5e9stats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills;
 				});
 		});
 		</script>
@@ -419,8 +406,7 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("8894b513-7067-473e-a001-e316104e32ea").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
-						document.getElementById("8894b513-7067-473e-a001-e316104e32eakills").innerHTML = 'Kills: ' + rankedkills;
-						document.getElementById("8894b513-7067-473e-a001-e316104e32eammr").innerHTML = 'MMR: ' + round;
+						document.getElementById("8894b513-7067-473e-a001-e316104e32eastats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills;
 				});
 		});
 		</script>
@@ -435,8 +421,7 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("ca54e49a-76f2-4290-8e11-e36827caccb0").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
-						document.getElementById("ca54e49a-76f2-4290-8e11-e36827caccb0kills").innerHTML = 'Kills: ' + rankedkills;
-						document.getElementById("ca54e49a-76f2-4290-8e11-e36827caccb0mmr").innerHTML = 'MMR: ' + round;
+						document.getElementById("ca54e49a-76f2-4290-8e11-e36827caccb0stats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills;
 				});
 		});
 		</script>
@@ -451,8 +436,7 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("f561393f-63bb-4332-b71b-cbb1665b46ed").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
-						document.getElementById("f561393f-63bb-4332-b71b-cbb1665b46edkills").innerHTML = 'Kills: ' + rankedkills;
-						document.getElementById("f561393f-63bb-4332-b71b-cbb1665b46edmmr").innerHTML = 'MMR: ' + round;
+						document.getElementById("f561393f-63bb-4332-b71b-cbb1665b46edstats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills;
 				});
 		});
 		</script>
@@ -467,8 +451,7 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("17541266-d840-4044-aa46-8f1e3edc7c5e").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
-						document.getElementById("17541266-d840-4044-aa46-8f1e3edc7c5ekills").innerHTML = 'Kills: ' + rankedkills;
-						document.getElementById("17541266-d840-4044-aa46-8f1e3edc7c5emmr").innerHTML = 'MMR: ' + round;
+						document.getElementById("17541266-d840-4044-aa46-8f1e3edc7c5estats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills;
 				});
 		});
 		</script>
@@ -483,8 +466,7 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("5af9fdc8-db46-4ca5-b57d-6b10a962f07c").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
-						document.getElementById("5af9fdc8-db46-4ca5-b57d-6b10a962f07ckills").innerHTML = 'Kills: ' + rankedkills;
-						document.getElementById("5af9fdc8-db46-4ca5-b57d-6b10a962f07cmmr").innerHTML = 'MMR: ' + round;
+						document.getElementById("5af9fdc8-db46-4ca5-b57d-6b10a962f07cstats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills;
 				});
 		});
 		</script>
@@ -499,8 +481,7 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("80543135-bd7d-4c52-8c4d-c398cc35982a").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
-						document.getElementById("80543135-bd7d-4c52-8c4d-c398cc35982akills").innerHTML = 'Kills: ' + rankedkills;
-						document.getElementById("80543135-bd7d-4c52-8c4d-c398cc35982ammr").innerHTML = 'MMR: ' + round;
+						document.getElementById("80543135-bd7d-4c52-8c4d-c398cc35982astats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills;
 				});
 		});
 		</script>
@@ -515,8 +496,7 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("7c3185c0-74c9-440f-8f67-29cb3eaa4112").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
-						document.getElementById("7c3185c0-74c9-440f-8f67-29cb3eaa4112kills").innerHTML = 'Kills: ' + rankedkills;
-						document.getElementById("7c3185c0-74c9-440f-8f67-29cb3eaa4112mmr").innerHTML = 'MMR: ' + round;
+						document.getElementById("7c3185c0-74c9-440f-8f67-29cb3eaa4112stats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills;
 				});
 		});
 		</script>
@@ -531,8 +511,7 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("ce8303ce-6081-43a2-9ebd-e18953c7156a").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
-						document.getElementById("ce8303ce-6081-43a2-9ebd-e18953c7156akills").innerHTML = 'Kills: ' + rankedkills;
-						document.getElementById("ce8303ce-6081-43a2-9ebd-e18953c7156ammr").innerHTML = 'MMR: ' + round;
+						document.getElementById("ce8303ce-6081-43a2-9ebd-e18953c7156astats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills;
 				});
 		});
 		</script>
@@ -541,14 +520,13 @@
 				$.getJSON('tsg_lethal.json', function (data) {
 						// output data from json files
 						name = data.name;;
-						rankedkills = data.stats.ranked.kills;;
-						rankeddeaths = data.stats.ranked.deaths;;
-						id = data.id;;
+						rankedkills = data.stats.ranked.kills;
+						rankeddeaths = data.stats.ranked.deaths;
+						id = data.id;
 						mmr = data.rank.ncsa.mmr;
 					  round = Math.floor(mmr);
 						document.getElementById("TSG.Lethal").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
-						document.getElementById("TSG.Lethalkills").innerHTML = 'Kills: ' + rankedkills;
-						document.getElementById("TSG.Lethalmmr").innerHTML = 'MMR: ' + round;
+						document.getElementById("TSG.Lethalstats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills;
 				});
 		});
 		</script>
