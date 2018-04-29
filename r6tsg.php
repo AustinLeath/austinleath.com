@@ -80,19 +80,20 @@
 																<tr>
 																	<th>Team Members</th>
 																	<th>Ingame Role</th>
-																	<th>R6DB Player Statistics</th>
+																	<th>Ranked Kills</th>
+																	<th>Ranked MMR<th>
 																</tr>
 															</thead>
 															<tbody>
 																<tr>
 																	<td id="767374e1-b218-42ff-98c6-3f78553db5e9"></td>
-																	<td>Manager, Lurker</td>
-																	<td><a href="https://r6db.com/player/767374e1-b218-42ff-98c6-3f78553db5e9" target="_blank">R6DB Statistics</a></td>
+																	<td id="767374e1-b218-42ff-98c6-3f78553db5e9kills"></td>
+																	<td id="767374e1-b218-42ff-98c6-3f78553db5e9mmr"></td>
 																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
-																	<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																	<td colspan="4">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 																</tr>
 															</tfoot>
 														</table>
@@ -391,6 +392,8 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("767374e1-b218-42ff-98c6-3f78553db5e9").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>' + ' MMR: ' + round + ' KILLS: ' + rankedkills;
+						document.getElementById("767374e1-b218-42ff-98c6-3f78553db5e9kills").innerHTML = 'Kills: ' + rankedkills;
+						document.getElementById("767374e1-b218-42ff-98c6-3f78553db5e9mmr").innerHTML = 'MMR: ' + round;
 				});
 		});
 		</script>
