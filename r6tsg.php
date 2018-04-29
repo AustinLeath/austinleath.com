@@ -105,39 +105,45 @@
 																<tr>
 																	<th>Team Members</th>
 																	<th>Ingame Role</th>
-																	<th>R6DB Player Statistics</th>
+																	<th>Ranked Kills</th>
+																	<th>Ranked MMR<th>
 																</tr>
 															</thead>
 															<tbody>
 																<tr>
 																	<td id="8894b513-7067-473e-a001-e316104e32ea"></td>
 																	<td>Entry Fragger</td>
-																	<td><a href="https://r6db.com/player/8894b513-7067-473e-a001-e316104e32ea" target="_blank">R6DB Statistics</a></td>
+																	<td id="8894b513-7067-473e-a001-e316104e32eakills"></td>
+																	<td id="8894b513-7067-473e-a001-e316104e32eammr"></td>
 																</tr>
 																<tr>
 																	<td id="ca54e49a-76f2-4290-8e11-e36827caccb0"></td>
 																	<td>IGL, Refragger</td>
-																	<td><a href="https://r6db.com/player/ca54e49a-76f2-4290-8e11-e36827caccb0" target="_blank">R6DB Statistics</a></td>
+																	<td id="ca54e49a-76f2-4290-8e11-e36827caccb0kills"></td>
+																	<td id="ca54e49a-76f2-4290-8e11-e36827caccb0mmr"></td>
 																</tr>
 																<tr>
 																	<td id="f561393f-63bb-4332-b71b-cbb1665b46ed"></td>
 																	<td>Fragger Support</td>
-																	<td><a href="https://r6db.com/player/f561393f-63bb-4332-b71b-cbb1665b46ed" target="_blank">R6DB Statistics</a></td>
+																	<td id="f561393f-63bb-4332-b71b-cbb1665b46edkills"></td>
+																	<td id="f561393f-63bb-4332-b71b-cbb1665b46edmmr"></td>
 																</tr>
 																<tr>
 																	<td id="17541266-d840-4044-aa46-8f1e3edc7c5e"></td>
 																	<td>Entry Fragger</td>
-																	<td><a href="https://r6db.com/player/17541266-d840-4044-aa46-8f1e3edc7c5e" target="_blank">R6DB Statistics</a></td>
+																	<td id="17541266-d840-4044-aa46-8f1e3edc7c5ekills"></td>
+																	<td id="17541266-d840-4044-aa46-8f1e3edc7c5emmr"></td>
 																</tr>
 																<tr>
 																	<td id="5af9fdc8-db46-4ca5-b57d-6b10a962f07c"></td>
 																	<td>Fragger</td>
-																	<td><a href="https://r6db.com/player/5af9fdc8-db46-4ca5-b57d-6b10a962f07c" target="_blank">R6DB Statistics</a></td>
+																	<td id="5af9fdc8-db46-4ca5-b57d-6b10a962f07ckills"></td>
+																	<td id="5af9fdc8-db46-4ca5-b57d-6b10a962f07cmmr"></td>
 																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
-																	<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																	<td colspan="4">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 																</tr>
 															</tfoot>
 														</table>
@@ -155,27 +161,31 @@
 																<tr>
 																	<td id="80543135-bd7d-4c52-8c4d-c398cc35982a"></td>
 																	<td>Support</td>
-																	<td><a href="https://r6db.com/player/80543135-bd7d-4c52-8c4d-c398cc35982a" target="_blank">R6DB Statistics</a></td>
+																	<td id="80543135-bd7d-4c52-8c4d-c398cc35982akills"></td>
+																	<td id="80543135-bd7d-4c52-8c4d-c398cc35982ammr"></td>
 																</tr>
 																<tr>
 																	<td id="TSG.Lethal"></td>
 																	<td>Manager, Lurker</td>
-																	<td><a href="https://r6db.com/player/767374e1-b218-42ff-98c6-3f78553db5e9" target="_blank">R6DB Statistics</a></td>
+																	<td id="TSG.Lethalkills"></td>
+																	<td id="TSG.Lethalmmr"></td>
 																</tr>
 																<tr>
 																	<td id="7c3185c0-74c9-440f-8f67-29cb3eaa4112"></td>
 																	<td>Utility</td>
-																	<td><a href="https://r6db.com/player/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6DB Statistics</a></td>
+																	<td id="7c3185c0-74c9-440f-8f67-29cb3eaa4112kills"></td>
+																	<td id="7c3185c0-74c9-440f-8f67-29cb3eaa4112mmr"></td>
 																</tr>
 																<tr>
 																	<td id="ce8303ce-6081-43a2-9ebd-e18953c7156a"></td>
 																	<td>Fragger</td>
-																	<td><a href="https://r6db.com/player/ce8303ce-6081-43a2-9ebd-e18953c7156a" target="_blank">R6DB Statistics</a></td>
+																	<td id="ce8303ce-6081-43a2-9ebd-e18953c7156akills"></td>
+																	<td id="ce8303ce-6081-43a2-9ebd-e18953c7156ammr"></td>
 																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
-																	<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+																	<td colspan="4">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 																</tr>
 															</tfoot>
 														</table>
@@ -409,6 +419,8 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("8894b513-7067-473e-a001-e316104e32ea").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
+						document.getElementById("8894b513-7067-473e-a001-e316104e32eakills").innerHTML = 'Kills: ' + rankedkills;
+						document.getElementById("8894b513-7067-473e-a001-e316104e32eammr").innerHTML = 'MMR: ' + round;
 				});
 		});
 		</script>
@@ -423,6 +435,8 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("ca54e49a-76f2-4290-8e11-e36827caccb0").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
+						document.getElementById("ca54e49a-76f2-4290-8e11-e36827caccb0kills").innerHTML = 'Kills: ' + rankedkills;
+						document.getElementById("ca54e49a-76f2-4290-8e11-e36827caccb0mmr").innerHTML = 'MMR: ' + round;
 				});
 		});
 		</script>
@@ -437,6 +451,8 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("f561393f-63bb-4332-b71b-cbb1665b46ed").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
+						document.getElementById("f561393f-63bb-4332-b71b-cbb1665b46edkills").innerHTML = 'Kills: ' + rankedkills;
+						document.getElementById("f561393f-63bb-4332-b71b-cbb1665b46edmmr").innerHTML = 'MMR: ' + round;
 				});
 		});
 		</script>
@@ -451,6 +467,8 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("17541266-d840-4044-aa46-8f1e3edc7c5e").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
+						document.getElementById("17541266-d840-4044-aa46-8f1e3edc7c5ekills").innerHTML = 'Kills: ' + rankedkills;
+						document.getElementById("17541266-d840-4044-aa46-8f1e3edc7c5emmr").innerHTML = 'MMR: ' + round;
 				});
 		});
 		</script>
@@ -465,6 +483,8 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("5af9fdc8-db46-4ca5-b57d-6b10a962f07c").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
+						document.getElementById("5af9fdc8-db46-4ca5-b57d-6b10a962f07ckills").innerHTML = 'Kills: ' + rankedkills;
+						document.getElementById("5af9fdc8-db46-4ca5-b57d-6b10a962f07cmmr").innerHTML = 'MMR: ' + round;
 				});
 		});
 		</script>
@@ -479,6 +499,8 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("80543135-bd7d-4c52-8c4d-c398cc35982a").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
+						document.getElementById("80543135-bd7d-4c52-8c4d-c398cc35982akills").innerHTML = 'Kills: ' + rankedkills;
+						document.getElementById("80543135-bd7d-4c52-8c4d-c398cc35982ammr").innerHTML = 'MMR: ' + round;
 				});
 		});
 		</script>
@@ -493,6 +515,8 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("7c3185c0-74c9-440f-8f67-29cb3eaa4112").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
+						document.getElementById("7c3185c0-74c9-440f-8f67-29cb3eaa4112kills").innerHTML = 'Kills: ' + rankedkills;
+						document.getElementById("7c3185c0-74c9-440f-8f67-29cb3eaa4112mmr").innerHTML = 'MMR: ' + round;
 				});
 		});
 		</script>
@@ -507,6 +531,8 @@
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("ce8303ce-6081-43a2-9ebd-e18953c7156a").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
+						document.getElementById("ce8303ce-6081-43a2-9ebd-e18953c7156akills").innerHTML = 'Kills: ' + rankedkills;
+						document.getElementById("ce8303ce-6081-43a2-9ebd-e18953c7156ammr").innerHTML = 'MMR: ' + round;
 				});
 		});
 		</script>
@@ -521,6 +547,8 @@
 						mmr = data.rank.ncsa.mmr;
 					  round = Math.floor(mmr);
 						document.getElementById("TSG.Lethal").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
+						document.getElementById("TSG.Lethalkills").innerHTML = 'Kills: ' + rankedkills;
+						document.getElementById("TSG.Lethalmmr").innerHTML = 'MMR: ' + round;
 				});
 		});
 		</script>
