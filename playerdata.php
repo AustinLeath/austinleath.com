@@ -93,7 +93,7 @@
 																		<tr>
 																			<th>Place</th>
 																			<th>Username</th>
-																			<th>rating</th>
+																			<th>Rating</th>
 																		</tr>
 																	</thead>
 																	<tbody>
