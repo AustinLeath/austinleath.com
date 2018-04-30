@@ -1,4 +1,0 @@
-# robots.txt for https://r6db.com
-
-User-agent: *
-Disallow: /profile/
