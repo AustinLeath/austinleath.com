@@ -455,6 +455,7 @@
 						name = data.name;
 						rankedkills = data.stats.ranked.kills;
 						rankeddeaths = data.stats.ranked.deaths;
+						KDinitial = rankedkills / rankeddeaths;
 						KD = KDinitial.toFixed(2);
 						id = data.id;
 						mmr = data.rank.ncsa.mmr;
@@ -489,6 +490,7 @@
 						rankedkills = data.stats.ranked.kills;
 						rankeddeaths = data.stats.ranked.deaths;
 						KDinitial = rankedkills / rankeddeaths;
+						KD = KDinitial.toFixed(2);
 						id = data.id;
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
@@ -505,6 +507,7 @@
 						rankedkills = data.stats.ranked.kills;
 						rankeddeaths = data.stats.ranked.deaths;
 						KDinitial = rankedkills / rankeddeaths;
+						KD = KDinitial.toFixed(2)
 						id = data.id;
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
@@ -521,6 +524,7 @@
 						rankedkills = data.stats.ranked.kills;
 						rankeddeaths = data.stats.ranked.deaths;
 						KDinitial = rankedkills / rankeddeaths;
+						KD = KDinitial.toFixed(2);
 						id = data.id;
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
@@ -533,10 +537,11 @@
 		$(function(){
 				$.getJSON('tsg_lethal.json', function (data) {
 						// output data from json files
-						name = data.name;;
+						name = data.name;
 						rankedkills = data.stats.ranked.kills;
 						rankeddeaths = data.stats.ranked.deaths;
 						KDinitial = rankedkills / rankeddeaths;
+						KD = KDinitial.toFixed(2);
 						id = data.id;
 						mmr = data.rank.ncsa.mmr;
 					  round = Math.floor(mmr);
