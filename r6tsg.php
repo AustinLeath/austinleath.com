@@ -123,11 +123,6 @@
 																	<td id="f561393f-63bb-4332-b71b-cbb1665b46edstats"></td>
 																</tr>
 																<tr>
-																	<td id="17541266-d840-4044-aa46-8f1e3edc7c5e"></td>
-																	<td>Entry Fragger</td>
-																	<td id="17541266-d840-4044-aa46-8f1e3edc7c5estats"></td>
-																</tr>
-																<tr>
 																	<td id="5af9fdc8-db46-4ca5-b57d-6b10a962f07c"></td>
 																	<td>Fragger</td>
 																	<td id="5af9fdc8-db46-4ca5-b57d-6b10a962f07cstats"></td>
@@ -177,7 +172,7 @@
 																</tr>
 															</tfoot>
 														</table>
-													<!--
+													 <!-- DIVIDER -->
 													<h1>Benched Members</h1>
 														<table>
 															<thead>
@@ -188,14 +183,18 @@
 																</tr>
 															</thead>
 															<tbody>
+																<tr>
+																	<td id="17541266-d840-4044-aa46-8f1e3edc7c5e"></td>
+																	<td>Entry Fragger</td>
+																	<td id="17541266-d840-4044-aa46-8f1e3edc7c5estats"></td>
+																</tr>
 															</tbody>
 															<tfoot>
 																<tr>
-																	<td colspan="3">This information is current as of CODE HERE</td>
+																	<td colspan="3"><?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 																</tr>
 															</tfoot>
 														</table>
-														-->
 														<!--DIVIDER-->
 														<form>
 														<p><b>Ten Sins Player Database</b></p>
@@ -507,7 +506,7 @@
 						rankedkills = data.stats.ranked.kills;
 						rankeddeaths = data.stats.ranked.deaths;
 						KDinitial = rankedkills / rankeddeaths;
-						KD = KDinitial.toFixed(2)
+						KD = KDinitial.toFixed(2);
 						id = data.id;
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
