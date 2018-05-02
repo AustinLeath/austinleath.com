@@ -435,13 +435,13 @@
 						name = data.name;
 						rankedkills = data.stats.ranked.kills;
 						rankeddeaths = data.stats.ranked.deaths;
-						kd = rankedkills / rankeddeaths;
-						rounded = kd.toFixed(2);
+						KDinitial = rankedkills / rankeddeaths;
+						KD = KDinitial.toFixed(2);
 						id = data.id;
 						mmr = data.rank.ncsa.mmr;
 						round = Math.floor(mmr);
 						document.getElementById("f561393f-63bb-4332-b71b-cbb1665b46ed").innerHTML = '<a href="https://r6db.com/player/' + id + '" target="_blank">' + name + '</a>';
-						document.getElementById("f561393f-63bb-4332-b71b-cbb1665b46edstats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills + ' | ' + "K/D: " + rounded;
+						document.getElementById("f561393f-63bb-4332-b71b-cbb1665b46edstats").innerHTML = 'MMR: ' + round + ' | ' + 'Kills: ' + rankedkills + ' | ' + "K/D: " + KD;
 				});
 		});
 		</script>
