@@ -88,22 +88,22 @@
 										<tbody>
 											<tr>
 												<td>Windows Release</td>
-												<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/WindowsRelease/archive/master.zip" download>Download Project</a></td>
+												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/download/v1.0.0/MMR.Calculator.Windows.zip" download>Download Project</a></td>
 												<td>Version 1.0.0</td>
 											</tr>
 											<tr>
 												<td>Mac Release</td>
-												<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/MacRelease/archive/master.zip" download>Download Project</a></td>
+												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/download/v1.0.0/MMR.Calculator.Mac.zip" download>Download Project</a></td>
 												<td>Version 1.0.0</td>
 											</tr>
 											<tr>
 												<td>Linux Release (x64)</td>
-												<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/LinuxRelease/archive/master.zip" download>Download Project</a></td>
+												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/download/v1.0.0/MMR.Calculator.Linux.x64.zip" download>Download Project</a></td>
 												<td>Version 1.0.0</td>
 											</tr>
 											<tr>
 												<td>Linux Release (Armv7l)</td>
-												<td><a class="button icon fa-download" href="https://www.github.com/AustinLeath/LinuxReleaseArmv7l/archive/master.zip" download>Download Project</a></td>
+												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/download/v1.0.0/MMR.Calculator.Linux.Armv7l.zip" download>Download Project</a></td>
 												<td>Version 1.0.0</td>
 											</tr>
 											<tr>
