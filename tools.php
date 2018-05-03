@@ -109,8 +109,7 @@
 										</tbody>
 										<tfoot>
 											<tr>
-												<td colspan="2"></td>
-												<td>Current as of <?php echo date("F");?> of <?php echo date("Y");?></td>
+												<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 											</tr>
 										</tfoot>
 									</table>
