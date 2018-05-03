@@ -109,7 +109,7 @@
 										</tbody>
 										<tfoot>
 											<tr>
-												<td colspan="3"></td>
+												<td colspan="2"></td>
 												<td>Current as of <?php echo date("F");?> of <?php echo date("Y");?></td>
 											</tr>
 										</tfoot>
