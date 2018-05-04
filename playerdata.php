@@ -143,14 +143,5 @@
 			<script src=" home/assets/js/main.js"></script>
 			<!--DIVIDER-->
 			<script src=" home/assets/js/loadjson/tsg_lethal.js"></script>
-			<script>
-			function enable() {
-				var a = document.getElementById("kills").value;
-				var b = document.getElementById("kills1").value;
-				var c = document.getElementById("kills2").value;
-				var d = a + b + c;
-			 document.getElementById("result").innerText = d;
-			}
-		</script>
 	</body>
 </html>
