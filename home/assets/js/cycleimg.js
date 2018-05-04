@@ -1,7 +1,7 @@
 var img = $('img[id^="image-"]').hide(),
   i = 0;
 
-(function cycle() {
+(function cycleimg() {
 
 			 img.eq(i).fadeIn(900)
 							  .delay(8000)
