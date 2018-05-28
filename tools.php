@@ -87,24 +87,9 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td>Rainbow Six Siege | MMR Calculator: Windows Release</td>
-												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/download/v1.0.0/MMR.Calculator.Windows.zip" download>Download Project</a></td>
-												<td>Version 1.0.0</td>
-											</tr>
-											<tr>
-												<td>Rainbow Six Siege | MMR Calculator: Mac Release</td>
-												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/download/v1.0.0/MMR.Calculator.Mac.zip" download>Download Project</a></td>
-												<td>Version 1.0.0</td>
-											</tr>
-											<tr>
-												<td>Rainbow Six Siege | MMR Calculator: Linux Release (x64)</td>
-												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/download/v1.0.0/MMR.Calculator.Linux.x64.zip" download>Download Project</a></td>
-												<td>Version 1.0.0</td>
-											</tr>
-											<tr>
-												<td>Rainbow Six Siege | MMR Calculator: Linux Release (Armv7l)</td>
-												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/download/v1.0.0/MMR.Calculator.Linux.Armv7l.zip" download>Download Project</a></td>
-												<td>Version 1.0.0</td>
+												<td>Rainbow Six Siege | MMR Calculator</td>
+												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/latest"></a></td>
+												<td>Version 0.2.X</td>
 											</tr>
 										</tbody>
 										<tfoot>
