@@ -80,15 +80,15 @@
 									<table>
 										<thead>
 											<tr>
+												<th>Projects</th>
 												<th>Releases</th>
-												<th>Downloads</th>
 												<th>Versions</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td>Rainbow Six Siege | MMR Calculator</td>
-												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/latest"></a></td>
+												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/latest">Releases</a></td>
 												<td>Version 0.2.X</td>
 											</tr>
 										</tbody>
