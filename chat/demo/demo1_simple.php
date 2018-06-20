@@ -13,20 +13,9 @@ $chat = new phpFreeChat($params);
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>phpFreeChat demo</title>
   </head>
-    
+
   <body>
     <?php $chat->printChat(); ?>
-
-<?php
-  // print the current file
-  echo "<h2>The source code</h2>";
-  $filename = __FILE__;
-  echo "<p><code>".$filename."</code></p>";
-  echo "<pre style=\"margin: 0 50px 0 50px; padding: 10px; background-color: #DDD;\">";
-  $content = file_get_contents($filename);
-  highlight_string($content);
-  echo "</pre>";
-?>
   </body>
-  
+
 </html>
