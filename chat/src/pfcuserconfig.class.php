@@ -8,14 +8,14 @@ class pfcUserConfig
   var $channels;
   var $privmsg;
   var $active;
-  
+
   var $timeout;
   var $nickid;
   var $serverid;
-  
+
   //  var $is_init = false; // used internaly to know if the chat config is initialized
   //  var $errors = array();
-  
+
   function pfcUserConfig()
   {
     $c =& pfcGlobalConfig::Instance();
@@ -31,7 +31,7 @@ class pfcUserConfig
     $this->_getParam("nick");
     if (!isset($this->nick)) $this->_setParam("nick",""); // setup a blank nick if it is not yet in session
     $this->_getParam("active");
-    if (!isset($this->active)) $this->_setParam("active",false);   
+    if (!isset($this->active)) $this->_setParam("active",false);
     $this->_getParam("channels");
     if (!isset($this->channels)) $this->_setParam("channels",array());
     $this->_getParam("privmsg");
@@ -43,7 +43,7 @@ class pfcUserConfig
   static function &Instance()
   {
     static $i;
-    
+
     if (!isset($i))
     {
       $i = new pfcUserConfig();
@@ -75,12 +75,12 @@ class pfcUserConfig
   function _rmParam($p)
   {
     $c =& pfcGlobalConfig::Instance();
-    $nickid_param = 'pfcuserconfig_'.$c->getId().'_'.$this->nickid.'_'.$p;    
+    $nickid_param = 'pfcuserconfig_'.$c->getId().'_'.$this->nickid.'_'.$p;
     unset($_SESSION[$nickid_param]);
     unset($this->$p);
     if ($p == 'active') $this->active = false;
   }
-  
+
 
   function destroy()
   {
@@ -90,7 +90,7 @@ class pfcUserConfig
     $this->_rmParam("privmsg");
     $this->_rmParam("serverid");
   }
-  
+
   function saveInCache()
   {
     //    echo "saveInCache()<br>";
@@ -134,7 +134,8 @@ class pfcUserConfig
     foreach( $this->privmsg as $v )
       $list[] = $v["name"];
     return $list;
-  }  
+  }
 }
+session_save_path("<home_root>/cgi-bin/tmp");
 
 ?>
