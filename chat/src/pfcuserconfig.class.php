@@ -136,6 +136,5 @@ class pfcUserConfig
     return $list;
   }
 }
-session_save_path("<home_root>/cgi-bin/tmp");
 
 ?>

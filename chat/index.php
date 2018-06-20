@@ -3,7 +3,7 @@
 require_once dirname(__FILE__)."/src/phpfreechat.class.php";
 $params = array();
 $params["title"] = "Quick chat";
-$params["nick"] = "guest".rand(1,1000);  // setup the intitial nickname
+$params["nick"] = "R6RC-USER".rand(1,10000);  // setup the intitial nickname
 $params['firstisadmin'] = true;
 //$params["isadmin"] = true; // makes everybody admin: do not use it on production servers ;)
 $params["serverid"] = md5(__FILE__); // calculate a unique id for this chat
@@ -20,7 +20,7 @@ $chat = new phpFreeChat( $params );
   <link rel="stylesheet" title="classic" type="text/css" href="style/header.css" />
   <link rel="stylesheet" title="classic" type="text/css" href="style/footer.css" />
   <link rel="stylesheet" title="classic" type="text/css" href="style/menu.css" />
-  <link rel="stylesheet" title="classic" type="text/css" href="style/content.css" />  
+  <link rel="stylesheet" title="classic" type="text/css" href="style/content.css" />
  </head>
  <body>
 
@@ -87,5 +87,5 @@ $chat = new phpFreeChat( $params );
 <div class="footer">
   <span class="partners">-</span>
 </div>
-    
+
 </body></html>
