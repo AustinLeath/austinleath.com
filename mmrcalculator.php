@@ -15,7 +15,7 @@
       background: #181b1f;
       color: #FFF;
       font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif,
-          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+      Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
       text-align: center;
       margin: 0;
   }

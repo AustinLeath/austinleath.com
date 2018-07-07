@@ -31,7 +31,6 @@
 							<li>
 								<a href="">Other Information</a>
 								  <ul>
-									 <li><a href="../git/github.html">GitHub Code</a></li>
 									 <li><a href="../tools.php">Development Tools</a></li>
 									 <li><a href="">Legal</a>
 										 <ul>
@@ -39,12 +38,11 @@
 											 <li><a href="../legal/apachelicense.php">Apache License</a></li>
 										 </ul>
 									 </li>
-									 <li><a href="../rcs/index.php">Rileigh Sayen</a></li>
 									 <li><a href="../info/aboutdeveloper.html">About Me</a></li>
 									 <li><a href="../vrsenal/index.php">VRsenal</a></li>
 									 <li><a href="../index.html">Return Home</a></li>
 								  </ul>
-							 <!--DIVIDER-->
+									<!--DIVIDER-->
 									 <li>
 										 <a href="">Streaming</a>
 											 <ul>
@@ -54,7 +52,7 @@
 												<li><a href="form.php">Form</a></li>
 											 </ul>
 										  </li>
-							 <!--DIVIDER-->
+							 			<!--DIVIDER-->
 										 </li>
 									  </ul>
 							     </li>
@@ -69,15 +67,14 @@
 							<h2>Austin Leath | Streamers We Watch</h2>
 							<p>You can watch all of my favorite streamers play games here</p>
 						</header>
-
 						<!-- Content -->
-							<section id="content">
-					     <iframe class="image fit" src="http://player.twitch.tv/?channel=DeadlySlob" width="1280" height="720" allowfullscreen></iframe>
+						 <section id="content">
+					     	<iframe class="image fit" src="http://player.twitch.tv/?channel=DeadlySlob" width="1280" height="720" allowfullscreen></iframe>
 								<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/DeadlySlob/chat?darkpopout" height="500" width="500"></iframe>
 							  <iframe class="image fit" src="http://player.twitch.tv/?channel=Kixstar" width="1280" height="720" allowfullscreen></iframe>
 							 	<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/Kixstar/chat?darkpopout" height="500" width="500"></iframe>
-							 <iframe class="image fit" src="http://player.twitch.tv/?channel=Kotton" width="1280" height="720" allowfullscreen></iframe>
-							<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/Kotton/chat?darkpopout" height="500" width="500"></iframe>
+							 	<iframe class="image fit" src="http://player.twitch.tv/?channel=Kotton" width="1280" height="720" allowfullscreen></iframe>
+						 		<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/Kotton/chat?darkpopout" height="500" width="500"></iframe>
 						 </section>
 					 </div>
 				</div>

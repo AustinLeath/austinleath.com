@@ -32,7 +32,6 @@
 							<li>
 								<a href="">Other Information</a>
 								  <ul>
-									 <li><a href="../git/github.html">GitHub Code</a></li>
 									 <li><a href="../tools.php">Development Tools</a></li>
 									 <li><a href="">Legal</a>
 										 <ul>
@@ -40,12 +39,11 @@
 											 <li><a href="../legal/apachelicense.php">Apache License</a></li>
 										 </ul>
 									 </li>
-									 <li><a href="../rcs/index.php">Rileigh Sayen</a></li>
 									 <li><a href="../info/aboutdeveloper.html">About Me</a></li>
 									 <li><a href="../vrsenal/index.php">VRsenal</a></li>
 									 <li><a href="../index.html">Return Home</a></li>
 								  </ul>
-							 <!--DIVIDER-->
+							 	  <!--DIVIDER-->
 									 <li>
 										 <a href="">Streaming</a>
 											 <ul>
@@ -55,36 +53,33 @@
 												<li><a href="form.php">Form</a></li>
 											 </ul>
 										  </li>
-							 <!--DIVIDER-->
+							 				<!--DIVIDER-->
 										 </li>
 									  </ul>
 							     </li>
 						   <!-- Add Another Button Here -->
 						 </ul>
 					 </nav>
-	  		 </header>
-
-			<!-- Main -->
-				<div id="main" class="wrapper style1">
-					<div class="container">
-						<header class="major">
-							<h2>Austin Leath | Streaming</h2>
-							<p>Welcome to SERP DERD! You can watch us play our favorite games here when we occasionally stream.</p>
-						</header>
-
-						<!-- Content -->
+	  		 	</header>
+				<!-- Main -->
+					<div id="main" class="wrapper style1">
+						<div class="container">
+							<header class="major">
+								<h2>Austin Leath | Streaming</h2>
+								<p>You can watch us play our favorite games here when we stream.</p>
+							</header>
+							<!-- Content -->
 							<section id="content">
 					      <iframe class="image fit" src="http://player.twitch.tv/?channel=Gameking27" width="1280" height="720" allowfullscreen></iframe>
-									<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/gameking27/chat?darkpopout" height="500" width="500"></iframe>
-							 <iframe class="image fit" src="http://player.twitch.tv/?channel=thunderpumpkin_" width="1280" height="720" allowfullscreen></iframe>
+								<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/gameking27/chat?darkpopout" height="500" width="500"></iframe>
+							 	<iframe class="image fit" src="http://player.twitch.tv/?channel=thunderpumpkin_" width="1280" height="720" allowfullscreen></iframe>
 							 	<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/ThunderPumpkin_/chat?darkpopout" height="500" width="500"></iframe>
-							<iframe class="image fit" src="http://player.twitch.tv/?channel=jiffy_23" width="1280" height="720" allowfullscreen></iframe>
+								<iframe class="image fit" src="http://player.twitch.tv/?channel=jiffy_23" width="1280" height="720" allowfullscreen></iframe>
 								<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/jiffy_23/chat?darkpopout" height="500" width="500"></iframe>
-							<iframe class="image fit" src="https://discordapp.com/widget?id=390662417237016576&theme=dark" height="750" allowtransparency="true" frameborder="0"></iframe>
+								<iframe class="image fit" src="https://discordapp.com/widget?id=390662417237016576&theme=dark" height="750" allowtransparency="true" frameborder="0"></iframe>
 						 </section>
 					 </div>
 				</div>
-
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">

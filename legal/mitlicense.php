@@ -31,9 +31,7 @@
 		 								<a href="">Other Information</a>
 										<ul>
 											 <li>
-												 <a href="../git/github.html">GitHub Code</a>
 												 <li><a href="../tools.php">Development Tools</a></li>
-												 <li><a href="../rcs/index.php">Rileigh Sayen</a></li>
 												 <li><a href="../info/aboutdeveloper.html">About Me</a></li>
 												 <li><a href="../vrsenal/index.php">VRsenal</a></li>
 												 <li><a href="../index.html">Return Home</a></li>

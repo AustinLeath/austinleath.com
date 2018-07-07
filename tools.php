@@ -32,7 +32,6 @@
 							 <li>
 								<a href="">Other Information</a>
 								  <ul>
-									 <li><a href="git/github.html">GitHub Code</a></li>
 									 <li><a href="#">Development Tools</a></li>
 									 <li><a href="">Legal</a>
 										 <ul>
@@ -40,7 +39,6 @@
 											 <li><a href="legal/apachelicense.php">Apache License</a></li>
 										 </ul>
 									 </li>
-									 <li><a href="rcs/index.php">Rileigh Sayen</a></li>
 									 <li><a href="info/aboutdeveloper.html">About Me</a></li>
 									 <li><a href="vrsenal/index.php">VRsenal</a></li>
 									 <li><a href="r6tsg.php">R6S | TSG</a></li>
@@ -82,19 +80,17 @@
 											<tr>
 												<th>Projects</th>
 												<th>Releases</th>
-												<th>Versions</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td>Rainbow Six Siege | MMR Calculator</td>
 												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/latest">Releases</a></td>
-												<td>Version 0.2.X</td>
 											</tr>
 										</tbody>
 										<tfoot>
 											<tr>
-												<td colspan="3">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
+												<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
 											</tr>
 										</tfoot>
 									</table>
@@ -146,7 +142,7 @@
 						<li><a href="mailto:austinleath18@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; austinleath.com / lethalgamestudios.ddns.net - All rights reserved. Lethal Game Studios&trade;</li>
+						<li>&copy; austinleath.com - All rights reserved. Lethal Game Studios&trade;</li>
 						<li><a href="legal/apachelicense.php" /a>Apache License</li>
 						<li><a href="legal/mitlicense.php" /a>MIT License</li>
 						<li><a href="javascript:history.go(-1)">Go Back</a></li>
