@@ -24,6 +24,18 @@ Order Allow,Deny
 Deny from all
 </Files>
 
+# protect the r6api files
+
+<Files /r6api/config.php>
+Order Allow,Deny
+Deny from all
+</Files>
+
+<Files /r6api/api_ticket>
+Order Allow,Deny
+Deny from all
+</Files>
+
 <IfModule mod_rewrite.c>
 RewriteEngine on
 rewritemap lowercase int:tolower
