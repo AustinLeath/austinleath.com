@@ -10,6 +10,14 @@
 <meta name="keywords" content="R6RC, R6, TSG, Data" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111374271-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111374271-2');
+</script>
 <style>
   body {
       background: #181b1f;

@@ -14,6 +14,14 @@
 		<link rel="stylesheet" href="home/assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111374271-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-111374271-2');
+		</script>
 	</head>
 	<body id="background">
 		<div id="page-wrapper">
