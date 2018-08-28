@@ -51,6 +51,7 @@
       color: #FFF;
   }
 </style>
+</head>
 <body>
     <div id="page">
         <div class="item">
