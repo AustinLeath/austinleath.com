@@ -8,16 +8,6 @@ Order Allow,Deny
 Deny from all
 </Files>
 
-<Files home>
-Order Allow,Deny
-Deny from all
-</Files>
-
-<Files .git>
-Order Allow,Deny
-Deny from all
-</Files>
-
 <Files .gitignore>
 Order Allow,Deny
 Deny from all
