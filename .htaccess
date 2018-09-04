@@ -3,38 +3,32 @@ ErrorDocument 403 /error/403.html
 
 Options -Indexes
 
-# Protect the .htaccess file
-
 <Files .htaccess>
 Order Allow,Deny
 Deny from all
 </Files>
 
-# protect the .gitignore file
+<Files home>
+Order Allow,Deny
+Deny from all
+</Files>
+
+<Files .git>
+Order Allow,Deny
+Deny from all
+</Files>
 
 <Files .gitignore>
 Order Allow,Deny
 Deny from all
 </Files>
 
-# protect the README.md file
-
 <Files README.md>
 Order Allow,Deny
 Deny from all
 </Files>
 
-# protect the r6api files
-
-<Files /r6api/config.php>
-Order Allow,Deny
-Deny from all
-</Files>
-
-<Files /r6api/api_ticket>
-Order Allow,Deny
-Deny from all
-</Files>
+# Rewrite rules
 
 <IfModule mod_rewrite.c>
 RewriteEngine on
