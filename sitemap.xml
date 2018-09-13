@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://austinleath.com/</loc>
+  <lastmod>2018-09-13T00:30:06+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://austinleath.com/tools.php</loc>
+  <lastmod>2018-09-13T04:29:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://austinleath.com/legal/mitlicense.php</loc>
+  <lastmod>2018-09-13T04:29:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://austinleath.com/legal/apachelicense.php</loc>
+  <lastmod>2018-09-13T04:29:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://austinleath.com/info/aboutdeveloper.html</loc>
+  <lastmod>2018-09-04T04:02:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://austinleath.com/vrsenal/index.php</loc>
+  <lastmod>2018-09-13T04:29:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://austinleath.com/r6tsg.php</loc>
+  <lastmod>2018-09-13T04:29:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://austinleath.com/mmrcalculator.php</loc>
+  <lastmod>2018-09-13T04:29:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://austinleath.com/mmrcalculator.html</loc>
+  <lastmod>2018-09-12T23:49:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://austinleath.com/index.html</loc>
+  <lastmod>2018-09-13T00:30:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
