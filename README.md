@@ -1,5 +1,5 @@
 # AustinLeath.com
-This repository contains all of the code for https://www.AustinLeath.com / https://www.R6RC.com/
+This repository contains all of the code for https://www.austinleath.com / https://www.r6rc.com/
 [![HitCount](http://hits.dwyl.io/austinleath/main.svg)](http://hits.dwyl.io/austinleath/main)
 
 # THINGS TO DO
