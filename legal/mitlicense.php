@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Austin Leath | MIT LICENSE</title>
+		<title>Austin Leath | MIT License</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="keywords" content="HTML,CSS,XML,JavaScript,Web,Engineer,terms,of,service,CSS3,HTML5,Austin,Leath,Lethal,Game,Studios,LethalGameStudios">
@@ -50,7 +50,6 @@
 		 											 <a href="">Legal</a>
 		 											 <ul>
 														 <li><a href="#">MIT License</a></li>
-														 <li><a href="../legal/apachelicense.php">Apache License</a></li>
 		 											 </ul>
 		 											</li>
 		 							 <!--DIVIDER-->
@@ -111,7 +110,6 @@
 					 </ul>
 					 <ul class="copyright">
  						<li>&copy; austinleath.com / r6rc.com - All rights reserved.</li>
- 						<li><a href="../legal/apachelicense.php" /a>Apache License</li>
  						<li><a href="#" /a>MIT License</li>
  						<li><a href="javascript:history.go(-1)">Go Back</a></li>
  					</ul>
