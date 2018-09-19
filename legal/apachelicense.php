@@ -34,7 +34,7 @@
 										<li>
 										<button class="button small btnalign" id="btn1" type="button" onclick="myFunction()">Light Mode</button>
 										<li>
-										<button class="button small btnalign" id="btn2" type="button" onclick="myFunction1()">Dark Mode</button>
+										<button class="button small btnalign" id="btn2" type="button" onclick="myFunction1()" disabled>Dark Mode</button>
 									<li>
 		 								<a href="">Other Information</a>
 										<ul>
@@ -287,7 +287,7 @@
 						 <li><a href="mailto:austinleath18@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 					 </ul>
 					 <ul class="copyright">
- 						<li>&copy; austinleath.com / lethalgamestudios.ddns.net - All rights reserved. Lethal Game Studios&trade;</li>
+ 						<li>&copy; austinleath.com / r6rc.com - All rights reserved.</li>
  						<li><a href="#" /a>Apache License</li>
  						<li><a href="../legal/mitlicense.php" /a>MIT License</li>
  						<li><a href="javascript:history.go(-1)">Go Back</a></li>
