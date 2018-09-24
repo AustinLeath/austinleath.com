@@ -47,7 +47,7 @@
 										 </ul>
 									 </li>
 									 <li><a href="info/aboutdeveloper.html">About Me</a></li>
-									 <li><a href="vrsenal/index.php">VRsenal</a></li>
+									 <li><a href="vrsenal/">VRsenal</a></li>
 									 <li><a href="mmrcalculator.html">R6S | MMR Calculator</a></li>
 									 <li><a href="index.html">Return Home</a></li>
 								  </ul>
