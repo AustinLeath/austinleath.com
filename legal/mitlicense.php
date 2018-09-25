@@ -45,13 +45,6 @@
 												 <li><a href="../">Return Home</a></li>
 											 </li>
 										 </ul>
-		 							<!--DIVIDER-->
-		 										 <li>
-		 											 <a href="">Legal</a>
-		 											 <ul>
-														 <li><a href="#">MIT License</a></li>
-		 											 </ul>
-		 											</li>
 		 							 <!--DIVIDER-->
 		 										 </li>
 		 									  </ul>
