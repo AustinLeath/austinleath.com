@@ -49,7 +49,7 @@
 									 <li><a href="info/aboutdeveloper.html">About Me</a></li>
 									 <li><a href="vrsenal/">VRsenal</a></li>
 									 <li><a href="mmrcalculator.html">R6S | MMR Calculator</a></li>
-									 <li><a href="index.html">Return Home</a></li>
+									 <li><a href="/">Return Home</a></li>
 								  </ul>
 							 <!--DIVIDER-->
 										 </li>
@@ -70,7 +70,6 @@
 						</header>
 							<!-- Content -->
 							  <section id="content">
- 									<iframe class="jsfiddle" src="https://jsfiddle.net/"></iframe>
 									<table>
 										<thead>
 											<tr>
@@ -143,9 +142,7 @@
 						<li><a href="javascript:history.go(-1)">Go Back</a></li>
 					</ul>
 				</footer>
-
 		</div>
-
 		<!-- Scripts -->
 			<script src="home/assets/js/jquery.min.js"></script>
 			<script src="home/assets/js/jquery.scrolly.min.js"></script>
