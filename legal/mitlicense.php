@@ -42,16 +42,9 @@
 												 <li><a href="../tools.php">Development Tools</a></li>
 												 <li><a href="../info/aboutdeveloper.html">About Me</a></li>
 												 <li><a href="../vrsenal/index.php">VRsenal</a></li>
-												 <li><a href="../index.html">Return Home</a></li>
+												 <li><a href="../">Return Home</a></li>
 											 </li>
 										 </ul>
-		 							<!--DIVIDER-->
-		 										 <li>
-		 											 <a href="">Legal</a>
-		 											 <ul>
-														 <li><a href="#">MIT License</a></li>
-		 											 </ul>
-		 											</li>
 		 							 <!--DIVIDER-->
 		 										 </li>
 		 									  </ul>
@@ -105,7 +98,7 @@
 						 <li><a href="https://www.facebook.com/AustinZacharyLeath" target="_blank" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
 						 <li><a href="https://www.linkedin.com/in/austin-leath-30a39a106/" target="_blank" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						 <li><a href="https://www.instagram.com/austin_leath/" target="_blank" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						 <li><a href="https://github.com/AustinLeath/main" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						 <li><a href="https://github.com/AustinLeath/" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
 						 <li><a href="mailto:austinleath18@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
 					 </ul>
 					 <ul class="copyright">
