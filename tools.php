@@ -70,25 +70,6 @@
 						</header>
 							<!-- Content -->
 							  <section id="content">
-									<table>
-										<thead>
-											<tr>
-												<th>Projects</th>
-												<th>Releases</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Rainbow Six Siege | MMR Calculator</td>
-												<td><a class="button icon fa-download" href="https://github.com/AustinLeath/mmrcalculator/releases/latest">Releases</a></td>
-											</tr>
-										</tbody>
-										<tfoot>
-											<tr>
-												<td colspan="2">This information is current as of <?php echo date("F");?>, <?php echo date("j");?> of <?php echo date("Y");?></td>
-											</tr>
-										</tfoot>
-									</table>
 								</section>
 								<section id="formdata">
 																<h3>Form</h3>
@@ -138,7 +119,7 @@
 					</ul>
 					<ul class="copyright">
 						<li>&copy; austinleath.com / r6rc.com - All rights reserved.</li>
-						<li><a href="legal/mitlicense.php" /a>MIT License</li>
+						<li><a href="legal/mitlicense.php">MIT License</a></li>
 						<li><a href="javascript:history.go(-1)">Go Back</a></li>
 					</ul>
 				</footer>
