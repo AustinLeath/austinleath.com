@@ -105,7 +105,7 @@
 									</header>
 									<p>VRsenal is still in its early stages of development. So I would love to show the community what I have done so far and hear what everyone has to say as far as mechanics go. Things are a bit rusty at the moment but they will shape up soon!</p>
 										<h3>Approximately how long will this game be in Early Access?</h3>
-										<p>Originally I planned for this game to go straight to the market. After realizing that the amount of content was a tad bit low, I decided to go to early access. With the Early Access / initial release slated for July 4th, 2017. I am planning for VRsenal to be out of Early Access by the summer of 2018.</p>
+										<p>Originally I planned for this game to go straight to the market. After realizing that the amount of content was a tad bit low, I decided to go to early access. With the Early Access / initial release slated for July 4th, 2017. However, after starting my Senior year for High School I have realized that my focus needs to be on school.<br>For right now, VRsenal will be in early access for te forseeable future.</p>
 										<h3>How is the full version planned to differ from the Early Access version?</h3>
 										<p>There will be more weapons, game modes and places to explore / shoot up. I am also open to suggestions as far as content and overall game design goes.</p>
 										<h3>What is the current state of the Early Access version?</h3>
@@ -120,7 +120,6 @@
 					 <iframe class="image fit" width="1280" height="720" src="https://www.youtube.com/embed/mcwT7GV4144" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					</div>
 				</div>
-
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
@@ -137,9 +136,7 @@
 						<li><a href="javascript:history.go(-1)">Go Back</a></li>
 					</ul>
 				</footer>
-
 		</div>
-
 		<!-- Scripts -->
 			<script src="../home/assets/js/jquery.min.js"></script>
 			<script src="../home/assets/js/jquery.scrolly.min.js"></script>
@@ -151,7 +148,6 @@
 			<script src="../home/assets/js/cyclestyle.js"></script>
 			<script src="../home/assets/js/normalizestyle.js"></script>
 			<script src="../home/assets/js/time.js"></script>
-
 			<!--[if lte IE 8]><script src="../home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="../home/assets/js/main.js"></script>
 	</body>
