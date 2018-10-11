@@ -29,11 +29,71 @@ $a[] = 'Ryan Hughes -> TSG.Frontside <a href="https://r6tab.com/ce8303ce-6081-43
 $a[] = 'Hughes -> TSG.Frontside <a href="https://r6tab.com/ce8303ce-6081-43a2-9ebd-e18953c7156a" target="_blank">R6Tab</a>';
 
 $a[] =
-'<table>
+'Austin Leath<table>
   <tbody>
     <tr>
       <td>Austin Leath</td>
       <td><a class="button icon fa-download" href="https://r6tab.com/https://r6tab.com/767374e1-b218-42ff-98c6-3f78553db5e9" target="_blank">R6Tab</a></td>
+    </tr>
+  </tbody>
+</table>';
+
+$a[] =
+'<table>
+  <tbody>
+    <tr>
+      <td>Jake Martin</td>
+      <td><a class="button icon fa-download" href="https://r6tab.com/ca54e49a-76f2-4290-8e11-e36827caccb0" target="_blank">R6Tab</a></td>
+    </tr>
+  </tbody>
+</table>';
+
+$a[] =
+'<table>
+  <tbody>
+    <tr>
+      <td>Jake Martin</td>
+      <td><a class="button icon fa-download" href="https://r6tab.com/ca54e49a-76f2-4290-8e11-e36827caccb0" target="_blank">R6Tab</a></td>
+    </tr>
+  </tbody>
+</table>';
+
+$a[] =
+'<table>
+  <tbody>
+    <tr>
+      <td>Jake Martin</td>
+      <td><a class="button icon fa-download" href="https://r6tab.com/ca54e49a-76f2-4290-8e11-e36827caccb0" target="_blank">R6Tab</a></td>
+    </tr>
+  </tbody>
+</table>';
+
+$a[] =
+'<table>
+  <tbody>
+    <tr>
+      <td>Jake Martin</td>
+      <td><a class="button icon fa-download" href="https://r6tab.com/ca54e49a-76f2-4290-8e11-e36827caccb0" target="_blank">R6Tab</a></td>
+    </tr>
+  </tbody>
+</table>';
+
+$a[] =
+'<table>
+  <tbody>
+    <tr>
+      <td>Jake Martin</td>
+      <td><a class="button icon fa-download" href="https://r6tab.com/ca54e49a-76f2-4290-8e11-e36827caccb0" target="_blank">R6Tab</a></td>
+    </tr>
+  </tbody>
+</table>';
+
+$a[] =
+'<table>
+  <tbody>
+    <tr>
+      <td>Jake Martin</td>
+      <td><a class="button icon fa-download" href="https://r6tab.com/ca54e49a-76f2-4290-8e11-e36827caccb0" target="_blank">R6Tab</a></td>
     </tr>
   </tbody>
 </table>';
