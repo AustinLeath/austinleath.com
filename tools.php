@@ -82,7 +82,9 @@
 											</tr>
 										</thead>
 										<tbody>
-											<span id="txtHint"></span>
+											<tr>
+												<span id="txtHint"></span>
+											</tr>
 										</tbody>
 									</table>
 																<h3>Form</h3>
