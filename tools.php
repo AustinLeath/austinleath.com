@@ -150,7 +150,6 @@
 			<script src="home/assets/js/time.js"></script>
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="home/assets/js/main.js"></script>
-
 			<script>
 			function showHint(str) {
 					if (str.length == 0) {
@@ -163,7 +162,7 @@
 											document.getElementById("txtHint").innerHTML = this.responseText;
 									}
 							};
-							xmlhttp.open("GET", "https://www.r6rc.com/home/assets/php/gethint.php?q=" + str, true);
+							xmlhttp.open("GET", "/home/assets/php/gethint.php?q=" + str, true);
 							xmlhttp.send();
 					}
 			}
