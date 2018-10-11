@@ -78,7 +78,6 @@
 										<thead>
 											<tr>
 												<th>Players</th>
-												<th>Links</th>
 											</tr>
 										</thead>
 										<tbody>

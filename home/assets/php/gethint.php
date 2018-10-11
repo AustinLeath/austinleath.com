@@ -27,7 +27,7 @@ $a[] = 'Jacob LaCroix -> TSG.Legion <a href="https://r6tab.com/7c3185c0-74c9-440
 $a[] = 'LaCroix -> TSG.Legion <a href="https://r6tab.com/7c3185c0-74c9-440f-8f67-29cb3eaa4112" target="_blank">R6Tab</a>';
 $a[] = 'Ryan Hughes -> TSG.Frontside <a href="https://r6tab.com/ce8303ce-6081-43a2-9ebd-e18953c7156a" target="_blank">R6Tab</a>';
 $a[] = 'Hughes -> TSG.Frontside <a href="https://r6tab.com/ce8303ce-6081-43a2-9ebd-e18953c7156a" target="_blank">R6Tab</a>';
-$a[] = '<td>Playername</td> <td><a class="button icon fa-download" href="https://r6tab.com/https://r6tab.com/767374e1-b218-42ff-98c6-3f78553db5e9" target="_blank">R6Tab</a></td>';
+$a[] = '<td>Playername</td>'+'<td>'+'<a class="button icon fa-download" href="https://r6tab.com/https://r6tab.com/767374e1-b218-42ff-98c6-3f78553db5e9" target="_blank">R6Tab</a>'+'</td>';
 
 //usernames
 $a[] = 'TSG.Slurgus <a href="https://r6tab.com/8894b513-7067-473e-a001-e316104e32ea" target="_blank">R6Tab</a>';
