@@ -74,7 +74,17 @@
 								<section id="formdata">
 
 									<input type="text" onkeyup="showHint(this.value)" placeholder="Enter a username">
-									<span id="txtHint">
+									<table>
+										<thead>
+											<tr>
+												<th>Players</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr id="txtHint">
+											</tr>
+										</tbody>
+									</table>
 																<h3>Form</h3>
 																<form method="post" action="/home/assets/php/action.php">
 																	<div class="row uniform 50%">
