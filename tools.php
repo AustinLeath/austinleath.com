@@ -83,7 +83,7 @@
 										</thead>
 										<tbody>
 											<tr>
-												<span id="txtHint"></span>
+												<td><span id="txtHint"></span></td>
 											</tr>
 										</tbody>
 									</table>
