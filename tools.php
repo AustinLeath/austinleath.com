@@ -72,6 +72,19 @@
 							  <section id="content">
 								</section>
 								<section id="formdata">
+
+									<input type="text" onkeyup="showHint(this.value)" placeholder="Enter a username">
+									<table>
+										<thead>
+											<tr>
+												<th>Players</th>
+												<th>Links</th>
+											</tr>
+										</thead>
+										<tbody>
+											<span id="txtHint"></span>
+										</tbody>
+									</table>
 																<h3>Form</h3>
 																<form method="post" action="/home/assets/php/action.php">
 																	<div class="row uniform 50%">
@@ -138,5 +151,22 @@
 			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="home/assets/js/main.js"></script>
 
+			<script>
+			function showHint(str) {
+					if (str.length == 0) {
+							document.getElementById("txtHint").innerHTML = "";
+							return;
+					} else {
+							var xmlhttp = new XMLHttpRequest();
+							xmlhttp.onreadystatechange = function() {
+									if (this.readyState == 4 && this.status == 200) {
+											document.getElementById("txtHint").innerHTML = this.responseText;
+									}
+							};
+							xmlhttp.open("GET", "https://www.r6rc.com/home/assets/php/gethint.php?q=" + str, true);
+							xmlhttp.send();
+					}
+			}
+			</script>
 	</body>
 </html>
