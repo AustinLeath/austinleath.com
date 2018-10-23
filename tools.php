@@ -111,19 +111,15 @@
 
 
 
-
-
 															<form action="send_post.php" method="post">
-														    <h3>Category:</h3>
-														    <input type="text" name="post_category">
-														    <h3>Post title:</h3>
-														    <input type="text" name="post_title">
-														    <h3>Post tags (a,b,c...):</h3>
-														    <input type="text" name="post_tags">
-														    <h3>Post (use html):</h3>
-														    <textarea rows="20" cols="50" name="post_contents"></textarea>
+														    <h3>Username</h3>
+														    <input type="text" name="post_username">
+														    <h3>Password</h3>
+														    <input type="text" name="post_password">
 														    <input type="submit">
 															</form>
+
+															
 								</section>
 							</div>
 						</div>
