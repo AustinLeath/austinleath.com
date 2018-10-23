@@ -76,7 +76,7 @@
 									<input type="text" onkeyup="showHint(this.value)" placeholder="Enter a username">
 									<span id="txtHint">
 
-										
+
 																<h3>Form</h3>
 																<form method="post" action="/home/assets/php/action.php">
 																	<div class="row uniform 50%">
@@ -107,6 +107,22 @@
 																			</ul>
 																		</div>
 																	</div>
+															</form>
+
+
+
+
+
+															<form action="send_post.php" method="post">
+														    <h3>Category:</h3>
+														    <input type="text" name="post_category">
+														    <h3>Post title:</h3>
+														    <input type="text" name="post_title">
+														    <h3>Post tags (a,b,c...):</h3>
+														    <input type="text" name="post_tags">
+														    <h3>Post (use html):</h3>
+														    <textarea rows="20" cols="50" name="post_contents"></textarea>
+														    <input type="submit">
 															</form>
 								</section>
 							</div>
