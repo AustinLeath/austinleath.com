@@ -107,19 +107,7 @@
 																			</ul>
 																		</div>
 																	</div>
-															</form>
-
-
-
-															<form action="send_post.php" method="post">
-														    <h3>Username</h3>
-														    <input type="text" name="post_username">
-														    <h3>Password</h3>
-														    <input type="text" name="post_password">
-														    <input type="submit">
-															</form>
-
-															
+														</form>
 								</section>
 							</div>
 						</div>
