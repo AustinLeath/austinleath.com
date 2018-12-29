@@ -129,11 +129,28 @@ $a[] =
   </tbody>
 </table>';
 
-
-
-// return all players in database
 $a[] =
-'All<table>
+'Brandon Raffa<table>
+  <tbody>
+    <tr>
+      <td>Brandon Raffa</td>
+      <td><a class="button icon fa-download" href="https://r6tab.com/87e221cf-93b6-4176-b6f5-e9ccc7319caa" target="_blank">R6Tab</a></td>
+    </tr>
+  </tbody>
+</table>';
+
+$a[] =
+'Nick Trunnel<table>
+  <tbody>
+    <tr>
+      <td>Nick Trunnel</td>
+      <td><a class="button icon fa-download" href="https://r6tab.com/6f6cb89a-b715-4742-b171-ac1cc18dc366" target="_blank">R6Tab</a></td>
+    </tr>
+  </tbody>
+</table>';
+  // return all players in database
+$a[] =
+'$listall<table>
   <tbody>
     <tr>
       <td>Austin Leath</td>
@@ -187,10 +204,16 @@ $a[] =
       <td>Ryan Hughes</td>
       <td><a class="button icon fa-download" href="https://r6tab.com/ce8303ce-6081-43a2-9ebd-e18953c7156a" target="_blank">R6Tab</a></td>
     </tr>
+    <tr>
+     <td>Brandon Raffa</td>
+     <td><a class="button icon fa-download" href="https://r6tab.com/87e221cf-93b6-4176-b6f5-e9ccc7319caa" target="_blank">R6Tab</a></td>
+    </tr>
+    <tr>
+     <td>Nick Trunnel</td>
+     <td><a class="button icon fa-download" href="https://r6tab.com/6f6cb89a-b715-4742-b171-ac1cc18dc366" target="_blank">R6Tab</a></td>
+    </tr>
   </tbody>
 </table>';
-
-
 // get the q parameter from URL
 $q = $_REQUEST["q"];
 

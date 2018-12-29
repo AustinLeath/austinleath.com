@@ -113,7 +113,7 @@
 									<h3>Will the game be priced differently during and after Early Access?</h3>
 								<p>I plan to gradually raise the price leading up to the final release. That will only happen when most of the major content that I have planned is in place.</p>
 							<h3>How are you planning on involving the Community in your development process?</h3>
-						<p>I will keep the community involved by closely monitoring the forums and reading every suggestion from our players. We will let our players partake in beta builds so they can let us know what they like and what they dislike. I will also have a VRsenal community discord where players can always stay in touch with me or my moderators.</p>
+						<p>I will keep the community involved by closely monitoring the forums and reading every suggestion from our players. We will let our players partake in beta builds so they can let us know what they like and what they dislike. I will also have a VRsenal community Discord where players can always stay in touch with me or my moderators.</p>
 						<header class="major">
 							<h3>VRsenal Trailer</h3>
 					 </header>
