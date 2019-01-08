@@ -41,11 +41,6 @@
 								<a href="">Other Information</a>
 								  <ul>
 									 <li><a href="#">Development Tools</a></li>
-									 <li><a href="">Legal</a>
-										 <ul>
-											 <li><a href="legal/mitlicense.php">MIT License</a></li>
-										 </ul>
-									 </li>
 									 <li><a href="info/aboutdeveloper.html">About Me</a></li>
 									 <li><a href="vrsenal/">VRsenal</a></li>
 									 <li><a href="mmrcalculator.html">R6S | MMR Calculator</a></li>
@@ -75,8 +70,6 @@
 
 									<input type="text" onkeyup="showHint(this.value)" placeholder="Enter a username">
 									<span id="txtHint">
-
-
 																<h3>Form</h3>
 																<form method="post" action="/home/assets/php/action.php">
 																	<div class="row uniform 50%">
@@ -124,7 +117,6 @@
 					</ul>
 					<ul class="copyright">
 						<li>&copy; austinleath.com / r6rc.com - All rights reserved.</li>
-						<li><a href="legal/mitlicense.php">MIT License</a></li>
 						<li><a href="javascript:history.go(-1)">Go Back</a></li>
 					</ul>
 				</footer>

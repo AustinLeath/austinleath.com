@@ -41,11 +41,6 @@
 								<a href="">Other Information</a>
 								  <ul>
 									 <li><a href="../../../tools.php">Development Tools</a></li>
-									 <li><a href="">Legal</a>
-										 <ul>
-											 <li><a href="../../../legal/mitlicense.php">MIT License</a></li>
-										 </ul>
-									 </li>
 									 <li><a href="../../../info/aboutdeveloper.html">About Me</a></li>
 									 <li><a href="../../../vrsenal/">VRsenal</a></li>
 									 <li><a href="../../../">Return Home</a></li>
@@ -88,7 +83,6 @@
 					</ul>
 					<ul class="copyright">
 						<li>&copy; austinleath.com / r6rc.com - All rights reserved.</li>
-						<li><a href="../../../legal/mitlicense.php" /a>MIT License</li>
 						<li><a href="javascript:history.go(-1)">Go Back</a></li>
 					</ul>
 				</footer>
