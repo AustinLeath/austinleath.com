@@ -9,9 +9,9 @@
 		<meta name="author" content="Austin Leath">
 		<meta name='copyright' content='Lethal Game Studios'>
 		<meta name='owner' content='Austin Leath'>
-		<link rel="shortcut icon" href="../images/main/favicon.ico" />
+		<link rel="shortcut icon" href="images/favicon.ico" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="../home/assets/css/main.css" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111374271-2"></script>
@@ -40,10 +40,10 @@
 							<li>
 								<a href="">Other Information</a>
 								  <ul>
-									 <li><a href="../tools.php">Development Tools</a></li>
-									 <li><a href="../info/aboutdeveloper.html">About Me</a></li>
+									 <li><a href="tools.php">Development Tools</a></li>
+									 <li><a href="aboutdeveloper.html">About Me</a></li>
 									 <li><a href="#">VRsenal</a></li>
-									 <li><a href="../">Return Home</a></li>
+									 <li><a href="index.html">Return Home</a></li>
 								  </ul>
 							 <!--DIVIDER-->
 										 </li>
@@ -65,10 +65,10 @@
 						</header>
 						<!-- Content -->
 							<section id="content">
-								<img class="image fit" id="image-1" src="../images/img1.png" alt="" />
-								<img class="image fit" id="image-2" src="../images/img2.png" alt="" />
-								<img class="image fit" id="image-3" src="../images/img3.png" alt="" />
-								<img class="image fit" id="image-4" src="../images/img4.png" alt="" />
+								<img class="image fit" id="image-1" src="images/img1.png" alt="" />
+								<img class="image fit" id="image-2" src="images/img2.png" alt="" />
+								<img class="image fit" id="image-3" src="images/img3.png" alt="" />
+								<img class="image fit" id="image-4" src="images/img4.png" alt="" />
 								<h3>VRsenal / HTC Vive supported / Independently developed</h3>
 								<p>VRsenal is a single player HTC Vive supported virtual reality game which is both an exploration game and a physics simulation. Explore the vast lands of VRsenal while interacting with random objects that are scattered throughout the many environments in which you will be playing in. VRsenal provides an assortment of weapons for you to interact with including both melee weapons, 3 hand guns and 4 Assault Rifles.</p>
 								<p>VRsenal is a single player VR game that is both an open world exploration game and physics simulation. Master the landscape as well as a variety of weapons that are laid before you!</p>
@@ -132,17 +132,17 @@
 				</footer>
 		</div>
 		<!-- Scripts -->
-			<script src="../home/assets/js/jquery.min.js"></script>
-			<script src="../home/assets/js/jquery.scrolly.min.js"></script>
-			<script src="../home/assets/js/jquery.dropotron.min.js"></script>
-			<script src="../home/assets/js/jquery.scrollex.min.js"></script>
-			<script src="../home/assets/js/skel.min.js"></script>
-			<script src="../home/assets/js/util.js"></script>
-			<script src="../home/assets/js/cycleimg.js"></script>
-			<script src="../home/assets/js/cyclestyle.js"></script>
-			<script src="../home/assets/js/normalizestyle.js"></script>
-			<script src="../home/assets/js/time.js"></script>
-			<!--[if lte IE 8]><script src="../home/assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="../home/assets/js/main.js"></script>
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.scrolly.min.js"></script>
+			<script src="/assets/js/jquery.dropotron.min.js"></script>
+			<script src="/assets/js/jquery.scrollex.min.js"></script>
+			<script src="/assets/js/skel.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/cycleimg.js"></script>
+			<script src="/assets/js/cyclestyle.js"></script>
+			<script src="/assets/js/normalizestyle.js"></script>
+			<script src="/assets/js/time.js"></script>
+			<!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/assets/js/main.js"></script>
 	</body>
 </html>

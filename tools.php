@@ -9,9 +9,9 @@
 		<meta name="author" content="Austin Leath">
 		<meta name='copyright' content='Lethal Game Studios'>
 		<meta name='owner' content='Austin Leath'>
-		<link rel="shortcut icon" href="images/main/favicon.ico" />
+		<link rel="shortcut icon" href="images/favicon.ico" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="home/assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111374271-2"></script>
@@ -71,7 +71,7 @@
 									<input type="text" onkeyup="showHint(this.value)" placeholder="Enter a username">
 									<span id="txtHint">
 																<h3>Form</h3>
-																<form method="post" action="/home/assets/php/action.php">
+																<form method="post" action="/assets/php/action.php">
 																	<div class="row uniform 50%">
 																		<div class="6u 12u$(xsmall)">
 																			<input type="text" name="name" id="name" value="" placeholder="Name">
@@ -122,18 +122,18 @@
 				</footer>
 		</div>
 		<!-- Scripts -->
-			<script src="home/assets/js/jquery.min.js"></script>
-			<script src="home/assets/js/jquery.scrolly.min.js"></script>
-			<script src="home/assets/js/jquery.dropotron.min.js"></script>
-			<script src="home/assets/js/jquery.scrollex.min.js"></script>
-			<script src="home/assets/js/skel.min.js"></script>
-			<script src="home/assets/js/util.js"></script>
-			<script src="home/assets/js/cycletxt.js"></script>
-			<script src="home/assets/js/cyclestyle.js"></script>
-			<script src="home/assets/js/normalizestyle.js"></script>
-			<script src="home/assets/js/time.js"></script>
-			<!--[if lte IE 8]><script src="home/assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="home/assets/js/main.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/cycletxt.js"></script>
+			<script src="assets/js/cyclestyle.js"></script>
+			<script src="assets/js/normalizestyle.js"></script>
+			<script src="assets/js/time.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 			<script>
 			function showHint(str) {
 					if (str.length == 0) {
@@ -146,7 +146,7 @@
 											document.getElementById("txtHint").innerHTML = this.responseText;
 									}
 							};
-							xmlhttp.open("GET", "/home/assets/php/gethint.php?q=" + str, true);
+							xmlhttp.open("GET", "/assets/php/gethint.php?q=" + str, true);
 							xmlhttp.send();
 					}
 			}
