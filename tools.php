@@ -41,8 +41,8 @@
 								<a href="">Other Information</a>
 								  <ul>
 									 <li><a href="#">Development Tools</a></li>
-									 <li><a href="info/aboutdeveloper.html">About Me</a></li>
-									 <li><a href="vrsenal/">VRsenal</a></li>
+									 <li><a href="aboutdeveloper.html">About Me</a></li>
+									 <li><a href="vrsenal.php">VRsenal</a></li>
 									 <li><a href="mmrcalculator.html">R6S | MMR Calculator</a></li>
 									 <li><a href="/">Return Home</a></li>
 								  </ul>
