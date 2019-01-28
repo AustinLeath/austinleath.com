@@ -375,7 +375,7 @@ footer {
   padding: 25px 0;
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
-  background-color: #222222;
+  background-color: #1c1d26;
 }
 
 footer p {
@@ -397,13 +397,19 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fdcc52), to(#fdc539));
-  background: linear-gradient(#fdcc52, #fdc539);
+  color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1c1d26), to(white));
+  background: linear-gradient(#1c1d26, white);
+}
+
+.bg-secondary {
+  color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#1c1d26));
+  background: linear-gradient(white, #1c1d26);
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: black;
 }
 
 .no-gutter > [class*='col-'] {
