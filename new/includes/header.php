@@ -8,7 +8,7 @@
    	      </div>
    	   	<nav id="main-nav-wrap">
    				<ul class="main-navigation sf-menu">
-   					<li><a href="/blog/" title="">Home</a></li>
+   					<li><a href="/" title="">Home</a></li>
    					<li class="has-children">
    						<a href="category.php" title="">Categories</a>
    						<ul class="sub-menu">
