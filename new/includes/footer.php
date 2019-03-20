@@ -31,10 +31,9 @@
  	      		<h4>Social</h4>
 
  	      		<ul>
- 	      		<li><a href="https://www.pinterest.com/rileighsayen/" target="_blank">Pintrest</a></li>
- 						<li><a href="https://www.instagram.com/rileighsayen/" target="_blank">Instagram</a></li>
- 						<li><a href="https://twitter.com/rileighsayen" target="_blank">Twitter</a></li>
- 						<li><a href="https://www.facebook.com/rileigh.sayen" target="_blank">Facebook</a></li>
+ 						<li><a href="https://www.instagram.com/austin_leath/" target="_blank">Instagram</a></li>
+ 						<li><a href="https://twitter.com/austinzleath" target="_blank">Twitter</a></li>
+ 						<li><a href="https://www.facebook.com/AustinZacharyLeath" target="_blank">Facebook</a></li>
  					</ul>
 
  	      	</div> <!-- end social links -->
@@ -72,9 +71,9 @@
 
        		<div class="col-twelve">
  	      		<div class="copyright">
- 		         	<span>© Copyright <a href="https://www.rileighsayen.com">rileighsayen.com</a> 2019</span>
+ 		         	<span>© Copyright <a href="https://www.austinleath.com/">rileighsayen.com</a> 2019</span>
  		         	<span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
-              <span>Modified by <a href="https://www.austinleath.com/">Austin Leath</a></span>
+              <span>Modified by Austin Leath</span>
  		         </div>
 
  		         <div id="go-top">
