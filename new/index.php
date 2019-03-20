@@ -1,57 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<title>Rileigh's Blog</title>
-<meta name="apple-mobile-web-app-title" content="Rileigh's Blog" />
-<meta name="application-name" content="Rileigh's Blog" />
-<meta name="theme-color" content="#191919" />
-<meta id="meta_description" name="description" content="Rileigh's Blog" />
-<meta name="keywords" content="Rileigh, sayen, blog, fashion, clothes, college, tips, tricks" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-<?php include 'blog/includes/googleanalytics.php'; ?>
-<style>
-  body {
-      background: #181b1f;
-      color: #FFF;
-      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif,
-      Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-      text-align: center;
-      margin: 0;
-  }
-  #page {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-  }
-  .item {
-      flex: 1;
-        max-width: 50%;
-  }
-  h1 {
-      font-weight: 500;
-  }
-  span {
-      color: #6f7376;
-      font-size: 14px;
-  }
-  a {
-      color: #A4A9AD;
-  }
-  a:hover, a:focus {
-      color: #FFF;
-  }
-</style>
-</head>
-<body>
-    <div id="page">
-      <div class="item">
-        <h1><i>Coming Soon</i></h1>
-        <p>I am working on getting this site up and running as soon as possible! Stay tuned!</p>
-        <span><a href="https://www.rileighsayen.com/blog/">WIP BLOG</a></span>
-      </div>
-    </div>
-</body>
-</html>
+<!--[if IE 8 ]>
+<html class="no-js oldie ie8" lang="en">
+   <![endif]-->
+   <!--[if IE 9 ]>
+   <html class="no-js oldie ie9" lang="en">
+      <![endif]-->
+      <!--[if (gte IE 9)|!(IE)]><!-->
+      <html class="no-js" lang="en">
+         <!--<![endif]-->
+         <head>
+            <title>Rileigh's Blog</title>
+            <meta name="description" content="Welcome to my blog!">
+            <?php include 'includes/head.php'; ?>
+            <?php include 'includes/googleanalytics.php'; ?>
+         </head>
+         <body id="top">
+            <?php include 'includes/header.php'; ?>
+
+            <!-- masonry -->
+            <section id="bricks">
+               <div class="row masonry">
+                  <!-- brick-wrapper -->
+                  <div class="bricks-wrapper">
+                     <div class="grid-sizer"></div>
+                     <div class="brick entry featured-grid animate-this">
+                        <div class="entry-content">
+                           <div id="featured-post-slider" class="flexslider">
+                              <ul class="slides">
+                                 <li>
+                                    <div class="featured-post-slide">
+                                       <div class="post-background" style="background-image:url('images/thumbs/featured/featured-1.jpg');"></div>
+                                       <div class="overlay"></div>
+                                       <div class="post-content">
+                                          <ul class="entry-meta">
+                                             <li>September 06, 2016</li>
+                                             <li><a href="#" >Naruto Uzumaki</a></li>
+                                          </ul>
+                                          <h1 class="slide-title"><a href="single-standard.html" title="">Minimalism Never Goes Out of Style</a></h1>
+                                       </div>
+                                    </div>
+                                 </li>
+                                 <!-- /slide -->
+                                 <li>
+                                    <div class="featured-post-slide">
+                                       <div class="post-background" style="background-image:url('images/thumbs/featured/featured-2.jpg');"></div>
+                                       <div class="overlay"></div>
+                                       <div class="post-content">
+                                          <ul class="entry-meta">
+                                             <li>February 26, 2019</li>
+                                             <li><a href="#">Rileigh Sayen</a></li>
+                                          </ul>
+                                          <h1 class="slide-title"><a href="fp.php" title="">First Post!</a></h1>
+                                       </div>
+                                    </div>
+                                 </li>
+                                 <!-- /slide -->
+                                 <li>
+                                    <div class="featured-post-slide">
+                                       <div class="post-background" style="background-image:url('images/thumbs/featured/featured-3.jpg');;"></div>
+                                       <div class="overlay"></div>
+                                       <div class="post-content">
+                                          <ul class="entry-meta">
+                                             <li>August 27, 2016</li>
+                                             <li><a href="#" class="author">Naruto Uzumaki</a></li>
+                                          </ul>
+                                          <h1 class="slide-title"><a href="single-standard.html" title="">Music Album Cover Designs for Inspiration</a></h1>
+                                       </div>
+                                    </div>
+                                 </li>
+                                 <!-- end slide -->
+                              </ul>
+                              <!-- end slides -->
+                           </div>
+                           <!-- end featured-post-slider -->
+                        </div>
+                        <!-- end entry content -->
+                     </div>
+                     <article class="brick entry format-quote animate-this" >
+                        <div class="entry-thumb">
+                           <blockquote>
+                              <p>Welcome to my site! I am just getting started making content so be sure to check back later for more!</p>
+                              <cite>Rileigh Sayen</cite>
+                           </blockquote>
+                        </div>
+                     </article>
+                     <!-- end article -->
+                  </div>
+                  <!-- end brick-wrapper -->
+               </div>
+               <!-- end row -->
+               <div class="row">
+                  <nav class="pagination">
+                     <span class="page-numbers prev inactive">Prev</span>
+                     <span class="page-numbers current">1</span>
+                     <a href="#" class="page-numbers">2</a>
+                     <a href="#" class="page-numbers">3</a>
+                     <a href="#" class="page-numbers">4</a>
+                     <a href="#" class="page-numbers">5</a>
+                     <a href="#" class="page-numbers">6</a>
+                     <a href="#" class="page-numbers">7</a>
+                     <a href="#" class="page-numbers">8</a>
+                     <a href="#" class="page-numbers">9</a>
+                     <a href="#" class="page-numbers next">Next</a>
+                  </nav>
+               </div>
+            </section>
+            <!-- end bricks -->
+            <?php include 'includes/footer.php'; ?>
+            <div id="preloader">
+               <div id="loader"></div>
+            </div>
+            <!-- JavaScript -->
+            <script src="js/jquery-2.1.3.min.js"></script>
+            <script src="js/plugins.js"></script>
+            <script src="js/jquery.appear.js"></script>
+            <script src="js/main.js"></script>
+         </body>
+      </html>
