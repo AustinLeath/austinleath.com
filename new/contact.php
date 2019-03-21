@@ -13,11 +13,11 @@
             <meta charset="utf-8">
             <title>Contact Page</title>
             <meta name="description" content="">
-            <?php include 'includes/head.php'; ?>
-            <?php include 'includes/googleanalytics.php'; ?>
+            <?php include_once 'includes/head.php'; ?>
+            <?php include_once 'includes/googleanalytics.php'; ?>
          </head>
          <body id="top">
-            <?php include 'includes/header.php';?>
+            <?php include_once 'includes/header.php';?>
             <!-- content -->
             <section id="content-wrap" class="site-page">
                <div class="row">
@@ -60,7 +60,7 @@
                   </div>
                </div>
             </section>
-            <?php include 'includes/footer.php';?>
+            <?php include_once 'includes/footer.php';?>
             <div id="preloader">
                <div id="loader"></div>
             </div>
