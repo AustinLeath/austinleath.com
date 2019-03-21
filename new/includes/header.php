@@ -4,7 +4,7 @@
       	<div class="gradient-block"></div>
       	<div class="row header-content">
       		<div class="logo">
-   	         <a href="/blog/">Author</a>
+   	         <a href="/">Author</a>
    	      </div>
    	   	<nav id="main-nav-wrap">
    				<ul class="main-navigation sf-menu">

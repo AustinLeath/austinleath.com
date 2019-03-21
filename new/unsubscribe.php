@@ -4,8 +4,8 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-	<title>Unsubscribe - Rileigh's Blog</title>
-	<meta name="description" content="Unsubscribe from Rileigh's Blog">
+	<title>Unsubscribe - austinleath.com</title>
+	<meta name="description" content="Unsubscribe from austinleath.com">
   <?php include 'includes/head.php'; ?>
   <?php include 'includes/googleanalytics.php'; ?>
 </head>
