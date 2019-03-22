@@ -32,7 +32,7 @@
 		       <button type="submit" class="submit button-primary full-width-on-mobile">Submit</button>
 		      </fieldset>
 		     </form>
-		     <?php include_once 'includes/elist.php'; ?>
+		     <?php include 'includes/elist.php'; ?>
 			     
                      </article>
                   </div>
