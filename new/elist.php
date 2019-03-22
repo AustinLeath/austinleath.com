@@ -36,7 +36,7 @@
 			     
                      </article>
                   </div>
-		    </div></div>
+	       </div>
             </section>
             <?php include 'includes/footer.php'; ?>
             <div id="preloader">
