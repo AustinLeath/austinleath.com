@@ -46,7 +46,7 @@
 
  	      		<div class="subscribe-form">
 
- 	      			<form method="post" action="" novalidate="true">
+ 	      			<form method="post" action="" novalidate="true" onsubmit="return false">
 
  							<input type="email" value="" name="email" class="email" id="mc-email" placeholder="johndoe@gmail.com">
 
