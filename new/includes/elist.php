@@ -33,13 +33,15 @@ if($password == "") {
      </tr>
   </thead>
   <tbody>
+  <tr>
   ';
 
    while($row = $emailresult->fetch_assoc()) {
-     echo "<tr>" . $row["email"] . "</tr>";
+     echo "<td>" . $row["email"] . "</td>";
    }
 
    echo '
+   </tr>
    </tbody>
    </table>
    ';
