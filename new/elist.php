@@ -3,13 +3,13 @@
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<title>Unsubscribe - austinleath.com</title>
+	<title>Email List - austinleath.com</title>
 	<meta name="description" content="Email List">
-  <?php include 'includes/head.php'; ?>
-  <?php include 'includes/googleanalytics.php'; ?>
+  <?php include_once 'includes/head.php'; ?>
+  <?php include_once 'includes/googleanalytics.php'; ?>
 </head>
 <body id="top">
-  <?php include 'includes/header.php'; ?>
+  <?php include_once 'includes/header.php'; ?>
   <!-- content -->
    <section id="content-wrap" class="blog-single">
    	<div class="row">
@@ -27,12 +27,12 @@
             </fieldset>
           </form>
 
-		      <?php include 'includes/elist.php'; ?>
+		      <?php include_once 'includes/elist.php'; ?>
 				</article>
 			</div>
    	</div>
    </section>
-   <?php include 'includes/footer.php'; ?>
+   <?php include_once 'includes/footer.php'; ?>
    <div id="preloader">
     	<div id="loader"></div>
    </div>
