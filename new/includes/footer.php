@@ -35,11 +35,6 @@ echo '
    <label for="mc-email" class="subscribe-message"></label>
 </form>
 </div>
-';
-
-include_once 'register.php';
-
-echo '
 </div>
 </div>
 </div>
@@ -59,4 +54,7 @@ echo '
 </div>
 </footer>
 ';
+
+include_once 'register.php';
+
 ?>
