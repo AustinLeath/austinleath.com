@@ -33,7 +33,6 @@ if($password == "") {
      </tr>
   </thead>
   <tbody>
-  <tr>
   ';
 
    while($row = $emailresult->fetch_assoc()) {
@@ -41,7 +40,6 @@ if($password == "") {
    }
 
    echo '
-   </tr>
    </tbody>
    </table>
    ';
