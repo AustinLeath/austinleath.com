@@ -1,13 +1,15 @@
 <?php
-$servername = "localhost";
-$dbusername = "wpadmin";
-$dbpassword = "wpadmin";
-$dbname = "rileighsblog";
+function mysqlconnection() {
+  $database_name = 'austinleath';
+  $database_user = 'wpadmin';
+  $database_pass = 'wpadmin';
+  return mysqli_connect('localhost', $database_user, $database_pass, $database_name);
+}
 
 $password = $_POST["password"];
 
 // Create connection
-$conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
+$conn = mysqlconnection();
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
