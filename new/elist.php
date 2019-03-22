@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<title>Email List - austinleath.com</title>
-	<meta name="description" content="Email List">
+  <title>Email List - austinleath.com</title>
+  <meta name="description" content="Email List">
   <?php include_once 'includes/head.php'; ?>
   <?php include_once 'includes/googleanalytics.php'; ?>
 </head>
@@ -27,10 +28,10 @@
             </fieldset>
           </form>
 
-		      <?php include_once 'includes/elist.php'; ?>
-				</article>
-			</div>
-   	</div>
+	<?php include_once 'includes/elist.php'; ?>
+      </article>
+     </div>
+    </div>
    </section>
    <?php include_once 'includes/footer.php'; ?>
    <div id="preloader">
