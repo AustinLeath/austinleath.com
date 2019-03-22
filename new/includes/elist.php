@@ -36,7 +36,7 @@ if($password == "") {
   ';
 
    while($row = $emailresult->fetch_assoc()) {
-     echo $row["email"];
+     echo "<tr>" . $row["email"] . "</tr>";
    }
 
    echo '
