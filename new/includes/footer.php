@@ -8,7 +8,6 @@ echo '
    <h4>About My Site</h4>
    <p>This site is for all of the things that I feel like sharing.</p>
 </div>
-<!-- end footer-info -->
 <div class="col-two tab-1-3 mob-1-2 site-links">
    <h4>Site Links</h4>
    <ul>
@@ -18,7 +17,6 @@ echo '
       <li><a href="unsubscribe.php">Unsubscribe</a></li>
    </ul>
 </div>
-<!-- end site-links -->
 <div class="col-two tab-1-3 mob-1-2 social-links">
    <h4>Social</h4>
    <ul>
@@ -27,7 +25,6 @@ echo '
       <li><a href="https://www.facebook.com/AustinZacharyLeath" target="_blank">Facebook</a></li>
    </ul>
 </div>
-<!-- end social links -->
 <div class="col-four tab-1-3 mob-full footer-subscribe">
 <h4>Subscribe</h4>
 <p>Keep yourself updated. Subscribe to my newsletter.</p>
@@ -43,9 +40,9 @@ include_once 'register.php';
 
 echo '
 </div>
-</div> <!-- end subscribe -->
-</div> <!-- end row -->
-</div> <!-- end footer-main -->
+</div>
+</div>
+</div>
 <div class="footer-bottom">
    <div class="row">
       <div class="col-twelve">
@@ -60,7 +57,6 @@ echo '
       </div>
    </div>
 </div>
-<!-- end footer-bottom -->
 </footer>
 ';
 ?>
