@@ -34,10 +34,9 @@ if($password == "") {
   </thead>
   <tbody>
   ';
-  
-   while($row = $emailresult->fetch_assoc()) {
-     echo '$row["email"]';
 
+   while($row = $emailresult->fetch_assoc()) {
+     echo " . $row["email"] . ";
    }
 
    echo '
