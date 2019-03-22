@@ -29,7 +29,13 @@ echo '
 <h4>Subscribe</h4>
 <p>Keep yourself updated. Subscribe to my newsletter.</p>
 <div class="subscribe-form">
-<form method="post" action="<?php echo basename(__FILE__); ?>" novalidate="true">
+<form method="post" action="
+';
+
+echo basename(__FILE__);
+
+echo '
+" novalidate="true">
    <input type="email" value="" name="email" class="email" id="mc-email" placeholder="johndoe@gmail.com">
    <input type="submit" name="subscribe">
    <label for="mc-email" class="subscribe-message"></label>
