@@ -1,15 +1,16 @@
 <?php
+<?php
 function mysqlconnection() {
-$servername = "localhost";
-$dbusername = "wpadmin";
-$dbpassword = "wpadmin";
-$dbname = "austinleath";
-return mysqli($servername, $dbusername, $dbpassword, $dbname);
+  $database_name = 'austinleath';
+  $database_user = 'wpadmin';
+  $database_pass = 'wpadmin';
+  return mysqli_connect('localhost', $database_user, $database_pass, $database_name);
 }
+
 $password = $_POST["password"];
 
 // Create connection
-$conn = new mysqlconnection();
+$conn = mysqlconnection();
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
