@@ -11,12 +11,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$password = $_POST["password"];
-$filename = $_POST["filename"];
+$password = mysqli_real_escape_string($conn,$_POST["password"]);
+$filename = mysqli_real_escape_string($conn,$_POST["filename"]);
 
 if(empty($password)) {
   $conn->close();
-} else if($password != "sadiepiper1") {
+} else if($password != "test") {
   echo '<div class="alert-box ss-error hideit"> <p>The password you entered was incorrect. Please try again.</p> <i class="fa fa-times close"></i> </div>';
   $conn->close();
 } else if(empty($filename)) {
