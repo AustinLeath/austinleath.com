@@ -11,8 +11,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$password = $_POST["password"];
-$filename = $_POST["filename"];
+$password = mysqli_real_escape_string($conn,$_POST["password"]);
+$filename = mysqli_real_escape_string($conn,$_POST["filename"]);
 
 if(empty($password)) {
   $conn->close();
