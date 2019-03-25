@@ -19,7 +19,6 @@ $emailcheck = "SELECT email FROM users WHERE email ='" . $deregisteremail . "'";
 $emailresult = $conn->query($emailcheck);
 
 if($deregisteremail == "") {
-  echo "";
 } else if(!filter_var($deregisteremail, FILTER_VALIDATE_EMAIL)) {
   echo '<div class="alert-box ss-error hideit"> <p>Failed, The text you entered is not an actual email.</p> <i class="fa fa-times close"></i> </div>';
 } else if($emailresult->num_rows == 0) {
