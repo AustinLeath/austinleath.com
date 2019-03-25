@@ -4,7 +4,7 @@ $dbusername = "wpadmin";
 $dbpassword = "wpadmin";
 $dbname = "austinleath";
 
-$password = $_POST["password"];
+$password = mysqli_real_escape_string($conn,$_POST["password"]);
 
 // Create connection
 $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
