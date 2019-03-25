@@ -18,7 +18,7 @@
  	      		<h4>Site Links</h4>
 
  	    <ul>
-       <li><a href="/blog/">Home</a></li>
+       <li><a href="/">Home</a></li>
  	     <li><a href="about.php">About Me</a></li>
  						<li><a href="contact.php">Contact</a></li>
  						<li><a href="unsubscribe.php">Unsubscribe</a></li>

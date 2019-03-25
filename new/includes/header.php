@@ -4,26 +4,23 @@
       	<div class="gradient-block"></div>
       	<div class="row header-content">
       		<div class="logo">
-   	         <a href="/blog/">Author</a>
+   	         <a href="/">Author</a>
    	      </div>
    	   	<nav id="main-nav-wrap">
    				<ul class="main-navigation sf-menu">
-   					<li><a href="/blog/" title="">Home</a></li>
+   					<li><a href="/" title="">Home</a></li>
    					<li class="has-children">
    						<a href="category.php" title="">Categories</a>
    						<ul class="sub-menu">
-   			            <li><a href="#">Fashion</a></li>
-                     <li><a href="#">College</a></li>
-                     <li><a href="#">Tips</a></li>
-                     <li><a href="#">Tricks</a></li>
+   			            <li><a href="#">WORK IN PROGRESS</a></li>
    			         </ul>
    					</li>
              <li class="has-children">
                <a href="#" target="_blank" title="">Social</a>
                <ul class="sub-menu">
-                   <li><a href="https://www.instagram.com/rileighsayen/" target="_blank">Instagram</a></li>
-                   <li><a href="https://twitter.com/rileighsayen" target="_blank">Twitter</a></li>
-                   <li><a href="https://www.facebook.com/rileigh.sayen" target="_blank">Facebook</a></li>
+                   <li><a href="https://www.instagram.com/austin_leath/" target="_blank">Instagram</a></li>
+                   <li><a href="https://twitter.com/austinzleath" target="_blank">Twitter</a></li>
+                   <li><a href="https://www.facebook.com/AustinZLeath" target="_blank">Facebook</a></li>
                </ul>
              </li>
    					<li><a href="style-guide.php" title="">Styles</a></li>

@@ -28,7 +28,7 @@ if(empty($password)) {
   $conn->close();
 } else {
   copy('template.php',"$filename" . ".php");
-  echo '<div class="alert-box ss-success hideit"> <p>New file created successfully. The file that was created was:  '. $filename . '.php' . ' and is located <a href="/blog/'. $filename .'.php">here</a></p> <i class="fa fa-times close"></i> </div>';
+  echo '<div class="alert-box ss-success hideit"> <p>New file created successfully. The file that was created was:  '. $filename . '.php' . ' and is located <a href="/'. $filename .'.php">here</a></p> <i class="fa fa-times close"></i> </div>';
   $conn->close();
 }
 ?>
