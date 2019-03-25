@@ -179,7 +179,7 @@ code {
 		  			   </p>
 
 		  			   <div class="author-profile">
-		  			   	<img src="images/avatars/user-05.jpg" alt="">
+		  			   	<img src="images/avatars/user.jpg" alt="">
 
 		  			   	<div class="about">
 		  			   		<h4><a href="#">Jonathan Smith</a></h4>
