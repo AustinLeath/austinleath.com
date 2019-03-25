@@ -1,5 +1,4 @@
 <?php
-
 $servername = "localhost";
 $dbusername = "wpadmin";
 $dbpassword = "wpadmin";
