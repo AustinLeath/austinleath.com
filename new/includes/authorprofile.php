@@ -4,7 +4,7 @@ echo '
  <img src="images/avatars/user-05.jpg" alt="">
 
  <div class="about">
-   <h4><a href="#">Rileigh Sayen</a></h4>
+   <h4><a href="#">Austin Leath</a></h4>
 
    <p>Hey there! Welcome to my blog! I am just getting started putting up content, but I promise more will be posted soon!</p>
 

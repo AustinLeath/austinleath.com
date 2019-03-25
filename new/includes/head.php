@@ -2,7 +2,7 @@
 echo '
 <meta charset="utf-8">
 <meta name="rating" content="General">
-<meta name="author" content="Rileigh Sayen">
+<meta name="author" content="Austin Leath">
 <meta name="keywords" content="Rileigh, sayen, blog, fashion, clothes, college, tips, tricks, pintrest, instagram, facebook, twitter" />
 <!-- mobile specific metas -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
