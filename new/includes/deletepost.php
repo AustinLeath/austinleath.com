@@ -1,6 +1,6 @@
 <?php
 function mysqlconnection() {
-  $database_name = 'austinleath';
+  $database_name = 'rileighsblog';
   $database_user = 'wpadmin';
   $database_pass = 'wpadmin';
   return mysqli_connect('localhost', $database_user, $database_pass, $database_name);

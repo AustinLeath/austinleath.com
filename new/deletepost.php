@@ -9,7 +9,7 @@
       <html class="no-js" lang="en">
          <!--<![endif]-->
          <head>
-            <title>Delete Post - austinleath.com</title>
+            <title>Delete Post - Rileigh's Blog</title>
             <meta name="description" content="From this page you can delete a post.">
             <?php include 'includes/head.php'; ?>
             <?php include 'includes/googleanalytics.php'; ?>

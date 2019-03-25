@@ -9,7 +9,7 @@
       <html class="no-js" lang="en">
          <!--<![endif]-->
          <head>
-            <title>Categories - austinleath.com</title>
+            <title>Blog Categories</title>
             <meta name="description" content="Here is where you can see all of the categories that I post about.">
             <?php include 'includes/head.php'; ?>
 	    <?php include 'includes/googleanalytics.php'; ?>
@@ -33,16 +33,16 @@
                      <article class="brick entry format-standard animate-this">
                         <div class="entry-thumb">
                            <a href="single-standard.html" class="thumb-link">
-                           <img src="images/thumbs/diagonal-building.jpg" alt="building">
+                           <img src="images/thumbs/diagonal-building.jpg" alt="building">             
                            </a>
                         </div>
                         <div class="entry-text">
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Design</a>
-                                 <a href="#">Photography</a>
-                                 </span>
+                                 <a href="#">Design</a> 
+                                 <a href="#">Photography</a>               				
+                                 </span>			
                               </div>
                               <h1 class="entry-title"><a href="single-standard.html">Just a Standard Format Post.</a></h1>
                            </div>
@@ -55,16 +55,16 @@
                      <article class="brick entry format-standard animate-this">
                         <div class="entry-thumb">
                            <a href="single-standard.html" class="thumb-link">
-                           <img src="images/thumbs/ferris-wheel.jpg" alt="ferris wheel">
+                           <img src="images/thumbs/ferris-wheel.jpg" alt="ferris wheel">                   
                            </a>
                         </div>
                         <div class="entry-text">
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Design</a>
-                                 <a href="#">UI</a>
-                                 </span>
+                                 <a href="#">Design</a> 
+                                 <a href="#">UI</a>                			
+                                 </span>			
                               </div>
                               <h1 class="entry-title"><a href="single-standard.html">This Is Another Standard Format Post.</a></h1>
                            </div>
@@ -77,7 +77,7 @@
                      <article class="brick entry format-audio animate-this">
                         <div class="entry-thumb">
                            <a href="single-audio.html" class="thumb-link">
-                           <img src="images/thumbs/concert.jpg" alt="concert">
+                           <img src="images/thumbs/concert.jpg" alt="concert">                      
                            </a>
                            <div class="audio-wrap">
                               <audio id="player2" src="media/AirReview-Landmarks-02-ChasingCorporate.mp3" width="100%" height="42" controls="controls"></audio>
@@ -87,9 +87,9 @@
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Design</a>
-                                 <a href="#">Music</a>
-                                 </span>
+                                 <a href="#">Design</a> 
+                                 <a href="#">Music</a>                				
+                                 </span>			
                               </div>
                               <h1 class="entry-title"><a href="single-audio.html">This Is a Audio Format Post.</a></h1>
                            </div>
@@ -103,7 +103,7 @@
                         <div class="entry-thumb">
                            <blockquote>
                               <p>Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.</p>
-                              <cite>Dieter Rams</cite>
+                              <cite>Dieter Rams</cite> 
                            </blockquote>
                         </div>
                      </article>
@@ -111,16 +111,16 @@
                      <article class="brick entry format-standard animate-this">
                         <div class="entry-thumb">
                            <a href="single-standard.html" class="thumb-link">
-                           <img src="images/thumbs/shutterbug.jpg" alt="Shutterbug">
+                           <img src="images/thumbs/shutterbug.jpg" alt="Shutterbug">                      
                            </a>
                         </div>
                         <div class="entry-text">
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Photography</a>
-                                 <a href="#">html</a>
-                                 </span>
+                                 <a href="#">Photography</a> 
+                                 <a href="#">html</a>                				
+                                 </span>			
                               </div>
                               <h1 class="entry-title"><a href="single-standard.html">Photography Skills Can Improve Your Graphic Design.</a></h1>
                            </div>
@@ -133,16 +133,16 @@
                      <article class="brick entry format-standard animate-this">
                         <div class="entry-thumb">
                            <a href="single-standard.html" class="thumb-link">
-                           <img src="images/thumbs/usaf-rocket.jpg" alt="USAF rocket">
+                           <img src="images/thumbs/usaf-rocket.jpg" alt="USAF rocket">                      
                            </a>
                         </div>
                         <div class="entry-text">
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Branding</a>
-                                 <a href="#">Mockup</a>
-                                 </span>
+                                 <a href="#">Branding</a> 
+                                 <a href="#">Mockup</a>               				
+                                 </span>			
                               </div>
                               <h1 class="entry-title"><a href="single-standard.html">The 10 Golden Rules of Clean Simple Design.</a></h1>
                            </div>
@@ -151,19 +151,19 @@
                            </div>
                         </div>
                      </article>
-                     <!-- end article -->
+                     <!-- end article -->        	
                      <article class="brick entry format-gallery group animate-this">
                         <div class="entry-thumb">
                            <div class="post-slider flexslider">
                               <ul class="slides">
                                  <li>
-                                    <img src="images/thumbs/gallery/work1.jpg">
+                                    <img src="images/thumbs/gallery/work1.jpg"> 
                                  </li>
                                  <li>
-                                    <img src="images/thumbs/gallery/work2.jpg">
+                                    <img src="images/thumbs/gallery/work2.jpg"> 
                                  </li>
                                  <li>
-                                    <img src="images/thumbs/gallery/work3.jpg">
+                                    <img src="images/thumbs/gallery/work3.jpg"> 
                                  </li>
                               </ul>
                            </div>
@@ -172,9 +172,9 @@
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Branding</a>
-                                 <a href="#">Wordpress</a>
-                                 </span>
+                                 <a href="#">Branding</a> 
+                                 <a href="#">Wordpress</a>               				
+                                 </span>			
                               </div>
                               <h1 class="entry-title"><a href="single-gallery.html">Workspace Design Trends and Ideas.</a></h1>
                            </div>
@@ -198,16 +198,16 @@
                      <article class="brick entry animate-this">
                         <div class="entry-thumb">
                            <a href="single-standard.html" class="thumb-link">
-                           <img src="images/thumbs/diagonal-pattern.jpg" alt="Pattern">
+                           <img src="images/thumbs/diagonal-pattern.jpg" alt="Pattern">              
                            </a>
                         </div>
                         <div class="entry-text">
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Design</a>
-                                 <a href="#">UI</a>
-                                 </span>
+                                 <a href="#">Design</a> 
+                                 <a href="#">UI</a>                			
+                                 </span>			
                               </div>
                               <h1 class="entry-title"><a href="single-standard.html">You Can See Patterns Everywhere.</a></h1>
                            </div>
@@ -220,16 +220,16 @@
                      <article class="brick entry format-video animate-this">
                         <div class="entry-thumb video-image">
                            <a href="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=F64B39" data-lity>
-                           <img src="images/thumbs/ottawa-bokeh.jpg" alt="bokeh">
+                           <img src="images/thumbs/ottawa-bokeh.jpg" alt="bokeh">                   
                            </a>
                         </div>
                         <div class="entry-text">
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Design</a>
-                                 <a href="#">Branding</a>
-                                 </span>
+                                 <a href="#">Design</a> 
+                                 <a href="#">Branding</a>               			
+                                 </span>			
                               </div>
                               <h1 class="entry-title"><a href="single-video.html">This Is a Video Post Format.</a></h1>
                            </div>
@@ -242,16 +242,16 @@
                      <article class="brick entry format-standard animate-this">
                         <div class="entry-thumb">
                            <a href="single-standard.html" class="thumb-link">
-                           <img src="images/thumbs/lighthouse.jpg" alt="Lighthouse">
+                           <img src="images/thumbs/lighthouse.jpg" alt="Lighthouse">                      
                            </a>
                         </div>
                         <div class="entry-text">
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Photography</a>
+                                 <a href="#">Photography</a> 
                                  <a href="#">Design</a>
-                                 </span>
+                                 </span>			
                               </div>
                               <h1 class="entry-title"><a href="single-standard.html">Breathtaking Photos of Lighthouses.</a></h1>
                            </div>
@@ -264,16 +264,16 @@
                      <article class="brick entry format-standard animate-this">
                         <div class="entry-thumb">
                            <a href="single-standard.html" class="thumb-link">
-                           <img src="images/thumbs/liberty.jpg" alt="Liberty">
+                           <img src="images/thumbs/liberty.jpg" alt="Liberty">                      
                            </a>
                         </div>
                         <div class="entry-text">
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Branding</a>
-                                 <a href="#">html</a>
-                                 </span>
+                                 <a href="#">Branding</a> 
+                                 <a href="#">html</a>                	
+                                 </span>			
                               </div>
                               <h1 class="entry-title"><a href="single-standard.html">Designing With Black and White.</a></h1>
                            </div>
@@ -284,7 +284,7 @@
                      </article>
                      <!-- end article -->
                   </div>
-                  <!-- end brick-wrapper -->
+                  <!-- end brick-wrapper --> 
                </div>
                <!-- end row -->
                <div class="row">
@@ -308,7 +308,7 @@
             <div id="preloader">
                <div id="loader"></div>
             </div>
-            <!-- Java Script -->
+            <!-- Java Script --> 
             <script src="js/jquery-2.1.3.min.js"></script>
             <script src="js/plugins.js"></script>
             <script src="js/main.js"></script>

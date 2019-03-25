@@ -9,7 +9,7 @@
       <html class="no-js" lang="en">
          <!--<![endif]-->
          <head>
-            <title>austinleath.com</title>
+            <title>Rileigh's Blog</title>
             <meta name="description" content="Welcome to my blog!">
             <?php include 'includes/head.php'; ?>
             <?php include 'includes/googleanalytics.php'; ?>
@@ -48,7 +48,7 @@
                                        <div class="post-content">
                                           <ul class="entry-meta">
                                              <li>February 26, 2019</li>
-                                             <li><a href="#">Austin Leath</a></li>
+                                             <li><a href="#">Rileigh Sayen</a></li>
                                           </ul>
                                           <h1 class="slide-title"><a href="fp.php" title="">First Post!</a></h1>
                                        </div>
@@ -80,7 +80,7 @@
                         <div class="entry-thumb">
                            <blockquote>
                               <p>Welcome to my site! I am just getting started making content so be sure to check back later for more!</p>
-                              <cite>Austin Leath</cite>
+                              <cite>Rileigh Sayen</cite>
                            </blockquote>
                         </div>
                      </article>

@@ -8,7 +8,7 @@
    ================================================== -->
    <meta charset="utf-8">
 	<title>Style Guide - Abstract</title>
-	<meta name="description" content="">
+	<meta name="description" content="">  
 	<meta name="author" content="">
 
    <!-- mobile specific metas
@@ -18,9 +18,9 @@
  	<!-- CSS
    ================================================== -->
    <link rel="stylesheet" href="css/base.css">
-   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/vendor.css">  
    <link rel="stylesheet" href="css/main.css">
-
+        
 
    <!-- script
    ================================================== -->
@@ -36,11 +36,11 @@
 
 <body id="top">
 
-	<!-- header
+	<!-- header 
    ================================================== -->
-   <header class="short-header">
+   <header class="short-header">   
 
-   	<div class="gradient-block"></div>
+   	<div class="gradient-block"></div>	
 
    	<div class="row header-content">
 
@@ -50,7 +50,7 @@
 
 	   	<nav id="main-nav-wrap">
 				<ul class="main-navigation sf-menu">
-					<li><a href="index.html" title="">Home</a></li>
+					<li><a href="index.html" title="">Home</a></li>									
 					<li class="has-children">
 						<a href="category.html" title="">Categories</a>
 						<ul class="sub-menu">
@@ -72,13 +72,13 @@
 			         </ul>
 					</li>
 					<li class="current"><a href="style-guide.html" title="">Styles</a></li>
-					<li><a href="about.html" title="">About</a></li>
-					<li><a href="contact.html" title="">Contact</a></li>
+					<li><a href="about.html" title="">About</a></li>	
+					<li><a href="contact.html" title="">Contact</a></li>										
 				</ul>
 			</nav> <!-- end main-nav-wrap -->
 
 			<div class="search-wrap">
-
+				
 				<form role="search" method="get" class="search-form" action="#">
 					<label>
 						<span class="hide-content">Search for:</span>
@@ -89,20 +89,20 @@
 
 				<a href="#" id="close-search" class="close-btn">Close</a>
 
-			</div> <!-- end search wrap -->
+			</div> <!-- end search wrap -->	
 
 			<div class="triggers">
 				<a class="search-trigger" href="#"><i class="fa fa-search"></i></a>
 				<a class="menu-toggle" href="#"><span>Menu</span></a>
-			</div> <!-- end triggers -->
-
-   	</div>
-
+			</div> <!-- end triggers -->	
+   		
+   	</div>     		
+   	
    </header> <!-- end header -->
 
-
+   
    <!-- content
-   ================================================== -->
+   ================================================== -->  
    <div id="content-wrap" class="styles">
 
    	<div class="row narrow add-bottom text-center">
@@ -112,7 +112,7 @@
    			<h1>Style Guide Page.</h1>
 
    			<p class="lead">Lorem ipsum Officia elit ad tempor dolore est ex incididunt incididunt occaecat culpa deserunt sunt labore in cillum ullamco magna in Excepteur consequat in reprehenderit proident mollit incididunt officia commodo.
-   			Duis ea officia sed dolor pariatur enim dolore dolore quis incididunt nulla exercitation commodo veniam et ea incididunt.</p>
+   			Duis ea officia sed dolor pariatur enim dolore dolore quis incididunt nulla exercitation commodo veniam et ea incididunt.</p>   			
 
    		</div>
 
@@ -128,7 +128,7 @@
 		  		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque posuere nunc justo tempus leo. </p>
 
 		  		<p>
-		  		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentumodio, ac blandit ante orci ut diam.
+		  		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentumodio, ac blandit ante orci ut diam.	
 	 			</p>
 
 	         <p>A <a href="#">link</a>,
@@ -157,7 +157,7 @@
 				<small>(While supplies last. Offer expires on the vernal equinox. Not valid in Ohio.)</small>
 				</p>
 
-			</div>
+			</div>	         
 
 		</div> <!-- end row -->
 
@@ -223,9 +223,9 @@
 			   <ul class="disc">
 				   <li>Here is an example</li>
 				   <li>of an unordered list.</li>
-				</ul>
+				</ul>	
 
-				<h3>Definition Lists</h3>
+				<h3>Definition Lists</h3>	            
 
 			   <h5>a) Multi-line Definitions (default)</h5>
 
@@ -239,7 +239,7 @@
 
 		   </div>
 
-		   <div class="col-six tab-full">
+		   <div class="col-six tab-full">		                  
 
 		      <h3>Headers</h3>
 
@@ -274,9 +274,9 @@
 				   <li><a href="#">3,456 <em>Kiba</em></a></li>
 				   <li><a href="#">456 <em>Shikamaru</em></a></li>
 				   <li><a href="#">26 <em>Sakura</em></a></li>
-				</ul>
+				</ul>	      		
 
-		   </div>
+		   </div>	      	
 
 		</div> <!-- end row -->
 
@@ -294,11 +294,11 @@
       		<h3>Responsive video</h3>
 
       		<div class="fluid-video-wrapper">
-               <iframe src="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=F64B39" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+               <iframe src="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=F64B39" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
             </div>
 
       	</div>
-
+	      	
       </div> <!-- end row -->
 
       <div class="row add-bottom">
@@ -316,7 +316,7 @@
 						 		<th>Name</th>
 						      <th>Age</th>
 						      <th>Sex</th>
-						      <th>Location</th>
+						      <th>Location</th>					    
 						   </tr>
 						</thead>
 						<tbody>
@@ -324,34 +324,21 @@
 						      <td>Naruto Uzumaki</td>
 						      <td>16</td>
 						      <td>Male</td>
-						      <td>Konoha</td>
+						      <td>Konoha</td>					    
 						   </tr>
 						   <tr>
 						      <td>Sakura Haruno</td>
 						      <td>16</td>
 						      <td>Female</td>
-						      <td>Konoha</td>
+						      <td>Konoha</td>			    
 						   </tr>
 						</tbody>
 				   </table>
 
-           <table>
-           <thead>
-              <tr>
-               <th>Emails</th>
-              </tr>
-           </thead>
-           <tbody>
-              <tr>
-                 <td>test@gmail.com</td>
-              </tr>
-           </tbody>
-          </table>
-
-	      	</div>
+	      	</div>     		
 
 	      </div>
-
+	      	
 	   </div> <!-- end row -->
 
 	   <div class="row">
@@ -373,20 +360,20 @@
 				        		<option value="Option 2">Report</option>
 				        		<option value="Option 3">Others</option>
 				        	</select>
-			        	</div>
+			        	</div>			         	
 			      </div>
-
+			       
 			     	<label for="exampleMessage">Message</label>
 			     	<textarea class="full-width" placeholder="Your message" id="exampleMessage"></textarea>
 
 			     	<label class="add-bottom">
-			        	<input type="checkbox">
+			        	<input type="checkbox">			            
 			        	<span class="label-text">Send a copy to yourself</span>
 			     	</label>
-
+			       
 			     	<input class="button-primary full-width-on-mobile" type="submit" value="Submit">
 
-			   </form>
+			   </form>	            
 
 		   </div>
 
@@ -401,49 +388,49 @@ code {
    padding: .2rem .6rem;
    white-space: nowrap;
    background: #F1F1F1;
-   border: 1px solid #E1E1E1;
+   border: 1px solid #E1E1E1;	
    border-radius: 3px;
 }
 </code></pre>
 
-	         <h3>Alert Boxes</h3>
-
+	         <h3>Alert Boxes</h3> 
+			        
             <div class="alert-box ss-error hideit">
 		        <p>Error Message. Your Message Goes Here.</p>
 		        <i class="fa fa-times close"></i>
 		      </div><!-- /error -->
-
+			        
 		      <div class="alert-box ss-success hideit">
 		        <p>Success Message. Your Message Goes Here.</p>
 		        <i class="fa fa-times close"></i>
 		      </div><!-- /success -->
-
+			        
 		      <div class="alert-box ss-info hideit">
 		         <p>Info Message. Your Message Goes Here.</p>
 		         <i class="fa fa-times close"></i>
 		      </div><!-- /info -->
-
+			        
 		      <div class="alert-box ss-notice hideit">
 		        <p>Notice Message. Your Message Goes Here.</p>
 		        <i class="fa fa-times close"></i>
 		      </div><!-- /notice -->
-
-		   </div>
+		        
+		   </div>	         
 
 		</div> <!-- end row -->
 
    </div> <!-- end styles -->
 
-
+   
    <!-- footer
    ================================================== -->
    <footer>
 
    	<div class="footer-main">
 
-   		<div class="row">
+   		<div class="row">  
 
-	      	<div class="col-four tab-full mob-full footer-info">
+	      	<div class="col-four tab-full mob-full footer-info">            
 
 	            <h4>About Our Site</h4>
 
@@ -465,7 +452,7 @@ code {
 						<li><a href="#">Privacy Policy</a></li>
 					</ul>
 
-	      	</div> <!-- end site-links -->
+	      	</div> <!-- end site-links -->  
 
 	      	<div class="col-two tab-1-3 mob-1-2 social-links">
 
@@ -478,8 +465,8 @@ code {
 						<li><a href="#">Google+</a></li>
 						<li><a href="#">Instagram</a></li>
 					</ul>
-
-	      	</div> <!-- end social links -->
+	      	           	
+	      	</div> <!-- end social links --> 
 
 	      	<div class="col-four tab-1-3 mob-full footer-subscribe">
 
@@ -488,20 +475,20 @@ code {
 	      		<p>Keep yourself updated. Subscribe to our newsletter.</p>
 
 	      		<div class="subscribe-form">
-
+	      	
 	      			<form id="mc-form" class="group" novalidate="true">
 
-							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="Type &amp; press enter" required="">
-
+							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="Type &amp; press enter" required=""> 
+	   		
 			   			<input type="submit" name="subscribe" >
-
+		   	
 		   				<label for="mc-email" class="subscribe-message"></label>
-
+			
 						</form>
 
-	      		</div>
-
-	      	</div> <!-- end subscribe -->
+	      		</div>	      		
+	      	           	
+	      	</div> <!-- end subscribe -->         
 
 	      </div> <!-- end row -->
 
@@ -512,26 +499,26 @@ code {
 
       		<div class="col-twelve">
 	      		<div class="copyright">
-		         	<span>© Copyright Abstract 2016</span>
-		         	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
+		         	<span>© Copyright Abstract 2016</span> 
+		         	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>		         	
 		         </div>
 
 		         <div id="go-top">
 		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon icon-arrow-up"></i></a>
-		         </div>
+		         </div>         
 	      	</div>
 
-      	</div>
-      </div> <!-- end footer-bottom -->
+      	</div> 
+      </div> <!-- end footer-bottom -->  
 
-   </footer>
+   </footer>  
 
-   <div id="preloader">
+   <div id="preloader"> 
     	<div id="loader"></div>
-   </div>
+   </div> 
 
    <!-- Java Script
-   ================================================== -->
+   ================================================== --> 
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>

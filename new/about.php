@@ -9,7 +9,7 @@
       <html class="no-js" lang="en">
          <!--<![endif]-->
          <head>
-            <title>About Me - austinleath.com</title>
+            <title>About Me</title>
             <meta name="description" content="Welcome to my about me page!">
 	    <?php include 'includes/head.php'; ?>
 	    <?php include 'includes/googleanalytics.php'; ?>
@@ -21,8 +21,8 @@
                <div class="row">
                   <div class="col-twelve">
                      <section>
-                        <div class="content-media">
-                           <img src="images/thumbs/about-us.jpg">
+                        <div class="content-media">						
+                           <img src="images/thumbs/about-us.jpg">						  
                         </div>
                         <div class="primary-content">
                            <h1 class="entry-title add-bottom">Learn More About Us.</h1>
@@ -57,7 +57,7 @@
             <div id="preloader">
                <div id="loader"></div>
             </div>
-            <!-- Java Script -->
+            <!-- Java Script --> 
             <script src="js/jquery-2.1.3.min.js"></script>
             <script src="js/plugins.js"></script>
             <script src="js/main.js"></script>
