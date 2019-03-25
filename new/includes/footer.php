@@ -7,7 +7,6 @@ echo '
    <h4>About This Site</h4>
    <p>This site is for everything that i feel like sharing with the internet. Here you will find regular updates about what I am working on.</p>
 </div>
-<!-- end footer-info -->
 <div class="col-two tab-1-3 mob-1-2 site-links">
    <h4>Site Links</h4>
    <ul>
@@ -17,7 +16,6 @@ echo '
       <li><a href="unsubscribe.php">Unsubscribe</a></li>
    </ul>
 </div>
-<!-- end site-links -->
 <div class="col-two tab-1-3 mob-1-2 social-links">
    <h4>Social</h4>
    <ul>
@@ -27,7 +25,6 @@ echo '
       <li><a href="https://www.facebook.com/AustinZacharyLeath" target="_blank">Facebook</a></li>
    </ul>
 </div>
-<!-- end social links -->
 <div class="col-four tab-1-3 mob-full footer-subscribe">
 <h4>Subscribe</h4>
 <p>Keep yourself updated. Subscribe to my newsletter.</p>
