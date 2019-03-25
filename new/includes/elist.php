@@ -1,5 +1,4 @@
 <?php
-<?php
 function mysqlconnection() {
   $database_name = 'austinleath';
   $database_user = 'wpadmin';
