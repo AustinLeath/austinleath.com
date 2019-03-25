@@ -23,7 +23,6 @@ if($password == "") {
 } else if($emailresult->num_rows == 0) {
   echo '<div class="alert-box ss-notice hideit"> <p>There are no users subscribed yet.</p> <i class="fa fa-times close"></i> </div>';
 } else {
- while($row = $emailresult->fetch_assoc()) {
    echo '
    <table>
    <thead>
@@ -42,7 +41,6 @@ if($password == "") {
     </tbody>
     </table>
     ';
- }
 }
 
 $conn->close();
