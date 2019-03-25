@@ -9,7 +9,6 @@ echo '
    <p>Hey there! Welcome to my blog! I am just getting started putting up content, but I promise more will be posted soon!</p>
 
    <ul class="author-social">
-     <li><a href="https://www.pinterest.com/rileighsayen/" target="_blank">Pintrest</a></li>
      <li><a href="https://www.instagram.com/rileighsayen/" target="_blank">Instagram</a></li>
      <li><a href="https://twitter.com/rileighsayen" target="_blank">Twitter</a></li>
      <li><a href="https://www.facebook.com/rileigh.sayen" target="_blank">Facebook</a></li>

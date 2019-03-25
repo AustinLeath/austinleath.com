@@ -21,11 +21,10 @@
              <li class="has-children">
                <a href="#" target="_blank" title="">Social</a>
                <ul class="sub-menu">
-                   <li><a href="https://www.pinterest.com/rileighsayen/" target="_blank">Pintrest</a></li>
                    <li><a href="https://www.instagram.com/rileighsayen/" target="_blank">Instagram</a></li>
                    <li><a href="https://twitter.com/rileighsayen" target="_blank">Twitter</a></li>
                    <li><a href="https://www.facebook.com/rileigh.sayen" target="_blank">Facebook</a></li>
-                  </ul>
+               </ul>
              </li>
    					<li><a href="style-guide.php" title="">Styles</a></li>
    					<li><a href="about.php" title="">About</a></li>

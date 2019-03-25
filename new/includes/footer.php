@@ -7,9 +7,9 @@
 
  	      	<div class="col-four tab-full mob-full footer-info">
 
- 	            <h4>About My Blog</h4>
+ 	            <h4>About This Site</h4>
 
-            <p>This blog is about my fashion and lifestyle.</p>
+            <p>This site is for everything that i feel like sharing with the internet. Here you will find regular updates about what I am working on.</p>
 
  		      </div> <!-- end footer-info -->
 
@@ -31,10 +31,9 @@
  	      		<h4>Social</h4>
 
  	      		<ul>
- 	      		<li><a href="https://www.pinterest.com/rileighsayen/" target="_blank">Pintrest</a></li>
- 						<li><a href="https://www.instagram.com/rileighsayen/" target="_blank">Instagram</a></li>
- 						<li><a href="https://twitter.com/rileighsayen" target="_blank">Twitter</a></li>
- 						<li><a href="https://www.facebook.com/rileigh.sayen" target="_blank">Facebook</a></li>
+ 						<li><a href="https://www.instagram.com/austin_leath/" target="_blank">Instagram</a></li>
+ 						<li><a href="https://twitter.com/austinzleath" target="_blank">Twitter</a></li>
+ 						<li><a href="https://www.facebook.com/AustinZacharyLeath" target="_blank">Facebook</a></li>
  					</ul>
 
  	      	</div> <!-- end social links -->
