@@ -2,7 +2,7 @@
 $servername = "localhost";
 $dbusername = "wpadmin";
 $dbpassword = "wpadmin";
-$dbname = "rileighsblog";
+$dbname = "austinleath";
 
 $password = $_POST["password"];
 
