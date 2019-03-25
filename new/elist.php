@@ -21,22 +21,20 @@
                <div class="row">
                   <div class="col-twelve">
                      <article class="format-standard">
-			     
-		     <h1>Email List</h1>
-		     <p>Enter your password to view the email list.</p>
-		     <form id="cForm" method="post" action="<?php echo basename(__FILE__); ?>">
-		       <fieldset>
-			 <div class="form-field">
-			 <input name="password" type="password" id="cEmail" class="full-width" placeholder="Enter your password" value="">
-			 </div>
-		       <button type="submit" class="submit button-primary full-width-on-mobile">Submit</button>
-		      </fieldset>
-		     </form>
-		     <?php include 'includes/elist.php'; ?>
-			     
+                        <h1>Email List</h1>
+                        <p>Enter your password to view the email list.</p>
+                        <form id="cForm" method="post" action="">
+                           <fieldset>
+                              <div class="form-field">
+                                 <input name="password" type="password" id="cEmail" class="full-width" placeholder="Enter your password" value="">
+                              </div>
+                              <button type="submit" class="submit button-primary full-width-on-mobile">Submit</button>
+                           </fieldset>
+                        </form>
+                        <?php include 'includes/elist.php'; ?>
                      </article>
                   </div>
-	       </div>
+               </div>
             </section>
             <?php include 'includes/footer.php'; ?>
             <div id="preloader">

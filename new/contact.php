@@ -11,7 +11,7 @@
          <head>
             <!--- basic page needs -->
             <meta charset="utf-8">
-            <title>Contact Page</title>
+            <title>Contact Page - austinleath.com</title>
             <meta name="description" content="">
             <?php include_once 'includes/head.php'; ?>
             <?php include_once 'includes/googleanalytics.php'; ?>

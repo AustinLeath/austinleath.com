@@ -9,7 +9,7 @@
       <html class="no-js" lang="en">
          <!--<![endif]-->
          <head>
-            <title>ENTER TITLE HERE</title>
+            <title>ENTER TITLE HERE - austinleath.com</title>
             <meta name="description" content="ENTER POST DESCRIPTION HERE">
             <?php include 'includes/head.php'; ?>
             <?php include 'includes/googleanalytics.php'; ?>
@@ -26,7 +26,7 @@
                               <img src="images/thumbs/single/single-01.jpg">
                            </div>
                         </div>
-			     
+
                         <div class="primary-content">
                            <h1 class="page-title">Page Title Here</h1>
                            <ul class="entry-meta">
@@ -38,8 +38,8 @@
                            <p class="tags">
                               <span>Tagged in :</span>
                               <a href="#">Uncategorized</a><a href="#">New Beginnings</a>
-                           </p>	
-				
+                           </p>
+
                            <?php include 'includes/authorprofile.php'; ?>
                         </div>
                         <?php include 'includes/pagenavigation.php'; ?>
