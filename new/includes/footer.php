@@ -47,7 +47,7 @@
 
  	      		<div class="subscribe-form">
 
- 	      			<form method="post" action="" novalidate="true">
+ 	      			<form method="post" action="'; echo $_SERVER['SCRIPT_NAME']; echo '" novalidate="true">
 
  							<input type="email" value="" name="email" class="email" id="mc-email" placeholder="johndoe@gmail.com">
 
