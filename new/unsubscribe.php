@@ -16,7 +16,7 @@
    		<div class="col-twelve">
    			<article class="format-standard">
 
-          <h1>Unsubscribe</h1>
+					<h1>Unsubscribe</h1>
           <p>I am sorry to see you go so soon. If you are sure you want to unsubscribe fill out the form below and hit unsubscribe.</p>
           <form id="cForm" method="post" action="">
             <fieldset>
@@ -28,6 +28,7 @@
           </form>
 
           <?php include 'includes/deregister.php'; ?>
+
 				</article>
 			</div>
    	</div>
