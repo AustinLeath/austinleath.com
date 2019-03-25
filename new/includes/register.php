@@ -1,13 +1,14 @@
 <?php
-$servername = "localhost";
-$dbusername = "wpadmin";
-$dbpassword = "wpadmin";
-$dbname = "rileighsblog";
-
+function mysqlconnection() {
+  $database_name = 'austinleath';
+  $database_user = 'wpadmin';
+  $database_pass = 'wpadmin';
+  return mysqli_connect('localhost', $database_user, $database_pass, $database_name);
+}
 $email = $_POST["email"];
 
 // Create connection
-$conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
+$conn = mysqlconnection();
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -17,7 +18,6 @@ $emailcheck = "SELECT email FROM users WHERE email ='" . $email . "'";
 $emailresult = $conn->query($emailcheck);
 
 if($email == "") {
-  echo "";
 } else if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   echo '<div class="alert-box ss-error hideit"> <p>Error, invalid email.</p> <i class="fa fa-times close"></i> </div>';
 } else if($emailresult->num_rows > 0) {
