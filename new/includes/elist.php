@@ -32,11 +32,9 @@ if($password == "") {
    </thead>
    <tbody>
    ';
-
     while($row = $emailresult->fetch_assoc()) {
       echo "<tr><td>" . $row["email"] . "</td></tr>";
     }
-
     echo '
     </tbody>
     </table>
