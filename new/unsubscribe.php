@@ -3,16 +3,13 @@
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
 	<title>Unsubscribe - austinleath.com</title>
 	<meta name="description" content="Unsubscribe from austinleath.com">
   <?php include 'includes/head.php'; ?>
   <?php include 'includes/googleanalytics.php'; ?>
 </head>
-
 <body id="top">
   <?php include 'includes/header.php'; ?>
-
   <!-- content -->
    <section id="content-wrap" class="blog-single">
    	<div class="row">
@@ -39,7 +36,7 @@
    <div id="preloader">
     	<div id="loader"></div>
    </div>
-   <!-- Java Script -->
+   <!-- JavaScript -->
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
