@@ -31,6 +31,7 @@
  	      		<h4>Social</h4>
 
  	      		<ul>
+            <li><a href="https://github.com/AustinLeath/" target="_blank">GitHub</a></li>
  						<li><a href="https://www.instagram.com/austin_leath/" target="_blank">Instagram</a></li>
  						<li><a href="https://twitter.com/austinzleath" target="_blank">Twitter</a></li>
  						<li><a href="https://www.facebook.com/AustinZacharyLeath" target="_blank">Facebook</a></li>

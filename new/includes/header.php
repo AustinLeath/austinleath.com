@@ -18,6 +18,7 @@
              <li class="has-children">
                <a href="#" target="_blank" title="">Social</a>
                <ul class="sub-menu">
+                   <li><a href="https://github.com/AustinLeath/" target="_blank">GitHub</a></li>
                    <li><a href="https://www.instagram.com/austin_leath/" target="_blank">Instagram</a></li>
                    <li><a href="https://twitter.com/austinzleath" target="_blank">Twitter</a></li>
                    <li><a href="https://www.facebook.com/AustinZLeath" target="_blank">Facebook</a></li>
