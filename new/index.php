@@ -10,7 +10,7 @@
          <!--<![endif]-->
          <head>
             <title>austinleath.com</title>
-            <meta name="description" content="Welcome to my blog!">
+            <meta name="description" content="Austin is a young web engineer looking for work. If you would like to contact him send him an email at austinleath18@gmail.com">
             <?php include 'includes/head.php'; ?>
             <?php include 'includes/googleanalytics.php'; ?>
          </head>

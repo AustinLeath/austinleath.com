@@ -3,7 +3,7 @@ echo '
 <meta charset="utf-8">
 <meta name="rating" content="General">
 <meta name="author" content="Austin Leath">
-<meta name="keywords" content="Rileigh, sayen, blog, fashion, clothes, college, tips, tricks, pintrest, instagram, facebook, twitter" />
+<meta name="keywords" content="Austin,Leath,Resume" />
 <!-- mobile specific metas -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!-- CSS -->
