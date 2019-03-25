@@ -9,7 +9,7 @@
       <html class="no-js" lang="en">
          <!--<![endif]-->
          <head>
-            <title>First Post!</title>
+            <title>First Post! - austinleath.com</title>
             <meta name="description" content="Welcome to my first post!">
             <?php include 'includes/head.php'; ?>
             <?php include 'includes/googleanalytics.php'; ?>

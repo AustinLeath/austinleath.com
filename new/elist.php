@@ -3,7 +3,7 @@
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<title>Unsubscribe - austinleath.com</title>
+	<title>Email List - austinleath.com</title>
 	<meta name="description" content="Email List">
   <?php include 'includes/head.php'; ?>
   <?php include 'includes/googleanalytics.php'; ?>
@@ -18,7 +18,7 @@
 
           <h1>Email List</h1>
           <p>Enter your password to view the email list.</p>
-          <form id="cForm" method="post" action="">
+          <form id="cForm" method="post" action="<?php echo basename(__FILE__); ?>">
             <fieldset>
               <div class="form-field">
               <input name="password" type="password" id="cEmail" class="full-width" placeholder="Enter your password" value="">

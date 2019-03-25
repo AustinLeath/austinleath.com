@@ -21,7 +21,7 @@
 
           <h1>Unsubscribe</h1>
           <p>I am sorry to see you go so soon. If you are sure you want to unsubscribe fill out the form below and hit unsubscribe.</p>
-          <form id="cForm" method="post" action="">
+          <form id="cForm" method="post" action="<?php echo basename(__FILE__); ?>">
             <fieldset>
               <div class="form-field">
               <input name="deregisteremail" type="email" id="cEmail" class="full-width" placeholder="Your Email" value="">
