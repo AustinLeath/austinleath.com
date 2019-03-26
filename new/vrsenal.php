@@ -31,14 +31,13 @@
                            <h1 class="page-title">VRsenal</h1>
                            <ul class="entry-meta">
                               <li class="date">March, 26th, 2019</li>
-                              <li class="cat"><a href="#">Projects</a></li>
+                              <li class="cat"><a href="projects.php">Projects</a></li>
                            </ul>
                            <p class="lead">This was/is a project that I started when I first bought the <a href="https://www.vive.com/" target="_blank">HTC Vive</a>. This project was supposed to be kind of like <a href="http://h3vr.com/" target="_blank">Hot Dogs, Horseshoes and Hand Grenades</a>, but with a unique twist. The name of the product that I was developing was called VRsenal and was actually accepted to Steam!</p>
 
                            <h3>VRsenal / HTC Vive supported / Independently developed</h3>
-                           <p>VRsenal is a single player HTC Vive supported virtual reality game which is both an exploration game and a physics simulation. Explore the vast lands of VRsenal while interacting with random objects that are scattered throughout the many environments in which you will be playing in. VRsenal provides an assortment of weapons for you to interact with including both melee weapons, 3 hand guns and 4 Assault Rifles.</p>
                            <p>VRsenal is a single player VR game that is both an open world exploration game and physics simulation. Master the landscape as well as a variety of weapons that are laid before you!</p>
-
+                           
                            <ul>
                               <strong>Features</strong>
                               <li>Hand Guns</li>
@@ -57,7 +56,7 @@
                               <li>Wilderness Environments</li>
                            </ul>
 
-                           <p>VRsenal is still in its early stages of development. So I would love to show the community what I have done so far and hear what everyone has to say as far as mechanics go. Things are a bit rusty at the moment but they will shape up soon!</p>
+                           <p class="lead">VRsenal is still in its early stages of development. So I would love to show the community what I have done so far and hear what everyone has to say as far as mechanics go. Things are a bit rusty at the moment but they will shape up soon!</p>
                            <h3>Approximately how long will this game be in Early Access?</h3>
                            <p>Originally I planned for this game to go straight to the market. After realizing that the amount of content was a tad bit low, I decided to go to early access. With the Early Access / initial release slated for July 4th, 2017. However, after starting my Senior year for High School I have realized that my focus needs to be on school.<br>For right now, VRsenal will be in early access for te forseeable future.</p>
                            <h3>How is the full version planned to differ from the Early Access version?</h3>
@@ -71,9 +70,8 @@
                            <p>This is a paragraph, fill me out or delete me.</p>
                            <p class="tags">
                               <span>Tagged in :</span>
-                              <a href="#">Projects</a>
+                              <a href="projects.php">Projects</a>
                            </p>
-
                            <?php include 'includes/authorprofile.php'; ?>
                         </div>
                         <?php include 'includes/pagenavigation.php'; ?>
@@ -85,7 +83,7 @@
             <div id="preloader">
                <div id="loader"></div>
             </div>
-            <!-- Java Script -->
+            <!-- JavaScript -->
             <script src="js/jquery-2.1.3.min.js"></script>
             <script src="js/plugins.js"></script>
             <script src="js/main.js"></script>
