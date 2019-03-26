@@ -5,7 +5,7 @@ echo '
 <div class="row">
 <div class="col-four tab-full mob-full footer-info">
    <h4>About This Site</h4>
-   <p>This site is for everything that i feel like sharing with the internet. Here you will find regular updates about what I am working on.</p>
+   <p>This site is for everything that I feel like sharing with the internet. Here you will find regular updates about what I am working on.</p>
 </div>
 <div class="col-two tab-1-3 mob-1-2 site-links">
    <h4>Site Links</h4>
@@ -22,6 +22,7 @@ echo '
       <li><a href="https://github.com/AustinLeath/" target="_blank">GitHub</a></li>
       <li><a href="https://www.instagram.com/austin_leath/" target="_blank">Instagram</a></li>
       <li><a href="https://twitter.com/austinzleath" target="_blank">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/austin-leath-30a39a106/" target="_blank">LinkedIn</a></li>
       <li><a href="https://www.facebook.com/AustinZacharyLeath" target="_blank">Facebook</a></li>
    </ul>
 </div>
