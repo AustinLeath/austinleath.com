@@ -28,9 +28,10 @@
                   <!-- brick-wrapper -->
                   <div class="bricks-wrapper">
                      <div class="grid-sizer"></div>
-                     <article class="brick entry format-standard animate-this">
+			  
+		      <article class="brick entry format-standard animate-this">
                         <div class="entry-thumb">
-                           <a href="single-standard.html" class="thumb-link">
+                           <a href="r6rc.php" class="thumb-link">
                            <img src="images/thumbs/diagonal-building.jpg" alt="building">
                            </a>
                         </div>
@@ -41,10 +42,31 @@
                                  <a href="#">Projects</a>
                                  </span>
                               </div>
-                              <h1 class="entry-title"><a href="single-standard.html">VRSENAL</a></h1>
+                              <h1 class="entry-title"><a href="r6rc.php">R6RC</a></h1>
                            </div>
                            <div class="entry-excerpt">
-                             This article contains information about one of my projects named VRsenal.
+                             Another one of my more known projects is both a website and desktop app titled R6RC
+                           </div>
+                        </div>
+                     </article>  
+			  
+                     <article class="brick entry format-standard animate-this">
+                        <div class="entry-thumb">
+                           <a href="vrsenal.php" class="thumb-link">
+                           <img src="images/thumbs/diagonal-building.jpg" alt="building">
+                           </a>
+                        </div>
+                        <div class="entry-text">
+                           <div class="entry-header">
+                              <div class="entry-meta">
+                                 <span class="cat-links">
+                                 <a href="#">Projects</a>
+                                 </span>
+                              </div>
+                              <h1 class="entry-title"><a href="vrsenal.php">VRSENAL</a></h1>
+                           </div>
+                           <div class="entry-excerpt">
+                             This article contains information about one of my projects named VRsenal
                            </div>
                         </div>
                      </article>
