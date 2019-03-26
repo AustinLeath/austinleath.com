@@ -12,6 +12,9 @@ echo '
             <li class="has-children">
                <a href="category.php" title="">Categories</a>
                <ul class="sub-menu">
+                  <li><a href="projects.php">Projects</a></li>
+                  <li><a href="#">WORK IN PROGRESS</a></li>
+                  <li><a href="#">WORK IN PROGRESS</a></li>
                   <li><a href="#">WORK IN PROGRESS</a></li>
                </ul>
             </li>
