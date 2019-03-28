@@ -24,7 +24,7 @@
                      <article class="format-standard">
                         <div class="content-media">
                            <div class="post-thumb">
-                              <img src="images/thumbs/single/single-01.jpg">
+                              <img src="images/r6rcimg.png">
                            </div>
                         </div>
 
@@ -34,7 +34,18 @@
                               <li class="date">March, 26th, 2019</li>
                               <li class="cat"><a href="projects.php">Projects</a></li>
                            </ul>
-                           <p class="lead"></p>
+                           <p class="lead">This is the page for R6RC, which is "the most minimalistic rank calculator for Rainbow Six: Siege" (or at least I think so).</p>
+                           <p>The R6RC | R6 Rank Calculator takes a user's current MMR (Match Making Rating) and ELO (Points per match) to display how many matches the user has to win or lose to reach their goal.</p>
+                           <h3>Features</h3>
+                          <ul>
+                            <li>Solve for a <i>preset</i> goal</li>
+                            <li>Solve for <i>custom</i> goal (anywhere between 1,300 & 10,000)</li>
+                            <li>Calculate how many games you have to <i>win</i> to reach your rank goal</li>
+                            <li>Calculate how many games you have to <i>lose</i> to reach your rank goal</li>
+                            <li>Switch between solving for preset and custom values</li>
+                            <li>Automatic updates</li>
+                            <li>Clean UI</li>
+                          </ul>
 
                            <p class="tags">
                               <span>Tagged in :</span>

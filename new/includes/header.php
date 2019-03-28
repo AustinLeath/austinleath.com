@@ -28,8 +28,7 @@ echo '
                   <li><a href="https://www.facebook.com/AustinZacharyLeath" target="_blank">Facebook</a></li>
                </ul>
             </li>
-            <li><a href="style-guide.php" title="">Styles</a></li>
-            <li><a href="about.php" title="">About</a></li>
+            <li><a href="about.php" title="">About Me</a></li>
             <li><a href="contact.php" title="">Contact</a></li>
          </ul>
       </nav>
