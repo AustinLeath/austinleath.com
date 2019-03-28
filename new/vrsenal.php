@@ -37,7 +37,7 @@
 
                            <h3>VRsenal / HTC Vive supported / Independently developed</h3>
                            <p>VRsenal is a single player VR game that is both an open world exploration game and physics simulation. Master the landscape as well as a variety of weapons that are laid before you!</p>
-                           
+
                            <ul>
                               <strong>Features</strong>
                               <li>Hand Guns</li>
@@ -67,7 +67,6 @@
                            <p>I plan to gradually raise the price leading up to the final release. That will only happen when most of the major content that I have planned is in place.</p>
                            <h3>How are you planning on involving the Community in your development process?</h3>
                            <p>I will keep the community involved by closely monitoring the forums and reading every suggestion from our players. We will let our players partake in beta builds so they can let us know what they like and what they dislike. I will also have a VRsenal community Discord where players can always stay in touch with me or my moderators.</p>
-                           <p>This is a paragraph, fill me out or delete me.</p>
                            <p class="tags">
                               <span>Tagged in :</span>
                               <a href="projects.php">Projects</a>
