@@ -39,7 +39,6 @@
                               <p>austinleath18@gmail.com</p>
                            </div>
                         </div>
-                        <?php include 'includes/email.php'; ?>
                         <form name="cForm" id="cForm" method="post" action="<?php echo basename(__FILE__); ?>">
                            <fieldset>
                               <!--
