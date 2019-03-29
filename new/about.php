@@ -21,14 +21,10 @@
                <div class="row">
                   <div class="col-twelve">
                      <section>
-                        <div class="content-media">
-                           <img src="images/thumbs/about-us.jpg">
-                        </div>
                         <div class="primary-content">
                            <h1 class="entry-title add-bottom">About Me</h1>
                            <p class="lead">Welcome to my about me page. This is where you can learn about me and what I do.</p>
                            <p>I am a student developer looking for summer internships in the web development industry! I am a highly motivated self starter who is constantly learning new industry techniques.</p>
-
                            <p class="lead">I will be attending the University of North Texas, <a href="https://en.wikipedia.org/wiki/Denton,_Texas" target="_blank">Denton, TX</a> and will be studying Information Technology and Computer Science.</p>
 
                          <h3>Skills</h3>
