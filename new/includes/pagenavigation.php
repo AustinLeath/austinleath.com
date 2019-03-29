@@ -2,15 +2,15 @@
 echo'
 <div class="pagenav group">
    <div class="prev-nav">
-      <a href="#" rel="prev">
+      <a href="r6rc.php" rel="prev">
       <span>Previous</span>
-      Tips on Minimalist Design
+      R6RC
       </a>
    </div>
    <div class="next-nav">
-      <a href="#" rel="next">
+      <a href="vrsenal.php" rel="next">
       <span>Next</span>
-      Less Is More
+      VRSENAL
       </a>
    </div>
 </div>
