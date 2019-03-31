@@ -17,6 +17,7 @@ $emailcheck = "SELECT email FROM users WHERE email ='" . $email . "'";
 $emailresult = $conn->query($emailcheck);
 
 if($email == "") {
+  echo "";
 } else if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   echo '<div class="alert-box ss-error hideit"> <p>Error, invalid email.</p> <i class="fa fa-times close"></i> </div>';
 } else if($emailresult->num_rows > 0) {

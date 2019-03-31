@@ -15,6 +15,7 @@ $password = mysqli_real_escape_string($conn,$_POST["password"]);
 $filename = mysqli_real_escape_string($conn,$_POST["filename"]);
 
 if(empty($password)) {
+  echo "";
   $conn->close();
 } else if($password != "test") {
   echo '<div class="alert-box ss-error hideit"> <p>The password you entered was incorrect. Please try again.</p> <i class="fa fa-times close"></i> </div>';

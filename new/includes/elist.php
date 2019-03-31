@@ -17,7 +17,7 @@ $emailcheck = "SELECT email FROM users";
 $emailresult = $conn->query($emailcheck);
 
 if($password == "") {
-  echo '';
+  echo "";
 } else if($password != "test") {
   echo '<div class="alert-box ss-error hideit"> <p>The password you entered was incorrect, please try again.</p> <i class="fa fa-times close"></i> </div>';
 } else if($emailresult->num_rows == 0) {
