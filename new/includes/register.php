@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$email = mysqli_real_escape_string($conn,$_POST["email"]);
+$email = htmlspecialchars(mysqli_real_escape_string($conn,$_POST["email"]));
 
 $emailcheck = "SELECT email FROM users WHERE email ='" . $email . "'";
 $emailresult = $conn->query($emailcheck);
