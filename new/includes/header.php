@@ -19,7 +19,7 @@ echo '
                </ul>
             </li>
             <li class="has-children">
-               <a href="#" target="_blank" title="">Social</a>
+               <a title="">Social</a>
                <ul class="sub-menu">
                   <li><a href="https://github.com/AustinLeath/" target="_blank">GitHub</a></li>
                   <li><a href="https://www.instagram.com/austin_leath/" target="_blank">Instagram</a></li>
