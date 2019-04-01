@@ -68,13 +68,9 @@
                                        </div>
                                     </div>
                                  </li>
-                                 <!-- end slide -->
                               </ul>
-                              <!-- end slides -->
                            </div>
-                           <!-- end featured-post-slider -->
                         </div>
-                        <!-- end entry content -->
                      </div>
                      <article class="brick entry format-quote animate-this" >
                         <div class="entry-thumb">
@@ -84,28 +80,9 @@
                            </blockquote>
                         </div>
                      </article>
-                     <!-- end article -->
                   </div>
-                  <!-- end brick-wrapper -->
-               </div>
-               <!-- end row -->
-               <div class="row">
-                  <nav class="pagination">
-                     <span class="page-numbers prev inactive">Prev</span>
-                     <span class="page-numbers current">1</span>
-                     <a href="#" class="page-numbers">2</a>
-                     <a href="#" class="page-numbers">3</a>
-                     <a href="#" class="page-numbers">4</a>
-                     <a href="#" class="page-numbers">5</a>
-                     <a href="#" class="page-numbers">6</a>
-                     <a href="#" class="page-numbers">7</a>
-                     <a href="#" class="page-numbers">8</a>
-                     <a href="#" class="page-numbers">9</a>
-                     <a href="#" class="page-numbers next">Next</a>
-                  </nav>
                </div>
             </section>
-            <!-- end bricks -->
             <?php include 'includes/footer.php'; ?>
             <div id="preloader">
                <div id="loader"></div>
