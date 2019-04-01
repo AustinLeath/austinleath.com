@@ -12,6 +12,7 @@ if ($conn->connect_error) {
 }
 
 $password = htmlspecialchars(mysqli_real_escape_string($conn,$_POST["password"]));
+
 $emailcheck = "SELECT email FROM users";
 $emailresult = $conn->query($emailcheck);
 
