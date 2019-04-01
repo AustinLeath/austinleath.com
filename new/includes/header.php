@@ -10,7 +10,7 @@ echo '
          <ul class="main-navigation sf-menu">
             <li><a href="/" title="">Home</a></li>
             <li class="has-children">
-               <a href="category.php" title="">Categories</a>
+               <a title="">Categories</a>
                <ul class="sub-menu">
                   <li><a href="projects.php">Projects</a></li>
                   <li><a href="#">WORK IN PROGRESS</a></li>
