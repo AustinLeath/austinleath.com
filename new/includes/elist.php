@@ -11,7 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$password = mysqli_real_escape_string($conn,$_POST["password"]);
+$password = htmlspecialchars(mysqli_real_escape_string($conn,$_POST["password"]));
 $emailcheck = "SELECT email FROM users";
 $emailresult = $conn->query($emailcheck);
 
