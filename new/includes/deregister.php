@@ -4,8 +4,6 @@ $dbusername = "wpadmin";
 $dbpassword = "wpadmin";
 $dbname = "austinleath";
 
-$password = mysqli_real_escape_string($conn,$_POST["password"]);
-
 // Create connection
 $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
 // Check connection
@@ -13,6 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+$password = mysqli_real_escape_string($conn,$_POST["password"]);
 $deregisteremail = mysqli_real_escape_string($conn,$_POST["deregisteremail"]);
 $emailcheck = "SELECT email FROM users WHERE email ='" . $deregisteremail . "'";
 $emailresult = $conn->query($emailcheck);
