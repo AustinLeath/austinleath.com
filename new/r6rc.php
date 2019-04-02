@@ -11,7 +11,7 @@
          <!--<![endif]-->
          <head>
             <title>R6RC - austinleath.com</title>
-            <meta name="description" content="">
+            <meta name="description" content="Another one of my more known projects is both a website and desktop app titled R6RC">
             <?php include 'includes/head.php'; ?>
             <?php include 'includes/googleanalytics.php'; ?>
          </head>
