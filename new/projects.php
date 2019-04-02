@@ -39,7 +39,7 @@
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Projects</a>
+                                 <a href="projects.php">Projects</a>
                                  </span>
                               </div>
                               <h1 class="entry-title"><a href="r6rc.php">R6RC</a></h1>
@@ -48,7 +48,29 @@
                              Another one of my more known projects is both a website and desktop app titled R6RC
                            </div>
                         </div>
-                     </article>  
+                     </article> 
+			  
+		       <article class="brick entry format-standard animate-this">
+                        <div class="entry-thumb">
+                           <a href="r6rcbot.php" class="thumb-link">
+                           <img src="images/thumbs/diagonal-building.jpg" alt="building">
+                           </a>
+                        </div>
+                        <div class="entry-text">
+                           <div class="entry-header">
+                              <div class="entry-meta">
+                                 <span class="cat-links">
+                                 <a href="projects.php">Projects</a>
+                                 </span>
+                              </div>
+                              <h1 class="entry-title"><a href="r6rcbot.php">R6RCBOT</a></h1>
+                           </div>
+                           <div class="entry-excerpt">
+                             I also made a Discord bot in Python that carries out the same functions of both the app and the website
+                           </div>
+                        </div>
+                     </article> 
+			  
 			  
                      <article class="brick entry format-standard animate-this">
                         <div class="entry-thumb">
@@ -60,10 +82,10 @@
                            <div class="entry-header">
                               <div class="entry-meta">
                                  <span class="cat-links">
-                                 <a href="#">Projects</a>
+                                 <a href="projects.php">Projects</a>
                                  </span>
                               </div>
-                              <h1 class="entry-title"><a href="vrsenal.php">VRSENAL</a></h1>
+                              <h1 class="entry-title"><a href="vrsenal.php">VRsenal</a></h1>
                            </div>
                            <div class="entry-excerpt">
                              This article contains information about one of my projects named VRsenal
