@@ -22,13 +22,12 @@
 		let name = String(document.getElementById("text").value);
 		var obj = { name: name, date: new Date() };
 		var myJSON = JSON.stringify(obj);
-
 	$.ajax({
-	    contentType: "application/json",
-	    dataType : "json",
-	    method: "POST",
-	    url: "https://austinleath.com/finqr/hpass.php",
-	    data: obj
+			contentType: "application/json",
+			dataType : "json",
+			method: "POST",
+			url: "https://austinleath.com/finqr/hpass.php",
+			data: myJSON
 	})
 		qrcode.makeCode(myJSON);
 	}
