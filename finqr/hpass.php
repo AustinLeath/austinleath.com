@@ -2,11 +2,11 @@
 header('Content-Type: application/json');
 header('Access-Control-Allow-Origin');
 
-$jsonString = file_get_contents("php://input");
+$finputData = file_get_contents("php://input");
+$user = json_decode($finputData);
 
-$my_file = 'file.json';
-$handle = fopen("users/".$my_file, 'w') or die('Cannot open file:  '.$my_file);
-$data = $jsonString;
-fwrite($handle, $data);
+$filename = str_replace(' ','',$user->name).'.json';
+$handle = fopen("users/".$filename, 'w') or die('Cannot open file: '.$filename);
+fwrite($handle, $finputData);
 fclose($handle);
 ?>

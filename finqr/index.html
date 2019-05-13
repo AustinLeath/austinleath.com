@@ -97,7 +97,8 @@
           url: "https://austinleath.com/finqr/hpass.php",
           data: myJSON
         })
-        qrcode.makeCode(myJSON);
+        var qrLink = "https://austinleath.com/finqr/users/" + obj["name"].replace(" ", "") + ".json";
+        qrcode.makeCode(qrLink);
       }
 
       function isEmpty() {
