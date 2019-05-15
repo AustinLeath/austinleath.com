@@ -41,6 +41,7 @@
          }
          .item {
          width: 100%;
+         padding-top: 32px;
          }
          .qrcode {
          position: relative;
@@ -85,7 +86,14 @@
 
       function makeCode () {
         let name = String(document.getElementById("text").value);
-        var obj = { name: name, date: new Date(), status: "true" };
+        
+        var obj = {
+          name: name,
+          date: new Date().getMonth()+1 + "/" + new Date().getDate() + "/" + new Date().getFullYear(),
+          time: new Date().getHours() + ":" + new Date().getMinutes() + ":" + new Date().getSeconds(),
+          status: "true"
+        };
+
         var myJSON = JSON.stringify(obj);
 
         $.ajax({
@@ -103,9 +111,9 @@
       function isEmpty() {
         let name = String(document.getElementById("text").value);
         if (name === "") {
-          return false;
-        } else {
           return true;
+        } else {
+          return false;
         }
       }
 
@@ -113,7 +121,7 @@
 
       function checkKeyPressed(e) {
         if (e.keyCode == 13) {
-          if(isEmpty()) {
+          if(!isEmpty()) {
             makeCode();
           }
         }

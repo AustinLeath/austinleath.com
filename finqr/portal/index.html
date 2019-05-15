@@ -9,14 +9,17 @@
   <div></div>
   <div></div>
   <div></div>
+  <div></div>
   <script>
     $.getJSON('https://austinleath.com/finqr/users/AustinLeath.json', function(data) {
       var name = data.name;
       var date = data.date;
+      var time = data.time;
       var status = data.status;
       $("div").eq(0).html(name);
       $("div").eq(1).html(date);
-      $("div").eq(2).html(status);
+      $("div").eq(2).html(time);
+      $("div").eq(3).html(status);
     });
   </script>
 </body>
