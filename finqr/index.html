@@ -32,7 +32,6 @@
          margin: 0;
          }
          .page {
-         border: 1px solid white;
          display: flex;
          flex-direction: column;
          align-items: center;
@@ -41,11 +40,9 @@
          width: 100%;
          }
          .item {
-         border: 1px solid white;
          width: 100%;
          }
          .qrcode {
-         border: 1px solid red;
          position: relative;
          height: 256px;
          width: 256px;
@@ -88,8 +85,9 @@
 
       function makeCode () {
         let name = String(document.getElementById("text").value);
-        var obj = { name: name, date: new Date() };
+        var obj = { name: name, date: new Date(), status: "true" };
         var myJSON = JSON.stringify(obj);
+
         $.ajax({
           contentType: "application/json",
           dataType : "json",
@@ -97,6 +95,7 @@
           url: "https://austinleath.com/finqr/hpass.php",
           data: myJSON
         })
+
         var qrLink = "https://austinleath.com/finqr/users/" + obj["name"].replace(" ", "") + ".json";
         qrcode.makeCode(qrLink);
       }

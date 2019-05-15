@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hall Pass Educator Portal</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+  <h1>Hall Pass Educator Portal</h1>
+  <div></div>
+  <div></div>
+  <div></div>
+  <script>
+    $.getJSON('https://austinleath.com/finqr/users/AustinLeath.json', function(data) {
+      var name = data.name;
+      var date = data.date;
+      var status = data.status;
+      $("div").eq(0).html(name);
+      $("div").eq(1).html(date);
+      $("div").eq(2).html(status);
+    });
+  </script>
+</body>
+
+</html>
