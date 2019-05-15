@@ -56,6 +56,14 @@
          color: #6f7376;
          font-size: 14px;
          }
+         #text {
+         width: 30vw;
+         height: 30px;
+         border-radius: 5px;
+         border-style: solid;
+         font-size: 14px;
+         text-align: center;
+         }
          a {
          color: #A4A9AD;
          }
@@ -86,7 +94,7 @@
 
       function makeCode () {
         let name = String(document.getElementById("text").value);
-        
+
         var obj = {
           name: name,
           date: new Date().getMonth()+1 + "/" + new Date().getDate() + "/" + new Date().getFullYear(),
