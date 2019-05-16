@@ -92,13 +92,23 @@
         height : 256
       });
 
-      function makeCode () {
+      function makeCode() {
         let name = String(document.getElementById("text").value);
+
+        function morningOrNight() {
+          var currHourCount = new Date().getHours();
+
+          if(currHourCount < 12) {
+            return "AM";
+          } else {
+            return "PM";
+          }
+        }
 
         var obj = {
           name: name,
           date: new Date().getMonth()+1 + "/" + new Date().getDate() + "/" + new Date().getFullYear(),
-          time: new Date().getHours() + ":" + new Date().getMinutes() + ":" + new Date().getSeconds(),
+          time: new Date().getHours() + ":" + new Date().getMinutes() + ":" + new Date().getSeconds() + "" + morningOrNight(),
           status: "true"
         };
 
