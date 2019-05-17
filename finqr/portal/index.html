@@ -4,16 +4,17 @@
   <title>Hall Pass Educator Portal</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <style>
-
 </style>
 </head>
 <body>
   <h1>Hall Pass Educator Portal</h1>
+  <input id="text" type="text" placeholder="Enter name" value="">
   <div></div>
   <div></div>
   <div></div>
   <div></div>
   <script>
+  function getUser() {
     $.getJSON('https://austinleath.com/finqr/users/AustinLeath.json', function(data) {
       var name = data.name;
       var date = data.date;
@@ -24,6 +25,25 @@
       $("div").eq(2).html(time);
       $("div").eq(3).html(status);
     });
+  }
+
+  function isEmpty() {
+    if(document.getElementById("text").value === "") {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  window.addEventListener("keydown", checkKeyPressed, false);
+
+  function checkKeyPressed(e) {
+    if (e.keyCode == 13) {
+      if(!isEmpty()) {
+        getUser();
+      }
+    }
+  }
   </script>
 </body>
 
