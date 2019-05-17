@@ -13,6 +13,7 @@
   <div></div>
   <div></div>
   <div></div>
+  <button id="delButton" type="button" name="button" onclick="delfile();">Delete User</button>
   <script>
   function getName() {
     var inputName = document.getElementById("text").value;
@@ -31,6 +32,14 @@
       $("div").eq(2).html(time);
       $("div").eq(3).html(status);
     });
+  }
+
+  function delfile() {
+    $.ajax({
+      method: "POST",
+      url: "https://austinleath.com/finqr/delfile.php",
+      data: getUser().replace(" ", "").toLowerCase()
+    })
   }
 
   function isEmpty() {
