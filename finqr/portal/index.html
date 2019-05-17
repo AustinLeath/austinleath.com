@@ -35,10 +35,11 @@
   }
 
   function delfile() {
+    let name = getName().replace(" ", "").toLowerCase();
     $.ajax({
       method: "POST",
-      url: "https://austinleath.com/finqr/delfile.php",
-      data: getUser().replace(" ", "").toLowerCase()
+      url: "https://austinleath.com/finqr/deluser.php",
+      data: name
     })
   }
 
