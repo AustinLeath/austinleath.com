@@ -122,7 +122,7 @@
           data: myJSON
         })
 
-        var qrLink = "https://austinleath.com/finqr/users/" + obj["name"].replace(" ", "") + ".json";
+        var qrLink = "https://austinleath.com/finqr/users/" + obj["name"].replace(" ", "").toLowerCase() + ".json";
         qrcode.makeCode(qrLink);
       }
 

@@ -14,8 +14,14 @@
   <div></div>
   <div></div>
   <script>
+  function getName() {
+    var inputName = document.getElementById("text").value;
+    var modName = inputName.replace(" ", "").toLowerCase();
+    return modName;
+  }
+
   function getUser() {
-    $.getJSON('https://austinleath.com/finqr/users/AustinLeath.json', function(data) {
+    $.getJSON('https://austinleath.com/finqr/users/' + getName() + '.json', function(data) {
       var name = data.name;
       var date = data.date;
       var time = data.time;
