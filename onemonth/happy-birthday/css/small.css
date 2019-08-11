@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hero img {
+  border-radius: 0;
+}
+
+.gmap iframe {
+  border-radius: 0;
+}
+
+aside.left, aside.right{
+  text-align: center;
+  float: inherit;
+}
