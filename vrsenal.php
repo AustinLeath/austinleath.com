@@ -42,7 +42,6 @@
                   <li>
                      <a href="">Other Information</a>
                      <ul>
-                        <li><a href="tools.php">Development Tools</a></li>
                         <li><a href="aboutdeveloper.html">About Me</a></li>
                         <li><a href="#">VRsenal</a></li>
                         <li><a href="mmrcalculator.html">R6S | MMR Calculator</a></li>

@@ -40,7 +40,6 @@
 							<li>
 								<a href="">Other Information</a>
 								  <ul>
-									 <li><a href="../../../tools.php">Development Tools</a></li>
 									 <li><a href="../../../info/aboutdeveloper.html">About Me</a></li>
 									 <li><a href="../../../vrsenal/">VRsenal</a></li>
 									 <li><a href="../../../">Return Home</a></li>
