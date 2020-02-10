@@ -7,14 +7,14 @@
   <body>
     <ul>
       <li>
-        <a href="https://austinleath.com/eft/customs">https://austinleath.com/eft/customs</a>
+        <a href="https://austinleath.com/eft/customs" target="_blank">https://austinleath.com/eft/customs</a>
         <ul>
-          <li><a href="https://austinleath.com/eft/dorms">https://austinleath.com/eft/dorms</a></li>
+          <li><a href="https://austinleath.com/eft/dorms" target="_blank">https://austinleath.com/eft/dorms</a></li>
         </ul>
       </li>
-      <li><a href="https://austinleath.com/eft/customs">https://austinleath.com/eft/woods</a></li>
-      <li><a href="https://austinleath.com/eft/customs">https://austinleath.com/eft/interchange</a></li>
-      <li><a href="https://austinleath.com/eft/customs">https://austinleath.com/eft/reserve</a></li>
+      <li><a href="https://austinleath.com/eft/woods" target="_blank">https://austinleath.com/eft/woods</a></li>
+      <li><a href="https://austinleath.com/eft/interchange" target="_blank">https://austinleath.com/eft/interchange</a></li>
+      <li><a href="https://austinleath.com/eft/reserve" target="_blank">https://austinleath.com/eft/reserve</a></li>
     </ul>
   </body>
 </html>
