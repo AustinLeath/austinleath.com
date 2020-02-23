@@ -13,10 +13,16 @@ if ($conn->connect_error) {
 
 $email = htmlspecialchars(mysqli_real_escape_string($conn,$_POST["email"]));
 
+if(isset($_POST["email"])) {
+  $email = htmlspecialchars(mysqli_real_escape_string($conn,$_POST["email"]));
+} else {
+  $email = null;
+}
+
 $emailcheck = "SELECT email FROM users WHERE email ='" . $email . "'";
 $emailresult = $conn->query($emailcheck);
 
-if($email == "") {
+if($email == null) {
   echo "";
 } else if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   echo '<div class="alert-box ss-error hideit"> <p>Error, invalid email.</p> <i class="fa fa-times close"></i> </div>';
