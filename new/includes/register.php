@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$dbusername = "wpadmin";
-$dbpassword = "wpadmin";
+$dbusername = "root";
+$dbpassword = "Austin6200!";
 $dbname = "austinleath";
 
 // Create connection
