@@ -11,8 +11,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$email = htmlspecialchars(mysqli_real_escape_string($conn,$_POST["email"]));
-
 if(isset($_POST["email"])) {
   $email = htmlspecialchars(mysqli_real_escape_string($conn,$_POST["email"]));
 } else {
