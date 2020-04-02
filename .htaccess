@@ -5,6 +5,9 @@ ErrorDocument 503 /error/503.html
 #Enable Rewrite Engine
 RewriteEngine On
 
+#Make api work
+RewriteRule ^api/([0-9a-zA-Z_-]*)$ api.php?name=$1 [NC,L]
+
 #Force remove WWW
 RewriteCond %{HTTP_HOST} ^www.austinleath.com
 RewriteRule (.*) http://austinleath.com/$1 [R=301,L]
