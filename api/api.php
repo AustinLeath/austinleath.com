@@ -22,12 +22,12 @@ else
 	response(400,"Invalid Request",NULL);
 }
 
-function response($status,$message,$name,$data)
+function response($status,$status_message,$data)
 {
 	header("HTTP/1.1 ".$status);
 
-	$response['status'] = $status;
-	$response['message'] = $message;
+	$response['status']=$status;
+	$response['status_message'] = $status_message;
 	$response['name'] = $name;
 	$response['price'] = $data;
 
