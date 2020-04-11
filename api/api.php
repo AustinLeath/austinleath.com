@@ -4,7 +4,7 @@ require "data.php";
 
 if(!empty($_GET['name']))
 {
-	$name=$_GET['name'];
+	$name= strtolower($_GET['name']);
 	$price = get_price($name);
 
 	if(empty($price))
