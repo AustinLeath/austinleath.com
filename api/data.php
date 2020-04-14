@@ -17,3 +17,4 @@ function get_price($name)
 		}
 	}
 }
+?>
