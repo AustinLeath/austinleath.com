@@ -44,7 +44,6 @@
                      <ul>
                         <li><a href="aboutdeveloper.html">About Me</a></li>
                         <li><a href="#">VRsenal</a></li>
-                        <li><a href="mmrcalculator.html">R6S | MMR Calculator</a></li>
                         <li><a href="index.html">Return Home</a></li>
                      </ul>
                      <!--DIVIDER-->
